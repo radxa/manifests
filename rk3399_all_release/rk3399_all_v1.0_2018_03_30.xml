@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch=".." name="aosp" review="https://10.10.10.29"/>
-  <remote fetch="../.." name="rk" review="https://10.10.10.29"/>
+  <remote fetch="." name="aosp" review="https://10.10.10.29"/>
+  <remote fetch="." name="rk" review="https://10.10.10.29"/>
   
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
   
@@ -10,7 +10,6 @@
   <project name="android/docs/android" path="RKDocs/android" remote="rk" revision="9d70cd2352f8a955ce2871312536bcec36d17f93" upstream="rk33/mid/android-7.1"/>
   <project name="android/docs/common" path="RKDocs/common" remote="rk" revision="5d63452a48337ff9217de2b8320c938c64785392" upstream="rk33/mid/android-8.1"/>
   <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="0a38635cfc46426b67b605df08da22e3140d93c9" upstream="rk33/mid/android7.1"/>
-  <project name="android/platform/external/iperf" path="external/iperf" remote="rk" revision="e69fc319839d7151d6d64b0b7dfd34ae42e9f485" upstream="rk33/mid/7.1/develop"/>
   <project groups="pdk" name="android/platform/external/libiconv" path="external/libiconv" remote="rk" revision="a6194413bedd9a908e3dfe2cadec15d490faf9fb" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="e7a6204cd078519aaf54bff20c3025dded52eaae" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="4bced29ff8495c38ae5966b50c4e352118a6ba29" upstream="rk33/mid/7.0/develop"/>
@@ -42,41 +41,10 @@
   <project name="android/rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="416cd763c9145295eb6d462facf8726a48642ff1" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="bd03fb166682677b2e83ce954e39eeaa686974b1" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="fbd1ea34ecd8121b88ef27ae36fe0de478f84e1a" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="cbf8a1b5f9d3659be76b8304761c98495cf02334" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="038884193dd4a260b69082596b9a81f0bb41302d" upstream="rkdevelop"/>
-  <project groups="device,fugu,broadcom_pdk" name="device/asus/fugu" revision="5db03cd21db0868bc9209975af08422b80076175" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/arm64" revision="6cb781ce6b178e671586c7448389d00bd8342c8e" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/armv7-a-neon" revision="31055dc8e7110e85be92f8d5033534ce6f3b632e" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/goldfish" revision="a9603177becf2556febaca8cd6fae29f344ab286" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/goldfish-opengl" revision="3855dfbf428269d3c79dd7ba4b257ec5e9b917ff" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-arm64" revision="98b20c14af8ab0ca62dfae4843b864d2adc68a1e" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" revision="5e4db513d2d3b01588471d86d4a423cf840e8f47" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-mips" revision="544e69736cff911c286a5d1d300dac228e23a73f" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-mips64" revision="b1c36d0847fe6366527efd38fdb29d757ea887ee" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86" revision="65d59e2be2cfd713513a05d80a0f75794ab60579" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86_64" revision="fa9fe9b94bbfd613579782d4d2aef52f32f58c46" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mips" revision="3f4121f0b3b142080992cdd295f2cb63bfe2b306" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/mips64" revision="a33d861b94863fe73fa2fdff0acb56c2a0fa4e25" upstream="refs/tags/android-7.1.2_r6"/>
-  <project name="device/generic/qemu" revision="17f0fbd45efaeac0e7af666b135a2e9a71fd0c31" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/x86" revision="ce7b6f79db4857cd6efff58eafa3f9b4ff1d04f2" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/generic/x86_64" revision="001d21423d3530db17db29a5b9b4c4b45b1fe4f2" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,fugu,broadcom_pdk,generic_fs" name="device/google/atv" revision="9e6796d59ffd0e665eea793142cf2f6ec43362bc" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device" name="device/google/contexthub" revision="c77d0b6294d47fb26e942b4f0281f148191da6c9" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,dragon" name="device/google/dragon" revision="b05e4f3f8d81b4a1fdc16ca9f2fa80ddb4d86352" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,marlin" name="device/google/marlin" revision="5f725e537f71a78bb29638eb74d23a0a5d9f0ba2" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,flounder,broadcom_pdk" name="device/htc/flounder" revision="88c3acd682356211a12b0c1ea39fdb83e43c9cec" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,angler,broadcom_pdk" name="device/huawei/angler" revision="a3e136be581ee59b78aae8165ac54aacbfbbf369" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device" name="device/intel/edison" revision="c9ac66b1d30bfa762d17ae5169a1383407e7d65e" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,bullhead" name="device/lge/bullhead" revision="e642ff1bc9597c90f567843fc96d781f3b5f7095" upstream="refs/tags/android-7.1.2_r6"/>
-  <project name="device/linaro/hikey" revision="6cae5ebda8d0085132a35d6e137cb51b79c13acc" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="device,shamu,broadcom_pdk" name="device/moto/shamu" revision="b71d7807ca08ce15c951c5bc707bb6c9f4757d83" upstream="refs/tags/android-7.1.2_r6"/>
-  <project groups="pdk" name="device/sample" revision="11e84765fa179b5337c9a2fce685d5ba2388fe2c" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="8b2e5b977118ebb8447cdf429c4a6be534c4fd1b" upstream="rk33/mid/7.0/develop"/>
