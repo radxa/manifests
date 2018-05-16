@@ -9,7 +9,7 @@
   <project name="android/RKTools" path="RKTools" remote="rk" revision="95de6c9702fb3e6e1f1de90b508f81669d367fd2" upstream="rk3399/box/android-6.0"/>
   <project name="android/docs/android" path="RKDocs/android" remote="rk" revision="eb6a67c3c270089470c6abba68bdd7b8540f4aae" upstream="rk33/mid/android-7.1"/>
   <project name="android/docs/common" path="RKDocs/common" remote="rk" revision="992e2b36a85f8c002d77c0f52c2d570ed9bf1965" upstream="rk33/mid/android-8.1"/>
-  <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="7e77db55859a2b75ee77d0be7fe7206d8ec0701f" upstream="rk33/mid/android7.1"/>
+  <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="3883b500aa7d88861230353cba0a2603d1b24fd7" upstream="rk33/mid/android7.1"/>
   <project name="android/platform/external/iperf" path="external/iperf" remote="rk" revision="e69fc319839d7151d6d64b0b7dfd34ae42e9f485" upstream="rk33/mid/7.1/develop"/>
   <project groups="pdk" name="android/platform/external/libiconv" path="external/libiconv" remote="rk" revision="a6194413bedd9a908e3dfe2cadec15d490faf9fb" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="rk33/mid/7.0/develop"/>
