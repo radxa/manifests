@@ -45,7 +45,7 @@
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="e9477b04b01140ba6f84588563c1e9cbc096e522" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="36aa7bd7cf6504a755a3219510bab1b547551c03" upstream="rkdevelop"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="b601ad09bb413d96130179c1de6bc9d83b3ad29d" upstream="rkrelease"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" upstream="refs/tags/android-7.1.2_r6"/>
