@@ -43,7 +43,7 @@
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="bd03fb166682677b2e83ce954e39eeaa686974b1" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" upstream="master"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="e9477b04b01140ba6f84588563c1e9cbc096e522" upstream="rk32/mid/7.0/develop"/>
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="7161d67cf8955d6c6007acb53297cf3573bf2662" upstream="rk32/mid/7.0/release"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="b601ad09bb413d96130179c1de6bc9d83b3ad29d" upstream="rkrelease"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
