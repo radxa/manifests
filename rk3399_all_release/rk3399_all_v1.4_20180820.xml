@@ -9,7 +9,7 @@
   <project name="android/RKTools" path="RKTools" remote="rk" revision="6473aa19171416073a7bcb4926d6d60c41bdb0f5" upstream="rk3399/box/android-6.0"/>
   <project name="android/docs/android" path="RKDocs/android" remote="rk" revision="2c8053ef44a529c7c5d527b59d64e466f591e788" upstream="rk33/mid/android-7.1"/>
   <project name="android/docs/common" path="RKDocs/common" remote="rk" revision="b1cb329de5aae2899d290ff7145fcd2dcfe454b9" upstream="rk33/mid/android-8.1"/>
-  <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="89e7a304a0c63b38e00fe79fdc4ec7d94741f3b3" upstream="rk33/mid/android7.1"/>
+  <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="c017f02a61a35f562fa64665f25adeab84945735" upstream="rk33/mid/android7.1"/>
   <project name="android/platform/external/iperf" path="external/iperf" remote="rk" revision="e69fc319839d7151d6d64b0b7dfd34ae42e9f485" upstream="rk33/mid/7.1/develop"/>
   <project groups="pdk" name="android/platform/external/libiconv" path="external/libiconv" remote="rk" revision="a6194413bedd9a908e3dfe2cadec15d490faf9fb" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="rk33/mid/7.0/develop"/>
@@ -44,7 +44,7 @@
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="bd03fb166682677b2e83ce954e39eeaa686974b1" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" upstream="master"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="8ec7ce1f914bcce5ada6231d39785ab0c1e227ca" upstream="rk32/mid/7.0/release"/>
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="738d70dcbf1c3e389fca2a0c5c440488fe9452fd" upstream="rk32/mid/7.0/release"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="865d6b407a86b7b86883d203af8f3b6b482aad7f" upstream="rkdevelop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
