@@ -476,7 +476,7 @@
   <project path="packages/apps/TimeZoneUpdater" name="p-amlogic/platform/packages/apps/TimeZoneUpdater" groups="pdk" />
   <project path="packages/apps/Traceur" name="p-amlogic/platform/packages/apps/Traceur" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="p-amlogic/platform/packages/apps/TvSettings" groups="pdk-fs" />
-  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" />
+  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" revision="p-amlogic"/>
   <project path="packages/apps/UnifiedEmail" name="p-amlogic/platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="p-amlogic/platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="p-amlogic/platform/packages/experimental" />
@@ -664,9 +664,9 @@
   <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" revision="o-amlogic"  />
 
   <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="o-mr1-amlogic"  />
-  <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="o-amlogic"  />
+  <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="p-amlogic"  />
   <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="o-mr1-amlogic"  />
-  <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="o-mr1-amlogic" />
+  <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="p-amlogic" />
   <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" revision="p-amlogic"  />
   <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="l-amlogic"  />
 
@@ -691,10 +691,11 @@
 
   <project path="vendor/amlogic/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" revision="n-amlogic" />
   <project path="vendor/amlogic/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" revision="l-amlogic"  />
-  <project path="vendor/amlogic/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="n-amlogic"  />
+  <project path="vendor/amlogic/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="ics-amlogic"  />
   <project path="vendor/amlogic/external/pppoe" name="p-amlogic/platform/external/pppoe" revision="p-amlogic"  />
   <project path="vendor/amlogic/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" revision="p-amlogic"  />
   <project path="vendor/amlogic/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" revision="m-amlogic" />
+  <project path="vendor/amlogic/external/icu" name="p-amlogic/vendor/amlogic/external/icu" revision="p-amlogic"  />
 
   <project path="vendor/amlogic/frameworks" name="p-amlogic/vendor/amlogic/frameworks" revision="p-amlogic"  />
   <project path="vendor/amlogic/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" revision="n-amlogic"  />
@@ -711,16 +712,18 @@
   <project path="vendor/amlogic/system" name="p-amlogic/vendor/amlogic/system" revision="p-amlogic"  />
   <project path="vendor/amlogic/system/droidvold" name="p-amlogic/vendor/amlogic/system/droidvold" revision="o-amlogic"  />
   <project path="vendor/amlogic/tools" name="p-amlogic/vendor/amlogic/tools" revision="l-amlogic"  />
+  <project path="vendor/amlogic/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="p-amlogic"  />
 
   <project path="vendor/widevine" name="p-amlogic/vendor/widevine" revision="p-amlogic"  />
 
   <!-- TV projects start -->
   <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" revision="o-amlogic" />
   <project path="vendor/amlogic/apps/TvInput" name="p-amlogic/platform/packages/amlogic/TvInput" revision="p-amlogic" />
-  <project path="vendor/amlogic/dvb" name="p-amlogic/vendor/amlogic/dvb" revision="tv-arch-next"   />
+  <project path="vendor/amlogic/apps/DroidLiveTv" name="p-amlogic/platform/packages/amlogic/DroidLiveTv" revision="o-mr1-amlogic" />
   <project path="vendor/amlogic/external/libaudioeffect" name="p-amlogic/platform/external/libaudioeffect" revision="l-amlogic" />
+  <project path="vendor/amlogic/external/dvb" name="p-amlogic/dvb" revision="tv-kernel-4.9"   />
   <project path="vendor/amlogic/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" revision="p-amlogic"  />
-  <project path="vendor/amlogic/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="p-amlogic" />
+  <project path="vendor/amlogic/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="o-amlogic" />
   <!-- TV projects end -->
 
 </manifest>
