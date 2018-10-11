@@ -101,7 +101,7 @@
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="p-amlogic-mainline"  />
-  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" revision="p-amlogic-mainline"  />
