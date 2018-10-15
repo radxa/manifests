@@ -41,7 +41,7 @@
   <project name="android/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="e9f81ddcc94194cfe7e410e1fffea36222b8d8d8" upstream="rk32/mid/6.0/develop"/>
   <project groups="pdk" name="android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="cd70cf43a0e29a8e6b07ba18fa353c637ee5378e" upstream="rk33/mid/7.0/develop-drm"/>
   <project name="android/rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="416cd763c9145295eb6d462facf8726a48642ff1" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="bd03fb166682677b2e83ce954e39eeaa686974b1" upstream="rk32/mid/6.0/develop"/>
+  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="5518595612e94ae13785a2f0dbee621eff278503" upstream="rockpi-n-all"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" upstream="master"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="12c44e1bfbe8f0439e3bbf4745a2b7e9d9a38a54" upstream="rk32/mid/7.0/release"/>
