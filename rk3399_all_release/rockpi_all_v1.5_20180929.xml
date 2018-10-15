@@ -541,7 +541,7 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d35398cac47a404255bbd5568b7cc1d8514e1b75" upstream="refs/tags/android-7.1.2_r6"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641" upstream="refs/tags/android-7.1.2_r6"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="e6729fee4d4ea25d23c067583ff9e881d6fb4e79" upstream="develop-4.4-release"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="rockpi-n-all" upstream="rockpi-n-all"/>
   <project name="rk/mpp_demo" path="external/mpp-demo" remote="rk" revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
