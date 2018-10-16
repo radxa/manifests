@@ -25,7 +25,7 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
   <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="de2c083f2dc41085c9ad0195fecde686f228e825" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="1d717946998f3c9f271c904a18f56558865f0b18" upstream="rk32/mid/6.0/develop"/>
+  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="84927c011e01363326e4573cb7e2e688f1403e4d" upstream="rockpi-n-all"/>
   <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="bb9bc28b6ac3185565f1947c543654d11a1069e9" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="62df27746982aca4d910ae4414f71ec44bd2d1e5" upstream="rk33/mid/6.0/develop_drm"/>
