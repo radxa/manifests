@@ -15,7 +15,7 @@
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="4bced29ff8495c38ae5966b50c4e352118a6ba29" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="3c6fc342ef1e61f70a58b22fd423a135cfe92ae1" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="0ed17cbefceeb610d64ba99c3788208347316ebb" upstream="rk33/mid/7.0/rk3399_all">
+  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="e7ff3981734daadccc142c53126bcbe32f2aae3b" upstream="rockpi-n-all">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
