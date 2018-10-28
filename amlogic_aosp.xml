@@ -55,7 +55,7 @@
 
   <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" revision="p-amlogic-mainline"  />
 
-  <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="o-mr1-amlogic"  />
+  <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="gralloc1.0"  />
   <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="p-amlogic-mainline"  />
   <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="o-mr1-amlogic"  />
   <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="p-amlogic-mainline" />
@@ -111,7 +111,7 @@
   <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="p-amlogic-aosp"  />
 
   <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" revision="p-amlogic-mainline" />
-  <project path="vendor/widevine" name="p-amlogic/vendor/widevine" revision="p-amlogic-mainline"  />
+  <project path="vendor/widevine" name="p-amlogic/vendor/widevine" revision="p-amlogic"  />
 
   <!-- TV projects start -->
   <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" revision="o-amlogic" />
