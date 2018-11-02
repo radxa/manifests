@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openlinux"
+          fetch="../../" />
+
+  <default remote="openlinux"
+           revision="refs/tags/android-9.0.0_r3"
+           sync-j="2"
+           sync-c="true"/>
+
+  <!--Amlogic as follows-->
+  <!--Uboot begin-->
+  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="amlogic-dev-20181025" />
+  <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" revision="amlogic-dev-20181025" />
+  <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" revision="amlogic-dev-20181025" />
+  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" revision="amlogic-dev-1.3-20181025" />
+  <project path="bootloader/uboot-repo/bl32/bin" name="p-amlogic/firmware/bin/bl32" revision="amlogic-dev-20181025" />
+  <project path="bootloader/uboot-repo/bl33" name="p-amlogic/uboot" revision="amlogic-dev-20181025" />
+  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" revision="amlogic-dev-20181025">
+      <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  </project>
+  <!--Uboot end-->
+
+  <project path="device/amlogic" name="p-amlogic/device/amlogic-o" revision="p-amlogic-mainline-20181025"/>
+
+  <project path="common" name="p-amlogic/kernel/common" revision="amlogic-4.9-dev-20181025"/>
+  <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" revision="amlogic-4.9-dev-20181025" />
+
+  <!--Wifi begin-->
+  <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" revision="p-amlogic-20181025"  />
+  <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" revision="o-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" revision="l-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" revision="8192cu-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" revision="8192du-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8192eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8192es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192es" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8189es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189es" revision="l-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8189ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189ftv" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8723bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bs" revision="l-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8723au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723au" revision="8723au-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8811au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8811au" revision="8811au-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8812au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" revision="8723bu-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8822bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" revision="m-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" revision="n-amlogic-20181025"  />
+  <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" revision="n-amlogic-20181025"  />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" revision="p-amlogic-20181025"  />
+  <!--Wifi end-->
+  
+    <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" revision="p-amlogic-mainline-20181025"  />
+  <project path="hardware/amlogic/bootctrl" name="p-amlogic/platform/hardware/amlogic/bootctrl" revision="p-amlogic-mainline-20181025"  />
+  <project path="hardware/amlogic/camera" name="p-amlogic/platform/hardware/amlogic/camera" revision="p-amlogic-mainline-20181025"  />
+
+  <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" revision="p-amlogic-mainline-20181025"  />
+
+  <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="gralloc1.0-20181025"  />
+  <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="p-amlogic-mainline-20181025"  />
+  <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="o-mr1-amlogic-20181025"  />
+  <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="p-amlogic-mainline-20181025" />
+  <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" revision="p-amlogic-20181025"  />
+  <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="p-amlogic-mainline-20181025"  />
+
+  <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" revision="p-amlogic-20181025"  />
+  <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" revision="o-amlogic" dest-branch="o-amlogic-20181025"  />
+
+  <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" revision="p-amlogic-mainline-20181025"  />
+  <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" revision="p-amlogic-mainline-20181025"  />
+  <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="p-amlogic-mainline-20181025" />
+  <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="p-amlogic-mainline-20181025"  />
+
+  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" revision="p-amlogic-20181025" />
+  <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" revision="m-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/PPPoE" name="p-amlogic/platform/packages/amlogic/PPPoE" revision="o-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/RemoteIME" name="p-amlogic/platform/packages/amlogic/RemoteIME" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/SubTitle" name="p-amlogic/platform/packages/amlogic/SubTitle" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/VideoPlayer" name="p-amlogic/platform/packages/amlogic/VideoPlayer" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/AppInstaller" name="p-amlogic/platform/packages/amlogic/AppInstaller" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/apps/VendorOverlay" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" revision="p-amlogic-mainline-20181025"  />
+
+  <project path="vendor/amlogic/common/external/busybox" name="p-amlogic/platform/external/busybox" revision="p-amlogic-20181025" />
+  <project path="vendor/amlogic/common/broadcom/btusb" name="p-amlogic/vendor/broadcom/btusb" revision="p-amlogic-mainline-20181025"/>
+
+  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" revision="n-amlogic-20181025" />
+  <project path="vendor/amlogic/common/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="ics-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/external/exfat" name="p-amlogic/vendor/amlogic/external/exfat" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" revision="m-amlogic-20181025" />
+  <project path="vendor/amlogic/common/external/icu" name="p-amlogic/vendor/amlogic/external/icu" revision="p-amlogic-20181025"  />
+
+  <project path="vendor/amlogic/common/frameworks" name="p-amlogic/vendor/amlogic/frameworks" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/frameworks/av" name="p-amlogic/vendor/amlogic/frameworks/av" revision="o-amlogic-20181025"  />
+  <project path="vendor/amlogic/darwin" name="p-amlogic/platform/vendor/amlogic/darwin" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" revision="n-amlogic-20181025"  />
+
+  <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" revision="r6p1-20181025" />
+
+  <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/system" name="p-amlogic/vendor/amlogic/system" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/system/droidvold" name="p-amlogic/vendor/amlogic/system/droidvold" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/tools" name="p-amlogic/vendor/amlogic/tools" revision="p-amlogic-mainline-20181025"  />
+  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="p-amlogic-20181025"  />
+
+  <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" revision="p-amlogic-mainline-20181025" />
+  <project path="vendor/widevine" name="p-amlogic/vendor/widevine" revision="p-amlogic-20181025"  />
+
+  <!-- TV projects start -->
+  <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" revision="o-amlogic-20181025" />
+  <project path="vendor/amlogic/common/apps/TvInput" name="p-amlogic/platform/packages/amlogic/TvInput" revision="p-amlogic-20181025" />
+  <project path="vendor/amlogic/common/apps/DroidLiveTv" name="p-amlogic/platform/packages/amlogic/DroidLiveTv" revision="o-mr1-amlogic-20181025" />
+  <project path="vendor/amlogic/common/external/libaudioeffect" name="p-amlogic/platform/external/libaudioeffect" revision="l-amlogic-20181025" />
+  <project path="vendor/amlogic/common/external/dvb" name="p-amlogic/dvb" revision="tv-kernel-4.9-20181025"   />
+  <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" revision="p-amlogic-20181025"  />
+  <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="o-amlogic-20181025" />
+  <!-- TV projects end -->
+
+</manifest>
