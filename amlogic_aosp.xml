@@ -70,6 +70,7 @@
   <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="p-amlogic-mainline" />
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="p-amlogic-mainline"  />
 
+  <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="p-amlogic" />
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="p-amlogic"  />
@@ -78,6 +79,7 @@
   <project path="vendor/amlogic/common/apps/RemoteIME" name="p-amlogic/platform/packages/amlogic/RemoteIME" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/SubTitle" name="p-amlogic/platform/packages/amlogic/SubTitle" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/VideoPlayer" name="p-amlogic/platform/packages/amlogic/VideoPlayer" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/AppInstaller" name="p-amlogic/platform/packages/amlogic/AppInstaller" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/VendorOverlay" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" revision="p-amlogic-mainline"  />
 
   <project path="vendor/amlogic/common/external/busybox" name="p-amlogic/platform/external/busybox" revision="p-amlogic" />
@@ -88,6 +90,7 @@
   <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="ics-amlogic"  />
   <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/external/exfat" name="p-amlogic/vendor/amlogic/external/exfat" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" revision="m-amlogic" />
   <project path="vendor/amlogic/common/external/icu" name="p-amlogic/vendor/amlogic/external/icu" revision="p-amlogic"  />
 
