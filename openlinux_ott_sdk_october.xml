@@ -3,6 +3,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
+  <include name="p-google_openlinux-20181105.xml" />
   <!-- remove unneeded projects -->
   <!--
   <remove-project name="device/common" />
