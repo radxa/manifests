@@ -8,6 +8,8 @@
            sync-j="2"
            sync-c="true"/>
 
+  <include name="default.xml" />
+  <remove-project name="p-amlogic/platform/packages/apps/TV" />
   <!--Amlogic as follows-->
   <!--Uboot begin-->
   <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="amlogic-dev" />
@@ -70,7 +72,7 @@
   <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="p-amlogic-mainline" />
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="p-amlogic-mainline"  />
 
-  <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="p-amlogic" />
+  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" revision="p-amlogic" />
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="p-amlogic"  />
@@ -125,6 +127,5 @@
   <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="o-amlogic" />
   <!-- TV projects end -->
-  <include name="default.xml" />
 
 </manifest>
