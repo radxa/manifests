@@ -55,6 +55,7 @@
   <project path="hardware/amlogic/bootctrl" name="p-amlogic/platform/hardware/amlogic/bootctrl" revision="p-amlogic-mainline"  />
   <project path="hardware/amlogic/camera" name="p-amlogic/platform/hardware/amlogic/camera" revision="p-amlogic-mainline"  />
 
+  <project path="hardware/amlogic/consumerir" name="p-amlogic/platform/hardware/amlogic/consumerir" revision="p-amlogic"  />
   <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" revision="p-amlogic-mainline"  />
 
   <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="gralloc1.0"  />
@@ -76,11 +77,13 @@
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" revision="m-amlogic"  />
   <project path="vendor/amlogic/common/apps/PPPoE" name="p-amlogic/platform/packages/amlogic/PPPoE" revision="o-amlogic"  />
   <project path="vendor/amlogic/common/apps/RemoteIME" name="p-amlogic/platform/packages/amlogic/RemoteIME" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/SubTitle" name="p-amlogic/platform/packages/amlogic/SubTitle" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/VideoPlayer" name="p-amlogic/platform/packages/amlogic/VideoPlayer" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/DLNA" name="p-amlogic/platform/packages/amlogic/DLNA" revision="l-amlogic"  />
   <project path="vendor/amlogic/common/apps/AppInstaller" name="p-amlogic/platform/packages/amlogic/AppInstaller" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/apps/VendorOverlay" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" revision="p-amlogic-mainline"  />
 
@@ -94,6 +97,7 @@
   <project path="vendor/amlogic/common/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/external/exfat" name="p-amlogic/vendor/amlogic/external/exfat" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" revision="m-amlogic" />
+  <project path="vendor/amlogic/common/apps/IrBlaster" name="p-amlogic/amlogic/tools/ir_blaster" revision="p-amlogic"  />
   <project path="vendor/amlogic/common/external/icu" name="p-amlogic/vendor/amlogic/external/icu" revision="p-amlogic"  />
 
   <project path="vendor/amlogic/common/frameworks" name="p-amlogic/vendor/amlogic/frameworks" revision="p-amlogic-mainline"  />
@@ -104,9 +108,11 @@
   <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" revision="r6p1" />
 
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/hdcp" name="p-amlogic/vendor/amlogic/hdcp" revision="tdk-v2.4"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/provision" name="p-amlogic/vendor/amlogic/provision" revision="tdk-v2.4"  />
   <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" revision="p-amlogic-mainline"  />
   <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" revision="p-amlogic-mainline"  />
