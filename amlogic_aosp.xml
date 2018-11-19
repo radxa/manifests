@@ -43,7 +43,7 @@
   <project path="hardware/wifi/realtek/drivers/8723au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723au" revision="8723au"  />
   <project path="hardware/wifi/realtek/drivers/8811au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8811au" revision="8811au"  />
   <project path="hardware/wifi/realtek/drivers/8812au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" revision="m-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" revision="8723bu"  />
+  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" revision="m-amlogic"  />
   <project path="hardware/wifi/realtek/drivers/8822bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" revision="m-amlogic"  />
   <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" revision="m-amlogic"  />
   <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" revision="n-amlogic"  />
