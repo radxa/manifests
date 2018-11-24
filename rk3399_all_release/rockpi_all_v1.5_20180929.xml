@@ -15,7 +15,7 @@
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="4bced29ff8495c38ae5966b50c4e352118a6ba29" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="3c6fc342ef1e61f70a58b22fd423a135cfe92ae1" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="f06d867c74473ef0f79a76ac80f0fad08047f7b0" upstream="rockpi-n-all">
+  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="aefbd61af55e6c526a947e0d0d6cd4af4352ea11" upstream="rockpi-n-all">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -547,4 +547,5 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rkbin" path="rkbin" remote="rk" revision="9e6625e7551ffa591f0ac4c271f12a7ab5cedcf4" upstream="master"/>
   <project name="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.2_r6"/>
+  <project name="android/rk/platform/vendor/open-gapps.git" path="vendor/opengapps" remote="rk" revision="fbfc18444aa2391798959f5b71daa7a8a862d434" upstream="rockpi-n-all"/>
 </manifest>
