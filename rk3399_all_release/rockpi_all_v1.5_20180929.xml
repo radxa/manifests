@@ -20,7 +20,7 @@
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="7dd54d1d17251d61151fff764e47f66966c05586" upstream="rk33/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="94bb1fb263d94f632c1f115cb5db5c42b1e36eca" upstream="rk33/mid/7.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
@@ -44,14 +44,14 @@
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="5518595612e94ae13785a2f0dbee621eff278503" upstream="rockpi-n-all"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" upstream="master"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="04ad941c2471c519a405bfa49f2e5545493f9a1a" upstream="rockpi-n-all"/>
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="0819d6955c2c45a93f2804fed3a9456f393e19d9" upstream="rockpi-n-all"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="8c71e1a7f7c0e4ed348f24a3065f6f17d37e3968" upstream="rkdevelop"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="301fa738bee78f4a85f7a86eeb7a087f0c5cf147" upstream="stable-4.4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="8b2e5b977118ebb8447cdf429c4a6be534c4fd1b" upstream="rk33/mid/7.0/develop"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="3092269c805afb7fa0091b2cde3e017c1bee615b" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="35aeab47fd617b850b75e06a28deded742ff8c94" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk,tradefed" name="platform/build" path="build" revision="44b2016608d115dcdfda33d7d1ad020b9b2d72d9" upstream="rk33/mid/7.0/develop">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -545,7 +545,7 @@
   <project name="rk/mpp_demo" path="external/mpp-demo" remote="rk" revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk" revision="9e6625e7551ffa591f0ac4c271f12a7ab5cedcf4" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk" revision="21756f5b5a108fb9d4fd1ffcdb819474892d937f" upstream="rockpi-n-all"/>
   <project name="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.2_r6"/>
   <project name="android/rk/platform/vendor/open-gapps.git" path="vendor/opengapps" remote="rk" revision="fbfc18444aa2391798959f5b71daa7a8a862d434" upstream="rockpi-n-all"/>
 </manifest>
