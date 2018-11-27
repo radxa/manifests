@@ -6,7 +6,7 @@
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
   
   <project groups="pdk" name="android/CaffeOnACL" path="external/caffe-on-acl" remote="rk" revision="e284dc9c280df2a118088ea9bc06f8eb9bfc0d83" upstream="master"/>
-  <project name="android/RKTools" path="RKTools" remote="rk" revision="56ff862e0fe2a83d01c98bd2ccdcdf22ce1951a7" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="1f17c24bab7b859955bb200ac0bf5bbb41c1bee1" upstream="rk3399/box/android-6.0"/>
   <project name="android/docs/android" path="RKDocs/android" remote="rk" revision="26f1a887dc42486405bc23a2649e0ab766708105" upstream="rk33/mid/android-7.1"/>
   <project name="android/docs/common" path="RKDocs/common" remote="rk" revision="1dc14ee9dcbb9b7c50c8696e42d1b332ccde7b82" upstream="rk33/mid/android-8.1"/>
   <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="9cafe2df8a6046620b4c8059efd8b675c16aff88" upstream="rk33/mid/android7.1"/>
