@@ -5,7 +5,6 @@
          fetch="ssh://git@openlinux.amlogic.com"/>
 
   <include name="p-google_openlinux-20181105.xml" />
-  <remove-project name="p-amlogic/platform/packages/apps/TV" />
   <!--Amlogic as follows-->
   <!--Uboot begin-->
   <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" remote="amlogic" revision="amlogic-dev" />
