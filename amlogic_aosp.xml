@@ -60,7 +60,7 @@
 
   <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="gralloc1.0"  />
   <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="p-amlogic-mainline"  />
-  <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="o-mr1-amlogic"  />
+  <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="meson-hwc"  />
   <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="p-amlogic-mainline" />
   <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" revision="p-amlogic"  />
   <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="p-amlogic-mainline"  />
