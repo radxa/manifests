@@ -6,7 +6,7 @@
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
   
   <project groups="pdk" name="android/CaffeOnACL" path="external/caffe-on-acl" remote="rk" revision="e284dc9c280df2a118088ea9bc06f8eb9bfc0d83" upstream="master"/>
-  <project name="android/RKTools" path="RKTools" remote="rk" revision="1f17c24bab7b859955bb200ac0bf5bbb41c1bee1" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="bba70521e8c191b2c7d3c265803fc91cd3eaa54c" upstream="rk3399/box/android-6.0"/>
   <project name="android/docs/android" path="RKDocs/android" remote="rk" revision="26f1a887dc42486405bc23a2649e0ab766708105" upstream="rk33/mid/android-7.1"/>
   <project name="android/docs/common" path="RKDocs/common" remote="rk" revision="1dc14ee9dcbb9b7c50c8696e42d1b332ccde7b82" upstream="rk33/mid/android-8.1"/>
   <project name="android/docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="9cafe2df8a6046620b4c8059efd8b675c16aff88" upstream="rk33/mid/android7.1"/>
@@ -20,7 +20,7 @@
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="94bb1fb263d94f632c1f115cb5db5c42b1e36eca" upstream="rk33/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="3aa6b4652499144ac55e09feb760749e61bfa47b" upstream="rk33/mid/7.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
@@ -46,7 +46,7 @@
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="ed4f805c83129cdb57602150084af749b8a6b81e" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="0819d6955c2c45a93f2804fed3a9456f393e19d9" upstream="rockpi-n-all"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="301fa738bee78f4a85f7a86eeb7a087f0c5cf147" upstream="stable-4.4"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="c27cae18bf000a65f3cace4aa62952cc76d4e0d3" upstream="stable-4.4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.2_r6"/>
   <project groups="pdk" name="platform/art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" upstream="refs/tags/android-7.1.2_r6"/>
