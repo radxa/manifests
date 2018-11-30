@@ -4,152 +4,128 @@
 <remote  name="amlogic"
          fetch="ssh://git@openlinux.amlogic.com"/>
 
-  <include name="default.xml" />
-
-  <!-- remove unneeded projects -->
-  <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/lionhead" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-mips" />
-  <remove-project name="device/generic/mini-emulator-mips64" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/mips" />
-  <remove-project name="device/generic/mips64" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/uml" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/google/accessory/arduino" />
-  <remove-project name="device/google/accessory/demokit" />
-  <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_common" />
-  <remove-project name="device/google/cuttlefish_kernel" />
-  <remove-project name="device/google/marlin" />
-  <remove-project name="device/google/marlin-kernel" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
-  <remove-project name="device/linaro/hikey" />
-  <remove-project name="device/linaro/hikey-kernel" />
-
-  <remove-project name="platform/hardware/google/apf" />
-  <remove-project name="platform/hardware/google/av" />
-  <remove-project name="platform/hardware/google/easel" />
-  <remove-project name="platform/hardware/google/interfaces" />
-  <remove-project name="platform/hardware/intel/audio_media" />
-  <remove-project name="platform/hardware/intel/bootstub" />
-  <remove-project name="platform/hardware/intel/common/bd_prov" />
-  <remove-project name="platform/hardware/intel/common/libmix" />
-  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-  <remove-project name="platform/hardware/intel/common/libva" />
-  <remove-project name="platform/hardware/intel/common/libwsbm" />
-  <remove-project name="platform/hardware/intel/common/omx-components" />
-  <remove-project name="platform/hardware/intel/common/utils" />
-  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-  <remove-project name="platform/hardware/intel/img/hwcomposer" />
-  <remove-project name="platform/hardware/intel/img/psb_headers" />
-  <remove-project name="platform/hardware/intel/img/psb_video" />
-  <remove-project name="platform/hardware/intel/sensors" />
-  <remove-project name="platform/hardware/invensense" />
-  <remove-project name="platform/hardware/marvell/bt" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/nxp/secure_element" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
-  <remove-project name="platform/hardware/qcom/msm8x26" />
-  <remove-project name="platform/hardware/qcom/msm8x27" />
-  <remove-project name="platform/hardware/qcom/msm8x84" />
-  <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/prebuilts/android-emulator" />
-
-  <!--remove amlogic related gits, otherwise will cause conflict-->
-  <remove-project name="device/amlogic/common" />
-  <remove-project name="device/harman/atom" />
-  <remove-project name="device/harman/atom-kernel" />
-  <remove-project name="platform/hardware/amlogic" />
-  <remove-project name="platform/vendor/amlogic/common" />
-  <remove-project name="platform/vendor/harman/atom" />
-
-<!-- BEGIN open-source projects -->
-  <project path="device/amlogic/common" name="p-amlogic/device/amlogic/common" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/ampere" name="p-amlogic/device/amlogic/ampere" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/ampere-kernel" name="p-amlogic/device/amlogic/ampere-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/braun" name="p-amlogic/device/amlogic/braun" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/braun-kernel" name="p-amlogic/device/amlogic/braun-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/curie" name="p-amlogic/device/amlogic/curie" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/curie-kernel" name="p-amlogic/device/amlogic/curie-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/darwin" name="p-amlogic/device/amlogic/darwin" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/darwin-kernel" name="p-amlogic/device/amlogic/darwin-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/einstein" name="p-amlogic/device/amlogic/einstein" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/einstein-kernel" name="p-amlogic/device/amlogic/einstein-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/galilei" name="p-amlogic/device/amlogic/galilei" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/galilei-kernel" name="p-amlogic/device/amlogic/galilei-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/franklin" name="p-amlogic/device/amlogic/franklin" remote="amlogic" revision="refs/heads/p-amlogic"/>
-  <project path="device/amlogic/franklin-kernel" name="p-amlogic/device/amlogic/franklin-kernel" remote="amlogic" revision="refs/heads/p-amlogic"/>
-
-  <project path="hardware/amlogic" name="p-amlogic/hardware/amlogic" remote="amlogic" revision="refs/heads/p-amlogic"  />
-  <project path="vendor/amlogic/common" name="p-amlogic/platform/vendor/amlogic/common" remote="amlogic" revision="refs/heads/p-amlogic"  />
-
-
-  <!-- END closed-source projects -->
-  <!-- add bootloader projects -->
-  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
-  <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
-  <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
-  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" remote="amlogic" revision="refs/heads/amlogic-dev-1.3" dest-branch="amlogic-dev-1.3" />
-  <project path="bootloader/uboot-repo/bl32/bin" name="p-amlogic/firmware/bin/bl32" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
-  <project path="bootloader/uboot-repo/bl33" name="p-amlogic/uboot" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
-  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" remote="amlogic" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev">
-  <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  <include name="p-google_openlinux-20181105.xml" />
+  <remove-project name="p-amlogic/platform/packages/apps/TV" />
+  <!--Amlogic as follows-->
+  <!--Uboot begin-->
+  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" remote="amlogic" revision="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" remote="amlogic" revision="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" remote="amlogic" revision="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" remote="amlogic" revision="amlogic-dev-1.3" />
+  <project path="bootloader/uboot-repo/bl32/bin" name="p-amlogic/firmware/bin/bl32" remote="amlogic" revision="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl33" name="p-amlogic/uboot" remote="amlogic" revision="amlogic-dev" />
+  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" remote="amlogic" revision="amlogic-dev">
+      <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   </project>
+  <!--Uboot end-->
 
-  <!-- add for build from kernel source -->
-  <project path="common" name="p-amlogic/kernel/common" remote="amlogic" revision="refs/heads/p-amlogic" />
+  <project path="device/amlogic" name="p-amlogic/device/amlogic-o" remote="amlogic" revision="p-amlogic-mainline"/>
 
-  <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" remote="amlogic" revision="refs/heads/amlogic-4.9-dev" />
+  <project path="common" name="p-amlogic/kernel/common" remote="amlogic" revision="amlogic-4.9-dev"/>
+  <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" remote="amlogic" revision="amlogic-4.9-dev" />
 
-  <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8192eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8192es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192es" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8189es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189es" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8189ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189ftv" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bs" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723au" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8811au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8811au" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8812au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8822bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" remote="amlogic" revision="refs/heads/o-amlogic"  />
-  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" remote="amlogic" revision="refs/heads/p-amlogic"  />
+  <!--Wifi begin-->
+  <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" remote="amlogic" revision="p-amlogic"  />
+  <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" remote="amlogic" revision="o-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" remote="amlogic" revision="l-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" remote="amlogic" revision="8192cu"  />
+  <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" remote="amlogic" revision="8192du"  />
+  <project path="hardware/wifi/realtek/drivers/8192eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8192es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192es" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8189es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189es" remote="amlogic" revision="l-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8189ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189ftv" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8723bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bs" remote="amlogic" revision="l-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8723au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723au" remote="amlogic" revision="8723au"  />
+  <project path="hardware/wifi/realtek/drivers/8811au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8811au" remote="amlogic" revision="8811au"  />
+  <project path="hardware/wifi/realtek/drivers/8812au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8822bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" remote="amlogic" revision="m-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" remote="amlogic" revision="n-amlogic"  />
+  <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" remote="amlogic" revision="n-amlogic"  />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" remote="amlogic" revision="p-amlogic"  />
+  <!--Wifi end-->
+  
+    <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="hardware/amlogic/bootctrl" name="p-amlogic/platform/hardware/amlogic/bootctrl" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="hardware/amlogic/camera" name="p-amlogic/platform/hardware/amlogic/camera" remote="amlogic" revision="p-amlogic-mainline"  />
 
-  <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" remote="amlogic" revision="refs/heads/o-amlogic" />
-  <project path="vendor/amlogic/common/broadcom/btusb" name="p-amlogic/vendor/broadcom/btusb" remote="amlogic" revision="refs/heads/o-amlogic" />
+  <project path="hardware/amlogic/consumerir" name="p-amlogic/platform/hardware/amlogic/consumerir" remote="amlogic" revision="p-amlogic"  />
+  <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" remote="amlogic" revision="p-amlogic-mainline"  />
+
+  <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" remote="amlogic" revision="gralloc1.0"  />
+  <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" remote="amlogic" revision="meson-hwc"  />
+  <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" remote="amlogic" revision="p-amlogic-mainline" />
+  <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" remote="amlogic" revision="p-amlogic"  />
+  <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" remote="amlogic" revision="p-amlogic-mainline"  />
+
+  <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" remote="amlogic" revision="p-amlogic"  />
+  <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" remote="amlogic" revision="o-amlogic" dest-branch="o-amlogic"  />
+
+  <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" remote="amlogic" revision="p-amlogic-mainline" />
+  <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" remote="amlogic" revision="p-amlogic-mainline"  />
+
+  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" remote="amlogic" revision="p-amlogic" />
+  <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" remote="amlogic" revision="m-amlogic"  />
+  <project path="vendor/amlogic/common/apps/PPPoE" name="p-amlogic/platform/packages/amlogic/PPPoE" remote="amlogic" revision="o-amlogic"  />
+  <project path="vendor/amlogic/common/apps/RemoteIME" name="p-amlogic/platform/packages/amlogic/RemoteIME" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/SubTitle" name="p-amlogic/platform/packages/amlogic/SubTitle" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/VideoPlayer" name="p-amlogic/platform/packages/amlogic/VideoPlayer" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/DLNA" name="p-amlogic/platform/packages/amlogic/DLNA" remote="amlogic" revision="l-amlogic"  />
+  <project path="vendor/amlogic/common/apps/AppInstaller" name="p-amlogic/platform/packages/amlogic/AppInstaller" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/apps/VendorOverlay" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" remote="amlogic" revision="p-amlogic-mainline"  />
+
+  <project path="vendor/amlogic/common/external/busybox" name="p-amlogic/platform/external/busybox" remote="amlogic" revision="p-amlogic" />
+  <project path="vendor/amlogic/common/broadcom/btusb" name="p-amlogic/vendor/broadcom/btusb" remote="amlogic" revision="p-amlogic-mainline"/>
+
+  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" remote="amlogic" revision="n-amlogic" />
+  <project path="vendor/amlogic/common/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" remote="amlogic" revision="ics-amlogic"  />
+  <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/external/exfat" name="p-amlogic/vendor/amlogic/external/exfat" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" remote="amlogic" revision="m-amlogic" />
+  <project path="vendor/amlogic/common/apps/IrBlaster" name="p-amlogic/amlogic/tools/ir_blaster" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/external/icu" name="p-amlogic/vendor/amlogic/external/icu" remote="amlogic" revision="p-amlogic"  />
+
+  <project path="vendor/amlogic/common/frameworks" name="p-amlogic/vendor/amlogic/frameworks" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/frameworks/av" name="p-amlogic/vendor/amlogic/frameworks/av" remote="amlogic" revision="o-amlogic"  />
+  <project path="vendor/amlogic/darwin" name="p-amlogic/platform/vendor/amlogic/darwin" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" remote="amlogic" revision="n-amlogic"  />
+
+  <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" remote="amlogic" revision="r6p1" />
+
+  <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/hdcp" name="p-amlogic/vendor/amlogic/hdcp" remote="amlogic" revision="tdk-v2.4"  />
+  <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/provision" name="p-amlogic/vendor/amlogic/provision" remote="amlogic" revision="tdk-v2.4"  />
+  <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/system" name="p-amlogic/vendor/amlogic/system" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/system/droidvold" name="p-amlogic/vendor/amlogic/system/droidvold" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/tools" name="p-amlogic/vendor/amlogic/tools" remote="amlogic" revision="p-amlogic-mainline"  />
+  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" remote="amlogic" revision="p-amlogic"  />
+
+  <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" remote="amlogic" revision="p-amlogic-mainline" />
+  <project path="vendor/widevine" name="p-amlogic/vendor/widevine" remote="amlogic" revision="p-amlogic"  />
+
+  <!-- TV projects start -->
+  <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" remote="amlogic" revision="o-amlogic" />
+  <project path="vendor/amlogic/common/apps/TvInput" name="p-amlogic/platform/packages/amlogic/TvInput" remote="amlogic" revision="p-amlogic" />
+  <project path="vendor/amlogic/common/apps/DroidLiveTv" name="p-amlogic/platform/packages/amlogic/DroidLiveTv" remote="amlogic" revision="o-mr1-amlogic" />
+  <project path="vendor/amlogic/common/external/libaudioeffect" name="p-amlogic/platform/external/libaudioeffect" remote="amlogic" revision="l-amlogic" />
+  <project path="vendor/amlogic/common/external/dvb" name="p-amlogic/dvb" remote="amlogic" revision="tv-kernel-4.9"   />
+  <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" remote="amlogic" revision="o-amlogic" />
 </manifest>
