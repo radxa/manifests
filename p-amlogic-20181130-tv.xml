@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@openlinux.amlogic.com" name="amlogic"/>
+  <remote fetch="../../" name="amlogic"/>
   <remote fetch="../../" name="p-google"/>
   
   <default dest-branch="p-tv-dev" remote="p-google" revision="p-tv-dev" sync-c="true" sync-j="4"/>

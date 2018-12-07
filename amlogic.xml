@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="amlogic"
-         fetch="ssh://git@openlinux.amlogic.com"/>
+  <remote name="amlogic"
+          fetch="../../" />
 
   <include name="p-google_openlinux-20181105.xml" />
   <!--Amlogic as follows-->
