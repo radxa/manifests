@@ -61,7 +61,7 @@
   <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
 
   <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
-  <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" remote="amlogic"  revision="o-amlogic" dest-branch="o-amlogic_9.2.1811_21"  />
+  <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" remote="amlogic"  revision="o-amlogic_9.2.1811_21"  />
 
   <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
