@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="android/RKTools" path="RKTools" remote="radxa-vendor" revision="bba70521e8c191b2c7d3c265803fc91cd3eaa54c" />
+  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa-vendor" revision="eff202a18a5f0acd9a75fee53e8f31f5318cb383" >
+    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
+    <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
+    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa-vendor" revision="8f7104f5f586798f133ef21bd2688a04c80e0cb3" >
+    <copyfile dest=".classpath" src=".classpath"/>
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+  </project>
+  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="radxa-vendor" revision="84927c011e01363326e4573cb7e2e688f1403e4d" />
+  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="radxa-vendor" revision="5518595612e94ae13785a2f0dbee621eff278503" />
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa-vendor" revision="0819d6955c2c45a93f2804fed3a9456f393e19d9" />
+  <project name="android/rk/u-boot" path="u-boot" remote="radxa-vendor" revision="c27cae18bf000a65f3cace4aa62952cc76d4e0d3" upstream="stable-4.4-android"/>
+  <project remote="radxa-vendor" groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="35aeab47fd617b850b75e06a28deded742ff8c94" />
+  <project remote="radxa-vendor" groups="pdk" name="platform/system/core" path="system/core" revision="c35b3b14248f1fe3c9c5172059618c1803f83a1d" />
+  <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="ee5734d0bc64c0d997bf1486d44d289c897025f4"/>
+  <project name="rk/rkbin" path="rkbin" remote="radxa-vendor" revision="21756f5b5a108fb9d4fd1ffcdb819474892d937f" />
+  <project remote="radxa-vendor" groups="pdk,tradefed" name="platform/build" path="build" revision="318fb226f9250bf50e6acbf0508dc33e81d30264">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+</manifest>
