@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@hp/rockchip_2222/rk3399-n-all/" name="aosp" />
+  <remote fetch="ssh://git@hp/rockchip_2222/rk3399-n-all/" name="rk" />
+
+  <remote fetch="ssh://git@hp/rockchip_2222/rk3399-n-all/" name="radxa-vendor" revision="rockpi-n-all"/>
+
+  <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
+  
+  <include name="google.xml" />
+  <include name="rk3399_all.xml" />
+  <include name="rockpi_n_all.xml" />
+
+</manifest>

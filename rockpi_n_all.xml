@@ -21,4 +21,5 @@
   <project remote="radxa-vendor" groups="pdk,tradefed" name="platform/build" path="build" revision="318fb226f9250bf50e6acbf0508dc33e81d30264">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+  <project name="android/rk/platform/vendor/open-gapps" path="vendor/opengapps" remote="radxa-vendor" revision="fbfc18444aa2391798959f5b71daa7a8a862d434"/>
 </manifest>
