@@ -5,18 +5,18 @@
   
   <default dest-branch="p-tv-dev" remote="p-google" revision="p-tv-dev" sync-c="true" sync-j="4"/>
   
-  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="305fc7602ed86eaea650ee722fe6292ac685ce29" upstream="amlogic-dev_9.2.1811_21">
+  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="d361ad4a3c11d23fff88f10cbac43c9d528f6883" upstream="amlogic-dev_9.2.1811_21">
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
   </project>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" remote="amlogic" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="21d44db58e2b0179623c7d673b810a007fbcf17a" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="db07082bdf8f7cdc56d1fe833add3b0f1f9fd548" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="2e80943c8094af8829416ed6ed0bd09f78f0cc60" upstream="tv-kernel-4.9_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="433280d9d358136d056bc01ff0fb65f46ab32e3d" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="f23bc6db43f6f03c7e43cd7957f181b384dc2f42" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="1dea46c05760c4af1f1d25ded7381998eb46f822" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="be23808f837743ffbcbfaeec0b011afd34e535ff" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="4ef55af57e1322414948070c3ee43a59c5b79a57" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="63451c5e67e134c4de55a9b0f5f7f0e8d6f1e076" upstream="amlogic-dev-1.3_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="525877f618765cfe8989f551464c78c213b42d59" upstream="amlogic-dev-1.3_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="0a7e075944514bcef2071c0f06413e9b5cb9f05f" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="534cb110bd2daf4dbf606f24f3d451ab95d58d23" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/busybox" path="vendor/amlogic/common/external/busybox" remote="amlogic" revision="b8e800ed97a433cbc8d148137ccf32312480d049" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="4816c2a0fa5f989c30db1f418f2ddcc683dd1260" upstream="n-amlogic_9.2.1811_21"/>
@@ -67,11 +67,11 @@
   <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="a8c7ccc4077d3dacf495613d4b03daf87ab42404" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/common/apps/DLNA" remote="amlogic" revision="9af58d905a7bd68e0b62560c45862b92775b13be" upstream="l-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv" remote="amlogic" revision="be9e9bb0a9b0c9ddd3113878733cf27a83f2d7cc" upstream="o-mr1-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="78b5e057fa50c8b7e18859cc646cf5bec48bcc74" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="8f467971f4bac77f5fd883c4b0dd903b45ebaf59" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/common/apps/FileBrowser" remote="amlogic" revision="589158aaf7d13517f19c0c068b37039bc1381f4d" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="04969d7b02474ddc61c15782a09538cdc0ebc0ca" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="5ac5725b7a0f129c0d815f762edb6aae5049eec1" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/common/apps/OTAUpgrade2" remote="amlogic" revision="cd6085d95f64e2d0e9b93a85efb87cd311db9980" upstream="m-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/common/apps/OTAUpgrade2" remote="amlogic" revision="67ee42972912308c4031c48ee0dee4e9b3ed311d" upstream="m-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/PPPoE" path="vendor/amlogic/common/apps/PPPoE" remote="amlogic" revision="15416d3db1a5e7606cd0cc488676abedfb0b299d" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/RemoteIME" path="vendor/amlogic/common/apps/RemoteIME" remote="amlogic" revision="66eace8fe3fb97ffca0215c1fad70abb0fd5dd77" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/common/apps/SubTitle" remote="amlogic" revision="6914398a3c59ffe8ee44c3cca65e4135992309a0" upstream="p-amlogic_9.2.1811_21"/>
@@ -79,19 +79,19 @@
   <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" remote="amlogic" revision="433a9206c8d07e4e987a2d72d5452c0d15f70df5" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/apps/TV" path="packages/apps/TV" remote="amlogic" revision="d9636f274d0a3a458f9ad8ad62bd05a008577df3" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/vendor/amlogic/darwin" path="vendor/amlogic/darwin" remote="amlogic" revision="5c76da5ea94f292962d098e3a15c8c766d8de588" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="d7c734fb8043d3f307f6079d2966a9f0b4034fde" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="372143451596eb7f9501630f58212b83b4afbe2a" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" remote="amlogic" revision="42f0c57abf0bb5d971ea27a6c7f79a5b403f3811" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" remote="amlogic" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" remote="amlogic" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/common/external/libtiff" remote="amlogic" revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" remote="amlogic" revision="aec90c3581a1d3229789e4a90c174060cd15fe8d" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="a9322646ee4e5ad7af5f36ebf3372cba7e8b8594" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="2b74c89d3e6cdaac1e15b5fba72d48a83e39ba65" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="amlogic" revision="5298517bcb2f1a7f77c6550b203c81ef91585412" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/common/frameworks/pppoe" remote="amlogic" revision="2188a6b1f88feb4c49470497c96249b0f93be853" upstream="n-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" remote="amlogic" revision="2ffad10f9de2a89278e3c81a93790fe0231cdc69" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="amlogic" revision="a44db0f6d02b9802740762934d51fba284dc76fa" upstream="tdk-v2.4_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/common/prebuilt" remote="amlogic" revision="8b65c6e36db2600da93dc40200c8442e9084dc78" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="bf011e0a311b12b9abc49020afc6510ef9df7f2c" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="f2e2236498a3f9169cbb295d682e55f923296234" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="amlogic" revision="0e4f3f56b83d046a9cd15dc8bd30592fb5d3d6a1" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" remote="amlogic" revision="38bce13e9ae57f578e0871212d0010b7122af974" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="amlogic" revision="9703bfde81105aa81cf0e980e1d539bb74a42cb6" upstream="tdk-v2.4_9.2.1811_21"/>
@@ -102,7 +102,7 @@
   <project name="p-amlogic/vendor/amlogic/tdk_linuxdriver" path="vendor/amlogic/common/tdk/linuxdriver" remote="amlogic" revision="8d691592e0caf3188fb005bff81a3d69f59b3307" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="7b0614b3765c00358809778bc4cf2ab834cca43c" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="4c5c35a63052a2423a1926b1145e5b10feaecca2" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="cd4d171968ac1cde1f9d07017bd10645d067423e" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="a6b49b8785708a7c0874f8d9d8b17e6b3706fa3b" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tv" path="vendor/amlogic/common/tv/frameworks" remote="amlogic" revision="a243709f32d8e91d9cfa69600157d95889d529e4" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" remote="amlogic" revision="2c5941a90d50e9f745d876fb95075261d2415ff2" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" remote="amlogic" revision="3ab893c2e0727cf4c45ade0ca58a0cd8b4d4c01f" upstream="p-amlogic-mainline_9.2.1811_21"/>
