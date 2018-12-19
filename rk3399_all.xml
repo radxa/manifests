@@ -43,7 +43,6 @@
   <project remote="rk" groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" revision="472b5e3fc1660660e0e9a3fa4cd5f752643920f2" upstream="rk33/mid/7.0/develop"/>
   <project remote="rk" groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="fbf84ebf1311a234018c06c020fe046d963cbaf9" upstream="rk33/mid/7.0/develop"/>
   <project remote="rk" groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="a8617c5b6f7dcdc3b33ede02f2318f81bc1d6728" upstream="rk33/mid/7.0/develop"/>
-  <project remote="rk" groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="323b87fe56b0ef8b98536a95eca0f71320e8cc55" upstream="rk33/mid/7.0/develop"/>
   <project remote="rk" groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" revision="59c255ce30b2077c2452253b4067700640bb6bd9" upstream="rk33/mid/7.0/develop"/>
   <project remote="rk" groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="4e554537953d36d8deead5fb3ea57f6eb774a1b8" upstream="rk33/mid/7.0/develop"/>
   <project remote="rk" groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="0ee692e135a57365aacd6f424086851722e31f0e" upstream="rk33/mid/7.0/develop"/>

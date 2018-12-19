@@ -22,4 +22,5 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="android/rk/platform/vendor/open-gapps" path="vendor/opengapps" remote="radxa-vendor" revision="76bb8f77b57c49b09d424f42209dff1387831225"/>
+  <project remote="radxa-vendor" groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="de7099b87f4a32621465f094a603810842eb0158"/>
 </manifest>
