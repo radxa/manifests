@@ -16,11 +16,12 @@
   <project name="android/rk/u-boot" path="u-boot" remote="radxa-vendor" revision="c27cae18bf000a65f3cace4aa62952cc76d4e0d3" upstream="stable-4.4-android"/>
   <project remote="radxa-vendor" groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="35aeab47fd617b850b75e06a28deded742ff8c94" />
   <project remote="radxa-vendor" groups="pdk" name="platform/system/core" path="system/core" revision="c35b3b14248f1fe3c9c5172059618c1803f83a1d" />
-  <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="778a498de36261f302cdb373e95cd9f95dd740fa"/>
+  <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="1467de7fffed25ab4f2fbe83711a7d1ade79ab63"/>
   <project name="rk/rkbin" path="rkbin" remote="radxa-vendor" revision="21756f5b5a108fb9d4fd1ffcdb819474892d937f" />
   <project remote="radxa-vendor" groups="pdk,tradefed" name="platform/build" path="build" revision="318fb226f9250bf50e6acbf0508dc33e81d30264">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="android/rk/platform/vendor/open-gapps" path="vendor/opengapps" remote="radxa-vendor" revision="76bb8f77b57c49b09d424f42209dff1387831225"/>
   <project remote="radxa-vendor" groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="de7099b87f4a32621465f094a603810842eb0158"/>
+  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="radxa-vendor" revision="2c07095812a852544e087b1633f548be96706e84"/>
 </manifest>
