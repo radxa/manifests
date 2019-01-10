@@ -3,7 +3,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="p-google_openlinux-20181105.xml" />
+  <include name="p-google_openlinux-20190110.xml" />
   <!--Amlogic as follows-->
   <!--Uboot begin-->
   <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" remote="amlogic"  revision="amlogic-dev_9.2.1811_21" />
@@ -115,7 +115,9 @@
   <project path="vendor/amlogic/common/tools" name="p-amlogic/vendor/amlogic/tools" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
 
+  <project name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21"/>
   <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21" />
+  <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21"/>
   <project path="vendor/widevine" name="p-amlogic/vendor/widevine" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
 
   <!-- TV projects start -->
