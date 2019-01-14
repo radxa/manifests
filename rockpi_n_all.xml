@@ -16,7 +16,7 @@
   <project name="android/rk/u-boot" path="u-boot" remote="radxa-vendor" revision="c27cae18bf000a65f3cace4aa62952cc76d4e0d3" upstream="stable-4.4-android"/>
   <project remote="radxa-vendor" groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="35aeab47fd617b850b75e06a28deded742ff8c94" />
   <project remote="radxa-vendor" groups="pdk" name="platform/system/core" path="system/core" revision="96d0a7ef45d4c7fd5afa42d6d4aa7156fd2add8a" />
-  <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="1467de7fffed25ab4f2fbe83711a7d1ade79ab63"/>
+  <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="c7f1a8f76ff900f6724168a7bf58b45f01ea4fea"/>
   <project name="rk/rkbin" path="rkbin" remote="radxa-vendor" revision="21756f5b5a108fb9d4fd1ffcdb819474892d937f" />
   <project remote="radxa-vendor" groups="pdk,tradefed" name="platform/build" path="build" revision="318fb226f9250bf50e6acbf0508dc33e81d30264">
     <copyfile dest="Makefile" src="core/root.mk"/>
