@@ -4,7 +4,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="p-google_openlinux-20181105.xml" />
+  <include name="p-google_openlinux-20190110.xml" />
   <include name="common.xml" />
   <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" remote="amlogic" revision="p-amlogic"  />
 </manifest>
