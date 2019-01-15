@@ -102,7 +102,9 @@
   <project name="p-amlogic/vendor/amlogic/scripts" path="vendor/amlogic/common/scripts" revision="fae5fa8f241f0fd89183509be9439bfaba328567" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/system" path="vendor/amlogic/common/system" revision="fd36600f86293ec16a1887cfde5b50815c315023" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/system/droidvold" path="vendor/amlogic/common/system/droidvold" revision="b531879abe9f3a55e469c1dd6fc5b3a4a08ea374" upstream="p-amlogic-mainline"/>
+  <project name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="a591a2d6901e65b2260d0785090fce81b412be8d" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/tdk_linuxdriver" path="vendor/amlogic/common/tdk/linuxdriver" revision="8d691592e0caf3188fb005bff81a3d69f59b3307" upstream="p-amlogic-mainline"/>
+  <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="fa951ff75dc8c069e2b2516b562f66ef2b99d4af" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/tools" path="vendor/amlogic/common/tools" revision="4c5c35a63052a2423a1926b1145e5b10feaecca2" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="f2103d4edba79ca947c60f162642382139d40bac" upstream="p-amlogic"/>
   <project name="p-amlogic/vendor/amlogic/tv" path="vendor/amlogic/common/tv/frameworks" revision="127c0ef0aad4ac0ee5a0e20dea2176f1632ebc28" upstream="p-amlogic"/>
