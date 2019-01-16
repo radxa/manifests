@@ -37,5 +37,5 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="prebuilts-gcc-linux-x86-aarch64-gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="origin" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="prebuilts-gcc-linux-x86-arm-gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="origin" revision="master"/>
   <project path="rkbin" name="rkbin" remote="origin" revision="master"/>
-  <project path="kernel" name="kernel" remote="origin" revision="develop" />
+  <project path="kernel" name="kernel" remote="origin" revision="stable" />
 </manifest>
