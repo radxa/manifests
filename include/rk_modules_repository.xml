@@ -14,7 +14,7 @@
   </project>
   <project path="frameworks/opt/net/pppoe" name="frameworks-opt-net-pppoe" groups="pdk-fs" remote="origin" revision="master"/>
   <project path="frameworks/opt/net/wifi" name="frameworks-opt-net-wifi" remote="origin" revision="master"/>
-  <!--project path="frameworks/base" name="frameworks-base" remote="origin" revision="master" /-->
+  <project path="frameworks/base" name="frameworks-base" remote="origin" revision="master" />
   <project path="external/usb_modeswitch" name="external-usb_modeswitch"  remote="origin" revision="master" />
   <project path="hardware/rockchip/libiep" name="hardware-rockchip-libiep" remote="origin" revision="master"/>
   <project path="hardware/rockchip/librga" name="hardware-rockchip-librga" remote="origin" revision="master"/>
@@ -29,7 +29,7 @@
   <project path="hardware/rockchip/sensor" name="hardware-rockchip-sensor" remote="origin" revision="master"/>
   <project path="hardware/ril" name="hardware-ril" remote="origin" revision="master"/>
   <project path="rkst" name="rkst" remote="origin" revision="master"/>
-  <!--project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="origin" revision="master"/-->
+  <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="origin" revision="master"/>
   <!--project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/8.1/develop"/-->
   <project path="hardware/rockchip/jpeghw" name="hardware-rockchip-jpeghw" remote="origin" revision="master"/>
   <project path="hardware/rockchip/power" name="hardware-rockchip-power" remote="origin" revision="master"/>
