@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKTools" name="RKTools" remote="origin" revision="master"/>
+  <project path="RKNPUTools" name="RKNPUTool" remote="origin" revision="master"/>
+  <project path="RKDocs/rk3399pro" name="RKDocs-rk3399pro" remote="origin" revision="master"/>
+  <project path="device/rockchip/rk3399pro" name="device-rockchip-rk3399pro" remote="origin" revision="master">
+      <copyfile src="buildspec.mk" dest="buildspec.mk"/>
+      <copyfile src="build.sh" dest="build.sh"/>
+  </project>
+  <project path="hardware/rockchip/libgralloc" name="hardware-rockchip-libgralloc" remote="origin" revision="master" />
+  <project path="u-boot" name="u-boot" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/npu_powerctrl" name="hardware-rockchip-npu_powerctrl" remote="origin" revision="master" />
+  <project path="hardware/rockchip/npu_transfer" name="hardware-rockchip-npu_transfer" remote="origin" revision="master" />
+  <project path="hardware/rockchip/upgrade_tool" name="hardware-rockchip-upgrade_tool" remote="origin" revision="master" />
+  <project path="hardware/rockchip/libdirect-texture" name="hardware-rockchip-libdirect-texture" remote="origin" revision="master" />
+</manifest>

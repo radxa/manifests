@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <remote  name="aosp"
+	   fetch="https://aosp.tuna.tsinghua.edu.cn/"
+	   fetch1="git://mirrors.ustc.edu.cn/aosp/"
+           review="https://android-review.googlesource.com/" />
+  <remote  name="origin"
+	   fetch="https://github.com/rockchip-toybrick/"
+           review="https://android-review.googlesource.com/" />
+</manifest>

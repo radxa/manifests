@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKDocs/common" name="RKDocs-common" remote="origin" revision="master"/>
+  <project path="RKDocs/android" name="RKDocs-android" remote="origin" revision="master"/>
+  <project path="external/rk-pcba-test" name="external-rk-pcba-test" groups="pdk" remote="origin" revision="master"/>
+  <project path="external/iperf" name="external-iperf" remote="origin" revision="master"/>
+  <project path="external/io" name="external-io" remote="origin" revision="master"/>
+  <project path="external/ntfs-3g" name="external-ntfs-3g" remote="origin" revision="master"/>
+  <project path="hardware/realtek" name="hardware-realtek" remote="origin" revision="master"/>
+  <project path="device/rockchip/common" name="device-rockchip-common" remote="origin" revision="master">
+      <copyfile src=".classpath" dest=".classpath"/>
+      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
+      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
+  </project>
+  <project path="frameworks/opt/net/pppoe" name="frameworks-opt-net-pppoe" groups="pdk-fs" remote="origin" revision="master"/>
+  <project path="frameworks/opt/net/wifi" name="frameworks-opt-net-wifi" remote="origin" revision="master"/>
+  <!--project path="frameworks/base" name="frameworks-base" remote="origin" revision="master" /-->
+  <project path="external/usb_modeswitch" name="external-usb_modeswitch"  remote="origin" revision="master" />
+  <project path="hardware/rockchip/libiep" name="hardware-rockchip-libiep" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/librga" name="hardware-rockchip-librga" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/librkvpu" name="hardware-rockchip-librkvpu" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/omx_il" name="hardware-rockchip-omx_il" remote="origin" revision="master"/>
+  <project path="external/abc" name="external-abc" remote="origin" revision="master"/>
+  <project path="external/rk_tee_user" name="external-rk_tee_user" remote="origin" revision="master" />
+  <project path="hardware/rockchip/hwcomposer" name="hardware-rockchip-hwcomposer" remote="origin" revision="master" />
+  <project path="hardware/rockchip/camera" name="hardware-rockchip-camera" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/audio" name="hardware-rockchip-audio" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/liblights" name="hardware-rockchip-liblights" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/sensor" name="hardware-rockchip-sensor" remote="origin" revision="master"/>
+  <project path="hardware/ril" name="hardware-ril" remote="origin" revision="master"/>
+  <project path="rkst" name="rkst" remote="origin" revision="master"/>
+  <!--project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="origin" revision="master"/-->
+  <!--project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/8.1/develop"/-->
+  <project path="hardware/rockchip/jpeghw" name="hardware-rockchip-jpeghw" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/power" name="hardware-rockchip-power" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/drmservice" name="hardware-rockchip-drmservice" remote="origin" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="prebuilts-gcc-linux-x86-aarch64-gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="origin" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="prebuilts-gcc-linux-x86-arm-gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="origin" revision="master"/>
+  <project path="rkbin" name="rkbin" remote="origin" revision="master"/>
+  <project path="kernel" name="kernel" remote="origin" revision="develop" />
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/make" name="build-make" groups="pdk" remote="origin" revision="master">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build-soong" groups="pdk,tradefed" remote="origin" revision="master" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="bionic" groups="pdk" remote="origin" revision="master"/>
+  <project path="bootable/recovery" name="bootable-recovery" groups="pdk" remote="origin" revision="master" />
+  <project path="external/avb" name="external-avb" groups="pdk" remote="origin" revision="master" />
+  <project path="external/libdrm" name="external-libdrm" groups="pdk" remote="origin" revision="master"/>
+  <project path="external/libusb-compat" name="external-libusb-compat" groups="pdk" remote="origin" revision="master"/>
+  <project path="external/ppp" name="external-ppp" groups="pdk" remote="origin" revision="master" />
+  <project path="external/skia" name="external-skia" groups="pdk,qcom_msm8x26" remote="origin" revision="master" />
+  <project path="external/tinyalsa" name="external-tinyalsa" groups="pdk" remote="origin" revision="master" />
+  <project path="external/wpa_supplicant_8" name="external-wpa_supplicant_8" groups="pdk" remote="origin" revision="master" />
+  <project path="frameworks/av" name="frameworks-av" groups="pdk" remote="origin" revision="master" />
+  <project path="frameworks/ex" name="frameworks-ex" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="master" />
+  <project path="frameworks/native" name="frameworks-native" groups="pdk" remote="origin" revision="master" />
+  <project path="frameworks/opt/net/ethernet" name="frameworks-opt-net-ethernet" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="frameworks/opt/telephony" name="frameworks-opt-telephony" groups="pdk" remote="origin" revision="master" />
+  <project path="frameworks/ml" name="frameworks-ml" groups="pdk" remote="origin" revision="master"/>
+  <project path="hardware/broadcom/libbt" name="hardware-broadcom-libbt" groups="pdk" remote="origin" revision="master" />
+  <project path="hardware/broadcom/wlan" name="hardware-broadcom-wlan" groups="pdk,broadcom_wlan" remote="origin" revision="master" />
+  <project path="hardware/interfaces" name="hardware-interfaces" groups="pdk" remote="origin" revision="master" />
+  <project path="hardware/libhardware" name="hardware-libhardware" groups="pdk" remote="origin" revision="master" />
+  <project path="packages/apps/Bluetooth" name="packages-apps-Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Browser2" name="packages-apps-Browser2" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Camera2" name="packages-apps-Camera2" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Contacts" name="packages-apps-Contacts" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/DeskClock" name="packages-apps-DeskClock" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/ExactCalculator" name="packages-apps-ExactCalculator" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Gallery2" name="packages-apps-Gallery2" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Launcher3" name="packages-apps-Launcher3" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Music" name="packages-apps-Music" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/SoundRecorder" name="packages-apps-SoundRecorder" groups="pdk-fs" remote="origin" revision="master" />
+  <project path="packages/apps/WallpaperPicker" name="packages-apps-WallpaperPicker" groups="pdk-fs" remote="origin" revision="master"/>
+  <project path="packages/inputmethods/LatinIME" name="packages-inputmethods-LatinIME" groups="pdk-fs" remote="origin" revision="master"/>
+  <project path="packages/providers/MediaProvider" name="packages-providers-MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="master"/>
+  <project path="packages/screensavers/PhotoTable" name="packages-screensavers-PhotoTable" groups="pdk-fs" remote="origin" revision="master"/>
+  <project path="packages/services/Telephony" name="packages-services-Telephony" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="master"/>
+  <project path="system/bt" name="system-bt" groups="pdk" remote="origin" revision="master"/>
+  <project path="system/core" name="system-core" groups="pdk" remote="origin" revision="master"/>
+  <project path="system/vold" name="system-vold" groups="pdk" remote="origin" revision="master"/>
+  <project path="system/sepolicy" name="system-sepolicy" groups="pdk" remote="origin" revision="master"/>
+  <!--project path="vendor/partner_gms" name="rk/platform/vendor/google" revision="rk33/mid/8.1_express/develop" force-path="true"  clone-depth="1" /-->
+</manifest>
+
