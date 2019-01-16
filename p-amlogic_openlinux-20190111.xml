@@ -16,7 +16,7 @@
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="8f46ab892fb70be62c7f7e4c2126fd78d977917e" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="408b61072a4e4bb85687cc5ce54b87aa9f319f20" upstream="amlogic-dev-1.3_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="c0902180712f19daf1d09915971ca16003a898c2" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="3ab1d8c6b4d7ecbf9ca9c1ac881806ea7c538a55" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/busybox" path="vendor/amlogic/common/external/busybox" remote="amlogic" revision="b8e800ed97a433cbc8d148137ccf32312480d049" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="214a92f71de8b060402ba8a974dfaed0848016b2" upstream="n-amlogic_9.2.1811_21"/>
@@ -91,7 +91,7 @@
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" remote="amlogic" revision="0cde6f0bba4fbfb4800a5a6dae4c5ec84535eb2b" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="amlogic" revision="a44db0f6d02b9802740762934d51fba284dc76fa" upstream="tdk-v2.4_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/common/prebuilt" remote="amlogic" revision="8b65c6e36db2600da93dc40200c8442e9084dc78" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="ee902594859f7f16082afc3551d5a757b2c5a71e" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="97507e0b005f851936bc26b55df7654ce8139591" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="amlogic" revision="53ad80f491d97059fe36f9d6e366e80430fdb7c6" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" remote="amlogic" revision="2dc9d4a519ec90bbc331d1983f7db83aee2d9387" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="amlogic" revision="9703bfde81105aa81cf0e980e1d539bb74a42cb6" upstream="tdk-v2.4_9.2.1811_21"/>
