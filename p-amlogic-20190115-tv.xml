@@ -83,7 +83,7 @@
   <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" revision="b57e16274db97eb716dd1f9074ca18f5b7b9cf0c" upstream="p-amlogic"/>
   <project name="p-amlogic/platform/packages/apps/TV" path="packages/apps/TV" revision="1882efd89371f4d66182d97f587e9155df3d52ae" upstream="p-amlogic"/>
   <project name="p-amlogic/platform/vendor/amlogic/darwin" path="vendor/amlogic/darwin" revision="5c76da5ea94f292962d098e3a15c8c766d8de588" upstream="p-amlogic-mainline"/>
-  <project dest-branch="amlogic-dev" name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="fd9754ab54f95c153dbf74c46294a93546bb77bd" upstream="amlogic-dev"/>
+  <project dest-branch="amlogic-dev" name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="4905aa25a208d903d58a23dc7c7050eea7201597" upstream="amlogic-dev"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" revision="42f0c57abf0bb5d971ea27a6c7f79a5b403f3811" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="p-amlogic-mainline"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="p-amlogic"/>
