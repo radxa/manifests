@@ -11,7 +11,7 @@
   <project groups="pdk" name="p-google/platform/art" path="art" revision="a4d8a5e2487ed087294cb8c8c6eefb575a3e0e4f" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/bionic" path="bionic" revision="ee6ebab30a9e0fb906f92a8ea6a38133cf883adf" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/bootable/recovery" path="bootable/recovery" revision="58a3c03c7c1944346d8510843c60126a5f4affc8" upstream="p-tv-dev"/>
-  <project name="p-google/platform/build" path="build/make" revision="8e84e5909523f2bd1afd3550221b859062f086a6" upstream="p-amlogic-mainline">
+  <project name="p-google/platform/build" path="build/make" revision="4cda388dbfd294699f881dffef4e797f1b39bd04" upstream="p-amlogic-mainline">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
