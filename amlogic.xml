@@ -6,5 +6,7 @@
 
   <include name="p-google_openlinux-20190124.xml" />
   <include name="common.xml" />
-  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" remote="amlogic" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/tdk" name="secureos/tdk" revision="p-amlogic-mainline"/>
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm/playready" name="vendor/playready" revision="p-amlogic-mainline"/>
 </manifest>

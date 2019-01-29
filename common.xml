@@ -45,6 +45,7 @@
   <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  revision="o-amlogic"  />
   <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  revision="o-amlogic" />
   <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668"  revision="o-amlogic" />
+  <project path="hardware/wifi/mtk/drivers/mt7668u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" revision="p-amlogic" />
   <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" revision="o-amlogic" />
   <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" revision="m-amlogic"  />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" revision="8192cu"  />
