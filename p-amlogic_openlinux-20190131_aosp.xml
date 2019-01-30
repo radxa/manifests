@@ -12,13 +12,13 @@
   <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="9f4b38cf41261e9a10c531d5cb83962f7d13289d" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="p-amlogic/device/google/atv" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/device/sample" path="device/sample" revision="cdb22d4258c2ffa7279a3b55c65b0431fabc1200" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="0719d880a570a67ff89c1ce09f2075e3f9e90f99" upstream="tv-kernel-4.9_9.2.1811_21"/>
+  <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="7015e4bc909e6287e012cd4e2f31e26b86dbaae3" upstream="tv-kernel-4.9_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="9c0ce7c8d49e45f4fdab55ac5c522be23dc1950d" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="9d77d709013cf75a5f4818a254f5c16b82b1ff34" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="8f46ab892fb70be62c7f7e4c2126fd78d977917e" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="408b61072a4e4bb85687cc5ce54b87aa9f319f20" upstream="amlogic-dev-1.3_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="17bc63a2ccc211cc294e7565e0fb8a486530aa52" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="e488d6a75078bbf5c1c614ce90b7e3d4be4fa2f8" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project groups="vts,pdk" name="p-amlogic/kernel/configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/kernel/tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21"/>
@@ -468,7 +468,7 @@
   <project name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" path="hardware/wifi/realtek/drivers/8822bu" remote="amlogic" revision="b1032e12315f76cb7b80f0005750672100963148" upstream="m-amlogic_9.2.1811_21"/>
   <project groups="pdk" name="p-amlogic/platform/libcore" path="libcore" revision="5c2be05f23f66028ccebfd7de64a3673fee6e509" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/libnativehelper" path="libnativehelper" revision="afd3a633ab30cb17758543b4bbf2e8165812ce7c" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="a8c7ccc4077d3dacf495613d4b03daf87ab42404" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="9ff8ae0f0eade3d7c18e20a89ad25b40fee058ad" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/common/apps/DLNA" remote="amlogic" revision="9af58d905a7bd68e0b62560c45862b92775b13be" upstream="l-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv" remote="amlogic" revision="85b93e1e1bc8f5034b129a8d0eec6e400fd0f5dd" upstream="o-mr1-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="96565310846dc5b479d19b2c1fd1d79fcc11b25e" upstream="p-amlogic_9.2.1811_21"/>
