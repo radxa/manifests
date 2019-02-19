@@ -10,7 +10,7 @@
   <project name="RKTools" remote="rk3399" revision="2077a1796875de964ae399d6a6e0039685c7bde9" upstream="rk3399/mid/develop9.0"/>
   <project groups="pdk" name="device/sample" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r22"/>
   <project name="docs/android" path="RKDocs/android" remote="rk" revision="38ea44370df4da848761ba6dfe0ca89b14c905cd" upstream="rk33/mid/android-9.0"/>
-  <project name="docs/common" path="RKDocs/common" remote="rk" revision="5c9b78ed4b0a70a49816a6e324615bd14c85c6e5" upstream="rk33/mid/android-9.0"/>
+  <project name="docs/common" path="RKDocs/common" remote="rk" revision="ff221d81854c18de2e1d3f4ddcd766ea6adbaa72" upstream="rk33/mid/android-8.1"/>
   <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="09da6db6a14b5bbe18d852387a59bfa1a95fc17a" upstream="rk33/mid/android9.0"/>
   <project groups="vts,pdk" name="kernel/configs" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r22"/>
   <project name="kernel/tests" revision="e57d074dc520ab1feabe5b202e6ef1c3f9f9844b" upstream="refs/tags/android-9.0.0_r22"/>
