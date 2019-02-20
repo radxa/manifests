@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openlinux"
+          fetch="../../" />
+
+  <default remote="openlinux"
+           revision="refs/tags/android-9.0.0_r3"
+           sync-j="2"
+           sync-c="true"/>
+
+  <include name="default.xml" />
+  <remove-project name="p-amlogic/platform/packages/apps/TV" />
+  <include name="common_tv_openlinux.xml" />
+  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="openlinux/tv/p-amlogic-aosp-20190219"  />
+</manifest>

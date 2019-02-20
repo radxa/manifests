@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- add projects -->
+  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219_1.3" />
+  <project path="bootloader/uboot-repo/bl32/bin" name="p-amlogic/firmware/bin/bl32" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl33" name="p-amlogic/uboot" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" revision="openlinux/tv/p-amlogic-20190219">
+  <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  </project>
+  <project path="common" name="p-amlogic/kernel/common" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="device/amlogic" name="p-amlogic/device/amlogic-o" revision="openlinux/tv/p-amlogic-20190219"/>
+  <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/bootctrl" name="p-amlogic/platform/hardware/amlogic/bootctrl" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/camera" name="p-amlogic/platform/hardware/amlogic/camera" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="hardware/amlogic/consumerir" name="p-amlogic/platform/hardware/amlogic/consumerir" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/gatekeeper" name="p-amlogic/platform/hardware/amlogic/gatekeeper" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="hardware/amlogic/gralloc" name="p-amlogic/platform/hardware/amlogic/gralloc" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <!--
+  <project path="hardware/amlogic/audio_dia_remote" name="p-amlogic/platform/hardware/amlogic/audio_dia_remote" revision="openlinux/tv/p-amlogic-20190219" />
+  -->
+
+  <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668"  revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/mtk/drivers/mt7668u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8192eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8192es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192es" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8189es" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189es" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8189ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8189ftv" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8723bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bs" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8723au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723au" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8811au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8811au" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8812au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8723bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8822bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <!-- add livetv -->
+  <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/apps/DroidLiveTv" name="p-amlogic/platform/packages/amlogic/DroidLiveTv" revision="openlinux/tv/p-amlogic-20190219" />
+
+  <!--
+  <project path="vendor/amlogic/common/apps/Dig" name="p-amlogic/platform/packages/amlogic/Dig" revision="openlinux/tv/p-amlogic-20190219"  />-->
+  <project path="vendor/amlogic/common/apps/DLNA" name="p-amlogic/platform/packages/amlogic/DLNA" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="openlinux/tv/p-amlogic-20190219"  />
+  <!--
+  <project path="vendor/amlogic/common/apps/Miracast" name="p-amlogic/platform/packages/amlogic/Miracast" revision="openlinux/tv/p-amlogic-20190219"  />-->
+  <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/amlogic/common/apps/PPPoE" name="p-amlogic/platform/packages/amlogic/PPPoE" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/RemoteIME" name="p-amlogic/platform/packages/amlogic/RemoteIME" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/SubTitle" name="p-amlogic/platform/packages/amlogic/SubTitle" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/VideoPlayer" name="p-amlogic/platform/packages/amlogic/VideoPlayer" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/AppInstaller" name="p-amlogic/platform/packages/amlogic/AppInstaller" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/apps/VendorOverlay" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/amlogic/common/apps/IrBlaster" name="p-amlogic/amlogic/tools/ir_blaster" revision="openlinux/tv/p-amlogic-20190219"/>
+  <project path="vendor/amlogic/common/external/icu" name="p-amlogic/vendor/amlogic/external/icu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/busybox" name="p-amlogic/platform/external/busybox" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/broadcom/btusb" name="p-amlogic/vendor/broadcom/btusb" revision="openlinux/tv/p-amlogic-20190219"/>
+  <!--
+  <project path="vendor/amlogic/common/external/alsa-lib" name="p-amlogic/platform/external/alsa-lib" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/external/exfat-fuse" name="p-amlogic/platform/external/exfat-fuse" revision="openlinux/tv/p-amlogic-20190219" />
+  -->
+  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/recovery" name="p-amlogic/vendor/amlogic/external/recovery" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/exfat" name="p-amlogic/vendor/amlogic/external/exfat" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/ntfs-3g" name="p-amlogic/platform/external/ntfs-3g" revision="openlinux/tv/p-amlogic-20190219" />
+
+  <project path="vendor/amlogic/common/frameworks" name="p-amlogic/vendor/amlogic/frameworks" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/frameworks/av" name="p-amlogic/vendor/amlogic/frameworks/av" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/darwin" name="p-amlogic/platform/vendor/amlogic/darwin" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/amlogic/common/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" revision="openlinux/tv/p-amlogic-20190219" />
+
+  <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/system" name="p-amlogic/vendor/amlogic/system" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/system/droidvold" name="p-amlogic/vendor/amlogic/system/droidvold" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/tools" name="p-amlogic/vendor/amlogic/tools" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/provision" name="p-amlogic/vendor/amlogic/provision" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/hdcp" name="p-amlogic/vendor/amlogic/hdcp" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <project path="vendor/widevine" name="p-amlogic/vendor/widevine" revision="openlinux/tv/p-amlogic-20190219"  />
+
+  <!-- start TV projects -->
+  <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/apps/TvInput" name="p-amlogic/platform/packages/amlogic/TvInput" revision="openlinux/tv/p-amlogic-20190219" />
+  <!--
+  <project path="vendor/amlogic/common/apps/TvMiddleware" name="p-amlogic/platform/packages/amlogic/TvMiddleware" revision="openlinux/tv/p-amlogic-20190219"/>
+  <project path="vendor/amlogic/common/apps/DTVPlayer" name="p-amlogic/platform/packages/amlogic/DTVPlayer" revision="openlinux/tv/p-amlogic-20190219"/>
+  -->
+  <project path="vendor/amlogic/common/external/dvb" name="p-amlogic/dvb" revision="openlinux/tv/p-amlogic-20190219"   />
+
+  <project path="vendor/amlogic/common/external/libaudioeffect" name="p-amlogic/platform/external/libaudioeffect" revision="openlinux/tv/p-amlogic-20190219" />
+  <!--
+  <project path="vendor/amlogic/common/external/libiconv" name="p-amlogic/vendor/amlogic/external/libiconv" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/fbc3-release" name="p-amlogic/fbc3-release" revision="openlinux/tv/p-amlogic-20190219" />
+  -->
+
+  <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="openlinux/tv/p-amlogic-20190219" />
+
+  <!-- end TV projects -->
+
+</manifest>
