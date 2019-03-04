@@ -5,18 +5,18 @@
   
   <default dest-branch="p-tv-dev" remote="p-google" revision="p-tv-dev" sync-c="true" sync-j="4"/>
   
-  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="65ec054cf294febd8b2a4d084daa837e0e9fd61e" upstream="amlogic-dev_9.2.1811_21">
+  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="4c7b7f78404f4c28a3e1ce6273de3fc9acc3ab78" upstream="amlogic-dev_9.2.1811_21">
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
   </project>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" remote="amlogic" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="263f76b2c917b93d8a06d6e91ffe7bfcf76d13ef" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="0719d880a570a67ff89c1ce09f2075e3f9e90f99" upstream="tv-kernel-4.9_9.2.1811_21"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="74a0bfbc5fcff71623e707ae5b3633894c9f9021" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="7015e4bc909e6287e012cd4e2f31e26b86dbaae3" upstream="tv-kernel-4.9_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="9c0ce7c8d49e45f4fdab55ac5c522be23dc1950d" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="9d77d709013cf75a5f4818a254f5c16b82b1ff34" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="8f46ab892fb70be62c7f7e4c2126fd78d977917e" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="408b61072a4e4bb85687cc5ce54b87aa9f319f20" upstream="amlogic-dev-1.3_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="237a2b43d78e71e30022d860c1ac35cf313c9656" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="2f6cb9a858059e8263023fe9388e7aa51a272483" upstream="amlogic-dev-1.3_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="f38f72cf3bf06226e621f1468677a5dd6ba1e0af" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="aeb98641dfb4149cadf6590c0fb02fc2befdef28" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/busybox" path="vendor/amlogic/common/external/busybox" remote="amlogic" revision="b8e800ed97a433cbc8d148137ccf32312480d049" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="214a92f71de8b060402ba8a974dfaed0848016b2" upstream="n-amlogic_9.2.1811_21"/>
@@ -25,19 +25,19 @@
   <project name="p-amlogic/platform/external/ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="amlogic" revision="cdb5c7cb9a3df1ea1d10a357fc42797488986884" upstream="m-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/pppoe" path="vendor/amlogic/common/external/pppoe" remote="amlogic" revision="4ee36bef886b0ad4e96299462e40ffcbd0f19e7a" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/LibAudio" path="hardware/amlogic/LibAudio" remote="amlogic" revision="ac4b33097184a88f7f7b56906a9228f2d56f83e2" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="amlogic" revision="baa66348d00a99cfc42d69cee3536ee09a02820f" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="amlogic" revision="b4bc203c9b7645819ab573e9139ccb2c9b506395" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/bluetooth" path="hardware/amlogic/bluetooth" remote="amlogic" revision="4390746a2c1a189ab08837fe1ecfc79dfb58c0ec" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/bootctrl" path="hardware/amlogic/bootctrl" remote="amlogic" revision="bce699d77cf5ca511664dbb461a76b42338add87" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" remote="amlogic" revision="c5ecd5519caf1a1b35d143f9192790707a1ad5d5" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" remote="amlogic" revision="06cad9a744a60eb572544b67b5f1fcbe7b8971dc" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/consumerir" path="hardware/amlogic/consumerir" remote="amlogic" revision="8acf52d2698d6490eca05f546600053dd4133dd7" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/gatekeeper" path="hardware/amlogic/gatekeeper" remote="amlogic" revision="5978759c4e3f57978848feb61e1f7661fdd9b1d4" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" remote="amlogic" revision="ab30fff2caa3d079677cd2392fb4ad232327d209" upstream="gralloc1.0_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" remote="amlogic" revision="bf0ca7843cc7f3a424e7ad54484115eb4154edac" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" remote="amlogic" revision="6a866a426153fe925e0c76a229b27f5bde6edb8b" upstream="o-mr1-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" remote="amlogic" revision="357aca7d8b015a1b5331d413baec7f2ebc2d0ca8" upstream="o-mr1-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/keymaster" path="hardware/amlogic/keymaster" remote="amlogic" revision="561913b72a8dedc53daee4694f317250a7e789b8" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/lights" path="hardware/amlogic/lights" remote="amlogic" revision="4cb26981dfddc9b4c1f4cf71f1c3e9514fc3dcd0" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/media" path="hardware/amlogic/media" remote="amlogic" revision="461e37e542854602c9b37cf6b87d0b0148742b5e" upstream="o-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/hardware/amlogic/media_modules" path="hardware/amlogic/media_modules" remote="amlogic" revision="355b5ee7c759921f983b603a175d1623186a1f67" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/platform/hardware/amlogic/media_modules" path="hardware/amlogic/media_modules" remote="amlogic" revision="03de3422f4a004832344c601aacd61ef9175143f" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/memtrack" path="hardware/amlogic/memtrack" remote="amlogic" revision="456ad11a8ee6c6c5b95df1d83c040538d8fa968c" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/power" path="hardware/amlogic/power" remote="amlogic" revision="450f534bbb887d518f33082782d688d96f0e99aa" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/screen_source" path="hardware/amlogic/screen_source" remote="amlogic" revision="1f440afc353b36f1e83628a32a11c3376cdcf8d4" upstream="p-amlogic-mainline_9.2.1811_21"/>
@@ -64,43 +64,43 @@
   <project name="p-amlogic/platform/hardware/wifi/realtek/drivers/8812au" path="hardware/wifi/realtek/drivers/8812au" remote="amlogic" revision="6b50ecd24ff4bcd8175e0bf7db485629d3088a8e" upstream="m-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" path="hardware/wifi/realtek/drivers/8822bs" remote="amlogic" revision="d2a5452a08084b3838083ba1eda3d1aeab82ee7c" upstream="m-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" path="hardware/wifi/realtek/drivers/8822bu" remote="amlogic" revision="b1032e12315f76cb7b80f0005750672100963148" upstream="m-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="a8c7ccc4077d3dacf495613d4b03daf87ab42404" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="9ff8ae0f0eade3d7c18e20a89ad25b40fee058ad" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/common/apps/DLNA" remote="amlogic" revision="9af58d905a7bd68e0b62560c45862b92775b13be" upstream="l-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv" remote="amlogic" revision="85b93e1e1bc8f5034b129a8d0eec6e400fd0f5dd" upstream="o-mr1-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="3618654395748f6823aaed1a646c75030b3c8781" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="8b079f3bb22edb85f6bbf7e0c0b77e2867188e75" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/common/apps/FileBrowser" remote="amlogic" revision="37f5bd51d0849805960feedd08ed6eb057e6b110" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="ff6343987779e714d6d32a546042e3479655b542" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="5ac5725b7a0f129c0d815f762edb6aae5049eec1" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="ce37b24fdc73ecc52cff3b3d1802a7c617009404" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/common/apps/OTAUpgrade2" remote="amlogic" revision="67ee42972912308c4031c48ee0dee4e9b3ed311d" upstream="m-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/PPPoE" path="vendor/amlogic/common/apps/PPPoE" remote="amlogic" revision="15416d3db1a5e7606cd0cc488676abedfb0b299d" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/RemoteIME" path="vendor/amlogic/common/apps/RemoteIME" remote="amlogic" revision="66eace8fe3fb97ffca0215c1fad70abb0fd5dd77" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/common/apps/SubTitle" remote="amlogic" revision="b02b3ef59e7442ec7bea4af0229d06bc902867ee" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/common/apps/SubTitle" remote="amlogic" revision="df5181de9e334f1a2e886377e97abbe7f1b6bc08" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/TvInput" path="vendor/amlogic/common/apps/TvInput" remote="amlogic" revision="c22fb87fef4cb9c9f5ccdead52c4cbc3f6bfea16" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" remote="amlogic" revision="c1bc494957e4482122ceb271ce5eceb7fb5454ad" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/apps/TV" path="packages/apps/TV" remote="amlogic" revision="e6714def66c216f96cb5445b66e7368d76464c9b" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/vendor/amlogic/darwin" path="vendor/amlogic/darwin" remote="amlogic" revision="5c76da5ea94f292962d098e3a15c8c766d8de588" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="390d027c871d0647a3e59a804e4abc0debe8b0c3" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="21f16da91268ac6c8b969bb95834780faefd7624" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" remote="amlogic" revision="42f0c57abf0bb5d971ea27a6c7f79a5b403f3811" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" remote="amlogic" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" remote="amlogic" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/common/external/libtiff" remote="amlogic" revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" remote="amlogic" revision="182486a078d29df4cac2f356433d20766e851cc4" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="8c644c3a114c74c596aa446eb9442c29b6f6c4d9" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="fb20d4b3e532b4875ed465fa5b0dfe9e23100c1c" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="amlogic" revision="5298517bcb2f1a7f77c6550b203c81ef91585412" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/common/frameworks/pppoe" remote="amlogic" revision="2188a6b1f88feb4c49470497c96249b0f93be853" upstream="n-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" remote="amlogic" revision="0cde6f0bba4fbfb4800a5a6dae4c5ec84535eb2b" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hdcp" path="vendor/amlogic/common/hdcp" remote="amlogic" revision="a44db0f6d02b9802740762934d51fba284dc76fa" upstream="tdk-v2.4_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/common/prebuilt" remote="amlogic" revision="8b65c6e36db2600da93dc40200c8442e9084dc78" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="97507e0b005f851936bc26b55df7654ce8139591" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" remote="amlogic" revision="04c23bfcba798491312f86bf8f68048e2b4ffaf9" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" remote="amlogic" revision="53ad80f491d97059fe36f9d6e366e80430fdb7c6" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" remote="amlogic" revision="16b33f306173aec711ac6ab3842c26de4b0a1819" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" remote="amlogic" revision="0eefaed56e01db96885325e0451c5f71dc3ef4b4" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/provision" path="vendor/amlogic/common/provision" remote="amlogic" revision="9703bfde81105aa81cf0e980e1d539bb74a42cb6" upstream="tdk-v2.4_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/scripts" path="vendor/amlogic/common/scripts" remote="amlogic" revision="fae5fa8f241f0fd89183509be9439bfaba328567" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/system" path="vendor/amlogic/common/system" remote="amlogic" revision="34954ae5c54bfd45aa3db561b519110c3473546c" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/system/droidvold" path="vendor/amlogic/common/system/droidvold" remote="amlogic" revision="b531879abe9f3a55e469c1dd6fc5b3a4a08ea374" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tdk_linuxdriver" path="vendor/amlogic/common/tdk/linuxdriver" remote="amlogic" revision="8d691592e0caf3188fb005bff81a3d69f59b3307" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="4c5c35a63052a2423a1926b1145e5b10feaecca2" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="f00ef31b1af5825607e78cabe0064cd2208bf975" upstream="p-amlogic_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="17619b6f3068b0b321fc5727313e76293bbed874" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tv" path="vendor/amlogic/common/tv/frameworks" remote="amlogic" revision="5b6acdf705f8e1fc936924670e393bbd25ad5c9f" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" remote="amlogic" revision="fe45b6e550aed521857bce01a55635905eac97e3" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" remote="amlogic" revision="3ab893c2e0727cf4c45ade0ca58a0cd8b4d4c01f" upstream="p-amlogic-mainline_9.2.1811_21"/>
@@ -112,7 +112,7 @@
   <project groups="pdk" name="p-google/platform/art" path="art" revision="a4d8a5e2487ed087294cb8c8c6eefb575a3e0e4f" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/bionic" path="bionic" revision="ee6ebab30a9e0fb906f92a8ea6a38133cf883adf" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/bootable/recovery" path="bootable/recovery" revision="58a3c03c7c1944346d8510843c60126a5f4affc8" upstream="p-tv-dev"/>
-  <project name="p-google/platform/build" path="build/make" revision="39fcebfa80036353b97400d613ac4cf16f8a4a74" upstream="p-amlogic-mainline">
+  <project name="p-google/platform/build" path="build/make" revision="4cda388dbfd294699f881dffef4e797f1b39bd04" upstream="p-amlogic-mainline">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -272,7 +272,7 @@
   <project groups="pdk" name="p-google/platform/external/libexif" path="external/libexif" revision="8f688823fc5399ab0f42ba2c8986cdd127dbde9b" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libffi" path="external/libffi" revision="bff6414035206420af02d4f54870f5ff6eff2780" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libgsm" path="external/libgsm" revision="e775ffccfbedc4bb525cb2b5c9280a1dd0cfbe21" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/external/libhevc" path="external/libhevc" revision="c2a08c85ad9841f90dc78a0252bfbb95f2f5df44" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libhevc" path="external/libhevc" revision="c2a08c85ad9841f90dc78a0252bfbb95f2f5df44" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="f5c8ca7bb600d1e5488f65c6d5447b19b18d899c" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libldac" path="external/libldac" revision="68f49b758618a32ffb39aef34d1f10abd39798c2" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="20869c2653b242b95be85fe698b56ee139cf73dc" upstream="p-tv-dev"/>
@@ -293,7 +293,7 @@
   <project groups="pdk" name="p-google/platform/external/libusb" path="external/libusb" revision="37d889123d8db17aabdd0dc5bca36fc2701c6287" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libusb-compat" path="external/libusb-compat" revision="759481ae400d02fe99488dcdcd653b4f8139a39c" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/libvncserver" path="external/libvncserver" revision="f663790c00a39f17a529acb1bfddd062655676a6" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/external/libvpx" path="external/libvpx" revision="660ef8b26aebc84316776c3f22a1e4da8adcc449" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libvpx" path="external/libvpx" revision="660ef8b26aebc84316776c3f22a1e4da8adcc449" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/libvterm" path="external/libvterm" revision="5b7ca2e7bce00d2fe7b149203341d92ead575f76" upstream="p-tv-dev"/>
   <project name="p-google/platform/external/libxaac" path="external/libxaac" revision="a56f4c2d8df60a673ad502ab40854d3bb518409a" upstream="p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/libxcam" path="external/libxcam" revision="6bd266236b4d1fb459cd90faeb32810e50b1a9d5" upstream="p-tv-dev"/>
@@ -434,7 +434,7 @@
   <project name="p-google/platform/external/tremolo" path="external/tremolo" revision="ee6de0d326e88fa66598249963b685265341efe4" upstream="p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/turbine" path="external/turbine" revision="80375a9329669589dca4abd5228ad2366d8ff5f3" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/unicode" path="external/unicode" revision="a7d593b7d87545253a371b433dec0cba80edff06" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="9218a7272d8130a406d142db1b7b4350a0f35991" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="9218a7272d8130a406d142db1b7b4350a0f35991" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/v8" path="external/v8" revision="40decbd768e76dbe46d4de9c6b09197cc1ef24a2" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/valgrind" path="external/valgrind" revision="7d3f5da415f0f6ae3d79565ec5422019e4b32d9c" upstream="p-tv-dev"/>
   <project groups="vboot,pdk-fs" name="p-google/platform/external/vboot_reference" path="external/vboot_reference" revision="a2516840c8b010ae5176680877dede3d34e135df" upstream="p-tv-dev"/>
@@ -448,7 +448,7 @@
   <project groups="pdk,qcom_msm8x26" name="p-google/platform/external/webp" path="external/webp" revision="51e0229c3b998865d503f1a74663a2e2defaaea3" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/webrtc" path="external/webrtc" revision="4bf309ee56108e775a2d8f9676ee5b91c025b199" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="d17614822031e8a3bded65571abb6990170aa00b" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="43a1fc05ed6495fe0679cec8d4dbaf3c484d2eba" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="65354f4df569b34ffc69f2c333ea442edf926a03" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/external/wycheproof" path="external/wycheproof" revision="bd166b3292bf17ec49e6c7625b79fa9f52502e45" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/x264" path="external/x264" revision="d2c9edd9c883dce2031be118737a09bd04b25908" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/external/xmlrpcpp" path="external/xmlrpcpp" revision="c79d4eae757a81270915c2a7cf01c81b8d42785e" upstream="p-tv-dev"/>
@@ -469,7 +469,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/minikin" path="frameworks/minikin" revision="e2c7e890cc943654dbcecc1b9577a37297b76db3" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/frameworks/ml" path="frameworks/ml" revision="0057619b433435bc3f7b51482b3cc6eafc7406ff" upstream="p-tv-dev"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/multidex" path="frameworks/multidex" revision="475db106115d4f25f0e41612a2a71a0cfe83ab38" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/frameworks/native" path="frameworks/native" revision="30b5ec1678cbed9d0f5fc01c51549f3feadefd4b" upstream="p-tv-dev"/>
+  <project name="p-google/platform/frameworks/native" path="frameworks/native" revision="30b5ec1678cbed9d0f5fc01c51549f3feadefd4b" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk-fs" name="p-google/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="3959d1a32179a67fbea303d99edfc17803aafc0f" upstream="p-tv-dev"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="c0246198be80c6a8185aba01707e3c6ecba21222" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="38d8dcf2e7e3122fc2616bb9b7cb9d1d660dd263" upstream="p-tv-dev"/>
@@ -524,7 +524,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="fac81510fd6544c16ea89eabd4fdcefafc66e82f" upstream="p-tv-dev"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="21cec90bd3832c0857b390eb7192594c044b0b98" upstream="p-tv-dev"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="fdfb382d7f1e4fac51c547056dbdfe9760d32312" upstream="p-tv-dev"/>
-  <project groups="pdk-fs" name="p-google/platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="0b1f5de28abd03d699744144e47e6e834da73fa1" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="06fc1d1fb029a316475b98b80709414856cbf9fe" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="d24235df8468ed3bb00acd7cb1cae504e1af821f" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="90fdbf7460fbd255194455331c6a38a7b8f41dd2" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="ae8d63ab1d7da7d96e5865a9a9ae2d5fcc8dbab8" upstream="p-tv-dev"/>
@@ -539,13 +539,13 @@
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c65db6c7a18632774c25dae2339fe149ee3e91d9" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="194fc8a278a1a90efe6191673ae69800a771f01d" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="819fa02731407819729415eb76125af9065abc7a" upstream="p-tv-dev"/>
-  <project groups="pdk-fs" name="p-google/platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="537e1811bb4177f210f4b26bb32aed814cc245fd" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="901a85e54e39e30a805c7c5ec76e66147fee2b72" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="40c8dd7d7d8e28aee6ba65185bb94dbeff5974a6" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Music" path="packages/apps/Music" revision="41b4991539e61f6203ce226311300b06b781ad24" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="d282aceedf29d6162c3f903ccfcd1fe3706b3131" upstream="p-tv-dev"/>
   <project groups="apps_nfc,pdk-fs" name="p-google/platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="b3385b90f299742b9bb3f4969691b83426fee182" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="0cd160be02bd381e8d84800128c7092a946be95b" upstream="p-tv-dev"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="87da954ffdb35869ee778116c7054dafdc0c3e46" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="c667088eb179a89528c4d514961a3eb5ef970c9f" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="cdf5b780520b26abfa43d2b4177982f3a390d201" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Protips" path="packages/apps/Protips" revision="1e5d8a500dce6530a99cb952681889042dcfb63a" upstream="p-tv-dev"/>
   <project groups="pdk-fs" name="p-google/platform/packages/apps/Provision" path="packages/apps/Provision" revision="41171be03f7a98e631cc6d5ecb97f38a23d31e7e" upstream="p-tv-dev"/>
@@ -633,7 +633,7 @@
   <project groups="pdk,tools" name="p-google/platform/prebuilts/tools" path="prebuilts/tools" revision="5ab89ee14b5484a928210f25457e39f1a82d7a39" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" revision="bd6f580b90ee6fc1343c3fd2342f0636ac31c470" upstream="p-tv-dev"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/sdk" path="sdk" revision="ff3c39e8a6204096cf4e532b50bfc9bc6c290e3b" upstream="p-tv-dev"/>
-  <project name="p-google/platform/system/bt" path="system/bt" revision="add1444a2bb9356d6b8c544e65746344cebb837a" upstream="p-amlogic-mainline"/>
+  <project name="p-google/platform/system/bt" path="system/bt" revision="ee0c1b202482f497754622cdde5cd0409f270255" upstream="p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/system/ca-certificates" path="system/ca-certificates" revision="e666d121b84f5131f2095830838bc4f108ae874f" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/chre" path="system/chre" revision="b2f714df0875142eb758e2eecc71a765f0611efd" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="df140006465714a2ce484f6f56ac13d6d031f076" upstream="p-tv-dev"/>
@@ -652,15 +652,15 @@
   <project groups="pdk" name="p-google/platform/system/libvintf" path="system/libvintf" revision="7f8e1de8dd5c1742060d88d012612b2efb16a6f0" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/media" path="system/media" revision="241fad60df1206a894164aee6b625303b46c9eaf" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/netd" path="system/netd" revision="79abe486c9fbaab92f2bc2fc91f845010bd550f8" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/system/nfc" path="system/nfc" revision="855509eabddaf5048c9eb1efad121834723b6ed1" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/nfc" path="system/nfc" revision="18ea500b17a594d009a85d5671270e183447c75c" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="pdk" name="p-google/platform/system/nvram" path="system/nvram" revision="6c246ace0160aedf62a7e699e1ccef51e1d12a01" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/security" path="system/security" revision="4941bc7cb381a56ef29256938f20d0e9f273e13b" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/sepolicy" path="system/sepolicy" revision="445232617492a00d50c20399177879e9c1169549" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/timezone" path="system/timezone" revision="30d1b8d5da6554b6528188b55a4dc1e1685f87f8" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/tools/aidl" path="system/tools/aidl" revision="b06c82923869f50e9641f7dac56df0aebe637845" upstream="p-tv-dev"/>
   <project groups="pdk" name="p-google/platform/system/tools/hidl" path="system/tools/hidl" revision="214e438ed66e8846dde4a5227d612a9c08366fa3" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/system/update_engine" path="system/update_engine" revision="81f08123e807d56a7d32f191631553e042136e15" upstream="p-tv-dev"/>
-  <project groups="pdk" name="p-google/platform/system/vold" path="system/vold" revision="2d84a6a788280d69d2a204d2cc7be2657ae9309d" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/update_engine" path="system/update_engine" revision="81f08123e807d56a7d32f191631553e042136e15" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/system/vold" path="system/vold" revision="2d84a6a788280d69d2a204d2cc7be2657ae9309d" upstream="refs/heads/p-amlogic-mainline"/>
   <project groups="vts,pdk" name="p-google/platform/test/framework" path="test/framework" revision="1bc714231c6a96b763e58ffddb1e65a72d443c3d" upstream="p-tv-dev"/>
   <project groups="sts,pdk" name="p-google/platform/test/sts" path="test/sts" revision="7bf703bfadf6a8bf20324e127013a49cf55f3d72" upstream="p-tv-dev"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="p-google/platform/test/suite_harness" path="test/suite_harness" revision="2625df5b3ba988e6f0c46fa85bc3a32984bd9fa5" upstream="p-tv-dev"/>
