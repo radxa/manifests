@@ -1,0 +1,7 @@
+rk3399_pie_v2.00_20190305.xml 版本更新内容概述
+
+1、更新至AOSP android-9.0.0_r33
+2、解决adc键盘无响应
+3、解决sdcard 引导启动
+4、更新RKTools、RKDocs
+

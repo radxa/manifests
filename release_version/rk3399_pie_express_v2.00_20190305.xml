@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- aosp sdk repository -->
+  <include name="release_version/rk3399_pie_v2.00_20190305.xml" />
+  <!-- gms repository -->
+  <project clone-depth="1" force-path="true" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk3326" revision="2c7d6673dd3974bb1a67f893387e451439e6323d" upstream="rk33/mid/9.0_express/develop"/>
+</manifest>
