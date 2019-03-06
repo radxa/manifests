@@ -90,8 +90,8 @@
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/common/external/libtiff" revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" revision="7a8bd33c4ed61b9f0125e6f9cf661af415aec4f7" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" revision="0716772e74db8b9c2ea3b6cb8ed4079023fe2c33" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" revision="a0f9a4b417d32309319a8f96a8c4979702d410da" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" revision="822799149f300927cea9f15073ee2b38b3b415d9" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" revision="f3efe80ec003c8e7cf29f875d17f0a63e775123e" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/common/frameworks/pppoe" revision="5e7ce6c056228ceaeb2f3f606a08de10eba4df24" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" revision="1233aee2511b8ff0affe2ea3401c16381b534c33" upstream="openlinux/tv/p-amlogic-20190219"/>
