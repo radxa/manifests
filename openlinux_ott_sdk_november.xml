@@ -3,7 +3,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="p-google_openlinux-20190124.xml" />
+  <include name="p-google_openlinux-20190313.xml" />
   <!--Amlogic as follows-->
   <!--Uboot begin-->
   <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" remote="amlogic"  revision="amlogic-dev_9.2.1811_21" />
