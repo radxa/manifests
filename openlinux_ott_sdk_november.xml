@@ -103,6 +103,7 @@
 
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/hdcp" name="p-amlogic/vendor/amlogic/hdcp" remote="amlogic"  revision="tdk-v2.4_9.2.1811_21"  />
+  <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
