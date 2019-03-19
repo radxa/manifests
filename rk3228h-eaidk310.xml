@@ -24,7 +24,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project name="device-rockchip-common" path="device/rockchip/common" remote="origin" revision="master">
+  <project name="device-rockchip-common" path="device/rockchip/common" remote="origin" revision="eaidk310">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -275,7 +275,7 @@
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"/>
-  <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" remote="origin" revision="eaidk310"/>
+  <project groups="pdk" name="external-libjpeg-turbo" path="external/libjpeg-turbo" remote="origin" revision="eaidk310"/>
   <project groups="pdk" name="platform/external/libldac" path="external/libldac"/>
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
   <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/>
