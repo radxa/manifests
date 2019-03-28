@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <project name="RKTools" remote="rk3399" revision="5e63db1d7ad245eebff30327d4aa5c4205159834" upstream="rk3399/mid/develop9.0"/>
+  <project name="docs/android" path="RKDocs/android" remote="rk" revision="5ac4192939f18af9ab8e8cfca4627db13b3df0c7" upstream="rk33/mid/android-9.0"/>
+  <project name="docs/common" path="RKDocs/common" remote="rk" revision="ba6f960caf9e66d77794b15cbdc7a5aa6bf5e1e6" upstream="rk33/mid/android-8.1"/>
+  <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="09da6db6a14b5bbe18d852387a59bfa1a95fc17a" upstream="rk33/mid/android9.0"/>
+  <project name="platform/external/iperf" path="external/iperf" remote="rk" revision="ac659163730219d1c7ae4efabf1beda2ec7b2bcb" upstream="rk33/mid/9.0/develop"/>
+  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="828efc948664520a1ead3e710b896aac8fea3f2c" upstream="rk33/mid/9.0/develop"/>
+  <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="b02fdf119deaf4afac71f9742f35c50cee15e5be" upstream="develop">
+    <copyfile dest="restore_patches.sh" src="restore_patches.sh"/>
+  </project>
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk3399" revision="76f1a28ee33e01a2d08924cfc2da9280b9c11775" upstream="rk33/mid/9.0/develop">
+    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="c723e427f906712ef511822d0f3df4770522ac16" upstream="rk33/mid/9.0/develop">
+    <copyfile dest=".classpath" src=".classpath"/>
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="d68282bf2c76333b3368697a3c46cd1676578948" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" remote="rk" revision="ae2344d54069f4050fbc2fdf52001b27b5e255c6" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="rk" revision="74d721e20206e19eeaf12bc5bd1f99977dded5c5" upstream="rk33/mid/develop/9.0"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="e2817fc726cb09c3c0934e0d8883253151f4aace" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="ad4facc95dbe4371da482ab507916aefe458087c" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="32e6a1e030e865f0dbffba11248a1d0d88694b18" upstream="rk33/atv/8.0/develop"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk3399" revision="d2b6e77d42c62360f4eb13f97580eac2529fb132" upstream="rk33/mid/6.0/develop_drm"/>
+  <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2" upstream="rk32/mid/6.0/develop"/>
+  <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk3399" revision="54ce74b167762a17fbf88f80305d76225e41e9af" upstream="soc_with_midgard_gpu/9.0/drm_gralloc"/>
+  <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="68e274cd748d1d0e0dcd52a3ead0ee7cb64819b1" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="b29a973a3a6562c6733f67dbbd64c43c18079fb4" upstream="rk33/mid/7.0/develop"/>
+  <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" remote="rk" revision="9abb13f2f65d90266b87834c759e28e533cc4913" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/librga" path="hardware/rockchip/librga" remote="rk" revision="b1f943bc5674cf39ed68e268cda4fa0cb9065a49" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="37e4130116ef0a6152485ca2a197dd9a4afe14f0" upstream="rk32/mid/6.0/develop"/>
+  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="047150e77b30e9f181e7188c3f6f02415ea9a097" upstream="rk33/mid/7.0/develop"/>
+  <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="6359e54197ba7ab4d8f70d7c5158b138484cb823" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="204c72a857f3e21fd8edc17ef5cf9005311d8745" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/kernel" path="kernel" remote="rk3399" revision="3351f423d928640320306e0405181b88cb5f5df1" upstream="develop-4.4"/>
+  <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="028d5e84675f15b083b8724ed681fb9e31a711b9" upstream="rk33/mid/develop/9.0"/>
+  <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
+  <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="26216247ade4637ab2bd812ffa0372b5276efb77" upstream="rk32/mid/6.0/develop"/>
+  <project groups="pdk" name="rk/platform/external/rk-pcba-test" path="external/pcba_rockchip" remote="rk" revision="fe5e2a7d8d5a3a9ce71d907780514159f8a0b4fb" upstream="rk33/mid/9.0/develop-drm"/>
+  <project name="rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="e1aa9109bdfa53ee0e331eea07ee8ad360d97706" upstream="master"/>
+  <project name="rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="0611d32d31fa4a3ab7f40d8c18107b761d5c954c" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/platform/vendor/microsoft" path="vendor/microsoft" remote="rk" revision="6eb6f6fcbf88050b27a79cc3ba04ad8f8f1289ca" upstream="rk33/mid/8.1/develop"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="534d076a99c82fb6c3aa3a1f0c69820511d03919" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="50d9a47d71bfa247500f49d4c98787313a292c47" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk" revision="9b8def1b3dc98937bcdff9a4a826cece46e02901" upstream="master"/>
+  <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk3399" revision="314d43c94ff2a64cf69871e776754c63a9a5743a" upstream="rk3399-pie-gms-express-baseline"/>
+
+</manifest>
