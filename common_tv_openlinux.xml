@@ -78,8 +78,8 @@
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="openlinux/tv/p-amlogic-20190219"  />
-  <!--
-  <project path="vendor/amlogic/common/apps/Miracast" name="p-amlogic/platform/packages/amlogic/Miracast" revision="openlinux/tv/p-amlogic-20190219"  />-->
+
+  <project path="vendor/amlogic/common/apps/Miracast" name="p-amlogic/platform/packages/amlogic/Miracast" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" revision="openlinux/tv/p-amlogic-20190219"  />
 
