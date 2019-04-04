@@ -101,7 +101,7 @@
   <project name="hardware-realtek" path="hardware/realtek" remote="origin" revision="master"/>
   <project name="hardware-ril" path="hardware/ril" remote="origin" revision="master"/>
   <project name="hardware-rockchip-audio" path="hardware/rockchip/audio" remote="origin" revision="master"/>
-  <project name="hardware-rockchip-camera" path="hardware/rockchip/camera" remote="origin" revision="bq96board"/>
+  <project name="hardware-rockchip-camera" path="hardware/rockchip/camera" remote="origin" revision="96ai"/>
   <project name="hardware-rockchip-drmservice" path="hardware/rockchip/drmservice" remote="origin" revision="master"/>
   <project name="hardware-rockchip-hwcomposer" path="hardware/rockchip/hwcomposer" remote="origin" revision="master"/>
   <project name="hardware-rockchip-jpeghw" path="hardware/rockchip/jpeghw" remote="origin" revision="master"/>
