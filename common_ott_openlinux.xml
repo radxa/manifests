@@ -23,8 +23,10 @@
 
   <!--Wifi begin-->
   <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" remote="amlogic"  revision="l-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" remote="amlogic"  revision="m-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" remote="amlogic"  revision="8192cu_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" remote="amlogic"  revision="8192du_9.2.1811_21-dev"  />
@@ -42,6 +44,8 @@
   <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
+  <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
   <!--Wifi end-->
   
     <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
