@@ -34,6 +34,7 @@
   <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/amlogic/tb_modules" name="p-amlogic/platform/hardware/amlogic/tb_modules" revision="openlinux/tv/p-amlogic-20190219"/>
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" revision="openlinux/tv/p-amlogic-20190219"  />
 
