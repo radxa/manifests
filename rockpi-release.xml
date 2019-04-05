@@ -4,21 +4,13 @@
   <remote fetch="https://gitlab.com/google-android-p/" name="aosp-p"/>
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk"/>
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk3399"/>
-  
+  <remote fetch="https://gitlab.com/radxa-vendor/" name="radxa"/>
+
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
   <include name="google.xml" />
   <include name="rockchip.xml" />
-
-  <project groups="pdk" remote="aosp-p" name="platform/build" path="build/make" revision="9b141104c3f923cb0c446bf921e58f7e542bb079" upstream="rk33/mid/9.0/develop">
-    <copyfile dest="Makefile" src="core/root.mk"/>
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="build/core" src="core"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/target" src="target"/>
-    <linkfile dest="build/tools" src="tools"/>
-  </project>
+  <include name="radxa-vendor.xml" />
 
   <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="b13d220e6560929aa234b8d1627825fa0355544d" upstream="refs/tags/android-9.0.0_r33"/>
 

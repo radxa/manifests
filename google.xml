@@ -6,7 +6,6 @@
   <project name="kernel/tests" revision="644f4d74b9212e14dc39c21763ae76c832e14f66" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/art" path="art" revision="1f5f55bfaa13923bc5483a6f9d8189ed4edc74a6" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="7c4dccd2353fd540f96beeda5b72d061d848eeb5" upstream="rk33/mid/9.0/develop"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="422a32faa7c3bcf8f0fdf760cea8227c006baa98" upstream="rk33/mid/9.0/develop"/>
 
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="28335d2c283293db4b20d3eb548338fdafa5abd5" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="2a49513da00436f434281a98dfb118db855db013" upstream="refs/tags/android-9.0.0_r33"/>
@@ -352,7 +351,6 @@
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="4101d743cef9e1161bfc9ed4d3c8d4910c6346f7" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="eb95fad99b1c163e20b9ffc54a2346e650451e9d" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="66e1c3337998bd3fd99f2c365b9b30ac27637e06" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="cd2cedc31a5a051062c87e1c215623acc3da5de8" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="708894db646abf1eccd08a7dfaadbb66a7d2b283" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="f0cee34637b4aea3af6c9f5f8635601d895f7c09" upstream="refs/tags/android-9.0.0_r33"/>
@@ -580,7 +578,6 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="6770ba0de7f479c9bd245e127ff3ddbb489ed583" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="8b70ba6f2071c911a6e51845d94c0fd0bd393c3c" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="9f9c941ff397771936ee8cd91be4909057ae372e" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" revision="c4a354ab2a612b067f7aeceb89472f46d89738ce" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="9ec7ba8443caa905c2ebdf6eadd5e6148a348d37" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="acdbc8688e23b39ff311b4b554be3547a47245a3" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="64848957ba49275896c80790ceeeb6219930f687" upstream="refs/tags/android-9.0.0_r33"/>
