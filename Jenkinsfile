@@ -111,7 +111,7 @@ node('jolin') {
 				    release_name="${hardware_up}-pie-${ROCKS_RELEASE_TIME}_${commitId}"
 				    
 				    mv rockdev/update.img    $ROCKS_RELEASE_DIR/${release_name}-rkupdate.img
-				    mv rockdev/Image/gpt.img $RZOCKS_RELEASE_DIR/${release_name}-gpt.img
+				    mv rockdev/Image/gpt.img $ROCKS_RELEASE_DIR/${release_name}-gpt.img
 				    
 				    cd $ROCKS_RELEASE_DIR
 				    md5sum ${release_name}-rkupdate.img >> md5
