@@ -3,12 +3,12 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="radxa" revision="f9863a7dde0f02886204531ffed25803a033bdf9" upstream="rk3399-9.0"/>
   <project name="rk/kernel" path="kernel" remote="radxa" revision="577746710c17fea8cc808ade25de9714d3f4bd09" upstream="develop-4.4"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa" revision="0fc07188d3424553c7e0256290d725a274bf8cde" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="3b49f954ff5a737ee11273a562d0b9b013bd30fb" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="e6557fa22147b7cfad7ef225c77d5597770a32bc" upstream="rk3399-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-    <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="c6baf250e8224725a99d7432c89ae3884f382c28" upstream="rk3399-9.0">
+    <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="57772253cf9b83ee67cbbdc87b5af6a9c88df495" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -16,8 +16,8 @@
   <project groups="pdk" name="platform/system/core" path="system/core" remote="radxa" revision="52f4016257a28a6388f5c1c86055d5f3cb14f0d9" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="radxa" revision="92a94cef1aec2e633a14608ec1af3c039b3cc23a" upstream="rk3399-pie-gms-express-baseline"/>
   <project name="RKTools" remote="radxa" revision="1ea76d66cb0b9c34181c757a8da39bd02506bbe2" upstream="rk3399-9.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="radxa" revision="272f2239f5195bea66aa693041c4e3d7a6c922bf" upstream="rk3399-9.0"/>
-    <project groups="pdk" remote="radxa" name="platform/build" path="build/make" revision="7bf81119387ed1195f0e087e9ef54be5f7b44ef9" upstream="rk3399-9.0">
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="radxa" revision="83a0085c89c0e3aeb24a863adf81f7898287a37a" upstream="rk3399-9.0"/>
+  <project groups="pdk" remote="radxa" name="platform/build" path="build/make" revision="ca35e55972216cccc68d0886bc48719075341877" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -26,4 +26,8 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
+
+  <project groups="pdk-fs" remote="radxa" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="e387c797e95ebe9e9c4e572e1f7a22914be0475b" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="78016998aacf272ee59eb7fc0b4485e0074d6946" upstream="rk3399-9.0"/>
+  <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="radxa" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
 </manifest>

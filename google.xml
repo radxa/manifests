@@ -485,7 +485,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="40adfa9388338ffbfabd5e295387514b007eb21e" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="0a8366239cefa858b4d2855717854315a39d7022" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="8c3120040e48bad823bc5ea053995d8594a952d5" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="bc94cd6e55c4608d61bec4fa256b0168257c4cd3" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="39184a531709c816a8ae3222f7a9e49660ce97db" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="cb1272a26c9c62db13f7a8cd9e494de601b615ab" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="1067dc8f999729f3588cbdbb5ee01ec090297d09" upstream="refs/tags/android-9.0.0_r33"/>

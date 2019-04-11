@@ -17,7 +17,7 @@ node('jolin') {
         env.ROCKS_RELEASE_TIME = dateFormat.format(date)
         env.ROCKS_RELEASE_DIR = "release"
         env.ROCKS_VENDOR = "rockpi-4b"
-        env.ROCKS_LUNCH = "rk3399"
+        env.ROCKS_LUNCH = "rk3399_box"
         env.PATH = "/sbin:" + env.PATH
 
 		dir('build-environment') {
@@ -97,6 +97,7 @@ node('jolin') {
 				    
 				    # make update image
 				    cd rockdev
+				    rm -f Image
 				    ln -s -f Image-$ROCKS_LUNCH Image
 				    ./mkupdate.sh
 				    # make gpt image
@@ -107,16 +108,19 @@ node('jolin') {
 				    commitId=`git -C .repo/manifests rev-parse --short HEAD`
 				    #typeset -u hardware_up
 				    hardware_up="$hardware"
-				    release_name="${hardware_up}-nougat-${ROCKS_RELEASE_TIME}_${commitId}"
+				    release_name="${hardware_up}-pie-${ROCKS_RELEASE_TIME}_${commitId}"
 				    
-				    mv rockdev/update.img    ${release_name}-rkupdate.img
-				    mv rockdev/Image/gpt.img ${release_name}-gpt.img
+				    mv rockdev/update.img    $ROCKS_RELEASE_DIR/${release_name}-rkupdate.img
+				    mv rockdev/Image/gpt.img $RZOCKS_RELEASE_DIR/${release_name}-gpt.img
 				    
-				    md5sum ${release_name}-rkupdate.img >> $ROCKS_RELEASE_DIR/md5
-				    md5sum ${release_name}-gpt.img >> $ROCKS_RELEASE_DIR/md5
+				    cd $ROCKS_RELEASE_DIR
+				    md5sum ${release_name}-rkupdate.img >> md5
+				    md5sum ${release_name}-gpt.img >> md5
 				    
-				    zip $ROCKS_RELEASE_DIR/${release_name}-rkupdate.zip ${release_name}-rkupdate.img
-				    zip $ROCKS_RELEASE_DIR/${release_name}-gpt.zip ${release_name}-gpt.img
+				    zip ${release_name}-rkupdate.zip ${release_name}-rkupdate.img
+				    zip ${release_name}-gpt.zip ${release_name}-gpt.img
+				    rm -f *.img
+				    cd -
 
 				    cp -f rockdev/Image/resource.img  $ROCKS_RELEASE_DIR/resource_$hardware.img
 				    cp -f rockdev/Image/idbloader.img $ROCKS_RELEASE_DIR
@@ -148,7 +152,7 @@ node('jolin') {
 					commitId=`git -C .repo/manifests rev-parse --short HEAD`
 					repo manifest -r -o manifest.xml
 
-					tag=Android9.0_${ROCKS_RELEASE_TIME}_${commitId}
+					tag=Android9.0_${ROCKS_LUNCH}_${ROCKS_RELEASE_TIME}_${commitId}
 
 	                github-release release \
 	                  --target "rockpi-box-9.0" \
