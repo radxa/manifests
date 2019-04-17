@@ -9,7 +9,7 @@
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
   </project>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" remote="amlogic" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="1296c0c86ef82615ddf822bff58b95831d870456" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="a20c5cf668f71cdd282ed80f86be2b02c47939e9" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="p-amlogic/device/google/atv" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/device/sample" path="device/sample" revision="cdb22d4258c2ffa7279a3b55c65b0431fabc1200" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="a69e3ddbd784488ee993995ab6a6bc66db0990e8" upstream="tv-kernel-4.9_9.2.1811_21-dev"/>
@@ -18,7 +18,7 @@
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="f1f9fbb773e010468813f71eedb076a6efdac01d" upstream="amlogic-dev_9.2.1811_21-dev"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="2f872398870ec4c3cd0dc99919a859f8d3c8c58f" upstream="amlogic-dev-1.3_9.2.1811_21-dev"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21-dev"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="46b3f61e5a3acea79475e244a2ffb90a50847bf0" upstream="amlogic-4.9-dev_9.2.1811_21-dev"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="79a2e874b6b092eab90403a6d35e717241780f54" upstream="amlogic-4.9-dev_9.2.1811_21-dev"/>
   <project groups="vts,pdk" name="p-amlogic/kernel/configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/kernel/tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
@@ -690,7 +690,7 @@
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" remote="amlogic" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/common/external/libtiff" remote="amlogic" revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" remote="amlogic" revision="6fce2bd325a14d0818677be47b110245a7a820f4" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
-  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="ef6bdb40c5f219ffe39aa5a54dce7054a36cfcad" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="e1ea40975263e84ab40ac445d2441ed4adeb5bad" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="amlogic" revision="b4188dfadf4d50a95d043c6b7d8b523392467877" upstream="o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/common/frameworks/pppoe" remote="amlogic" revision="2188a6b1f88feb4c49470497c96249b0f93be853" upstream="n-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" remote="amlogic" revision="29c703f6cda89dd27b839e34cc669778d022fdc2" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
