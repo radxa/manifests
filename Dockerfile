@@ -5,7 +5,7 @@ RUN apt-get update -y && apt-get install -y openjdk-8-jdk python git-core gnupg 
     lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
     libgl1-mesa-dev libxml2-utils xsltproc unzip mtools u-boot-tools \
     htop iotop sysstat iftop pigz bc device-tree-compiler lunzip \
-    dosfstools vim-common parted udev
+    dosfstools vim-common parted udev lzop
 
 RUN apt-get install -y python-pip && pip install pycrypto
 
