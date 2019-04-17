@@ -705,7 +705,7 @@
   <project name="p-amlogic/vendor/amlogic/system/droidvold" path="vendor/amlogic/common/system/droidvold" remote="amlogic" revision="e9f12967c257c7616ea9831ac1e6a04d1ef6a868" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/tdk_linuxdriver" path="vendor/amlogic/common/tdk/linuxdriver" remote="amlogic" revision="8d691592e0caf3188fb005bff81a3d69f59b3307" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="6cb3ee7a0972e5dfd02f4cc35e600c726a84ae0d" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
-  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="dea13ff5fadf9a3d3441065cf499b7bb8e0768c9" upstream="p-amlogic-aosp_9.2.1811_21"/>
+  <project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" remote="amlogic" revision="d5fbdf7831fb67476349307340e3e1501824c8ee" upstream="p-amlogic-aosp_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/tv" path="vendor/amlogic/common/tv/frameworks" remote="amlogic" revision="5b6acdf705f8e1fc936924670e393bbd25ad5c9f" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" remote="amlogic" revision="37717907e039895ccb9688ff84f678296dfc5c69" upstream="o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" remote="amlogic" revision="3ab893c2e0727cf4c45ade0ca58a0cd8b4d4c01f" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
