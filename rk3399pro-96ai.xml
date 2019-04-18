@@ -89,7 +89,7 @@
   <project name="frameworks-base" path="frameworks/base" remote="origin" revision="master"/>
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks-ex" path="frameworks/ex" remote="origin" revision="master"/>
   <project groups="pdk" name="frameworks-ml" path="frameworks/ml" remote="origin" revision="master"/>
-  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="master"/>
+  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="96ai"/>
   <project groups="pdk-fs" name="frameworks-opt-net-ethernet" path="frameworks/opt/net/ethernet" remote="origin" revision="master"/>
   <project groups="pdk-fs" name="frameworks-opt-net-pppoe" path="frameworks/opt/net/pppoe" remote="origin" revision="master"/>
   <project name="frameworks-opt-net-wifi" path="frameworks/opt/net/wifi" remote="origin" revision="master"/>
