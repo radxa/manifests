@@ -13,10 +13,10 @@
   <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="7015e4bc909e6287e012cd4e2f31e26b86dbaae3" upstream="tv-kernel-4.9_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="9c0ce7c8d49e45f4fdab55ac5c522be23dc1950d" upstream="amlogic-dev_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="9d77d709013cf75a5f4818a254f5c16b82b1ff34" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="281b6b55bfbba3549ec9a9e72a9a04958f6bd4ec" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="36e72a42a0f484540c9a08f31683e990ee324ef4" upstream="amlogic-dev-1.3_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" remote="amlogic" revision="3423314091b00dd0810ab23bc2d0f130fd450eb6" upstream="amlogic-dev_9.2.1811_21"/>
+  <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" remote="amlogic" revision="d3f235e950997abd72faf6e6ae0317388b36b5ac" upstream="amlogic-dev-1.3_9.2.1811_21"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" remote="amlogic" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="amlogic-dev_9.2.1811_21"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="52ac87dc00a0e90fb9135b9010c3f0279c0167b1" upstream="amlogic-4.9-dev_9.2.1811_21"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="767088ec89b6fee0c94c2d5999fc16341f23f489" upstream="amlogic-4.9-dev_9.2.1811_21"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/busybox" path="vendor/amlogic/common/external/busybox" remote="amlogic" revision="b8e800ed97a433cbc8d148137ccf32312480d049" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="214a92f71de8b060402ba8a974dfaed0848016b2" upstream="n-amlogic_9.2.1811_21"/>
