@@ -33,6 +33,10 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
+  <project name="device-rockchip-rk3228h" path="device/rockchip/rk3228h" remote="origin" revision="eaidk310">                                                    
+	<copyfile dest="buildspec.mk" src="buildspec.mk"/>
+	<copyfile dest="build.sh" src="build.sh"/>
+  </project>
   <project groups="device,fugu,broadcom_pdk,pdk" name="device/asus/fugu"/>
   <project groups="pdk-cw-fs,pdk" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
