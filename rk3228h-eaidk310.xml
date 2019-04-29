@@ -29,10 +29,6 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="device-rockchip-rk3328" path="device/rockchip/rk3328" remote="origin" revision="eaidk310">
-    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
   <project name="device-rockchip-rk3228h" path="device/rockchip/rk3228h" remote="origin" revision="eaidk310">                                                    
 	<copyfile dest="buildspec.mk" src="buildspec.mk"/>
 	<copyfile dest="build.sh" src="build.sh"/>
