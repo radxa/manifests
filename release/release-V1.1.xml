@@ -30,7 +30,7 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="device-rockchip-rk3399pro" path="device/rockchip/rk3399pro" remote="origin" revision="cbe7dca5807eabe6e207df680eaf389e5419b84d" upstream="master">
+  <project name="device-rockchip-rk3399pro" path="device/rockchip/rk3399pro" remote="origin" revision="bea22bb5369acddeb05f22f7cbd9dacaca098fb2" upstream="master">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
