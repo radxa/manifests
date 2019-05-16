@@ -420,7 +420,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="p-amlogic/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="9fae7c15099cbe22b30e49c37227b96a174bca33" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/hardware/akm" path="hardware/akm" revision="eee9f51e8f751fb9976ace5650e4ef0364af6fff" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/platform/hardware/amlogic/LibAudio" path="hardware/amlogic/LibAudio" remote="amlogic" revision="db1f6439977267469633b7a8d50069435e99b9a9" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="amlogic" revision="0e326b402ab781ae6091275a6b95904eeb52288e" upstream="p-amlogic-mainline_9.2.1811_21"/>
+  <project name="p-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" remote="amlogic" revision="0bb7f24e27af84e4b4d1ccd8a97652e56f5a935f" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/bluetooth" path="hardware/amlogic/bluetooth" remote="amlogic" revision="4390746a2c1a189ab08837fe1ecfc79dfb58c0ec" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/bootctrl" path="hardware/amlogic/bootctrl" remote="amlogic" revision="bce699d77cf5ca511664dbb461a76b42338add87" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" remote="amlogic" revision="cd55a97635d1216d337dc1513667034794439419" upstream="p-amlogic-mainline_9.2.1811_21"/>

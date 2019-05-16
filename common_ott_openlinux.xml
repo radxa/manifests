@@ -74,6 +74,7 @@
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="vendor/amlogic/common/apps/Miracast" name="p-amlogic/platform/packages/amlogic/Miracast" remote="amlogic" revision="p-amlogic_9.2.1811_21"  />
   <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" remote="amlogic"  revision="m-amlogic_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/apps/PPPoE" name="p-amlogic/platform/packages/amlogic/PPPoE" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev"  />
