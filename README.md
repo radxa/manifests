@@ -77,6 +77,8 @@ The generated images are **boot.img**:
 ```shell
 $ source build/envsetup.sh
 $ lunch rk3399-userdebug
+# build Android TV
+$ lunch rk3399_box-userdebug
 $ make -j$(nproc)
 ```
 
