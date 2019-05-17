@@ -9,7 +9,7 @@
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
   </project>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" remote="amlogic" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="1c75e78fdd440c452ccd0ac5267214d08a269cbc" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="65226423891c37d45a825789bf51acdb0bd197b7" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" remote="amlogic" revision="1cc27fd5c291cffa9f687e6517d75a9e86086b3a" upstream="tv-kernel-4.9_9.2.1811_21-dev"/>
   <project name="p-amlogic/firmware/bin/bl2" path="bootloader/uboot-repo/bl2/bin" remote="amlogic" revision="0242940ab0cee2bfe410597fcc34e417847806fc" upstream="amlogic-dev_9.2.1811_21-dev"/>
   <project name="p-amlogic/firmware/bin/bl30" path="bootloader/uboot-repo/bl30/bin" remote="amlogic" revision="4278842a3d3e93d39471e1d0724dd1f51c013604" upstream="amlogic-dev_9.2.1811_21-dev"/>
