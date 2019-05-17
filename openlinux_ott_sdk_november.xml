@@ -3,7 +3,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="p-google_openlinux-20190313.xml" />
+  <include name="p-google_openlinux-20190515.xml" />
   <!--Amlogic as follows-->
   <include name="common_ott_openlinux.xml" />
 </manifest>
