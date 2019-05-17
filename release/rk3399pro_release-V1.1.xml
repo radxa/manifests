@@ -100,7 +100,7 @@
   <project groups="pdk" name="hardware-libhardware" path="hardware/libhardware" remote="origin" revision="f1c81230c76dcc18d7d9e824b941d444919ed0b8" upstream="master"/>
   <project name="hardware-realtek" path="hardware/realtek" remote="origin" revision="b4c44d81a94ff1c4bf8d04d5016dc484dc77ee29" upstream="master"/>
   <project name="hardware-ril" path="hardware/ril" remote="origin" revision="408d27b7ee63d216351a2d0c226a478cdd44300f" upstream="master"/>
-  <project name="hardware-rockchip-audio" path="hardware/rockchip/audio" remote="origin" revision="13849249f2be5fa781970e8dfb891ee00af194d3" upstream="master"/>
+  <project name="hardware-rockchip-audio" path="hardware/rockchip/audio" remote="origin" revision="e3836a528250d57b4f128869fc70e50fae2201b6" upstream="master"/>
   <project name="hardware-rockchip-camera" path="hardware/rockchip/camera" remote="origin" revision="6479534032319a35cb32a46bb1549b2a281addb7" upstream="master"/>
   <project name="hardware-rockchip-drmservice" path="hardware/rockchip/drmservice" remote="origin" revision="a8f7927d99facc0d0eb2f984773c58c97a7fd85d" upstream="master"/>
   <project name="hardware-rockchip-hwcomposer" path="hardware/rockchip/hwcomposer" remote="origin" revision="60f7d99defa6dd9a9b614c82bedabef34b1d9c1d" upstream="master"/>
