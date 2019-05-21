@@ -3,12 +3,12 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="radxa" revision="f9863a7dde0f02886204531ffed25803a033bdf9" upstream="rk3399-9.0"/>
   <project name="rk/kernel" path="kernel" remote="radxa" revision="5e605798efd6144d5687b52842b65f4fc17ac528" upstream="develop-4.4"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa" revision="0fc07188d3424553c7e0256290d725a274bf8cde" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="fd8da622efa5b46d54f46ba35964039f246dc943" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="77044be39c7421de7616f38656b962a5b5004f1c" upstream="rk3399-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-    <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="35bc9331323addf5b0749083421d4c95f2a5039b" upstream="rk3399-9.0">
+    <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="edfca1432da409042fcbb4f77827873a1f6c5310" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -28,7 +28,7 @@
   </project>
 
   <project groups="pdk-fs" remote="radxa" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="e387c797e95ebe9e9c4e572e1f7a22914be0475b" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="0dfb78ffa48e53f04c0151a5c768e22145ee9016" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="8f9f55811e646878f9268a64cbb5a520c3206719" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="radxa" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="radxa" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="radxa" revision="44ea7f42dc9ffeec93a7d5f82435b362017b61f8" upstream="rk3399-9.0"/>
