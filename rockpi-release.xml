@@ -4,7 +4,7 @@
   <remote fetch="https://gitlab.com/google-android-p/" name="aosp-p"/>
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk"/>
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk3399"/>
-  <remote fetch="https://gitlab.com/radxa-vendor/" name="radxa"/>
+  <remote fetch="https://gitlab.com/rk-vendor/" name="radxa"/>
 
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
