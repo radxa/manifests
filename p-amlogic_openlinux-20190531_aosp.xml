@@ -711,6 +711,4 @@
   <project name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" remote="amlogic" revision="ca8544410b164e471d52b8db2c52669e45232230" upstream="o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" remote="amlogic" revision="3ab893c2e0727cf4c45ade0ca58a0cd8b4d4c01f" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/widevine" path="vendor/widevine" remote="amlogic" revision="ca2016031cb4a4cc491af01740240f628d98012b" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="125d09cd100ed1c53bf7d1665d250ff4debde144" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
-  <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="3e00b74633ebfe380bbfda9428bf99eb51978102" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
 </manifest>
