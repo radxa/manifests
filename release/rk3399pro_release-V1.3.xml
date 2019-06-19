@@ -89,7 +89,7 @@
   <project name="frameworks-base" path="frameworks/base" remote="origin" revision="3bb2f5ab818fe6fd90f2593eb0073537c4a88c27" upstream="master"/>
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks-ex" path="frameworks/ex" remote="origin" revision="33ccc61d9ef90b0d6b426e3b6fba29c7393c1709" upstream="master"/>
   <project groups="pdk" name="frameworks-ml" path="frameworks/ml" remote="origin" revision="5b9cded3a364389955a62777d0d95ac3485220b0" upstream="master"/>
-  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="5983d34d8528948d3d8b05802376f90c14f09b7c" upstream="master"/>
+  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="e4d587f717a3254d5929559d67a1109fdf0d2204" upstream="master"/>
   <project groups="pdk-fs" name="frameworks-opt-net-ethernet" path="frameworks/opt/net/ethernet" remote="origin" revision="70f267ce2df126b69cbbea23529d76b114ff4d1b" upstream="master"/>
   <project groups="pdk-fs" name="frameworks-opt-net-pppoe" path="frameworks/opt/net/pppoe" remote="origin" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="master"/>
   <project name="frameworks-opt-net-wifi" path="frameworks/opt/net/wifi" remote="origin" revision="3d4358bbd3df3dc56159cb1e6c53a22ef5ed7c0e" upstream="master"/>
