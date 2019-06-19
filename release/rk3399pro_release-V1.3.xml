@@ -86,7 +86,7 @@
   <project name="external-usb_modeswitch" path="external/usb_modeswitch" remote="origin" revision="61288cec5f63186f73cc0e3f2c3948dbd2693214" upstream="master"/>
   <project groups="pdk" name="external-wpa_supplicant_8" path="external/wpa_supplicant_8" remote="origin" revision="ef7578e4af8dfa79bbe871025b46fbb04b3afdc7" upstream="master"/>
   <project groups="pdk" name="frameworks-av" path="frameworks/av" remote="origin" revision="19fa0e8dd9c231f98f81d95501712ec82ea787cc" upstream="master"/>
-  <project name="frameworks-base" path="frameworks/base" remote="origin" revision="3bb2f5ab818fe6fd90f2593eb0073537c4a88c27" upstream="master"/>
+  <project name="frameworks-base" path="frameworks/base" remote="origin" revision="b1828831120f4938a224703b25e649daa18c749f" upstream="master"/>
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks-ex" path="frameworks/ex" remote="origin" revision="33ccc61d9ef90b0d6b426e3b6fba29c7393c1709" upstream="master"/>
   <project groups="pdk" name="frameworks-ml" path="frameworks/ml" remote="origin" revision="5b9cded3a364389955a62777d0d95ac3485220b0" upstream="master"/>
   <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="e4d587f717a3254d5929559d67a1109fdf0d2204" upstream="master"/>
