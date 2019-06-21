@@ -89,7 +89,7 @@
   <project name="frameworks-base" path="frameworks/base" remote="origin" revision="b1828831120f4938a224703b25e649daa18c749f" upstream="master"/>
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks-ex" path="frameworks/ex" remote="origin" revision="33ccc61d9ef90b0d6b426e3b6fba29c7393c1709" upstream="master"/>
   <project groups="pdk" name="frameworks-ml" path="frameworks/ml" remote="origin" revision="5b9cded3a364389955a62777d0d95ac3485220b0" upstream="master"/>
-  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="e4d587f717a3254d5929559d67a1109fdf0d2204" upstream="master"/>
+  <project groups="pdk" name="frameworks-native" path="frameworks/native" remote="origin" revision="430eaa2d7bd0445d038357f3b7576896fd19eee0" upstream="96ai"/>
   <project groups="pdk-fs" name="frameworks-opt-net-ethernet" path="frameworks/opt/net/ethernet" remote="origin" revision="70f267ce2df126b69cbbea23529d76b114ff4d1b" upstream="master"/>
   <project groups="pdk-fs" name="frameworks-opt-net-pppoe" path="frameworks/opt/net/pppoe" remote="origin" revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" upstream="master"/>
   <project name="frameworks-opt-net-wifi" path="frameworks/opt/net/wifi" remote="origin" revision="3d4358bbd3df3dc56159cb1e6c53a22ef5ed7c0e" upstream="master"/>
@@ -101,7 +101,7 @@
   <project name="hardware-realtek" path="hardware/realtek" remote="origin" revision="b4c44d81a94ff1c4bf8d04d5016dc484dc77ee29" upstream="master"/>
   <project name="hardware-ril" path="hardware/ril" remote="origin" revision="408d27b7ee63d216351a2d0c226a478cdd44300f" upstream="master"/>
   <project name="hardware-rockchip-audio" path="hardware/rockchip/audio" remote="origin" revision="e3836a528250d57b4f128869fc70e50fae2201b6" upstream="master"/>
-  <project name="hardware-rockchip-camera" path="hardware/rockchip/camera" remote="origin" revision="6479534032319a35cb32a46bb1549b2a281addb7" upstream="master"/>
+  <project name="hardware-rockchip-camera" path="hardware/rockchip/camera" remote="origin" revision="fa870b09d9d95c5c645563e94fa39e3591c1cd27" upstream="96ai"/>
   <project name="hardware-rockchip-drmservice" path="hardware/rockchip/drmservice" remote="origin" revision="a8f7927d99facc0d0eb2f984773c58c97a7fd85d" upstream="master"/>
   <project name="hardware-rockchip-hwcomposer" path="hardware/rockchip/hwcomposer" remote="origin" revision="60f7d99defa6dd9a9b614c82bedabef34b1d9c1d" upstream="master"/>
   <project name="hardware-rockchip-jpeghw" path="hardware/rockchip/jpeghw" remote="origin" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2" upstream="master"/>
@@ -639,14 +639,14 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" upstream="refs/tags/android-8.1.0_r51"/>
   <project name="prebuilts-gcc-linux-x86-aarch64-gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="origin" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="prebuilts-gcc-linux-x86-arm-gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="origin" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rkbin" remote="origin" revision="8a2c446756d8321a226d6d319a5b90aa882d9eec" upstream="master"/>
+  <project name="rkbin" remote="origin" revision="cb4df2524601b776923548e4cd0eab8c92110c8c" upstream="master"/>
   <project name="rkst" remote="origin" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="master"/>
   <project groups="pdk" name="system-bt" path="system/bt" remote="origin" revision="97e7cf1d4cd16318503953af450d1e041668f21e" upstream="master"/>
   <project groups="pdk" name="system-core" path="system/core" remote="origin" revision="cfc9c2005212253162ef844d31206f9da21b610a" upstream="master"/>
   <project groups="pdk" name="system-sepolicy" path="system/sepolicy" remote="origin" revision="a3bf1cab1b67c1b0bb4cc57e89938ba05e2a7a78" upstream="master"/>
   <project groups="pdk" name="system-vold" path="system/vold" remote="origin" revision="f377bc57377c922aee2cdcec92872c461a1ff437" upstream="master"/>
   <project groups="pdk" name="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r51"/>
-  <project name="u-boot" remote="origin" revision="00f44263fef1e3dea09bbced125fc0178625f721" upstream="master"/>
+  <project name="u-boot" remote="origin" revision="e9ecb6b25e0630ffa5994b324decde082fe16a65" upstream="master"/>
   <project name="vendor-rockchip-common" path="vendor/rockchip/common" remote="origin" revision="58f78ca026a51ac569a542c330a30917569dd7ea" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
