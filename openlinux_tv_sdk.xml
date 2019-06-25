@@ -4,7 +4,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="p-google_openlinux-20190515.xml" />
+  <include name="android_security_patch_projects.xml" />
   <include name="common_tv_openlinux.xml" />
   <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/tdk" name="secureos/tdk" revision="openlinux/tv/p-amlogic-20190219"/>
