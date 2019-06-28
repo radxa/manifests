@@ -27,6 +27,9 @@ node('jolin') {
         if(!env.V_LUNCH_VARIANT){
             env.V_LUNCH_VARIANT = "userdebug"
         }
+        if(!env.V_ARCH){
+            env.V_ARCH = "arm64"
+        }
 
 		dir('build-environment') {
 			checkout changelog: false, poll: false, scm: scm
@@ -56,7 +59,7 @@ node('jolin') {
         stage('init'){sh '''#!/bin/bash
             cd kernel
             make distclean
-            make ARCH=arm64 "$V_KERNEL_CONFIG"
+            make ARCH="$V_ARCH" "$V_KERNEL_CONFIG"
             cd -
 
             rm rockdev
@@ -76,7 +79,7 @@ node('jolin') {
             withEnv(["VENDOR_TMP=" + vendor]){
                 stage('kernel-' + vendor){sh '''#!/bin/bash
                     cd kernel
-                    make ${V_BOARD}-${VENDOR_TMP}.img -j16
+                    make ARCH="$V_ARCH" ${V_BOARD}-${VENDOR_TMP}.img -j16
                     cp resource.img resource-${VENDOR_TMP}.img
                     '''
                 }
