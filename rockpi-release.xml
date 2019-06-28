@@ -12,6 +12,6 @@
   <include name="rockchip.xml" />
   <include name="radxa-vendor.xml" />
 
-  <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="b13d220e6560929aa234b8d1627825fa0355544d" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29ffffa9fe15bbe63213944652dbd0f732cfaec5" upstream="refs/tags/android-9.0.0_r37"/>
 
 </manifest>
