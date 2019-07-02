@@ -52,8 +52,7 @@ node('jolin') {
 				cd u-boot
 				make distclean
 				make mrproper
-				./make.sh
-				 "$V_BOARD"
+				./make.sh "$V_BOARD"
 				cd -
 	    	'''
 	    }
