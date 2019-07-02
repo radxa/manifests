@@ -14,7 +14,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="radxa" revision="46bd1fb39fc275d16d96d3f6c4433558b7c70978" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="radxa" revision="718bb5788eb6eb9c4c1028d7c3ccef4fe62acd13" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" remote="radxa" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="9f51212b84c03c3330e742a565dc4a84c1b8b08a" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="radxa" revision="fa84b3beff184cc1484ee5330cddbf3d3f43e6c6" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="radxa" revision="1a7197cd88cfaa7081feea70716a9e30f7407f91" upstream="rk3399-9.0"/>
 
   <!-- rk -->
   <project name="RKTools" remote="radxa" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
@@ -22,7 +22,7 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="8546e8f69840d963cdc559da8fc68549c14ee3db" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="radxa" revision="b445501822496dec506f5e7f868e3cb07dd56036" upstream="rk3399-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -33,7 +33,7 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa" revision="1f54e3bc6676ef9365f59a27b3c2fc5038866844" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="radxa" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
-  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="8f9f55811e646878f9268a64cbb5a520c3206719" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="67923ac3b56deb57154fde2b7ef7240e343069de" upstream="android9.0-tv"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="radxa" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
 
 </manifest>
