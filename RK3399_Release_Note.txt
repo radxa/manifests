@@ -15,3 +15,4 @@ rk3399_pie_v4.00__20190605.xml 版本更新内容概述
 
  rk3399_pie_v4.10__20190614.xml 版本更新内容概述
  1、ddr: update version to v1.28;
+ 2、update drm/rockchip: cdn-dp
