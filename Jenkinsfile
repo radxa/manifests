@@ -52,7 +52,8 @@ node('jolin') {
 				cd u-boot
 				make distclean
 				make mrproper
-				./make.sh "$V_BOARD"
+				./make.sh
+				 "$V_BOARD"
 				cd -
 	    	'''
 	    }
@@ -195,14 +196,16 @@ node('jolin') {
 	                  --name "${tag}" \
 	                  --description "${V_CHANGE}"
 
-	                cp -f rockdev/Image/idbloader.img $V_RELEASE_DIR
-				    cp -f rockdev/Image/parameter.txt $V_RELEASE_DIR
-				    cp -f rockdev/Image/kernel.img    $V_RELEASE_DIR
-				    cp -f rockdev/Image/uboot.img     $V_RELEASE_DIR
-				    cp -f rockdev/Image/trust.img     $V_RELEASE_DIR
+	                
 				'''
 			}
-
+			sh'''#!/bin/bash
+			    cp -f rockdev/Image/idbloader.img $V_RELEASE_DIR
+				cp -f rockdev/Image/parameter.txt $V_RELEASE_DIR
+				cp -f rockdev/Image/kernel.img    $V_RELEASE_DIR
+				cp -f rockdev/Image/uboot.img     $V_RELEASE_DIR
+				cp -f rockdev/Image/trust.img     $V_RELEASE_DIR
+			'''
 			script {
                 archiveArtifacts env.V_RELEASE_DIR + '/*.img'
                 archiveArtifacts env.V_RELEASE_DIR + '/*.txt'
