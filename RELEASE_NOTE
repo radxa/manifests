@@ -1,0 +1,6 @@
+release 20190703
+1. Merge from rk3399_pie_v4.10_20190614.xml.
+2. Allow android volume adjustment.
+3. Add Androidterm apk.
+4. Add AndroidMediaShell AtvRemoteService.
+5. Fix Google Play crashes when click on Search.
