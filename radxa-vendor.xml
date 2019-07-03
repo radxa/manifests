@@ -18,7 +18,7 @@
 
   <!-- rk -->
   <project name="RKTools" remote="radxa" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="edfca1432da409042fcbb4f77827873a1f6c5310" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="29393e32d5fe163e913bba296def4d397af260db" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -29,11 +29,12 @@
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="radxa" revision="72a59784eace1e53a29a31c70703e057391e57e5" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="radxa" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="rk/kernel" path="kernel" remote="radxa" revision="e59f767ac7a910ee2b4ca138926b139388c23f9f" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="radxa" revision="2c40876e5be537e774c05a7277be9d3ec02f1a7e" upstream="develop-4.4"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa" revision="1f54e3bc6676ef9365f59a27b3c2fc5038866844" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="radxa" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
-  <project groups="pdk-fs" remote="radxa" name="opengapps" path="vendor/opengapps" revision="25c1ed9c94ac66d726912e290f709fe286976471" upstream="android9.0-tv"/>
+  <project remote="radxa" name="opengapps" path="vendor/opengapps" revision="3cf750852a37020a18eaa0c4a10347fcdfea714c" upstream="android9.0-tv"/>
+  <project remote="radxa" name="vendor/customize/common" revision="0934d22b1c9a28d1e59c49628210eab6eb4fefb3" upstream="rk3399-9.0"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="radxa" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
 
 </manifest>
