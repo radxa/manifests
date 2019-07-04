@@ -155,23 +155,15 @@ node('jolin') {
 	    }
 		stage('release'){
 			if (params.RELEASE_TO_GITHUB){
-				String changeNote = ""
-				for(def change : currentBuild.changeSets){
-					def entries = change.items
-				    for (int i = 0; i < entries.length; i++) {
-				        def entry = entries[i]
-				        if(entry.getMsg().contains("### RELEASE_NOTE")){
-							changeNote += "${entry.getMsg()}"
-				        }
-				    }
-				}
-				env.V_CHANGE = changeNote
 				sh '''#!/bin/bash
 					set -xe
 	                shopt -s nullglob
 					repo manifest -r -o manifest.xml
 
 					tag=`cat github-tag`
+					cd .repo/manifests
+					V_CHANGE=`sed -r -n '/^>/,/<$/p' RELEASE_NOTE | grep -Ev '(^>|<$)'`
+					cd -
 
 	                github-release release \
 	                  --target "${V_REPO_BRANCH}" \

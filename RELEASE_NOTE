@@ -1,12 +1,20 @@
 release 20190703
-     #### common
-    1. Merge from rk3399_pie_v4.10_20190614.xml.
-    2. Add Androidterm apk.
-     #### rk3399_box
-    1. Allow android volume adjustment.
-    2. Add AndroidMediaShell AtvRemoteService.
-    3. Fix Google Play crashes when click on Search.
-     #### rk3399
-    1. add TunerSettings.
-    2. add Power App.
+>
+#### common
+1. Merge from rk3399_pie_v4.10_20190614.xml.
+2. Add Androidterm apk.
+#### rk3399_box
+1. Allow android volume adjustment.
+2. Add AndroidMediaShell AtvRemoteService.
+3. Fix Google Play crashes when click on Search.
+#### rk3399
+1. add TunerSettings.
+2. add Power App.
+<
 
+------------------------------------------------------
+release 20190521 
+
+1. fix rk3399 can't boot.
+2. new power app.
+3. fix Google Play crashes when click on Search.
