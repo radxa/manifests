@@ -34,7 +34,7 @@
   <project name="rk/u-boot" path="u-boot" remote="radxa" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
   <project remote="radxa" name="opengapps" path="vendor/opengapps" revision="3cf750852a37020a18eaa0c4a10347fcdfea714c" upstream="android9.0-tv"/>
-  <project remote="radxa" name="vendor/customize/common" revision="0934d22b1c9a28d1e59c49628210eab6eb4fefb3" upstream="rk3399-9.0"/>
+  <project remote="radxa" name="vendor/customize/common" revision="19372293c8ce35480c47d2be162a01bfe99cbb12" upstream="rk3399-9.0"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="radxa" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
 
 </manifest>
