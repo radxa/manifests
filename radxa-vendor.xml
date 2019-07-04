@@ -18,7 +18,7 @@
 
   <!-- rk -->
   <project name="RKTools" remote="radxa" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="29393e32d5fe163e913bba296def4d397af260db" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="23c6d04bead8b0b2a97ec36b741bf6deffcc1b3b" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
