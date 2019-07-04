@@ -91,6 +91,9 @@ node('jolin') {
                         rm -rf out/target/product/${LUNCH_TMP}/root
                         rm -rf out/target/product/${LUNCH_TMP}/system
                         rm -rf out/target/product/${LUNCH_TMP}/recovery
+                        rm -rf out/target/product/${LUNCH_TMP}/vendor
+                        rm -rf out/target/product/${LUNCH_TMP}/oem
+                        rm -f  out/target/product/${LUNCH_TMP}/*
 
                         . build/envsetup.sh
                         lunch ${LUNCH_TMP}-${V_LUNCH_VARIANT}
@@ -125,8 +128,11 @@ node('jolin') {
                             commitId=`git -C .repo/manifests rev-parse --short HEAD`
                             platform=`get_build_var PLATFORM_VERSION`
                             release_name="android${platform}-${LUNCH_TMP}-${VENDOR_TMP}-${V_RELEASE_TIME}_${commitId}"
-
-                            echo "android${platform}-${V_RELEASE_TIME}_${commitId}" > github-tag
+                            release_title="android${platform}-${V_RELEASE_TIME}"
+                            if [ "$V_RELEASE_TITLE" != "" ];then
+                                release_title="${V_RELEASE_TITLE}-android${platform}-${V_RELEASE_TIME}"
+                            fi
+                            echo "${release_title}" > github-tag
 
                             mv rockdev/update.img    $V_RELEASE_DIR/${release_name}-rkupdate.img
                             mv rockdev/Image/gpt.img $V_RELEASE_DIR/${release_name}-gpt.img
