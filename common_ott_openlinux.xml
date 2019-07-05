@@ -24,7 +24,10 @@
   <!--Wifi begin-->
   <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/mtk/drivers/mt7668u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" remote="amlogic" revision="p-amlogic_9.2.1811_21-dev" />
+  <project path="hardware/wifi/atbm" name="p-amlogic/platform/hardware/wifi/atbm"  remote="amlogic" revision="p-amlogic_9.2.1811_21-dev" />
   <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/mtk/drivers/mt7603" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7603" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" remote="amlogic"  revision="l-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" remote="amlogic"  revision="m-amlogic_9.2.1811_21-dev"  />
@@ -43,6 +46,7 @@
   <project path="hardware/wifi/realtek/drivers/8822bs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822bs" remote="amlogic"  revision="m-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/realtek/drivers/8822cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cs" revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
   <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
@@ -68,6 +72,7 @@
   <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev" />
+  <project path="hardware/amlogic/tb_modules" name="p-amlogic/platform/hardware/amlogic/tb_modules" revision="amlogic-4.9-dev_9.2.1811_21-dev"/>
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
 
   <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev" />
@@ -118,6 +123,7 @@
   <project path="vendor/amlogic/common/scripts" name="p-amlogic/vendor/amlogic/scripts" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/system" name="p-amlogic/vendor/amlogic/system" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/system/droidvold" name="p-amlogic/vendor/amlogic/system/droidvold" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
+  <project path="vendor/amlogic/common/system/libgdc" name="p-amlogic/vendor/amlogic/system/libgdc" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21_dev"  />
   <project path="vendor/amlogic/common/tools" name="p-amlogic/vendor/amlogic/tools" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21-dev"/>
