@@ -598,7 +598,6 @@
   <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="fab4a3fa419158001944ec0a439fd4471881aa77" upstream="refs/tags/android-9.0.0_r37"/>
   <project name="platform/system/tpm" path="system/tpm" revision="f1746f84ce07bea124a02d9e9943b0b0ab293938" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="3e9410898d2687d7df3bdb03c6830d3ec428c2c6" upstream="refs/tags/android-9.0.0_r37"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold" revision="abc8114fcdc1a5226805d85e53e135d2b185eaea" upstream="rk33/mid/9.0/develop"/>
   <project groups="vts,pdk" name="platform/test/framework" path="test/framework" revision="8a273728b695257f43a2ddcaa72d4920561bea8a" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="bea26d6318a0de3ea7b6656922b922ddc5e7552d" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="vts,pdk" name="platform/test/vti/alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64" upstream="refs/tags/android-9.0.0_r37"/>
