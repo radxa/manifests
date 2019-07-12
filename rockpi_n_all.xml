@@ -13,7 +13,7 @@
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="radxa-vendor" revision="e3d52f71c72858edd05c9122b4fe52dc12c1798f" />
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="radxa-vendor" revision="5518595612e94ae13785a2f0dbee621eff278503" />
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa-vendor" revision="0819d6955c2c45a93f2804fed3a9456f393e19d9" />
-  <project name="android/rk/u-boot" path="u-boot" remote="radxa-vendor" revision="c27cae18bf000a65f3cace4aa62952cc76d4e0d3" upstream="stable-4.4-android"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="radxa-vendor" revision="7390da9fc818e76742e07775222b25016f75b2c2" upstream="stable-4.4-android"/>
   <project remote="radxa-vendor" groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="35aeab47fd617b850b75e06a28deded742ff8c94" />
   <project remote="radxa-vendor" groups="pdk" name="platform/system/core" path="system/core" revision="96d0a7ef45d4c7fd5afa42d6d4aa7156fd2add8a" />
   <project name="rk/kernel" path="kernel" remote="radxa-vendor" revision="c7f1a8f76ff900f6724168a7bf58b45f01ea4fea"/>
