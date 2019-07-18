@@ -14,12 +14,12 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="radxa" revision="724d89adcc18d46d77e4c59076f9c68d9b1a5419" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="radxa" revision="718bb5788eb6eb9c4c1028d7c3ccef4fe62acd13" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" remote="radxa" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="9f51212b84c03c3330e742a565dc4a84c1b8b08a" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="radxa" revision="1c8ba6776c9cd684ebca71b547f1c3612e72d57b" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="radxa" revision="f0d8a663936728d102df1eb4e75b01fa454f3a1d" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="radxa" revision="647bf9a922e9c20f5b693e714099f439483814d1" upstream="rk3399-9.0"/>
 
   <!-- rk -->
   <project name="RKTools" remote="radxa" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="fb575094e2f52fe77702f1e87db5d35881006e77" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="radxa" revision="37872e3abdf8b432b8d27348552d98c507ac17c4" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -30,7 +30,7 @@
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="radxa" revision="72a59784eace1e53a29a31c70703e057391e57e5" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="radxa" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="rk/kernel" path="kernel" remote="radxa" revision="8a2ae48cbc44ae269d42f2457e08929d05846f2d" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="radxa" revision="3ce3b78c0696052623b04d4ab5b130e20761cc63" upstream="develop-4.4"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="radxa" revision="1f54e3bc6676ef9365f59a27b3c2fc5038866844" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="radxa" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
