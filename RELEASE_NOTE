@@ -1,5 +1,18 @@
-release 20190703
+release 20190719
 >
+#### common
+1. fix boot error when multiple boot media inserts.
+2. support nvme boot.
+3. support m.2 nvme auto mount.
+#### rk3399_box
+1. fix hdmi cec can not work.
+#### rk3399
+1. fix SystemUI NavigationBar abnormal background.
+<
+
+-----------------------------------------------------
+release 20190703
+
 #### common
 1. Merge from rk3399_pie_v4.10_20190614.xml.
 2. Add Androidterm apk.
@@ -10,7 +23,6 @@ release 20190703
 #### rk3399
 1. add TunerSettings.
 2. add Power App.
-<
 
 ------------------------------------------------------
 release 20190521 
