@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../../" name="dvb-lib"/>
+  
+  <project name="dvb-lib/DTVKit/android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" revision="d6e5c3f50809230d23fafbff98b5e05c62002e38" upstream="p-amlogic_9.2.1811_21-dev"/>
+  <project name="dvb-lib/DTVKit/releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" revision="ff954808a8aa6ac28b0f2fcbfda27dc3ca391c73" upstream="p-amlogic_9.2.1811_21-dev"/>
+</manifest>
