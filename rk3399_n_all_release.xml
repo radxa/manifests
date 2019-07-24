@@ -3,12 +3,12 @@
   <remote fetch="https://gitlab.com/google-group/" name="aosp" />
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk" />
 
-  <remote fetch="https://gitlab.com/radxa-vendor/" name="radxa-vendor" revision="rockpi-n-all"/>
+  <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
 
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-c="true" sync-j="4"/>
   
   <include name="google.xml" />
   <include name="rk3399_all.xml" />
-  <include name="rockpi_n_all.xml" />
+  <include name="rk-vendor.xml" />
 
 </manifest>
