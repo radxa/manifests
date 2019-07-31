@@ -693,7 +693,7 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="d1b25aa73af707c952fe9502ec948ee2a13dd5f0" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="674024e80a6c8ffbf22ce4a94b6d73032e6bd941" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="f14adb8123c9d7aa8b88960c2042f5fc271b65bf" upstream="refs/tags/android-9.0.0_r42"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk3399" revision="76f1a28ee33e01a2d08924cfc2da9280b9c11775" upstream="rk33/mid/9.0/develop">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk3399" revision="7b1831368244a103031081b1acf8ec29553fcb83" upstream="rk33/mid/9.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
