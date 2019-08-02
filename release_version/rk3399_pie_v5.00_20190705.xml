@@ -33,7 +33,6 @@
   <project groups="device,marlin,pdk" name="device/google/contexthub" revision="e37bcfce975a2243f7ed4328d703642a48d70819" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="device" name="device/google/cuttlefish" revision="03a76d9eeba97e2c29b6e0aa6929509c97589c2c" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="device" name="device/google/cuttlefish_common" revision="1aa8407cee1f325cbae905f827e95caf8e49598c" upstream="refs/tags/android-9.0.0_r42"/>
-  <project clone-depth="1" groups="device" name="device/google/cuttlefish_kernel" revision="c80321a37c8b2aeaff0c4cb73bb09071cfeda0fb" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="device,marlin,pdk" name="device/google/marlin" revision="3869bdad537f2b3e817a5d855eccfbcef17609c7" upstream="refs/tags/android-9.0.0_r42"/>
   <project clone-depth="1" groups="device,marlin,pdk" name="device/google/marlin-kernel" revision="c242c4a5462c845ee9e3e4e913505626553ff77b" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="device,muskie,pdk" name="device/google/muskie" revision="ccf24aa1fc7c89853e0b9f458400c4ef4f30f742" upstream="refs/tags/android-9.0.0_r42"/>
