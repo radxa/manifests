@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- aosp -->
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="ee865930958168f3a06fe910f0870da0ab074aa7" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="0aaf2b24181d29c12e014afa5eedd9e99244df15" upstream="rk3399-9.0"/>
   <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="f46a8d25783d699d37a1f620a72419c53971c4dc" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -19,7 +19,7 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="37872e3abdf8b432b8d27348552d98c507ac17c4" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="4b0fbe251a62302bfe0e5be6697fc617facf00f4" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -34,7 +34,7 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="1f54e3bc6676ef9365f59a27b3c2fc5038866844" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
-  <project remote="rk-vendor" name="opengapps" path="vendor/opengapps" revision="3cf750852a37020a18eaa0c4a10347fcdfea714c" upstream="android9.0-tv"/>
+  <project remote="rk-vendor" name="opengapps" path="vendor/opengapps" revision="5f6b0cc3fd56f6f97344a942ef56dbc05ed0c7b5" upstream="android9.0-tv"/>
   <project remote="rk-vendor" name="vendor/customize/common" revision="19372293c8ce35480c47d2be162a01bfe99cbb12" upstream="rk3399-9.0"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="rk-vendor" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
 
