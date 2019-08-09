@@ -11,7 +11,7 @@
   <project groups="pdk" name="device/sample" revision="64f95592f3bc922952396445d7dbc7acebdefd96" upstream="refs/tags/android-9.0.0_r37"/>
   <project name="docs/android" path="RKDocs/android" remote="rk" revision="90e6804fee0c3c9ea7bb0053b9dab278b719e5cd" upstream="rk33/mid/android-9.0"/>
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="67c4a9f08ba65130c64faf5f91407eafb7c140bf" upstream="rk33/mid/android-8.1"/>
-  <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="f0516ef160e9745d32f5c1cd102a43e1ce57000a" upstream="rk33/mid/android9.0"/>
+  <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="c836a1d5b2456af6220bd3df1bb5860c124eb537" upstream="rk33/mid/android9.0"/>
   <project groups="vts,pdk" name="kernel/configs" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r37"/>
   <project name="kernel/tests" revision="a4a8e36ee17fc1adfb60acaef014589a5ca326b9" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="pdk" name="platform/art" path="art" revision="f51e6147e09580dbd1f1065d873fd906cf5a33ca" upstream="refs/tags/android-9.0.0_r37"/>
@@ -681,7 +681,7 @@
   <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="23c87d6e03ddcd15d8b80681f201308ad484c8bb" upstream="rk33/mid/7.0/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="6359e54197ba7ab4d8f70d7c5158b138484cb823" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="204c72a857f3e21fd8edc17ef5cf9005311d8745" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk3399" revision="3f2992adfd1bc6dea8ee384b03000a172c53e929" upstream="rk3399-pie-gms-express-baseline"/>
+  <project name="rk/kernel" path="kernel" remote="rk3399" revision="2d3de8d76a1797647066c69259f0e9bf7716e12b" upstream="rk3399-pie-gms-express-baseline"/>
   <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="028d5e84675f15b083b8724ed681fb9e31a711b9" upstream="rk33/mid/develop/9.0"/>
   <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="26216247ade4637ab2bd812ffa0372b5276efb77" upstream="rk32/mid/6.0/develop"/>
