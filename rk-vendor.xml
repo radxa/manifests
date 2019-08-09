@@ -2,7 +2,7 @@
 <manifest>
   <!-- aosp -->
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="0aaf2b24181d29c12e014afa5eedd9e99244df15" upstream="rk3399-9.0"/>
-  <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="f46a8d25783d699d37a1f620a72419c53971c4dc" upstream="rk3399-9.0">
+  <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="172fdf400e986896f8323917857b33959f7320bc" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -12,14 +12,14 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="724d89adcc18d46d77e4c59076f9c68d9b1a5419" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="718bb5788eb6eb9c4c1028d7c3ccef4fe62acd13" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="9f51212b84c03c3330e742a565dc4a84c1b8b08a" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="cc63dd785a20f2b8c7a01e1d5f6e0c44caa2c40b" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="2f5792a1a8c014f2bf108af069a28e1bf43295a2" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="f0d8a663936728d102df1eb4e75b01fa454f3a1d" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk-vendor" revision="647bf9a922e9c20f5b693e714099f439483814d1" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk-vendor" revision="c081cac3aed4eb54fd0c025392f17d766ecd3bbf" upstream="rk3399-9.0"/>
 
   <!-- rk -->
-  <project name="RKTools" remote="rk-vendor" revision="30424b56d8c47370e70eab2a1f2431c953c96a15" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="4b0fbe251a62302bfe0e5be6697fc617facf00f4" upstream="rk3399-9.0">
+  <project name="RKTools" remote="rk-vendor" revision="2e7ca7afd742840735080858a91935877b4abb2c" upstream="rk3399-9.0"/>
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="f2d6e9dcd84e30fa5c77786cd3a41d1ba3f580eb" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>

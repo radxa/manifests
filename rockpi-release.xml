@@ -12,6 +12,9 @@
   <include name="rockchip.xml" />
   <include name="rk-vendor.xml" />
 
-  <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29ffffa9fe15bbe63213944652dbd0f732cfaec5" upstream="refs/tags/android-9.0.0_r37"/>
+  <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="674024e80a6c8ffbf22ce4a94b6d73032e6bd941" upstream="refs/tags/android-9.0.0_r42"/>
 
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/google/marlin-kernel" />
 </manifest>
