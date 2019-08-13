@@ -11,7 +11,7 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="724d89adcc18d46d77e4c59076f9c68d9b1a5419" upstream="rk3399-9.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="a8e4d2e14b674776f7aaa0efe9c38804de905806" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="cc63dd785a20f2b8c7a01e1d5f6e0c44caa2c40b" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="2f5792a1a8c014f2bf108af069a28e1bf43295a2" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="f0d8a663936728d102df1eb4e75b01fa454f3a1d" upstream="rk3399-9.0"/>

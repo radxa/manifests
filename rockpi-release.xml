@@ -6,7 +6,7 @@
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk3399"/>
   <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
 
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r37" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r42" sync-j="4"/>
   
   <include name="google.xml" />
   <include name="rockchip.xml" />
