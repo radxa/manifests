@@ -350,7 +350,7 @@
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" revision="8d1da139e0644dc67de02dff88f9203ff45dc299" upstream="gms-express-sec-pie-2019-07-05"/>
   <project groups="pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" revision="492abb45bbdfc0c5b9ffd00f16e53ab628305da9" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk" name="platform/external/shflags" path="external/shflags" revision="c4876e01829b8cf110ee33267bb1bad1f8ebb51d" upstream="refs/tags/android-9.0.0_r42"/>
-  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" revision="c80c2d5ad491d763053699d4cdca22e4c21001fc" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" revision="3ecf10e66b61dea2aa3e08d4e28ead5915706a4f" upstream="rk33/mid/9.0/develop"/>
   <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" revision="ac3e5a243a7663822a6e50fb8644fb17907e4839" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk" name="platform/external/sl4a" path="external/sl4a" revision="5070b5160d2b9c4615bb00a3fccf0fdd8bba46a8" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk" name="platform/external/slf4j" path="external/slf4j" revision="22558c51ff8a9a9d8314a13febb665083bb5986a" upstream="refs/tags/android-9.0.0_r42"/>
@@ -419,7 +419,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="dc791168bfb707dfd2776ac1689ce21e4f7a7e79" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk" name="platform/frameworks/ml" path="frameworks/ml" revision="4ddf1bbdc589182b1545b4d349b4a603dcb3ea2c" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="475db106115d4f25f0e41612a2a71a0cfe83ab38" upstream="refs/tags/android-9.0.0_r42"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="c0919d33038e42daa5195e5b854d8632e7dc9f76" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="67d316e8d952170440a2a720934b38d8ecd437b7" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="3959d1a32179a67fbea303d99edfc17803aafc0f" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="c0246198be80c6a8185aba01707e3c6ecba21222" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="38d8dcf2e7e3122fc2616bb9b7cb9d1d660dd263" upstream="refs/tags/android-9.0.0_r42"/>
