@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- aosp -->
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="0aaf2b24181d29c12e014afa5eedd9e99244df15" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="b212342dbbcf395b2781539b4a4b76cf57546efe" upstream="rk3399-9.0"/>
   <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="172fdf400e986896f8323917857b33959f7320bc" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
