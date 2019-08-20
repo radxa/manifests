@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="art" name="platform/art" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk"  remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" remote="aosp" revision="rk33/atv/9.0/develop"/>
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs"  remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="rk33/mid/9.0/develop" />
+  <project groups="pdk" name="platform/bionic" path="bionic" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/build" path="build/make" remote="aosp" revision="rk33/mid/9.0/develop">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project path="external/ppp" name="platform/external/ppp" groups="pdk" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/external/speex" path="external/speex" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="oreo-mr1-release"/>
+</manifest>

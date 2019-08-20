@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKTools" name="RKTools" remote="rk" revision="rk3399/mid/develop9.0"/>
+  <project path="RKDocs/rk3399pro" name="docs/rk3399pro" remote="rk" revision="rk33/mid/android9.0"/>
+  <project path="device/rockchip/rk3399pro" name="rk/device/rockchip/rk3399pro" remote="rk" revision="rk33/mid/9.0/develop">
+      <copyfile src="buildspec.mk" dest="buildspec.mk"/>
+      <copyfile src="build.sh" dest="build.sh"/>
+  </project>
+  <project path="hardware/rockchip/hwcomposer" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/6.0/develop_drm" />
+  <project path="hardware/rockchip/libgralloc" name="rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_midgard_gpu/9.0/drm_gralloc" />
+<project path="u-boot" name="rk/u-boot" remote="rk" revision="next-dev"/>
+  <project path="kernel" name="rk/kernel" remote="rk29" revision="develop-4.4"/>
+
+  <project path="RKNPUTools" name="RKNPUTool" remote="rk" revision="rk33/mid/8.1/develop"/>
+  <project path="rknn-toolkit" name="rk/rknn-toolkit" remote="rk29" revision="master"/>
+  <project path="hardware/rockchip/npu_powerctrl" name="rk/hardware/rk29/npu_powerctrl" remote="rk" revision="rk33/mid/8.1/develop" />
+  <project path="hardware/rockchip/npu_transfer" name="rk/hardware/rk29/npu_transfer" remote="rk" revision="rk33/mid/8.1/develop" />
+  <project path="hardware/rockchip/npu_monitor" name="rk/hardware/rk29/npu_monitor" remote="rk" revision="develop" />
+  <project path="hardware/rockchip/upgrade_tool" name="rk/hardware/rk29/upgrade_tool" remote="rk" revision="rk33/mid/8.1/develop" />
+
+</manifest>

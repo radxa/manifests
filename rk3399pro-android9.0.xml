@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="remote.xml" />
+  <!-- aosp default repository-->
+  <include name="include_android9.0/aosp_default_repository.xml" />
+  <!-- rk checkout new default repository-->
+  <include name="include_android9.0/rk_checkout_from_aosp.xml" />
+ 
+
+</manifest>

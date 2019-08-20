@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKDocs/common" name="docs/common" remote="rk" revision="rk33/mid/android-8.1"/>
+  <project path="RKDocs/android" name="docs/android" remote="rk" revision="rk33/mid/android-9.0"/>
+  <project path="external/pcba_rockchip" name="rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/9.0/develop-drm" />
+  <project path="external/iperf" name="platform/external/iperf" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="external/io" name="rk/platform/external/io" remote="rk" revision="rk32/mid/6.0/develop"/>
+  <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="rk32/mid/6.0/develop" />
+  <project path="hardware/realtek" name="platform/hardware/realtek" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk" revision="rk33/mid/9.0/develop">
+      <copyfile src=".classpath" dest=".classpath"/>
+      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
+      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
+  </project>
+  <!--project path="frameworks/opt/net/pppoe" name="platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="rk33/mid/9.0/develop"/-->
+  <project path="external/usb_modeswitch" name="rk/platform/external/usb_modeswitch" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="hardware/rockchip/hdmicec" name="rk/hardware/rk29/hdmicec" remote="rk" revision="rk33/atv/8.0/develop"/>
+  <project path="hardware/rockchip/libiep" name="rk/hardware/rk29/libiep" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/rockchip/librga" name="rk/hardware/rk29/librga" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk" revision="rk32/mid/6.0/develop"/>
+  <project path="hardware/rockchip/omx_il" name="rk/hardware/rk29/omx_il" remote="rk" revision="rk33/mid/7.0/develop"/>
+  <project path="external/abc" name="rk/platform/external/abc" remote="rk" revision="rk33/mid/develop/9.0" />
+  <project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="master" />
+  <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="hardware/rockchip/camera_engine_rkisp" name="rk/hardware/rk29/camera_engine_rkisp" remote="rk" revision="rk33/mid/develop/9.0"/>
+  <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/rockchip/liblights" name="rk/hardware/rk29/liblights" remote="rk" revision="rk33/mid/7.0/develop"/>
+  <project path="hardware/rockchip/sensor" name="rk/hardware/rk29/sensor" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="rkst" name="rk/rkst" remote="rk" revision="rk32/mid/6.0/develop"/>
+  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="vendor/microsoft" name="rk/platform/vendor/microsoft" remote="rk" revision="rk33/mid/8.1/develop" />
+  <project path="hardware/rockchip/jpeghw" name="rk/hardware/rk29/jpeghw" remote="rk" revision="rk32/mid/6.0/develop" />
+  <project path="hardware/rockchip/power" name="rk/hardware/rk29/power" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/rockchip/drmservice" name="rk/hardware/rk29/drmservice" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project path="hardware/rockchip/libmemtrack" name="rk/hardware/rk29/libmemtrack" remote="rk" revision="rk33/mid/9.0/develop" />
+  <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="develop" >
+    <copyfile src="restore_patches.sh" dest="restore_patches.sh"/>
+  </project>
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="master"/>
+  <project path="rkbin" name="rk/rkbin" remote="rk29" revision="master"/>
+  <project path="hardware/rockchip/bootctrl" name="rk/hardware/rk29/bootctrl" remote="rk" revision="rk33/mid/9.0/develop" />
+</manifest>
