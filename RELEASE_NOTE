@@ -1,5 +1,17 @@
-release 20190719
+release 20190823
 >
+### common
+1. Fix otg switch not switching mode in real time.
+2. Fix kodi crash.
+3. Fix leds-gpio configuration errors.
+4. Close /data dm encrypt.
+### rockchip
+1. update to android-9.0.0_r42.
+<
+
+-----------------------------------------------------
+release 20190719
+
 #### common
 1. fix boot error when multiple boot media inserts.
 2. support nvme boot.
@@ -8,7 +20,7 @@ release 20190719
 1. fix hdmi cec can not work.
 #### rk3399
 1. fix SystemUI NavigationBar abnormal background.
-<
+
 
 -----------------------------------------------------
 release 20190703
