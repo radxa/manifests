@@ -1,5 +1,13 @@
-release 20190823
+release 20190826
 >
+### common
+1. Support Magisk.
+2. Support TWRP.
+3. Remove hdmi resolution filter.
+<
+
+release 20190823
+
 ### common
 1. Fix otg switch not switching mode in real time.
 2. Fix kodi crash.
@@ -7,7 +15,7 @@ release 20190823
 4. Close /data dm encrypt.
 ### rockchip
 1. update to android-9.0.0_r42.
-<
+
 
 -----------------------------------------------------
 release 20190719
