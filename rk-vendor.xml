@@ -19,7 +19,7 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="2e7ca7afd742840735080858a91935877b4abb2c" upstream="rk3399-9.0"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="f2d6e9dcd84e30fa5c77786cd3a41d1ba3f580eb" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="74134513c081f0d6c98437b6e39f504cc0d14a28" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
