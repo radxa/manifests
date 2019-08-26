@@ -23,7 +23,7 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="c333ef847dd2fb849d82ad772599c5e54588dbd2" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="a48e4d0050f1cdbde3ec23a6697357e52fa0785f" upstream="rk3399-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
