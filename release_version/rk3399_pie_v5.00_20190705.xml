@@ -49,6 +49,7 @@
   <project name="docs/android" path="RKDocs/android" remote="rk" revision="083981205415e56d36a32cb5c0f80bcc10b746fa" upstream="rk33/mid/android-9.0"/>
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="d5a4dde950f63711b6f3002b4717d17df9346667" upstream="rk33/mid/android-8.1"/>
   <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="c836a1d5b2456af6220bd3df1bb5860c124eb537" upstream="rk33/mid/android9.0"/>
+  <project name="android/release_patches" path="RKDocs/release_patches" remote="rk" revision="6f6f1f632089c50f55bcf031180d0e44bd3cd3c5" upstream="master"/>
   <project groups="vts,pdk" name="kernel/configs" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" upstream="refs/tags/android-9.0.0_r42"/>
   <project name="kernel/tests" revision="e90514f71460097fa3c1058cb73d78238c121433" upstream="refs/tags/android-9.0.0_r42"/>
   <project groups="pdk" name="platform/art" path="art" revision="f51e6147e09580dbd1f1065d873fd906cf5a33ca" upstream="refs/tags/android-9.0.0_r42"/>
