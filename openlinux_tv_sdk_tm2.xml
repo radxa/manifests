@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="openlinux_tv_sdk.xml" />
+
+  <remove-project name="p-amlogic/firmware/bin/bl2" />
+  <remove-project name="p-amlogic/firmware/bin/bl30" />
+  <remove-project name="p-amlogic/firmware/bin/bl31" />
+  <remove-project name="p-amlogic/uboot" />
+  <remove-project name="p-amlogic/amlogic/tools/fip" />
+  <remove-project name="p-amlogic/dvb" />
+  <remove-project name="p-amlogic/kernel/common" />
+  <remove-project name="p-amlogic/platform/hardware/amlogic/media_modules" />
+  <remove-project name="p-amlogic/device/amlogic-o" />
+  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219_1.3_tm2" />
+  <project path="bootloader/uboot-repo/bl33" name="p-amlogic/uboot" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="vendor/amlogic/common/external/dvb" name="p-amlogic/dvb" revision="openlinux/tv/p-amlogic-20190219_tm2"   />
+  <project path="common" name="p-amlogic/kernel/common" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" revision="openlinux/tv/p-amlogic-20190219_tm2" />
+  <project path="device/amlogic" name="p-amlogic/device/amlogic-o" revision="openlinux/tv/p-amlogic-20190219_tm2"/>
+  <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" revision="openlinux/tv/p-amlogic-20190219_tm2"/>
+</manifest>
