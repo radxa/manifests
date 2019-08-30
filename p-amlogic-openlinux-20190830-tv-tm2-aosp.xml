@@ -15,7 +15,7 @@
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31/bin" revision="f177ccdc2a3e5628442887343e8a9df8be28cff2" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/firmware/bin/bl31" path="bootloader/uboot-repo/bl31_1.3/bin" revision="ea5ef82b038421a7d730c41bd9caa7aae5a51a49" upstream="openlinux/tv/p-amlogic-20190219_1.3_tm2"/>
   <project name="p-amlogic/firmware/bin/bl32" path="bootloader/uboot-repo/bl32/bin" revision="a17992530ab9d5b11331907fe5d649aacd58435b" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/kernel/common" path="common" revision="faab74bdeaf2c0665190a4ba6d84b01e1eb24792" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
+  <project name="p-amlogic/kernel/common" path="common" revision="825a6755493c2a0d36678143dfa8e66c37aad667" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
   <project groups="vts,pdk" name="p-amlogic/kernel/configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/kernel/tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="openlinux/tv/p-amlogic-20190219"/>
