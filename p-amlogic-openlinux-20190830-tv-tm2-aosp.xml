@@ -5,6 +5,7 @@
   <default remote="openlinux" revision="refs/tags/android-9.0.0_r3" sync-c="true" sync-j="2"/>
   
   <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" revision="874085e31d5d3c7080efc39fb2ad6899fad94ce0" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
+  <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/device/amlogic-o" path="device/amlogic" revision="828ef2b502352c29b8c10561a03842f01be70b46" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
   <project groups="device,broadcom_pdk,generic_fs,pdk" name="p-amlogic/device/google/atv" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b" upstream="refs/tags/android-9.0.0_r3"/>

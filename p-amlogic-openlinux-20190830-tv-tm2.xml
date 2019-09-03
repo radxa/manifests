@@ -6,6 +6,7 @@
   <default dest-branch="p-tv-dev" remote="p-google" revision="p-tv-dev" sync-c="true" sync-j="4"/>
   
   <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" revision="874085e31d5d3c7080efc39fb2ad6899fad94ce0" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
+  <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/device/amlogic-o" path="device/amlogic" revision="828ef2b502352c29b8c10561a03842f01be70b46" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
   <project name="p-amlogic/dvb" path="vendor/amlogic/common/external/dvb" revision="073359bc5dc8e9081f760ffa38ca7ae51f953c88" upstream="openlinux/tv/p-amlogic-20190219_tm2"/>
