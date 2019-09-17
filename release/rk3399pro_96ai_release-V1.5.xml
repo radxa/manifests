@@ -117,7 +117,7 @@
   <project name="hardware-rockchip-power" path="hardware/rockchip/power" remote="origin" revision="1a59ac7bba593cd69ed394a1730989975fa5d958" upstream="master"/>
   <project name="hardware-rockchip-sensor" path="hardware/rockchip/sensor" remote="origin" revision="fff7a59402643bd803239cc4d0212c0dd09a2c00" upstream="master"/>
   <project name="hardware-rockchip-upgrade_tool" path="hardware/rockchip/upgrade_tool" remote="origin" revision="7fc46ddb0079b5b7454938d959a3271c5b3c461f" upstream="master"/>
-  <project name="kernel" remote="origin" revision="ef202254ab92f5920d24ff091bf6059b8c781311" upstream="stable"/>
+  <project name="kernel" remote="origin" revision="ffd48fb895395ea0cd48e5ee01aa5470b046e5b7" upstream="stable"/>
   <project name="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r51"/>
   <project groups="pdk-cw-fs,pdk-fs" name="packages-apps-Bluetooth" path="packages/apps/Bluetooth" remote="origin" revision="ee5813ffb2d7aaca1baec799882f4e737055f6ed" upstream="master"/>
   <project groups="pdk-fs" name="packages-apps-Browser2" path="packages/apps/Browser2" remote="origin" revision="08e5514f97c94d674de472aeeed6f52bf66d4ab4" upstream="master"/>
