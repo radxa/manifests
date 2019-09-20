@@ -6,6 +6,8 @@
   <include name="include_android9.0/aosp_default_repository.xml" />
   <!-- rk checkout new default repository-->
   <include name="include_android9.0/rk_checkout_from_aosp.xml" />
- 
-
+  <!-- rk modules repository-->
+  <include name="include_android9.0/rk_modules_repository.xml" />
+  <!-- rk3399pro special repository-->
+  <include name="include_android9.0/rk3399pro_repository.xml" />
 </manifest>
