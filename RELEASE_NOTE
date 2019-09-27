@@ -1,10 +1,17 @@
-release 20190826
+release 20190927
 >
+#### rk3399_box
+support adj volume when mUseFixedVolume=true
+#### rk3399
+add tablet opengapps
+<
+
+release 20190826
+
 ### common
 1. Support Magisk.
 2. Support TWRP.
 3. Remove hdmi resolution filter.
-<
 
 release 20190823
 
