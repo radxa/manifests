@@ -37,7 +37,6 @@
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="50d9a47d71bfa247500f49d4c98787313a292c47" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk" revision="6ee03f14441f4f2812c713e1027b88e3a24c546b" upstream="master"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
 
 </manifest>
