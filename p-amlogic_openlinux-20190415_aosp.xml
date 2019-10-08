@@ -115,7 +115,7 @@
   <project groups="pdk" name="p-amlogic/platform/external/f2fs-tools" path="external/f2fs-tools" revision="dbce6944f18836258a5005600b6fe140e488fdaa" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/external/fdlibm" path="external/fdlibm" revision="ee4b91d455ddf7960f76a4271894aeb14c5f5dd4" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/external/fec" path="external/fec" revision="43b75a302b9fa7e290c3f376dcdc3423efe3a6fc" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="fe3d94b1e42a80c3d247149166efd6988ff5f7eb" upstream="n-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="18c63d0c03e8cbaa014dbd62bb1d397fceaf7b1c" upstream="n-amlogic_9.2.1811_21-dev"/>
   <project groups="pdk" name="p-amlogic/platform/external/fio" path="external/fio" revision="b18087f7cc6ee96042b88e3f485031929a61a58d" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/external/flac" path="external/flac" revision="68e936ed49dfff9cd0e5c0bca9f57509778fedb1" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/platform/external/flatbuffers" path="external/flatbuffers" revision="d8158281f10f67114bd644fc7b479c3d2de9b080" upstream="refs/tags/android-9.0.0_r3"/>
