@@ -19,7 +19,7 @@
   <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="0af547b4b29fe13ec606f01435b133ec6845b54c" upstream="amlogic-4.9-dev_9.2.1811_21-dev"/>
   <project name="p-amlogic/linux/amlogic/ir_tools" path="vendor/amlogic/common/ir_tools" remote="amlogic" revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/external/busybox" path="vendor/amlogic/common/external/busybox" remote="amlogic" revision="b8e800ed97a433cbc8d148137ccf32312480d049" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="b154b90a7e49f29324f5a82c8de0091f5c6389ee" upstream="n-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/external/ffmpeg" path="vendor/amlogic/common/external/ffmpeg" remote="amlogic" revision="516ffc2b4219db85ded1c63562c29bf4cac3f192" upstream="n-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/external/libaudioeffect" path="vendor/amlogic/common/external/libaudioeffect" remote="amlogic" revision="a9ebea75ab357eab821c4bb567492f958c1302dc" upstream="l-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/external/libzvbi" path="vendor/amlogic/common/external/libzvbi" remote="amlogic" revision="72021db8ed68e872d196b095ea15ada4619a217d" upstream="ics-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/external/ntfs-3g" path="vendor/amlogic/common/external/ntfs-3g" remote="amlogic" revision="cdb5c7cb9a3df1ea1d10a357fc42797488986884" upstream="m-amlogic_9.2.1811_21-dev"/>
