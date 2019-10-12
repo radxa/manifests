@@ -30,7 +30,7 @@
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="72a59784eace1e53a29a31c70703e057391e57e5" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="dcfdf2e3ecf950e6a288020ba87259d8259ee0eb" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="5f99318ceda9096d2be0ec6f8e1addf98bd73030" upstream="develop-4.4"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="c57a8372e7f69a421563bd6ce8ce78c37672c40c" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="251290da5b30300c58e7b6872aa926dc4e8d59e3" upstream="rk3399-pie-gms-express-baseline"/>
 
