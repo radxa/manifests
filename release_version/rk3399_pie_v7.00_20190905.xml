@@ -733,7 +733,7 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rkbin" path="rkbin" remote="rk" revision="6ee03f14441f4f2812c713e1027b88e3a24c546b" upstream="master"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk3399" revision="3094a923229a2861ad28b6a2b54c851f3a05273a" upstream="rk3399-pie-gms-express-baseline"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk3399" revision="a47b15157e11358a6080cadf34e773f05da59896" upstream="rk3399-pie-gms-express-baseline"/>
   <project name="toolchain/benchmark" revision="ce43588700ff84f20b6bf6a513d8932f693e33dd" upstream="refs/tags/android-9.0.0_r47"/>
   <project groups="pdk" name="toolchain/binutils" revision="15d7fe529a4fc80dcbb21306e55cb55f7ec1cf4a" upstream="refs/tags/android-9.0.0_r47"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="24bd8873cfbddd16a8fb4c485c6ffa3406a33489" upstream="refs/tags/android-9.0.0_r47"/>
