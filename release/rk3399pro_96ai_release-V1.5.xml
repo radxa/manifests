@@ -117,7 +117,7 @@
   <project name="hardware-rockchip-power" path="hardware/rockchip/power" remote="origin" revision="1a59ac7bba593cd69ed394a1730989975fa5d958" upstream="master"/>
   <project name="hardware-rockchip-sensor" path="hardware/rockchip/sensor" remote="origin" revision="fff7a59402643bd803239cc4d0212c0dd09a2c00" upstream="master"/>
   <project name="hardware-rockchip-upgrade_tool" path="hardware/rockchip/upgrade_tool" remote="origin" revision="7fc46ddb0079b5b7454938d959a3271c5b3c461f" upstream="master"/>
-  <project name="kernel" remote="origin" revision="ffd48fb895395ea0cd48e5ee01aa5470b046e5b7" upstream="stable"/>
+  <project name="kernel" remote="origin" revision="837a62678add823f2488cffa37f20b0b48c3ebb0" upstream="stable"/>
   <project name="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" upstream="refs/tags/android-8.1.0_r51"/>
   <project groups="pdk-cw-fs,pdk-fs" name="packages-apps-Bluetooth" path="packages/apps/Bluetooth" remote="origin" revision="ee5813ffb2d7aaca1baec799882f4e737055f6ed" upstream="master"/>
   <project groups="pdk-fs" name="packages-apps-Browser2" path="packages/apps/Browser2" remote="origin" revision="08e5514f97c94d674de472aeeed6f52bf66d4ab4" upstream="master"/>
@@ -646,7 +646,7 @@
   <project groups="pdk" name="system-sepolicy" path="system/sepolicy" remote="origin" revision="a3bf1cab1b67c1b0bb4cc57e89938ba05e2a7a78" upstream="master"/>
   <project groups="pdk" name="system-vold" path="system/vold" remote="origin" revision="f377bc57377c922aee2cdcec92872c461a1ff437" upstream="master"/>
   <project groups="pdk" name="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r51"/>
-  <project name="u-boot" remote="origin" revision="afd25a447a447140c2fd004f71730c5ed97d3e4b" upstream="master"/>
+  <project name="u-boot" remote="origin" revision="1a08433018153080b7ecceda490340291b95924e" upstream="master"/>
   <project name="vendor-rockchip-common" path="vendor/rockchip/common" remote="origin" revision="58f78ca026a51ac569a542c330a30917569dd7ea" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
