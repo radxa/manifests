@@ -98,7 +98,7 @@
   <project path="vendor/amlogic/common/external/alsa-lib" name="p-amlogic/platform/external/alsa-lib" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="vendor/amlogic/common/external/exfat-fuse" name="p-amlogic/platform/external/exfat-fuse" revision="openlinux/tv/p-amlogic-20190219" />
   -->
-  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg-aml" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="vendor/amlogic/common/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" revision="openlinux/tv/p-amlogic-20190219"  />
