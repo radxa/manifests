@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../../" name="p-google"/>
+  
+  <default dest-branch="p-tv-dev" remote="p-google" revision="p-tv-dev" sync-c="true" sync-j="4"/>
+  
+  <project groups="device,broadcom_pdk,generic_fs,pdk" name="p-google/device/google/atv" path="device/google/atv" revision="5e9038a983a6b25c831ee6c8531a20f2036f5b04" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/device/sample" path="device/sample" revision="5f31e571db46fe4d65cdd908764a89892d58294b" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/kernel/configs" path="kernel/configs" revision="e5ec90d270b7aad2fc74e82227aea153f5f15c2f" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/kernel/tests" path="kernel/tests" revision="dc680a094b4625a26babf09e53f658de295904e5" upstream="p-tv-dev"/>
+  <project name="p-google/platform/art" path="art" revision="825f0b20d99bb20ec30e3459dc919eedef719856" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/bionic" path="bionic" revision="ee6ebab30a9e0fb906f92a8ea6a38133cf883adf" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/bootable/recovery" path="bootable/recovery" revision="58a3c03c7c1944346d8510843c60126a5f4affc8" upstream="p-tv-dev"/>
+  <project name="p-google/platform/build" path="build/make" revision="5032511e5d2bbdbc6c85bcdff43761b90ef27ca7" upstream="p-amlogic-mainline">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project groups="pdk,tradefed" name="p-google/platform/build/blueprint" path="build/blueprint" revision="126eed602728da7d493dc2849f93c0a8b5751f83" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/build/kati" path="build/kati" revision="ec7c40a97a07acadd78d93dd8d9f2c8d361513ef" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/build/soong" path="build/soong" revision="827ef09934f558328cfac57a9676eeda70b5adc7" upstream="p-tv-dev">
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
+  <project groups="pdk" name="p-google/platform/compatibility/cdd" path="compatibility/cdd" revision="607149210f5d41dcf04677c761fa8de9a66f7dd3" upstream="p-tv-dev"/>
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="p-google/platform/cts" path="cts" revision="c38036a3947ebecdd7c74d0e864ec6be3bd5ca57" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/dalvik" path="dalvik" revision="5ae27dfb9cee5a312cb0a1e1da57195107b7bbf4" upstream="p-tv-dev"/>
+  <project groups="developers,pdk-cw-fs,pdk-fs" name="p-google/platform/development" path="development" revision="55fa89c143d197202ae9794c67b3668afeaf771f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ImageMagick" path="external/ImageMagick" revision="21fe9658f8e10afb3a875480b329ebea0c87d954" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/Microsoft-GSL" path="external/Microsoft-GSL" revision="2ef7b8a9e35e409b175e190298cde5434155f54a" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/aac" path="external/aac" revision="1c4d8c406103ad3ab88d55bf73bab274e491c1cc" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/abi-compliance-checker" path="external/abi-compliance-checker" revision="665ef2b0fe1ca1191118cd62c30045f08b086735" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/abi-dumper" path="external/abi-dumper" revision="6229d6100494c2a7d74271374f936babc33b5720" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/adhd" path="external/adhd" revision="0702ba2786f5bedc375b9b7c8120d212c02c08f6" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/android-clat" path="external/android-clat" revision="3fed4459753baa454f797a3024d8d32ae629b473" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/androidplot" path="external/androidplot" revision="6dae3a5d91b73210f4f81216d8b279ce60e39a46" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/annotation-tools" path="external/annotation-tools" revision="4aaa13fa86ebd895d501584cdf7d4984799575ac" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ant-glob" path="external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/antlr" path="external/antlr" revision="16d221ff6a4f701266024abdbbb19680fb1e34d8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/apache-commons-math" path="external/apache-commons-math" revision="4702f3aea3136e9e22e496d9c59bd9be491835ea" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/apache-harmony" path="external/apache-harmony" revision="dc04857472fc5b29349b4e9d5e0fd788154fb4c5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/apache-http" path="external/apache-http" revision="100b0f77b0544fa0e13f03e927fa72dc497f1b3b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/apache-xml" path="external/apache-xml" revision="166c78939dfb8ba09174c1d7741e0607c9d85bdb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/archive-patcher" path="external/archive-patcher" revision="8b7d861c8f24d61964d18f20e4d0760e1937b0ef" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/external/autotest" path="external/autotest" revision="87adf26f7f6c66eb0a1a8f9e180f54269329fb90" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/avb" path="external/avb" revision="791f6c3648dd9cea987396375592217b81898dd3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/bart" path="external/bart" revision="08808a75e6fd92995ad2be2730e9334ba8ce1c8a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/boringssl" path="external/boringssl" revision="b8b4f388d9d2d15734cb9d32ddc5e2f2beb32fac" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/bouncycastle" path="external/bouncycastle" revision="ccd5481a961ee8549d3ce27ecfcdce7ada0077d8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/brotli" path="external/brotli" revision="a3b33dad0761d13f273719113a2824ad9d100106" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/bsdiff" path="external/bsdiff" revision="359aa079d3dcff5f4aee11faf5a74239d0cbe64a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/bzip2" path="external/bzip2" revision="a5304fb28b079b3980ff094cbeb604aa217d21e9" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/caliper" path="external/caliper" revision="ab75cacdf76a3a519f4c53108a2576b6b2cf2f75" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/capstone" path="external/capstone" revision="6788a4139092f179005f7cdbf181ba24b60b6113" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/cblas" path="external/cblas" revision="ddf5f49cb53866fbc503a6349bf44bac24a6963d" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/chromium-libpac" path="external/chromium-libpac" revision="26d15e46d2dc89edabc8cbc76b2dd79e45d529f6" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/chromium-trace" path="external/chromium-trace" revision="b2cf025c7d5cebd43084f38c6c7ff9cc17da428a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/chromium-webview" path="external/chromium-webview" revision="790df009fd1fe6dab51902b0be57ad633b427a2c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/clang" path="external/clang" revision="f9d2af42fc6d74c28893af371e4647158eaba66c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/cmockery" path="external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/cn-cbor" path="external/cn-cbor" revision="7fe9f01990a97be4df5e46d2decd894c06678072" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/compiler-rt" path="external/compiler-rt" revision="533f2ba92a89de01206c30d347e94daa01d3c79a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/conscrypt" path="external/conscrypt" revision="a9e7d4719cd59db2a6c0b23dbfb079b1dfbc9e44" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/crcalc" path="external/crcalc" revision="c42b173b60027d1517cec618f3776fb55e941dd1" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/cros/system_api" path="external/cros/system_api" revision="7dfe7495d581c43e374b01ab9f78cce0093dd302" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/curl" path="external/curl" revision="8230e1366475e43b71057f5e3a4fed71295cab9f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dagger2" path="external/dagger2" revision="b1654fa03e7f43425c74644ca73d860198344d30" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/external/deqp" path="external/deqp" revision="541fb448768c511488bb7f7fb6f99670e3737392" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/desugar" path="external/desugar" revision="301a69dfe6fbb59072b6c1af278ec31c10cbdf35" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/devlib" path="external/devlib" revision="8b170d2ed92ea3d771ce071e42dfff5fa32a66ae" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dexmaker" path="external/dexmaker" revision="3d28c2e00f147593a822f8ab93689f49f80878ba" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" revision="b1e043e5fd15a8e93beb9dbe85100dddb62863eb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dlmalloc" path="external/dlmalloc" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dng_sdk" path="external/dng_sdk" revision="4b2898b2176ce78a91e4bf52b966234aa96c11f3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dnsmasq" path="external/dnsmasq" revision="98697179a5a8daca8e20aa0ed44b89c1faff2a8d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/doclava" path="external/doclava" revision="58979121f41a1f6100a24329bace6bef7a69df77" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/drm_gralloc" path="external/drm_gralloc" revision="5a1d7decd7bf60ba0c389687d2fc9210363eb922" upstream="p-tv-dev"/>
+  <project groups="drm_hwcomposer,pdk-fs" name="p-google/platform/external/drm_hwcomposer" path="external/drm_hwcomposer" revision="fd18c84d877c1d09cc4e8362971d63d5d723098b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/droiddriver" path="external/droiddriver" revision="ef618d981947f6d8242755516269a0026c07126c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/drrickorang" path="external/drrickorang" revision="5156a6f8282f7d85f879a6b9c5db31f85840fcf0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/dtc" path="external/dtc" revision="6c6634a26785d16b058ee3799f69cd3606a557ca" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/e2fsprogs" path="external/e2fsprogs" revision="a65de1501c1357892b1fe99022c86b2029175c8b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/easymock" path="external/easymock" revision="045fe1a003805f21f4bd266ab202319486a90284" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/eigen" path="external/eigen" revision="30c5ae43fa590b0f0afa598081b30d3a236f1654" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/elfutils" path="external/elfutils" revision="5b9335f1b17e7fbf0babed56a0cbe7b3e7682bea" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/emma" path="external/emma" revision="181b44b0422f2ca9a844a39f0b7e7f20c2712b72" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/error_prone" path="external/error_prone" revision="599035c4d0affc32bcae339f3966c07d2f1cf8af" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/esd" path="external/esd" revision="943c42b6f8e9afe821744aa4c039f4943ebf29f5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/expat" path="external/expat" revision="9a9c9b09b900298549ecdbef960fd94c998065e7" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/f2fs-tools" path="external/f2fs-tools" revision="1074f2a68b6014d571f6edc8ada418a6a8c539d8" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/fdlibm" path="external/fdlibm" revision="59f7335e4dd8275a7dc2f8aeb4fd00758fde37ac" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/fec" path="external/fec" revision="f1a79657c21ec4acade0657f3606a0c868b6866e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/fio" path="external/fio" revision="02ef876ee745f50526f400db69968c09566cfa43" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/flac" path="external/flac" revision="2a2f59be31eda0c290bf1c6e17dda9a1fc1b25fb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/flatbuffers" path="external/flatbuffers" revision="8d58e1d789080d23aec249fbb2aa4d3e7a50b2ef" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/fonttools" path="external/fonttools" revision="ee204a7eb6d914da12561942ae7fc5da7d2e0132" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/freetype" path="external/freetype" revision="f7b46c0241c54fb49f3072380a67107a6729daec" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/fsck_msdos" path="external/fsck_msdos" revision="2edb366074e3c3ce4004f383ef20f598fd19769f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/gemmlowp" path="external/gemmlowp" revision="0ed4f31d5ced2432473aa7063bc1e28d990ff3f2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/gflags" path="external/gflags" revision="b3d4316d069db49d52c2eaf6155941309128a0e9" upstream="p-tv-dev"/>
+  <project groups="pdk,qcom_msm8x26" name="p-google/platform/external/giflib" path="external/giflib" revision="2655771fbcf80ef5cab8192b9409f697da9d8c0a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/glide" path="external/glide" revision="d2cbf371e573ceae7cd2615df9f07da79c75a585" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/golang-protobuf" path="external/golang-protobuf" revision="56ec8b5a0d098e4b5538bb3fe966b7fd8473e670" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-api-services-storage" path="external/google-api-services-storage" revision="29b36ffc866ec32ea01f92ab55100f16bb4b2157" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-benchmark" path="external/google-benchmark" revision="b488b384bcb6739c0c6df9f230634d1605f5edfa" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/external/google-breakpad" path="external/google-breakpad" revision="e6619b7ba561609f0e0ad7fb7a6d7fc6eca6ca91" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" revision="0062a10458d4c357f3082d66bcb129d11913aaae" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" revision="2c5cb418c690815545bbb0316eae5fd33b9fc859" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" revision="bce2136662854076023066602526ba299e6556b2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" revision="7b6623bd54cee3e48ae8a4f477f616366643cc78" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-styleguide" path="external/google-styleguide" revision="749f7ae008c0d2dd9767fdfe202e6873e864a956" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/google-tv-pairing-protocol" path="external/google-tv-pairing-protocol" revision="c731915e80d9e2ccb755b97e7fdd280bbea07f70" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/googletest" path="external/googletest" revision="921be817eec95af0f321362c02554bd02b502ac7" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/gptfdisk" path="external/gptfdisk" revision="9c50b5e176b95034b54d04856388ac3be6132076" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/guava" path="external/guava" revision="2e52c68711b104ac2e225a9d298bd2de1eed92bb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/guice" path="external/guice" revision="628ced18e817a96c11857a51536468a886c6e183" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/hamcrest" path="external/hamcrest" revision="6668c743790380cb3e7889c2abb6cd53b720a211" upstream="p-tv-dev"/>
+  <project groups="pdk,qcom_msm8x26" name="p-google/platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="144ce8bd09cc57d655d44c36670c59582374109f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/honggfuzz" path="external/honggfuzz" revision="f49b65256c6e5ae8b5efb500012d2776ca078d5f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/hyphenation-patterns" path="external/hyphenation-patterns" revision="68ce780a284aa7e16a1f44e3ed1c81d3135642ec" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/icu" path="external/icu" revision="218259a6dda69fc2da909824b50f7f046a87c16e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ims" path="external/ims" revision="e0405164994583f1da8659810911a512d7045e5f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/iproute2" path="external/iproute2" revision="2d868b48b2f313deb4853e8ac5047d05132969c5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ipsec-tools" path="external/ipsec-tools" revision="16477a409310e8daa3ec5c8ecaa7a2f2d471fb93" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/iptables" path="external/iptables" revision="210d3211fe074a86459ca5cf5270de0e8c23b482" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/iputils" path="external/iputils" revision="71c6d11e1fef4a52db0563ebca05dbd006467855" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/iw" path="external/iw" revision="63d8bad2a5a8a9b443595762233692c5f6a6d36b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jacoco" path="external/jacoco" revision="d82e086aa1d55afcf269cb8024ccc38c655b9c72" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jarjar" path="external/jarjar" revision="35912cf94b8213bbd6c06017684de671587b1b8a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/javaparser" path="external/javaparser" revision="1afe9e0652b9b53edade5aa276162abe27b32a67" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/javasqlite" path="external/javasqlite" revision="8ece4e2b6edb941592f72cc811d04425aad5c170" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/javassist" path="external/javassist" revision="f7c4b954072e563b75f6910c25bb689bbf38a3d1" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jcommander" path="external/jcommander" revision="20f1b1ea2580c7d570cbbe1128ce048145cc8f62" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jdiff" path="external/jdiff" revision="fde271c55c4ad799438cac30173f25368c0ffa02" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jemalloc" path="external/jemalloc" revision="5dca43deafd63db43bb01b7d122cccdf5bf28c4a" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed,pdk-fs" name="p-google/platform/external/jline" path="external/jline" revision="74812032f8d8eddbef387f18c96de9e5c38b8fdb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jmdns" path="external/jmdns" revision="0c71647deb7f7835c473fd3dfb45943083e47794" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jsilver" path="external/jsilver" revision="cbfad5619138abefd2a304dd537cc4ed4ad2b7a1" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jsmn" path="external/jsmn" revision="0945105514d9e025c67a9cbc64b3e96e40ed999c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jsoncpp" path="external/jsoncpp" revision="fd78d1f820fafb50dc6b8e72fbe3a0a0f9f2061c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jsr305" path="external/jsr305" revision="afbad758fae6b74b4a739935341c224575c58169" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/jsr330" path="external/jsr330" revision="8ef1f9dde8e3bbfbdac76d39265bbb0588c3330b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/junit" path="external/junit" revision="c67195927f579fb8a7fda44815b189e4c0ecf58f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/junit-params" path="external/junit-params" revision="4f0b0c84c6d6b1f462849fe7a10fb56309e1f9aa" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/kernel-headers" path="external/kernel-headers" revision="26b1e0e1d1945ba021adb15a136a1cd800cf629e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/kmod" path="external/kmod" revision="7cb2f308403b177720e6f022d404ce1fc414e663" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/kotlinc" path="external/kotlinc" revision="960920d48a56597a83e21279f13efb90ac63245b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ksoap2" path="external/ksoap2" revision="9fdc4a6bb2b882bd1d6c822d2ad0c66585d66ba9" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libavc" path="external/libavc" revision="6825dcecaf4e5d31e6d3a1bd2a6988e744a73833" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libbackup" path="external/libbackup" revision="48482a17ecc34a0a36dce78a73db9dd934d70a7a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libbrillo" path="external/libbrillo" revision="595c2583216edb04677333dc21b0461ce12cf7ac" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libcap" path="external/libcap" revision="f8fc00c6ce9cbab867ca14d419516ec175aa3bd0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libcap-ng" path="external/libcap-ng" revision="b48d5ddc7b24b693f92d1d10275151544a22578e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libchrome" path="external/libchrome" revision="cd90a4935502d52303dba2d09a4980e9535c7d1c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libconstrainedcrypto" path="external/libconstrainedcrypto" revision="3f7c2ead52dbdc19b5077032831496e386ce977e" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libcups" path="external/libcups" revision="85dd013bd88a480ebaae08c45e001d760d737637" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libcxx" path="external/libcxx" revision="68aaead27cb9afcf496ec4f2f76832e1af675c3c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libcxxabi" path="external/libcxxabi" revision="14420d1a408d6185a05f58be30696d57ab5d7ee0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libdaemon" path="external/libdaemon" revision="6992baa2b708e1f4fc12daa7b90530bc1b5aaf1e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libdivsufsort" path="external/libdivsufsort" revision="dac727f1e1747b60ad0f3aa9826276f5d192bfc4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libdrm" path="external/libdrm" revision="eac82b976bdbbfbc4b14680988449534c2da3e45" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libedit" path="external/libedit" revision="67e14dfc833aafa400a3aad8cb329cbaec503445" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libese" path="external/libese" revision="f314bba6e9665c4789000447ee5d668f5481e99c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libevent" path="external/libevent" revision="f5930082c9827e9c3185ba104efacb5cbbaa76df" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libexif" path="external/libexif" revision="8f688823fc5399ab0f42ba2c8986cdd127dbde9b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libffi" path="external/libffi" revision="bff6414035206420af02d4f54870f5ff6eff2780" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libgsm" path="external/libgsm" revision="e775ffccfbedc4bb525cb2b5c9280a1dd0cfbe21" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libhevc" path="external/libhevc" revision="b159bc0ff333966c344d334e4d43c2ee0a1cd51d" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="f5c8ca7bb600d1e5488f65c6d5447b19b18d899c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libldac" path="external/libldac" revision="68f49b758618a32ffb39aef34d1f10abd39798c2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="20869c2653b242b95be85fe698b56ee139cf73dc" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libmojo" path="external/libmojo" revision="63c2adfed9564155ef20d963f532f563afbad7fb" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libmpeg2" path="external/libmpeg2" revision="0f6cd793dfc28a03707b3f3b1a6ac1a599f5a86c" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libmtp" path="external/libmtp" revision="f5dd4c21b33cdfc3e98c8b4b4406f78dd1e2bede" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="50bf5f2fd4d05c6c62b17a6179947d5cabaef166" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libnfnetlink" path="external/libnfnetlink" revision="92233c8e4f58f331a2fe72f4466b791238a0ff86" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libnl" path="external/libnl" revision="375a67521d9aa69dbbc1e736ae8327c1b2cf7860" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libogg" path="external/libogg" revision="140e2eec9db797d2a22e6e9cc3d75d0401e2a31d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libopus" path="external/libopus" revision="cf168b63a5c4766bcb663d9ddb16dadbc080e103" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libpcap" path="external/libpcap" revision="e1777f5fd883374c9cc749cd5f4bf4188d53b9f7" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libphonenumber" path="external/libphonenumber" revision="18669b27bb20d324539ab97e0823b189a4449ffb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libpng" path="external/libpng" revision="6e267ffb6f981d1abd9913c5d0d9856771254fdb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libtextclassifier" path="external/libtextclassifier" revision="9d318034b06f3959bed3b06b0992288efd408741" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libunwind" path="external/libunwind" revision="857d28136af8eb7760c4cfd0a381bbfc5099d8ee" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libunwind_llvm" path="external/libunwind_llvm" revision="95e46bcf83d1a549366820ea55632bfb23db44a9" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libusb" path="external/libusb" revision="37d889123d8db17aabdd0dc5bca36fc2701c6287" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libusb-compat" path="external/libusb-compat" revision="759481ae400d02fe99488dcdcd653b4f8139a39c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libvncserver" path="external/libvncserver" revision="f663790c00a39f17a529acb1bfddd062655676a6" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libvpx" path="external/libvpx" revision="4a11789b416e452fab11f2e5ba04383dfe1bf3fe" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libvterm" path="external/libvterm" revision="5b7ca2e7bce00d2fe7b149203341d92ead575f76" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/libxaac" path="external/libxaac" revision="a56f4c2d8df60a673ad502ab40854d3bb518409a" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/libxcam" path="external/libxcam" revision="6bd266236b4d1fb459cd90faeb32810e50b1a9d5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/libxkbcommon" path="external/libxkbcommon" revision="6729948ee479c8c807fc19c7f84a3fc728b00b1d" upstream="p-tv-dev"/>
+  <project groups="pdk,libxml2" name="p-google/platform/external/libxml2" path="external/libxml2" revision="4670b4f9f9ab2c848d0f73477374a991916744d3" upstream="p-tv-dev"/>
+  <project groups="pdk,libyuv" name="p-google/platform/external/libyuv" path="external/libyuv" revision="237d98acc923bd02ed6d04b359e43d9d5971cbf4" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/linux-kselftest" path="external/linux-kselftest" revision="d80931e0aae7a86299bbd0e38afec3e573f3b7bd" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/lisa" path="external/lisa" revision="0da624e03c36f971f0ede3973db0a65cec7335b6" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/llvm" path="external/llvm" revision="ae9abe336d676dc7d722a5b361b4d7a6c1e5cc43" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/lmfit" path="external/lmfit" revision="bcde41fab768e29467ae0496755576c39bbd81db" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/ltp" path="external/ltp" revision="ffdd3b835e8abdae9c0a1777cb6dff867f9c87c1" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/lz4" path="external/lz4" revision="db96f7cadd60d24ad028d50d82d7fd9ef1aa12ac" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/lzma" path="external/lzma" revision="7ce54e6b08655cca0fa24cfe96ca113434158149" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/markdown" path="external/markdown" revision="06a8f8b914d477183f68b84424bce8ff4dae7e84" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mdnsresponder" path="external/mdnsresponder" revision="c3a4daa66f562ee6c34d753555889d209f763708" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/external/mesa3d" path="external/mesa3d" revision="60553a9cd0aba167e1cce730e4ca63ee4b702abc" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/minijail" path="external/minijail" revision="f7e029739ddc462c910d2d4243f6e65beaa937c7" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mksh" path="external/mksh" revision="034f947f03e15c6f73bda708c5488042a98928ca" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mmc-utils" path="external/mmc-utils" revision="f105db5bd1934f0c3e5f74bbc9a5aaeac7a6bf2b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mockftpserver" path="external/mockftpserver" revision="799e0e134b61f160f69fbf84d5cbf24861e5e78e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mockito" path="external/mockito" revision="bf8c1ad2adfe37bae65749ebc46f76c72b475f32" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mockwebserver" path="external/mockwebserver" revision="e441903a5f40ab00a49d76f5e9570a04ea80f74e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/modp_b64" path="external/modp_b64" revision="6f11b5c9b4ffb38dc9375f3cf344da4300a2741a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mp4parser" path="external/mp4parser" revision="88bd0c6cfa7fcfbbebcc15c2c565f714cb36b065" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/mtpd" path="external/mtpd" revision="39d92f3eb638b5e389d597359966ee9c5f5bc628" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nanohttpd" path="external/nanohttpd" revision="c6783c32331b3fe78ffd5077e7f180995d0e268e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nanopb-c" path="external/nanopb-c" revision="56aea7635113a8e42e0fd2addcb7f1f3b2e8feba" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/naver-fonts" path="external/naver-fonts" revision="91e6e9f94d1d769a8f742649674149ba98ce7d45" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/netcat" path="external/netcat" revision="f522fcece195f57a96eb0c45b8d726b469e781e4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/neven" path="external/neven" revision="65a87c861d46dc6f6acb1684306faa8b929dc952" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nfacct" path="external/nfacct" revision="e1fa89c56893352381e6c59b38a3412b087c3f91" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nist-pkits" path="external/nist-pkits" revision="da9a84e43e1710b4512825ef31bffd9d6b61df59" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nist-sip" path="external/nist-sip" revision="f8d1d27b97b57d6a4ea8f242230b5ee2f3522612" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/nos/host/android" path="external/nos/host/android" revision="c79cf5895fb286c7cbd823769a179c9a254eab25" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/nos/host/generic" path="external/nos/host/generic" revision="b4a510289e1d77cb91b466819a22645aeca7b634" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness" revision="203c579fb51238506a375cb696bcf90527ffe475" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/noto-fonts" path="external/noto-fonts" revision="8a2bc630b56780db6e32f50907450aabb4eb03b0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/oauth" path="external/oauth" revision="49f3624a6d3307b640a012f15b94d04174473501" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/objenesis" path="external/objenesis" revision="26daeb035c2244e5df16383ab8c7b10eb9f0e0b2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/oj-libjdwp" path="external/oj-libjdwp" revision="9d15d5336ca898bd941708df46e154ed7d3f5c38" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/okhttp" path="external/okhttp" revision="6ae402aa03bbc08d5007bcd2c4fac05dc3da0092" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/one-true-awk" path="external/one-true-awk" revision="c72813be6adb07861da8f6344efd7092b997f54a" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/external/opencv" path="external/opencv" revision="68d29651a7b1b7b81822d035d222202adcf5de5d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/openssh" path="external/openssh" revision="86f43bbab579905db6b6c8f9d583fd8737aafc55" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="bbfb25464ff30c5a62dce351d719a8c533afb2a3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/parameter-framework" path="external/parameter-framework" revision="108db75a59dbea562ac4bcaf8c6cc862c4919af0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/pcre" path="external/pcre" revision="59a56520d65ab2d94fbfad24a9098f5c49da403e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/pdfium" path="external/pdfium" revision="d904c1ec7e8d1d86ed56f0dd252435d12cd345ae" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/perf_data_converter" path="external/perf_data_converter" revision="77162c97e59b1e6b3895a97b3b9dfbe45422ad3f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/perfetto" path="external/perfetto" revision="093f661a975c85a0c0e756a63e35494663a3f54f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/piex" path="external/piex" revision="0aa61f9e866945145bf3dc21c1255190dedb78ef" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ply" path="external/ply" revision="8b4275169c7b4efb46d034d409edac37b9b6df89" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/ppp" path="external/ppp" revision="90da8c8f15db2c82aece6e4085aaf9c116d481f2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/proguard" path="external/proguard" revision="45e52b5ab37a26149ce031caa44bb167da217667" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/protobuf" path="external/protobuf" revision="411501423307c29a160affef03485fd8000b3c1d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/puffin" path="external/puffin" revision="7f8f0b1698dad1846a8ae3953b133b83617175bc" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/Pillow" path="external/python/Pillow" revision="d9c0fcc955e4fe0662cd0580a412a20cb328f039" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/appdirs" path="external/python/appdirs" revision="0d9b51147cd55a9ee45382c534bcfa4df4a2e3fa" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/cachetools" path="external/python/cachetools" revision="ee4588a2a8743a550de2a7e18d306d5f6a436702" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/python/cpython2" path="external/python/cpython2" revision="98cf6e66aabb931334f01118c87799f81d04a032" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/python/cpython3" path="external/python/cpython3" revision="3078d6a7cda697a5180449d414a8a7d9794b4975" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/dill" path="external/python/dill" revision="01988c5fa063836e457bdb7134d4d300d1276e5e" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/enum" path="external/python/enum" revision="6706fcd5d4054a9dcbd517142f2be8c9498fcecc" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/enum34" path="external/python/enum34" revision="ed56821ca06c8ba80bc083069c9f5672cf834e2a" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/future" path="external/python/future" revision="fa8e703fd259f8056cb817219041eb0e20c00ada" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/futures" path="external/python/futures" revision="a48c6eb42244dc9070bce6670566f4823ff6c11d" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/gapic-google-cloud-pubsub-v1" path="external/python/gapic-google-cloud-pubsub-v1" revision="44cde1e4892ce518b1927ab3f8f45a22f0f67a1d" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-api-python-client" path="external/python/google-api-python-client" revision="6e0c0af3fa414387cd2ecc22ba6cb4eca47f171e" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-auth" path="external/python/google-auth" revision="51bbd38e9129785729a71abea8ae0bae1ac9784c" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-auth-httplib2" path="external/python/google-auth-httplib2" revision="c4201f1bd596e5b17b7e461af2dd8b0d676834a6" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-cloud-core" path="external/python/google-cloud-core" revision="1b76945730adf9762a680dde8facca6acd864df0" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-cloud-pubsub" path="external/python/google-cloud-pubsub" revision="0f0dec2c3076169da00aadb6de8f621da301b908" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/google-gax" path="external/python/google-gax" revision="70dddff9a898e0ea662d27451f13f4262c43b1ef" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/googleapis" path="external/python/googleapis" revision="67d384ef2d9bad424bce05c79899a1c6e6baee25" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/grpc-google-iam-v1" path="external/python/grpc-google-iam-v1" revision="6ce59f644bd5e99279b020b6fa9b8851fccb7c50" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/grpcio" path="external/python/grpcio" revision="c059a54af916df11ead84a19bb4e2faca19e3682" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/httplib2" path="external/python/httplib2" revision="90f880038c1d7bd50fa7b0538954b24fd12da231" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/matplotlib" path="external/python/matplotlib" revision="bbaf4f40479b90f583faf080bb472499439ee2fa" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/numpy" path="external/python/numpy" revision="b12e87119e636214f5d41688ec4ea9ba4b4e58b5" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/oauth2client" path="external/python/oauth2client" revision="ea7213cdc8de40a4887a68aff85a1729884461d0" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/olefile" path="external/python/olefile" revision="1221d9b12619499cd798e73598a074b8cb6d7b31" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/packaging" path="external/python/packaging" revision="28b23ad183cfe53c9f848e1cd55595dcd11b22f8" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/parse" path="external/python/parse" revision="aebfe77d79bd5f84e82bbb23bc3f0e7ce817064e" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/ply" path="external/python/ply" revision="2b3c386a04f92d292ea289ea10d6508a3bae2c2d" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1" revision="ea95753aa8bc0d8d7766a36917b488b331dbabee" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/protobuf" path="external/python/protobuf" revision="6e9cbd59578771e8005e4d3ca73c167521f4e4d5" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/pyasn1" path="external/python/pyasn1" revision="060cf6916bdf4a137c20fab13ad81f84c99941e2" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" revision="52eef53175cb9e051125555c187fd7ac95464654" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/pyparsing" path="external/python/pyparsing" revision="349ddcef3f7641faf4d11327c959da6568b84635" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/requests" path="external/python/requests" revision="f51a28912b8571f0276a633a85578a8ded94d37c" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/rsa" path="external/python/rsa" revision="dbe61a7ce8c6b3a1ffbf632590ea05c61231b687" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/scipy" path="external/python/scipy" revision="626da5975f8d3d1ee9de56180b57b6dee8ede15d" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/setuptools" path="external/python/setuptools" revision="e493fcf90483ade4b2a5ac331a4f89cb15ae3fd2" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/six" path="external/python/six" revision="f91473d8b8dabb218500dd05582fc2d5c5481143" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/external/python/uritemplates" path="external/python/uritemplates" revision="4edb22282e4cfaa9250d3fdb2d2f7be9c0a34fb4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/rappor" path="external/rappor" revision="f39153c36334050135aef8db359b2cbc98ef1248" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/replicaisland" path="external/replicaisland" revision="25276df916d2339d2345af48625c913963965402" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/rmi4utils" path="external/rmi4utils" revision="2f429b74b8902488f5bbc0f2f44dc75f5ccb5a61" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/external/robolectric" path="external/robolectric" revision="2f118d030f6d01617e718f88e37d243421319701" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/external/robolectric-shadows" path="external/robolectric-shadows" revision="1fe0d0296f64f23e6cd02cbf2a21078a9eb00f0d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/roboto-fonts" path="external/roboto-fonts" revision="a49bcc0972b3772872e36ca06817e950e26593bf" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/rootdev" path="external/rootdev" revision="4129a9fb971c629262bf8925b1f1a2fcdb6e0e7c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/safe-iop" path="external/safe-iop" revision="bba672d937d1f6f0ded8a69f9aec0e097cd2d236" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/external/scapy" path="external/scapy" revision="d6b412cfde0442650d6a05884e822a396702edfd" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/scrypt" path="external/scrypt" revision="99dba2d5b0499fd2c8f8ae9d5cf4583a8ac824b8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/seccomp-tests" path="external/seccomp-tests" revision="910e9a11450f6b50463fc7a5fa4a77823d40a326" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/selinux" path="external/selinux" revision="1b62411639ef839f8e9eb84849aca36fff9e8cb8" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/sfntly" path="external/sfntly" revision="ba339b4d8bd05528df0c996d902243e832b493e7" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" revision="492abb45bbdfc0c5b9ffd00f16e53ab628305da9" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/shflags" path="external/shflags" revision="c4876e01829b8cf110ee33267bb1bad1f8ebb51d" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/skia" path="external/skia" revision="7bd8162640a00e30ceed0e6054cef03965f6b949" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/sl4a" path="external/sl4a" revision="06ffbcfe7666ea3e7173836ab1d4e9985cc74dba" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/slf4j" path="external/slf4j" revision="22558c51ff8a9a9d8314a13febb665083bb5986a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/smali" path="external/smali" revision="68270cc4df9d462b53e4dd2e9395f698b792b2c8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/snakeyaml" path="external/snakeyaml" revision="bccc0c9bc191e16560be107c78aa2d685e9077a4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/sonic" path="external/sonic" revision="0acda6c822aba430d93044bbf2ebb9680b8969c2" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/sonivox" path="external/sonivox" revision="a81731787fcb76138e53af0a689c6850eea44926" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/speex" path="external/speex" revision="978296a3d9b9c93891346842d3eb46de2ced4cc0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/spirv-llvm" path="external/spirv-llvm" revision="63555c7bb790516c89f54d661dc8ea400dd8d2d7" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/sqlite" path="external/sqlite" revision="c8ed71554b105151cb95c53fb57851569159be5b" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/squashfs-tools" path="external/squashfs-tools" revision="57d49697471c96b696ec1982fce397537d99ca08" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/strace" path="external/strace" revision="d442ef3c4a2bd22aa2daf50d96007e5245422f49" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/stressapptest" path="external/stressapptest" revision="3962813cd90ad452601a21fa1e20d4fef9bd7b0b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/swiftshader" path="external/swiftshader" revision="c4607ecac918e4d51094977fc8c65d814bbef13d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/syslinux" path="external/syslinux" revision="f867c52e6ee1fb0dde495f79352928e1cd1314e6" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tagsoup" path="external/tagsoup" revision="4145e0953a8de225031c100f72e2d463fe1a9f4e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tcpdump" path="external/tcpdump" revision="7d410e27e30bd441b13bee1186824a2e9341509c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tensorflow" path="external/tensorflow" revision="6c79676c3e1ce1fae7ca151d116a846f3f68f59c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/testng" path="external/testng" revision="9ec8eb049efd3113c495607e92a10374e380f3aa" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/timezonepicker-support" path="external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tinyalsa" path="external/tinyalsa" revision="099260928a814f48f27b8ff532a6af782a67f34d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tinycompress" path="external/tinycompress" revision="67eecda8d99419fab4482154a5e6b572f33dc80b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tinyxml" path="external/tinyxml" revision="7a1184d68cdd33245efc9875b237fcef2c9d2c54" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tinyxml2" path="external/tinyxml2" revision="2399db2c26ccd68d4226e2aad57d98e3e60c0a7b" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/toybox" path="external/toybox" revision="12285d088a3e672a5f3964952dac3b443f67574c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/tpm2" path="external/tpm2" revision="77039dd71222236a5cc653a3953b0758039234d8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/trappy" path="external/trappy" revision="df9cd7d6241394463795ce117ef4bf8e1502a1ff" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/tremolo" path="external/tremolo" revision="74bc335cd5d5ae2dc368670c1062abc370816d88" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/turbine" path="external/turbine" revision="80375a9329669589dca4abd5228ad2366d8ff5f3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/unicode" path="external/unicode" revision="a7d593b7d87545253a371b433dec0cba80edff06" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="9218a7272d8130a406d142db1b7b4350a0f35991" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/external/v8" path="external/v8" revision="a5b30d3f4957ed8417aa1b832cb777a6fb4d71dc" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/valgrind" path="external/valgrind" revision="7d3f5da415f0f6ae3d79565ec5422019e4b32d9c" upstream="p-tv-dev"/>
+  <project groups="vboot,pdk-fs" name="p-google/platform/external/vboot_reference" path="external/vboot_reference" revision="a2516840c8b010ae5176680877dede3d34e135df" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/vixl" path="external/vixl" revision="d971e646c03e302ea711012285d39fcb15b6cf44" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/vogar" path="external/vogar" revision="ccf18e064e312377067bdfea746ec85f8375f19a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/volley" path="external/volley" revision="c3a0e7848f09ade3a05d9d23a52d1cf21373a841" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="b42eca5d17331efb6094b848616d802635d2f99e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/walt" path="external/walt" revision="0fe49d4a5efe7c5bb6a932cc210371aa3a27596d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/wayland" path="external/wayland" revision="dda9b3ad6371f8c37f166b791daba9daf9916dba" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/wayland-protocols" path="external/wayland-protocols" revision="d19a08070ede573ecbb66bb3a923925c758b3a6f" upstream="p-tv-dev"/>
+  <project groups="pdk,qcom_msm8x26" name="p-google/platform/external/webp" path="external/webp" revision="51e0229c3b998865d503f1a74663a2e2defaaea3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/webrtc" path="external/webrtc" revision="4bf309ee56108e775a2d8f9676ee5b91c025b199" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="d17614822031e8a3bded65571abb6990170aa00b" upstream="p-tv-dev"/>
+  <project name="p-google/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="1484aa8fac46a4bded180696605c730c33dd3063" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/external/wycheproof" path="external/wycheproof" revision="bd166b3292bf17ec49e6c7625b79fa9f52502e45" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/x264" path="external/x264" revision="d2c9edd9c883dce2031be118737a09bd04b25908" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/xmlrpcpp" path="external/xmlrpcpp" revision="c79d4eae757a81270915c2a7cf01c81b8d42785e" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/xz-embedded" path="external/xz-embedded" revision="2ac7dc3167c394c90479b1cd48562b58570c651d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/zlib" path="external/zlib" revision="b30b23d7ddb26f452c31fe8b28ebc59e5639ec3f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/zopfli" path="external/zopfli" revision="4101d743cef9e1161bfc9ed4d3c8d4910c6346f7" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/external/zxing" path="external/zxing" revision="eb95fad99b1c163e20b9ffc54a2346e650451e9d" upstream="p-tv-dev"/>
+  <project name="p-google/platform/frameworks/av" path="frameworks/av" revision="8722a6b56c6fd40a1e3a0ef0512fc1e01d9f07a5" upstream="p-amlogic-mainline"/>
+  <project name="p-google/platform/frameworks/base" path="frameworks/base" revision="2b659cafd09dbef2b8713816640f9e6f36f983ed" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="cd2cedc31a5a051062c87e1c215623acc3da5de8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="708894db646abf1eccd08a7dfaadbb66a7d2b283" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="738e2ea6c545aab88ae8d6aa2c93f214c71a03cf" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/data-binding" path="frameworks/data-binding" revision="a53fdf4a28693a8ebbc5d3fef1e44423a560dc90" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/ex" path="frameworks/ex" revision="49018cff8ac5c5cad9401f472fc54044b5702d99" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="0f6d776dddcf75046e6a28f2945b70c77c808459" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="66d9e2aba243ebf28926528651d4d299d2121ac5" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/minikin" path="frameworks/minikin" revision="e2c7e890cc943654dbcecc1b9577a37297b76db3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/ml" path="frameworks/ml" revision="0057619b433435bc3f7b51482b3cc6eafc7406ff" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/multidex" path="frameworks/multidex" revision="475db106115d4f25f0e41612a2a71a0cfe83ab38" upstream="p-tv-dev"/>
+  <project name="p-google/platform/frameworks/native" path="frameworks/native" revision="a40e041c9650705c234778feb3ad5a925cd663da" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="3959d1a32179a67fbea303d99edfc17803aafc0f" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="c0246198be80c6a8185aba01707e3c6ecba21222" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="38d8dcf2e7e3122fc2616bb9b7cb9d1d660dd263" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard" revision="9b00cf41822dca3a61a51c8b38f234380d856617" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/chips" path="frameworks/opt/chips" revision="dce77b45cf7add460637b514aef5e3345390531f" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" revision="e6896f20832d01aba8e7e0e20b71153328fb73de" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker" revision="36118bb1a5bd02b783946529030df1428b51a535" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" revision="3baece9b20fa480da46d860acd7320fd9eee3386" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="75e977e3fece9f26f88f1bc4a8413746c8c68d94" upstream="p-tv-dev"/>
+  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="68d27823460be69eedf43b6871456d9cf8d6e1b4" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan" revision="e6a24c74c6eceeebb3277206b7dc979dc932440d" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="2ce9e1544377e36cd9a03a9d7aa809911aa735a3" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="7f8114865227b45c63e698cb7a46dcd7da090896" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="1ed3edbb6039837050b9c11bb489013c5d9d7e84" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="375f09887fa4b2b0c2d2f0c27b7b2a71eb7c8601" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="6390bf81362eb451c28de5cd237cc5ab9b08dca9" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="7f8d11cac2352a230f83ea28acf4c78a5fe3d412" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="590c2f926c00e0ba19cbad748777cb2e791c0069" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/frameworks/rs" path="frameworks/rs" revision="bdd76befd3e066e31c9fff2ce651b7378b1a7283" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/support" path="frameworks/support" revision="1d38b0553dd4886c130902b2aba6939d311cbb15" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="85565cf4a3eba2506b99728e2bf7d90e2cfd6c8f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/akm" path="hardware/akm" revision="b8b06ce000306a7ecb418840d32e90b27dd76a71" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="c120f3379f85c74b061bdaabdb56bb7a758369bd" upstream="p-tv-dev"/>
+  <project groups="pdk,broadcom_wlan" name="p-google/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="54e99040d78e950a6ee63b1aed72b1b03384e3ae" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/interfaces" path="hardware/interfaces" revision="e2adc3161ada7e8d3d6da699a1afe59cea621ae4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/libhardware" path="hardware/libhardware" revision="7aca15bfbcf76af7ea3abacc006549b4c5d424ae" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="8c64fe9b126d6e50ea12f0dd02b5d4716392e076" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/hardware/ril" path="hardware/ril" revision="940a1352c6d32f934b58371ba04988e18f6dd22d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/libcore" path="libcore" revision="f369b8cef52a76143d1ebb71daa2855ed472f56a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/libnativehelper" path="libnativehelper" revision="6b56b692bc74a19f293e378c0dffea15460f4870" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="ea4a0edd7f61515228952f12f83e7b7f107b443a" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="1577f1c17c97e89e5d4d613b751f76010c2ca2e9" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="d44f46c37f1c5226477c13c39ebfb438d8f262eb" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="956525423e51315015d6902e3b9487e72e9f4885" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d4f648c6dd5551bdb7340ece256d40a161b2a2e6" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="f8a989b40fc1018eeee45c6d7976c5d4ac9acee3" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" revision="b425ac401acf69a63598981d701342df88c82690" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" revision="7f5e96c347ca60f39871ab9976c12a28f514e5de" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" revision="ef169b8b280f273b0819431e26e133565a81b7b5" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker" revision="0a2e42c8231ce67c123cecfc370e1e403654241e" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" revision="117045ce6000683dc0453c1e20fb99af9f9968a4" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Media" path="packages/apps/Car/Media" revision="fee5f857caf264801c77185c71d95734bb54e574" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" revision="e46d96ee00153bf6fb6fcb9e99d8d181b67ab35e" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview" revision="4f2a9ed40bd3e4cc20e37b11c2304448237bbd56" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" revision="29e8997f90630446541e2ebaa405eb3a5b93d68b" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="398d8395edbbb341728b4e66376ce890a3d5e2bd" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream" revision="3838147cf6a9a8d334c236f5ca17480598d7ecfd" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="752fc113c01ae43416db89c925408b99a74f7dc8" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/UserManagement" path="packages/apps/Car/UserManagement" revision="9391baedbf4ad645d7c125279a19d7a2b6b285f9" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="c4079590b6f8a6b22dfc1c3e22e7f8d673701ea5" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="fac81510fd6544c16ea89eabd4fdcefafc66e82f" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="21cec90bd3832c0857b390eb7192594c044b0b98" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="fdfb382d7f1e4fac51c547056dbdfe9760d32312" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="06fc1d1fb029a316475b98b80709414856cbf9fe" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="d24235df8468ed3bb00acd7cb1cae504e1af821f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="90fdbf7460fbd255194455331c6a38a7b8f41dd2" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="ae8d63ab1d7da7d96e5865a9a9ae2d5fcc8dbab8" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="06864fba330d839d7d8006908234578a321134fc" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/Email" path="packages/apps/Email" revision="83aab7020162e5a142a95c842b48bf7f0eba8129" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="441fe80d981d142912474daf51703a24d467a024" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="0df2e23b9123a8591df268f427e499170a1904df" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="b1730bb59c544528cb6b297216ce74d2ed35ebc3" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="3ae02f79d65edd93cb4c469aa9bc38895d4f18e8" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="b59af56842e157cff48480a2db0d95aa2e072be8" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="5ec31801f390f0ffa00d96da4193a7c19e00e397" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c65db6c7a18632774c25dae2339fe149ee3e91d9" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="194fc8a278a1a90efe6191673ae69800a771f01d" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="819fa02731407819729415eb76125af9065abc7a" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="901a85e54e39e30a805c7c5ec76e66147fee2b72" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="40c8dd7d7d8e28aee6ba65185bb94dbeff5974a6" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Music" path="packages/apps/Music" revision="41b4991539e61f6203ce226311300b06b781ad24" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="d282aceedf29d6162c3f903ccfcd1fe3706b3131" upstream="p-tv-dev"/>
+  <project groups="apps_nfc,pdk-fs" name="p-google/platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="b3385b90f299742b9bb3f4969691b83426fee182" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="0cd160be02bd381e8d84800128c7092a946be95b" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="ee1c76be9de1e47970f2ec521e0b5778c2fe651e" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="cdf5b780520b26abfa43d2b4177982f3a390d201" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Protips" path="packages/apps/Protips" revision="1e5d8a500dce6530a99cb952681889042dcfb63a" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Provision" path="packages/apps/Provision" revision="41171be03f7a98e631cc6d5ecb97f38a23d31e7e" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="40adfa9388338ffbfabd5e295387514b007eb21e" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="0a8366239cefa858b4d2855717854315a39d7022" upstream="p-tv-dev"/>
+  <project groups="apps_se,pdk-fs" name="p-google/platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="6f4287589bd192258d1f93cb480a44c992bb0fa3" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/Settings" path="packages/apps/Settings" revision="4e578570bbe4997c0f7893db2cb270e818eb2939" upstream="p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="a59134c149fb99136ca0103bb366d5e39662a4ec" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="0f64cc38e2a2c4d7cc020a6821f4956b333ad62c" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="1067dc8f999729f3588cbdbb5ee01ec090297d09" upstream="p-tv-dev"/>
+  <project groups="apps_stk,pdk-fs" name="p-google/platform/packages/apps/Stk" path="packages/apps/Stk" revision="15c64551155332bc01aa0953dc458e95f5701544" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="55044e74f97562153aa698583ba523de87c29639" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Tag" path="packages/apps/Tag" revision="bac949b85b58c2f2f132ef54911da060ca2dad1b" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="9f742420501c710ff05e62d8d851ab4e3f4cd0cc" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="d30f9f64e9d739fe654163223ed4f012d94f8671" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="1bc4d5cf4141663466521800e7c43e790eb33e59" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="a60858cc9cacf3cc375a22e3cdc0ed5da4b82e9c" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="82d196543eb03e3fd00bddc95661c29a2b39bd67" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="4f72f27e0f9150104587710641c968c0cfca44f1" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="56b5a35cea321685a81b449a47adc0da2c9cfc59" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="db3426b874c2b6ad67770309b5e26291193a9ace" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="fe5c0a00172e17d599fe766e9fb5f4fe383fa3de" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="cd782d7f7010bde1a1fdfbfd9acb3fb746754929" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" revision="e071a6a5d18aa5b88696b2be9a86c2dd8035cc50" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="3f85b115452ee79f327353d67d5381d5b409e76d" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="57fcd47cea508e496d50bb597b484d809bbce141" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="93a4ad28fe95fa0a2c3d8386fd6d65b953e5c4c2" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="e947459b4c423a60da21a09d205b1df1ec094d07" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="956fc29558e48d42413fa39d417e77a5ddf129ae" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="48e9c06a2bd0719b7fc95bb8f7a5f639bb3f8e28" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="1f38803dbc74330cc46050eb7a6763b811219576" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="e1912a6229f32160f326030fbc2fc045dd28ca99" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="d78fd5b74d730ad072a432a90b75afdcf5633f73" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="9615b391e205f43e78882182c40e0b902a45efec" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="04009c9834f7d116537b336a2ffdff2fe5a064b3" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="cd7408cb529fdb2008424ceb4d3e658c28db1276" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="a3efb7f8644fa676486016d93d113a821dd97776" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="878c296e560e01eeaedf53065565e424a8e4d19f" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/services/Car" path="packages/services/Car" revision="a1bb0c26f8e07fef6078e691591a6df2bb316190" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/services/Mms" path="packages/services/Mms" revision="383ac3512a1cdba848c67b1acaed467aa2618c85" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation" revision="83c1d9346149bb1615328a13d15873a455754633" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/services/Rcs" path="packages/services/Rcs" revision="16294256b1b2f2b6c369347122defb1bddcef5ca" upstream="p-tv-dev"/>
+  <project name="p-google/platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="1878b0abde30381146f1e286a19273cc5a2eca68" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/packages/services/Telephony" path="packages/services/Telephony" revision="32b2cef12013211add4b6f8dde3edbf33eca7a5c" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="7014ce9242693b53e67591378aef8786ce6f4beb" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/pdk" path="pdk" revision="081b4c19c5af22ab7ed780d8565bfe5fb5e57732" upstream="p-tv-dev"/>
+  <project groups="pdk-fs,pdk-cw-fs,cts" name="p-google/platform/platform_testing" path="platform_testing" revision="98814bc524e2259220d124376724771a960972bb" upstream="p-tv-dev"/>
+  <project name="p-google/platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="06e1cae14a4dd3cd232610886dae1a52de6002af" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk-fs" name="p-google/platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="14e5d532844c2f110a0d8c2a0d2ca67025333eef" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="e307a55a8188b407890491357cb841ade54bbf47" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="ec3da48f25a3df5ae2ea605dba909a61172d0922" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="a098a2873549a4d5eaf0b7c6fc77ee79edf349a5" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="c4a57a99d0807b4a34aeddf498ce41f12f28df85" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin" name="p-google/platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad283bfcf26c5a666a8c9ee6f07ecc39847acb3c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="7cc15581e325e624a5634ee5d432a38111d2538f" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/prebuilts/deqp" path="prebuilts/deqp" revision="97076c9075ba045d8f1cee418275279a7f0cb2f5" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/prebuilts/devtools" path="prebuilts/devtools" revision="a84d3265d3eb5d892729dca13e65a9f00c905242" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin,arm" name="p-google/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="0e23a2691952730edee7b3cd6b0884bca633cebf" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin,arm" name="p-google/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="781171eb5952accee13ba412b4bd797a5a57d193" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin" name="p-google/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="ec5aa66aaa4964c27564d0ec84dc1f18a2d72b7e" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin,mips" name="p-google/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="d942564c9331f07026a8f78502d8571206eb7be4" upstream="p-tv-dev"/>
+  <project groups="pdk,darwin,x86" name="p-google/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="6931c382e786f58ce8944f2468eb6e48082f3aba" upstream="p-tv-dev"/>
+  <project groups="pdk,linux,arm" name="p-google/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="0d76fe448c221c8f5153c6e8d0073dae351ed157" upstream="p-tv-dev"/>
+  <project groups="pdk,linux,arm" name="p-google/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="7c9b7a4ae122a9ad595cfc9e9479884bc1666e7f" upstream="p-tv-dev"/>
+  <project groups="pdk,linux" name="p-google/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="2ccb38af8c940f1feef62ff5986f4bbc5d899e66" upstream="p-tv-dev"/>
+  <project groups="pdk-fs" name="p-google/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91" upstream="p-tv-dev"/>
+  <project groups="pdk,linux,mips" name="p-google/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" revision="388fdc4995d374d76a0c4b292afabac91638e134" upstream="p-tv-dev"/>
+  <project groups="pdk,linux,x86" name="p-google/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="a137b149dc4eecca65e037457b4809da38ea8f77" upstream="p-tv-dev"/>
+  <project groups="darwin,pdk,tradefed" name="p-google/platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="ee04cf91e69ed1ea9cb2e00c5a4764f6b67c4175" upstream="p-tv-dev"/>
+  <project groups="linux,pdk,tradefed" name="p-google/platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="a837bae4a621488cae19d70945e59b6334bc670d" upstream="p-tv-dev"/>
+  <project groups="pdk,pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="b8d264ce5292341fe1c92633b60ca05c2ea0560d" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="13f5a7554ae77bf3cd959445646ecb485a670d3a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" revision="766de069c8010c6b03b265a91a9a24e5e1983ffa" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" revision="d32685dba4011664b590b94ad156bc734c2c9bb5" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="e114eb1538ededa5bd631be442493c17a0a595b7" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="d166742cdd6eab44d07fdb7be1d271ceb0b73a17" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/misc" path="prebuilts/misc" revision="dd9b73d63761d1379af7a7316af247c3b963959c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/ndk" path="prebuilts/ndk" revision="5a5968849d605c124aa30f964a250c3485338d4a" upstream="p-tv-dev"/>
+  <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" upstream="p-tv-dev"/>
+  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="p-google/platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="5bcc5eb23dbb00d5e5dbf75835aa2fb79e8bafa2" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="bb0f1f89f7225a16a9c80e907646ebe26fcef090" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/r8" path="prebuilts/r8" revision="00a4aae8d6f0d50583070b8cf06a408e310380d4" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/sdk" path="prebuilts/sdk" revision="49897d4fa554440ad64af8aa5ee8a8dba25fe79e" upstream="p-tv-dev"/>
+  <project groups="pdk,tools" name="p-google/platform/prebuilts/tools" path="prebuilts/tools" revision="5ab89ee14b5484a928210f25457e39f1a82d7a39" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" revision="bd6f580b90ee6fc1343c3fd2342f0636ac31c470" upstream="p-tv-dev"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="p-google/platform/sdk" path="sdk" revision="ff3c39e8a6204096cf4e532b50bfc9bc6c290e3b" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/bt" path="system/bt" revision="18147438ad499a3f71c5184a6c65611ee41b678e" upstream="p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/ca-certificates" path="system/ca-certificates" revision="e666d121b84f5131f2095830838bc4f108ae874f" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/chre" path="system/chre" revision="b2f714df0875142eb758e2eecc71a765f0611efd" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="197f4c9832058158d9149d8e53f24539b22032ef" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="9f9c941ff397771936ee8cd91be4909057ae372e" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/core" path="system/core" revision="fc9ae1ad3ba0de6de00c25a200632419b5360173" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/extras" path="system/extras" revision="18cdd9ebdf9e234d00c548b2e492d1eb3cfcab55" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/gatekeeper" path="system/gatekeeper" revision="1fdedffdf4fd4a9e94d6f286d89b88ef48097d48" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="febc1e8735888d8331188d1b54388f2a2c33614d" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/hwservicemanager" path="system/hwservicemanager" revision="a2d84d115ea66cccdc8f8c7a1d7a776b24a0bffe" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/iot/attestation" path="system/iot/attestation" revision="a2a88cd320737feb4fc5f1f396dcbce40fde9497" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/keymaster" path="system/keymaster" revision="cb9a889ec297725b2e84559febe6a70795284ff0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/libfmq" path="system/libfmq" revision="93a6e39a2b8997574b11d9532ae3ce425c766fc3" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/libhidl" path="system/libhidl" revision="d93d961a0e36dcfc760b2a601b0e2f1b25002a49" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/system/libhwbinder" path="system/libhwbinder" revision="e94389e12b3cab54162ccef73f5d027531692fbd" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/libufdt" path="system/libufdt" revision="4b00a3297b10c42924687b1a058efc92bef4b539" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/libvintf" path="system/libvintf" revision="7f8e1de8dd5c1742060d88d012612b2efb16a6f0" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/media" path="system/media" revision="241fad60df1206a894164aee6b625303b46c9eaf" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/netd" path="system/netd" revision="8bc74c4462118ce1ad759db29aff157e0ebdce56" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/system/nfc" path="system/nfc" revision="18ea500b17a594d009a85d5671270e183447c75c" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/nvram" path="system/nvram" revision="6c246ace0160aedf62a7e699e1ccef51e1d12a01" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/security" path="system/security" revision="89dc9758a71fd774c94b57e132281773a7c92db5" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="pdk" name="p-google/platform/system/sepolicy" path="system/sepolicy" revision="445232617492a00d50c20399177879e9c1169549" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/timezone" path="system/timezone" revision="30d1b8d5da6554b6528188b55a4dc1e1685f87f8" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/system/tools/aidl" path="system/tools/aidl" revision="b06c82923869f50e9641f7dac56df0aebe637845" upstream="p-tv-dev"/>
+  <project name="p-google/platform/system/tools/hidl" path="system/tools/hidl" revision="fe9cfe1bc706c2b59e51d4235c05b60ce2391999" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/system/update_engine" path="system/update_engine" revision="81f08123e807d56a7d32f191631553e042136e15" upstream="refs/heads/p-amlogic-mainline"/>
+  <project name="p-google/platform/system/vold" path="system/vold" revision="2d84a6a788280d69d2a204d2cc7be2657ae9309d" upstream="refs/heads/p-amlogic-mainline"/>
+  <project groups="vts,pdk" name="p-google/platform/test/framework" path="test/framework" revision="1bc714231c6a96b763e58ffddb1e65a72d443c3d" upstream="p-tv-dev"/>
+  <project groups="sts,pdk" name="p-google/platform/test/sts" path="test/sts" revision="7bf703bfadf6a8bf20324e127013a49cf55f3d72" upstream="p-tv-dev"/>
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="p-google/platform/test/suite_harness" path="test/suite_harness" revision="2625df5b3ba988e6f0c46fa85bc3a32984bd9fa5" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vti/alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vti/dashboard" path="test/vti/dashboard" revision="3d4e38112f0e41994d2de0c2159c3deff99c367a" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" revision="e5bcc336b6b8bb7826e791cf608bf0efbb32a2ed" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vti/test_serving" path="test/vti/test_serving" revision="f19e2d7a50060ac44bc2f795c474191c6172da89" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts" path="test/vts" revision="ab5085d4cfce0506b4e0a214449821a873d8420a" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" revision="a4b851497418cd6d96bf2765d13b0d6ddc43cb04" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/hal" path="test/vts-testcase/hal" revision="e9f1734bccd78bffb4c6eb29b139ea04910399ef" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace" revision="260dfffd16a180ac1d278b6bb43d8fefadbb7460" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" revision="4cd2d98ea8028db25bf26e179dbaf1853cd15b33" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/nbu" path="test/vts-testcase/nbu" revision="f6d81dba4c1b0cf133a83aaf434e5b3015af549d" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/performance" path="test/vts-testcase/performance" revision="45000704136b657e7038e6c062e7285de55830ac" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/security" path="test/vts-testcase/security" revision="e52ed2e97c2e093f1b865a4b4982262f671576a0" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" revision="bd40c4a8c7fa8673abe24000600878dba46ffcc0" upstream="p-tv-dev"/>
+  <project groups="tools,vts,pdk,tradefed" name="p-google/platform/tools/acloud" path="tools/acloud" revision="c8f273c3621c24b31b3342a7a587cc063ad5e63e" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/tools/apksig" path="tools/apksig" revision="2a59daeb9f6442a37ae0d70efcbe5f849af13eab" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/tools/apkzlib" path="tools/apkzlib" revision="09728673a6dcd4d9623538c2a5cc39fb97def6af" upstream="p-tv-dev"/>
+  <project groups="tools,pdk-fs" name="p-google/platform/tools/dexter" path="tools/dexter" revision="d803fdf37ea8b313360283f6baa965be2d01c36c" upstream="p-tv-dev"/>
+  <project groups="nopresubmit,pdk,tradefed" name="p-google/platform/tools/loganalysis" path="tools/loganalysis" revision="d19681888cba6949c35f63d9a2518ab0814def73" upstream="p-tv-dev"/>
+  <project groups="pdk,tools" name="p-google/platform/tools/metalava" path="tools/metalava" revision="0889822603001c4030a7c0c3c60e72a82194277c" upstream="p-tv-dev"/>
+  <project groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" name="p-google/platform/tools/repohooks" path="tools/repohooks" revision="cf7c9848a8de520f1ef4e9a1432fe00dd47ee58c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/tools/test/connectivity" path="tools/test/connectivity" revision="c79b3992c448c9afe2d5fc7690fac1b541135eae" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/tools/tradefederation" path="tools/tradefederation/core" revision="086e8da649f3c0bdaa7fb95c46afff04318650a2" upstream="p-tv-dev"/>
+  <project groups="pdk,tradefed" name="p-google/platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="699c23c61e753c79088c2708f2abaddadb845cde" upstream="p-tv-dev"/>
+  <project groups="tools,vendor,pdk" name="p-google/platform/tools/vendor/google_prebuilts/arc" path="tools/vendor/google_prebuilts/arc" revision="a5f32867c4fb59f5b48a41838ee47bbbf41ac86c" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/platform/vendor/google_gtvs" path="vendor/google_gtvs" revision="85c63bfb0937e6625c2f275c78192387d8bb3c6d" upstream="p-tv-dev"/>
+  <project groups="vendor,google_testing_comms" name="p-google/platform/vendor/google_testing/comms" path="vendor/google_testing/comms" revision="afc877b992f77fa3af6a91e96cec6983894e108c" upstream="p-tv-dev"/>
+  <project groups="vts,pdk" name="p-google/platform/vendor/google_vts" path="vendor/google_vts" revision="ee0cfe24a75a529dcb1885f30edaa884669fb649" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/toolchain/binutils" path="toolchain/binutils" revision="15d7fe529a4fc80dcbb21306e55cb55f7ec1cf4a" upstream="p-tv-dev"/>
+  <project groups="pdk" name="p-google/toolchain/pgo-profiles" path="toolchain/pgo-profiles" revision="d6524df01afb15ba2a22d6bc65ac91aa7770042d" upstream="p-tv-dev"/>
+</manifest>
