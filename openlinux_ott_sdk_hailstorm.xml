@@ -92,7 +92,7 @@
   <project path="vendor/amlogic/common/external/busybox" name="p-amlogic/platform/external/busybox" remote="amlogic"  revision="p-amlogic_9.2.1811_21" />
   <project path="vendor/amlogic/common/broadcom/btusb" name="p-amlogic/vendor/broadcom/btusb" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"/>
 
-  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg" remote="amlogic"  revision="n-amlogic_9.2.1811_21" />
+  <project path="vendor/amlogic/common/external/ffmpeg" name="p-amlogic/platform/external/ffmpeg-aml" remote="amlogic"  revision="n-amlogic_9.2.1811_21" />
   <project path="vendor/amlogic/common/external/libtiff" name="p-amlogic/vendor/amlogic/external/libtiff" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21"  />
   <project path="vendor/amlogic/common/external/libzvbi" name="p-amlogic/platform/external/libzvbi" remote="amlogic"  revision="ics-amlogic_9.2.1811_21"  />
   <project path="vendor/amlogic/common/external/pppoe" name="p-amlogic/platform/external/pppoe" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
