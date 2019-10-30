@@ -67,7 +67,7 @@
   <project name="p-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" remote="amlogic" revision="9ff8ae0f0eade3d7c18e20a89ad25b40fee058ad" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/common/apps/DLNA" remote="amlogic" revision="9af58d905a7bd68e0b62560c45862b92775b13be" upstream="l-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv" remote="amlogic" revision="85b93e1e1bc8f5034b129a8d0eec6e400fd0f5dd" upstream="o-mr1-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="6253fc859a67e55b84256e5c4291207089fbc53b" upstream="p-amlogic-hailstorm-2.1"/>
+  <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="7b7e7a97ff3dcf819acfff568b6a46e2a4975353" upstream="p-amlogic-hailstorm-2.1"/>
   <project name="p-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/common/apps/FileBrowser" remote="amlogic" revision="37f5bd51d0849805960feedd08ed6eb057e6b110" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="728386e1103f526e756b435c3472d17dba916829" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="ce37b24fdc73ecc52cff3b3d1802a7c617009404" upstream="p-amlogic_9.2.1811_21"/>
@@ -85,7 +85,7 @@
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" remote="amlogic" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/common/external/libtiff" remote="amlogic" revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" upstream="p-amlogic-mainline_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/external/recovery" path="vendor/amlogic/common/external/recovery" remote="amlogic" revision="bb51fffe74d9c3e075c5aa6b45db76ebc2592b68" upstream="p-amlogic-mainline_9.2.1811_21"/>
-  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="918e97935ee4f442ffbad5b70730e9bdeaeb5817" upstream="p-amlogic-hailstorm-2.1"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="3488ce8f42cc7a6bb38cfc066103b363e8480a6d" upstream="p-amlogic-hailstorm-2.1"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/common/frameworks/av" remote="amlogic" revision="502ee1c1f260ed46e490cb4d6c9c5f477f6ea3c8" upstream="o-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/common/frameworks/pppoe" remote="amlogic" revision="2188a6b1f88feb4c49470497c96249b0f93be853" upstream="n-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/vendor/amlogic/hardware/interfaces" path="vendor/amlogic/common/interfaces" remote="amlogic" revision="97a5cd94f879a3718f65a412e16a08baf1978ec6" upstream="p-amlogic-mainline_9.2.1811_21"/>
