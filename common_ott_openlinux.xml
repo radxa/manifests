@@ -130,6 +130,7 @@
   <project path="vendor/amlogic/common/tdk/linuxdriver" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev" />
   <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project path="vendor/widevine" name="p-amlogic/vendor/widevine" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="vendor/amlogic/common/LibTsPlayer" name="p-amlogic/platform/packages/amlogic/LibTsPlayer" remote="amlogic" revision="p-amlogic_9.2.1811_21-dev"  />
 
   <!-- TV projects start -->
   <project path="hardware/amlogic/tv_input" name="p-amlogic/platform/hardware/amlogic/tv_input" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev" />
