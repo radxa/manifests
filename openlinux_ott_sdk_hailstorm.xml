@@ -136,6 +136,7 @@
   <project path="vendor/amlogic/common/external/dvb" name="p-amlogic/dvb" remote="amlogic"  revision="tv-kernel-4.9_9.2.1811_21"   />
   <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" remote="amlogic"  revision="p-amlogic_9.2.1811_21"  />
   <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" remote="amlogic"  revision="o-amlogic_9.2.1811_21" />
+  <project path="vendor/amlogic/common/prebuilt/LibTsPlayer" name="p-amlogic/platform/packages/amlogic/LibTsPlayer" remote="amlogic" revision="p-amlogic_9.2.1811_21"  />
   <!-- TV projects end -->
 
 </manifest>
