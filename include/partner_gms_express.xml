@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="vendor/partner_gms" name="rk/platform/vendor/google" remote="rk" revision="rk33/mid/10.0_express/develop" force-path="true" clone-depth="1"/>
+</manifest>

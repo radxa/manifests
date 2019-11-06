@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="remote.xml" />
+
+  <!-- aosp default repository-->
+  <include name="default.xml" />
+  
+  <!-- rk checkout new default repository-->
+  <include name="include/rk_checkout_from_aosp.xml" />
+  <!-- rk modules repository-->
+  <include name="include/rk_modules_repository.xml" />
+  <!-- GMS Express special repository-->
+  <include name="include/partner_gms_express.xml" />
+  <include name="include/partner_modules_express.xml" />
+  <!-- GTVS special repository-->
+  <include name="include/partner_gtvs.xml" />
+  <!-- rk3399 special repository-->
+  <include name="include/rk3399_repository.xml" />
+  <!-- rk3368 special repository-->
+  <include name="include/rk3368_repository.xml" />
+  <!-- rk3326 special repository-->
+  <include name="include/rk3326_repository.xml" />
+  <include name="include/rk3126c_repository.xml" />
+  <!-- rk3328 special repository-->
+  <include name="include/rk3328_repository.xml" />
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKTools" name="RKTools" remote="rk" revision="rk3328/atv/10.0"/>
+  <project path="RKDocs/rk3328" name="RKDocs" remote="rk" revision="rk3328/box/android-9.0"/>
+  <project path="device/rockchip/rk3328" name="rk/device/rockchip/rk3328" remote="rk" revision="rk33/mid/10.0/develop">
+      <copyfile src="buildspec.mk" dest="buildspec.mk"/>
+      <copyfile src="build.sh" dest="build.sh"/>
+      <copyfile src="build_box.sh" dest="build_box.sh"/>
+  </project>
+  <project path="hardware/rockchip/libgralloc" name="rk/hardware/rk29/libgralloc_ump" remote="rk" revision="rk33/mid/10.0/develop" />
+  <project path="hardware/rockchip/hwcomposer" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/10.0/develop" />
+  <project path="vendor/google" name="rk/platform/vendor/google" remote="rk" revision="rk33/mid/10.0/develop" force-path="true" clone-depth="1"/>
+  <project path="u-boot" name="rk/u-boot" remote="rk_legacy" revision="stable-4.4-rk3328-box-9.0"/>
+  <project path="kernel" name="rk/kernel" remote="rk_legacy" revision="stable-4.4-rk3328-box-10.0"/>
+</manifest>
