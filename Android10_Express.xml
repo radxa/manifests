@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSP repo SDK -->
+  <include name="Android10.xml" />
+
+  <!-- GMS Bundle repository-->
+  <include name="include/partner_gms_express.xml" />
+  
+  <!-- GMS Mainline Modules repository-->
+  <include name="include/partner_modules_express.xml" />
+</manifest>
