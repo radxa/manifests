@@ -2,6 +2,7 @@
 <manifest>
   <project path="RKDocs/common" name="docs/common" remote="rk" revision="rk33/mid/android-9.0"/>
   <project path="RKDocs/android" name="docs/android" remote="rk" revision="rk33/mid/android-9.0"/>
+  <project path="RKTools" name="RKTools" remote="rk" revision="rk33/mid/develop10.0"/>
   <project path="hardware/rockchip/hwcomposer" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/6.0/develop_drm" />
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="next-dev"/>
   <project path="kernel" name="rk/kernel" remote="rk29" revision="develop-4.19"/>
@@ -43,9 +44,9 @@
   <project path="hardware/rockchip/power" name="rk/hardware/rk29/power" remote="rk" revision="rk33/mid/10.0/develop" />
   <project path="hardware/rockchip/drmservice" name="rk/hardware/rk29/drmservice" remote="rk" revision="rk33/mid/9.0/develop" />
   <project path="hardware/rockchip/libmemtrack" name="rk/hardware/rk29/libmemtrack" remote="rk" revision="rk33/mid/9.0/develop" />
-  <project path="hardware/rockchip/libgralloc/midgard" name="rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_midgard_gpu/10.0/drm_gralloc" />
-  <project path="hardware/rockchip/libgralloc/bifrost" name="rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_bifrost_gpu/10.0/drm_gralloc" />
-  <project path="hardware/rockchip/libgralloc/utgard" name="rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_utgard_gpu/10.0/drm_gralloc" />
+  <project path="hardware/rockchip/libgralloc/midgard" name="rk/hardware/libgralloc/midgard" remote="rk" revision="rk33/mid/10.0/develop" />
+  <project path="hardware/rockchip/libgralloc/bifrost" name="rk/hardware/libgralloc/bifrost" remote="rk" revision="rk33/mid/10.0/develop" />
+  <project path="hardware/rockchip/libgralloc/utgard" name="rk/hardware/libgralloc/utgard_new" remote="rk" revision="rk33/mid/10.0/develop" />
   <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="develop" >
     <copyfile src="restore_patches.sh" dest="restore_patches.sh"/>
   </project>

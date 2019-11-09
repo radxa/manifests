@@ -39,7 +39,7 @@
   <project groups="pdk" name="platform/external/speex" path="external/speex" remote="rk" revision="rk33/mid/10.0/develop" />
 
   <remove-project name="platform/external/swiftshader" path="external/swiftshader" />
-  <project groups="pdk" name="platform/external/swiftshader" path="external/swiftshader" revision="rk33/mid/10.0/develop"/>
+  <project groups="pdk" name="platform/external/swiftshader" path="external/swiftshader" remote="rk" revision="rk33/mid/10.0/develop"/>
 
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="rk33/mid/10.0/develop" />
@@ -124,6 +124,8 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="rk33/mid/10.0/develop"/>
   <remove-project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="rk" revision="rk33/mid/10.0/develop"/>
+  <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="rk" revision="rk33/mid/10.0/develop" />
 <!--
   <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="rk" revision="rk33/mid/9.0/develop"/>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="docs/rk3326" path="RKDocs/rk3126c" remote="rk" revision="a4b7a79da75171162e560f18ce6bf905b4b449f9" upstream="rk33/mid/android-8.1"/>
-  <project path="RKTools/rk3126c" name="RKTools" remote="rk" revision="rk312x/mid/android-10.0"/>
   <project path="device/rockchip/rk3126c" name="rk/device/rockchip/rk312x" remote="rk" revision="rk32/mid/10.0/develop" upstream="rk32/mid/10.0/develop"/>
 </manifest>
