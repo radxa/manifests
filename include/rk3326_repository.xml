@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="RKDocs/rk3326" name="docs/rk3326" remote="rk" revision="rk33/mid/android-9.0"/>
-  <project path="device/rockchip/rk3326" name="rk/device/rockchip/rk3326" remote="rk" revision="rk33/mid/10.0/develop" />
+  <project path="RKDocs/rk3326" name="docs/rk3326" remote="rk" revision="refs/tags/android-10.0-mid-rkr1"/>
+  <project path="device/rockchip/rk3326" name="rk/device/rockchip/rk3326" remote="rk" revision="refs/tags/android-10.0-mid-rkr1" />
 </manifest>

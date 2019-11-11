@@ -6,6 +6,9 @@
   <!-- aosp default repository-->
   <include name="default.xml" />
   
+  <!-- remove project -->
+  <include name="remove.xml" />
+
   <!-- rk checkout new default repository-->
   <include name="include/rk_checkout_from_aosp.xml" />
   <!-- rk modules repository-->
