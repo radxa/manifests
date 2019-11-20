@@ -9,6 +9,11 @@
   
   <include name="RK3399_Android_Pie_release.xml" />
 
+  <!-- too big -->
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/google/marlin-kernel" />
+
   <!-- aosp -->
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
