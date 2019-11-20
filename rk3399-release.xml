@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gitlab.com/google-group/" name="aosp"/>
+  <remote fetch="https://gitlab.com/google-android-p/" name="aosp-p"/>
+  <remote fetch="https://gitlab.com/rockchip-group/" name="rk"/>
+  <remote fetch="https://gitlab.com/rockchip-group/" name="rk3399"/>
+  <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
+  <remote fetch="https://github.com/rockchip-android/" name="rockchip-android"/>
+  
+  <include name="RK3399_Android_Pie_release.xml" />
+
+  <!-- aosp -->
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/tools/tradefederation" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
+
+  <!-- rk -->
+  <remove-project name="RKTools" />
+  <remove-project name="rk/device/rockchip/rk3399" />
+  <remove-project name="rk/device/rockchip/rksdk" />
+  <remove-project name="rk/hardware/rk29/audio" />
+  <remove-project name="rk/hardware/rk29/hdmicec" />
+  <remove-project name="rk/kernel" />
+  <remove-project name="rk/platform/vendor/rockchip/common" />
+  <remove-project name="rk/u-boot" />
+  <remove-project name="rk/rkbin" />
+
+  <!-- aosp -->
+  <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r48"/>
+  <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="4129d1d2e347baa1735eda48f25f2080239e3a68" upstream="android-9.0"/>
+  <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="6883ce5c31cee30d1cd027bf771860ee73af7c2f" upstream="rk3399-9.0">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="8a5ce7b244eaee142e9adcff3c8be1102a40b392" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="701886fd7b25e59977b7bd5c28cb5c915d4fe514" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="ac601cd664ff1e5f09d259f9bd09bbabd0fe0259" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="17f0eb79d8a5d60f64ffa805dfc5ad70361ae4ab" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk-vendor" revision="c2a721263f926648af5fdd68fe2f289ce362742e" upstream="rk3399-9.0"/>
+
+  <!-- rk -->
+  <project name="RKTools" remote="rk-vendor" revision="52bf49184af0379238bb0543c9c3479b6873bc77" upstream="rk3399-9.0"/>
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="09378ad81a85242dbb31fd76fc3f39062bb271ba" upstream="rk3399-9.0">
+    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="888d567ef85b28ff2c7b03ea1c3c69a0da92c48c" upstream="rk3399-9.0">
+    <copyfile dest=".classpath" src=".classpath"/>
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="6a3b58db536903da073aa082e0118c7da0b72a05" upstream="rk3399-9.0"/>
+  <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="8fe2d6d8523cba2611860435ddf17aca064766cf" upstream="rk3399-9.0"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="c57a8372e7f69a421563bd6ce8ce78c37672c40c" upstream="rk3399-9.0"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="6d0e2eea0c00bfc426ff65a0a611e1d40bee5e5a" upstream="rk3399-9.0"/>
+
+  <project remote="rk-vendor" name="opengapps" path="vendor/opengapps" revision="97ed760350560a121644be77c141946f252ec239" upstream="android9.0-tv"/>
+  <project remote="rk-vendor" name="opengapps" path="vendor/opengapps-phone" revision="51807762e92b676a41422a1b8db4840a7c3bb40c" upstream="android-9.0-phone"/>
+  <project remote="rk-vendor" name="vendor/customize/common" revision="19372293c8ce35480c47d2be162a01bfe99cbb12" upstream="rk3399-9.0"/>
+  <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="rk-vendor" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk-vendor" revision="ca70b35fbf311938fd8a8278a22b7d2e82320fcd" upstream="rk3399-9.0"/>
+</manifest>

@@ -1,10 +1,25 @@
-release 20190927
+release 20191120
 >
+
+### common
+1. update sdk to rockchip rk3399_pie_v8.00_20191005.xml
+2. update to android-9.0.0_r48
+3. default not close screen when time out
+4. add 2560x1440p60 in resolution_white.xml
+5. default recovery change to TWRP
+
+### rk3399
+1. restore previous version of navigation bar
+
+<
+
+release 20190927
+
 #### rk3399_box
 support adj volume when mUseFixedVolume=true
 #### rk3399
 add tablet opengapps
-<
+
 
 release 20190826
 
