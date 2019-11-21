@@ -37,7 +37,7 @@
 
   <!-- aosp -->
   <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r48"/>
-  <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="4129d1d2e347baa1735eda48f25f2080239e3a68" upstream="android-9.0"/>
+  <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="cb56bfab21841bd099735742ecbe58d0ecfe5709" upstream="android-9.0"/>
   <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="6883ce5c31cee30d1cd027bf771860ee73af7c2f" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -59,7 +59,7 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="888d567ef85b28ff2c7b03ea1c3c69a0da92c48c" upstream="rk3399-9.0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="730fa9aa285357112d015f94ff8843a32b23a4b6" upstream="rk3399-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
