@@ -646,7 +646,7 @@
   <project groups="pdk" name="system-sepolicy" path="system/sepolicy" remote="origin" revision="master"/>
   <project groups="pdk" name="system-vold" path="system/vold" remote="origin" revision="master"/>
   <project groups="pdk" name="toolchain/binutils"/>
-  <project name="u-boot" remote="origin" revision="master"/>
+  <project name="u-boot" remote="origin" revision="96ai"/>
   <project name="vendor-rockchip-common" path="vendor/rockchip/common" remote="origin" revision="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
