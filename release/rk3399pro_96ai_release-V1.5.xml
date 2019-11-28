@@ -646,7 +646,7 @@
   <project groups="pdk" name="system-sepolicy" path="system/sepolicy" remote="origin" revision="a3bf1cab1b67c1b0bb4cc57e89938ba05e2a7a78" upstream="master"/>
   <project groups="pdk" name="system-vold" path="system/vold" remote="origin" revision="f377bc57377c922aee2cdcec92872c461a1ff437" upstream="master"/>
   <project groups="pdk" name="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r51"/>
-  <project name="u-boot" remote="origin" revision="1a08433018153080b7ecceda490340291b95924e" upstream="master"/>
+  <project name="u-boot" remote="origin" revision="20a945530a5ef688550f1ca1df81c4a9e503c930" upstream="96ai"/>
   <project name="vendor-rockchip-common" path="vendor/rockchip/common" remote="origin" revision="58f78ca026a51ac569a542c330a30917569dd7ea" upstream="master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
