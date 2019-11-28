@@ -116,6 +116,12 @@ The generated images under rockdev/Image are
 
 ```bash
 $ cd rockdev
+$ ln -s Image-rk3399 Image
+$ ./android-gpt.sh
+
+### Android TV
+$ cd rockdev
+$ ln -s Image-rk3399_box Image
 $ ./android-gpt.sh
 ```
 ```
