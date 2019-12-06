@@ -41,7 +41,7 @@
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="ee706436a443c0426e7d0f79b173c98962de90e6" upstream="rk3399pro-android-8.1"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="1d56a5d0c6281c51041589b69c3e94e9989255bc" upstream="rk3399pro-android-8.1"/>
   <project name="rk/hardware/rk33/upgrade_tool" path="hardware/rockchip/upgrade_tool" remote="rk-vendor" revision="d2fc6c511b5ea042e6a1577b392d867d56b35247" upstream="rk3399pro-android-8.1"/>
-  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="52391469fa7e46ef2c6ca72afe10ac036a237da1" upstream="rk3399pro-toybrick-stable"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="9f6708998b4f544a38d6a59c353867438e8c95f2" upstream="rk3399pro-toybrick-stable"/>
   <project name="rk/rkbin" path="rkbin" remote="rk-vendor" revision="9c81984d63bbd2498954018ee7c4f70b322e7a92" upstream="rk3399pro-android-8.1"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="610dfbf6a20253105eae54f1f4398e26898bb8da" upstream="rk3399pro-android-8.1"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="b2ff7ce306e9a14ea4e7384bb3105f106e88af36" upstream="rk3399pro-android-8.1"/>
