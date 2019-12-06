@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project groups="pdk" name="platform/build" path="build/make" remote="rk" revision="refs/tags/android-10.0-mid-rkr2">
+  <project groups="pdk" name="platform/build" path="build/make" remote="rk" revision="refs/tags/android-10.0-mid-rkr3">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -9,69 +9,84 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project path="build/soong" name="platform/build/soong" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" >
+  <project path="build/soong" name="platform/build/soong" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" >
      <linkfile src="root.bp" dest="Android.bp" />
      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
    </project>
 
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" >
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
     <copyfile dest="kernel/kernel/configs/android-10-go.config" src="rockchip/android-10-go.config"/>
     <copyfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
   </project>
 
-  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/external/speex" path="external/speex" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/external/speex" path="external/speex" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/external/swiftshader" path="external/swiftshader" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/external/swiftshader" path="external/swiftshader" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
   <!-- remove kernel repositories-->
 
   <!-- Add Calculator for Device Test -->
-  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
 
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
  
-  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2"/>
-  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr2" />
+  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
+  <project name="platform/external/ImageMagick" path="external/ImageMagick" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/external/libcups" path="external/libcups" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/external/libhevc" path="external/libhevc" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/system/apex" path="system/apex" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/system/bt" path="system/bt" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/system/security" path="system/security" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/system/sepolicy" path="system/sepolicy" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/packages/apps/Email" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/packages/apps/Nfc" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/packages/apps/PackageInstaller" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project name="platform/packages/apps/UnifiedEmail" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="rk" revision="refs/tags/android-10.0-mid-rkr3"/>
+   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 </manifest>

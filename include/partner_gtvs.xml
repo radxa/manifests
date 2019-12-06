@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/google_gtvs" name="rk/platform/vendor/google_gtvs" remote="rk" revision="rk33/atv/10.0/develop" force-path="true" clone-depth="1"/>
+  <project path="vendor/google_gtvs" name="rk/platform/vendor/google_gtvs" remote="rk" revision="rk33/atv/10.0/develop" clone-depth="1"/>
 </manifest>

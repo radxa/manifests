@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>  
+  <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral" />
+  <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral" clone-depth="1" />
+  <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral" />
+  <remove-project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral" />
+  <remove-project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" />
+  <remove-project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
+  <remove-project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" groups="qcom_sm8150" />
+  <remove-project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" groups="qcom_sm8150" />
+  <remove-project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom_sm8150" />
+  <remove-project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom_sm8150" />
+  <remove-project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
+  <remove-project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <remove-project name="platform/build" path="build/make" />
   <remove-project path="build/soong" name="platform/build/soong" />
   <remove-project name="kernel/configs" path="kernel/configs" />
@@ -7,6 +19,9 @@
   <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
   <remove-project name="platform/bionic" path="bionic" />
   <remove-project name="platform/external/libdrm" path="external/libdrm" />
+  <remove-project name="platform/external/ImageMagick" path="external/ImageMagick" />
+  <remove-project name="platform/external/libcups" path="external/libcups" />
+  <remove-project name="platform/external/libhevc" path="external/libhevc" />
   <remove-project name="platform/external/speex" path="external/speex" />
   <remove-project name="platform/external/swiftshader" path="external/swiftshader" />
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
@@ -16,7 +31,13 @@
   <remove-project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/interfaces" path="hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
+  <remove-project name="platform/system/apex" path="system/apex" />
+  <remove-project name="platform/system/bt" path="system/bt" />
   <remove-project name="platform/system/core" path="system/core" />
+  <remove-project name="platform/system/hwservicemanager" path="system/hwservicemanager" />
+  <remove-project name="platform/system/security" path="system/security" />
+  <remove-project name="platform/system/sepolicy" path="system/sepolicy" />
+  <remove-project name="platform/system/netd" path="system/netd" />
   <remove-project name="platform/system/vold" path="system/vold" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/common" />
@@ -78,6 +99,10 @@
   <remove-project name="platform/packages/apps/Car/tests" />
   <remove-project name="kernel/build" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/NetworkStack" />
@@ -86,6 +111,8 @@
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <remove-project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" />
   <remove-project path="frameworks/ex" name="platform/frameworks/ex" />
   <remove-project path="external/skia" name="platform/external/skia" />
   <remove-project path="external/boringssl" name="platform/external/boringssl" />
@@ -93,5 +120,5 @@
   <remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" />
   <remove-project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
 </manifest>  
