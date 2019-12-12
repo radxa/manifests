@@ -8,7 +8,7 @@
   <default remote="aosp" revision="refs/tags/android-9.0.0_r50" sync-j="4"/>
   
   <project name="RKTools" remote="rk" revision="cffbd29923e5d2c12b40b3db9ac5b74f472c8967" upstream="rk3399/mid/develop9.0"/>
-  <project name="android/release_patches" path="RKDocs/release_patches" remote="rk29" revision="fc0a36897d07f0692f436add5584a95c60e97e8e" upstream="master"/>
+  <project name="android/release_patches" path="RKDocs/release_patches" remote="rk" revision="fc0a36897d07f0692f436add5584a95c60e97e8e" upstream="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="68a1c1b00e3e58a10040b74dbfd6853b54ab18c2" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="device/generic/arm64" revision="3fd397464154b05b19137618625989ac1d0fdecd" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" upstream="refs/tags/android-9.0.0_r50"/>
@@ -719,20 +719,19 @@
   <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="ba2823372968d515db55c9e3421d216381a50dad" upstream="rk33/mid/7.0/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="bd1cd9b64c0499735aae7a6b1254ff3be54f4a7c" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="a2ab78d0ebf146c52225c33544cc15b2d86c1a19" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk29" revision="73795337dde7cbc27735ff2f7e9fb328963eb2bd" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk3399" revision="73795337dde7cbc27735ff2f7e9fb328963eb2bd" upstream="develop-4.4"/>
   <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="028d5e84675f15b083b8724ed681fb9e31a711b9" upstream="rk33/mid/develop/9.0"/>
   <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="26216247ade4637ab2bd812ffa0372b5276efb77" upstream="rk32/mid/6.0/develop"/>
   <project groups="pdk" name="rk/platform/external/rk-pcba-test" path="external/pcba_rockchip" remote="rk" revision="fe5e2a7d8d5a3a9ce71d907780514159f8a0b4fb" upstream="rk33/mid/9.0/develop-drm"/>
-  <project name="rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="dd23392ad8ee8e0e7bee81030270b33a31adbc25" upstream="master"/>
   <project name="rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="293bc7b564ce93dc47868b881f0a1018a8d09644" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/platform/vendor/microsoft" path="vendor/microsoft" remote="rk" revision="6eb6f6fcbf88050b27a79cc3ba04ad8f8f1289ca" upstream="rk33/mid/8.1/develop"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="0a69010a4c991960c4f9a41f1b540fddb7bce0aa" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="50d9a47d71bfa247500f49d4c98787313a292c47" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="5e54e6c0bbc0141985aca17adcebf3692cdc7f78" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk" revision="5e54e6c0bbc0141985aca17adcebf3692cdc7f78" upstream="master"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="6fa8bc0e51b7e78497e445b0dd1dd9cd30bc5062" upstream="rk32/mid/6.0/develop"/>
   <project name="rk/u-boot" path="u-boot" remote="rk" revision="83c9bd4bbeb565a9ce39339fa54342bbe818ce48" upstream="next-dev"/>
   <project name="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" upstream="refs/tags/android-9.0.0_r50"/>
