@@ -7,7 +7,7 @@
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r50" sync-j="4"/>
   
-  <project name="RKTools" remote="rk" revision="cffbd29923e5d2c12b40b3db9ac5b74f472c8967" upstream="rk3399/mid/develop9.0"/>
+  <project name="RKTools" remote="rk3399" revision="cffbd29923e5d2c12b40b3db9ac5b74f472c8967" upstream="rk3399/mid/develop9.0"/>
   <project name="android/release_patches" path="RKDocs/release_patches" remote="rk" revision="fc0a36897d07f0692f436add5584a95c60e97e8e" upstream="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="68a1c1b00e3e58a10040b74dbfd6853b54ab18c2" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="device/generic/arm64" revision="3fd397464154b05b19137618625989ac1d0fdecd" upstream="refs/tags/android-9.0.0_r50"/>
@@ -49,7 +49,7 @@
   <project groups="pdk" name="device/sample" revision="cdb22d4258c2ffa7279a3b55c65b0431fabc1200" upstream="refs/tags/android-9.0.0_r50"/>
   <project name="docs/android" path="RKDocs/android" remote="rk" revision="e75320688c59a729ed2e6035aa71dd4f91446c66" upstream="rk33/mid/android-9.0"/>
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="4944f2f9ded9d9e49a4c7b43f0ab5542a5ee9c0d" upstream="rk33/mid/android-8.1"/>
-  <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk" revision="c836a1d5b2456af6220bd3df1bb5860c124eb537" upstream="rk33/mid/android9.0"/>
+  <project name="docs/rk3399" path="RKDocs/rk3399" remote="rk3399" revision="c836a1d5b2456af6220bd3df1bb5860c124eb537" upstream="rk33/mid/android9.0"/>
   <project groups="vts,pdk" name="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" upstream="refs/tags/android-9.0.0_r50"/>
   <project name="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/art" path="art" revision="7a105ce7b3a178a6ff718cc8e1d20f4de7d0b047" upstream="rk33/mid/9.0/develop"/>
@@ -693,7 +693,7 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="241b580aec1347a287cf939fe63aa4f32af2ee8e" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" upstream="refs/tags/android-9.0.0_r50"/>
-  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk" revision="fc96a18e7c957ac8a99d1289f71efbdb9ef25cc1" upstream="rk33/mid/9.0/develop">
+  <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk3399" revision="fc96a18e7c957ac8a99d1289f71efbdb9ef25cc1" upstream="rk33/mid/9.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -708,9 +708,9 @@
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="8db709fe919b0477029916bb794b871a5d76377c" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="0bca51df097ae4f2cdfb3604457d83bee79c9abf" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="32e6a1e030e865f0dbffba11248a1d0d88694b18" upstream="rk33/atv/8.0/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="ba2822fbbf923cf3a66a493d087cb830c4b9f740" upstream="rk33/mid/6.0/develop_drm"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk3399" revision="ba2822fbbf923cf3a66a493d087cb830c4b9f740" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2" upstream="rk32/mid/6.0/develop"/>
-  <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="13aed0cd1bd6c6ec778e7f4055d95c41521bfd05" upstream="soc_with_midgard_gpu/9.0/drm_gralloc"/>
+  <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk3399" revision="13aed0cd1bd6c6ec778e7f4055d95c41521bfd05" upstream="soc_with_midgard_gpu/9.0/drm_gralloc"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="68e274cd748d1d0e0dcd52a3ead0ee7cb64819b1" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="b29a973a3a6562c6733f67dbbd64c43c18079fb4" upstream="rk33/mid/7.0/develop"/>
   <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" remote="rk" revision="c95b560ff5e36d3747b7473a4139e3320fec69ff" upstream="rk33/mid/9.0/develop"/>
@@ -733,7 +733,7 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rkbin" path="rkbin" remote="rk" revision="5e54e6c0bbc0141985aca17adcebf3692cdc7f78" upstream="master"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="6fa8bc0e51b7e78497e445b0dd1dd9cd30bc5062" upstream="rk32/mid/6.0/develop"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="83c9bd4bbeb565a9ce39339fa54342bbe818ce48" upstream="next-dev"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk3399" revision="83c9bd4bbeb565a9ce39339fa54342bbe818ce48" upstream="next-dev"/>
   <project name="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" upstream="refs/tags/android-9.0.0_r50"/>
