@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="docs/rk3326" path="RKDocs/rk3126c" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
   <project path="device/rockchip/rk3126c" name="rk/device/rockchip/rk312x" remote="rk" revision="refs/tags/android-10.0-mid-rkr3" />
 </manifest>
