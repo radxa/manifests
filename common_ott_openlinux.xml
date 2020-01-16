@@ -47,9 +47,12 @@
   <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/realtek/drivers/8822cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cs" revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/realtek/drivers/8821cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cs" remote="amlogic" revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="hardware/wifi/realtek/drivers/8821cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cu" remote="amlogic" revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
   <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
   <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377"  remote="amlogic" revision="refs/heads/o-amlogic_9.2.1811_21-dev" />
+  <project path="hardware/wifi/qualcomm/drivers/qca9379" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9379" remote="amlogic" revision="refs/heads/p-amlogic_9.2.1811_21-dev"/>
   <!--Wifi end-->
   
     <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
@@ -109,6 +112,7 @@
   <project path="vendor/amlogic/common/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" remote="amlogic"  revision="n-amlogic_9.2.1811_21-dev"  />
 
   <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" remote="amlogic"  revision="r6p1_9.2.1811_21-dev" />
+  <project path="vendor/amlogic/common/gpu-lib" name="p-amlogic/linux/amlogic/meson_mali" remote="amlogic" revision="p-amlogic-mainline_9.2.1811_21-dev" />
 
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" remote="amlogic"  revision="p-amlogic-mainline_9.2.1811_21-dev"  />
   <project path="vendor/amlogic/common/hdcp" name="p-amlogic/vendor/amlogic/hdcp" remote="amlogic"  revision="tdk-v2.4_9.2.1811_21-dev"  />
