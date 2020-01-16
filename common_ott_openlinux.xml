@@ -142,5 +142,8 @@
   <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" remote="amlogic"  revision="o-amlogic_9.2.1811_21-dev" />
   <!-- TV projects end -->
 
+  <project path="vendor/amlogic/common/external/DTVKit/android-inputsource" name="p-amlogic/DTVKit/android-inputsource" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+  <project path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" name="p-amlogic/DTVKit/releaseDTVKit" remote="amlogic"  revision="p-amlogic_9.2.1811_21-dev"  />
+
 </manifest>
 
