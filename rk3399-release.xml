@@ -43,7 +43,7 @@
   <!-- aosp -->
   <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r48"/>
   <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="af97d2b3f98eb8855fdeb12cb50464d6cde81d3c" upstream="android-9.0"/>
-  <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="6883ce5c31cee30d1cd027bf771860ee73af7c2f" upstream="rk3399-9.0">
+  <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="52a10ce2966df5564a3293d765cae154fa9bf2a6" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -52,18 +52,18 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="02ddd44da33e3100392256b2e18fafd71df4d590" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="701886fd7b25e59977b7bd5c28cb5c915d4fe514" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="90166cbde95acaaee3f5afc32b9d6986d5a956c0" upstream="rk3399-9.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="35a62138a425bc042a3cb3db723111de427023a6" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="bae340b12b8dec2c9c552d05ea9e1aff6c5df84d" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="87e47664cf89683f2320c78de820702c12c759a1" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="17f0eb79d8a5d60f64ffa805dfc5ad70361ae4ab" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk-vendor" revision="c2a721263f926648af5fdd68fe2f289ce362742e" upstream="rk3399-9.0"/>
-  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk-vendor" revision="729f3a86c20f12c6460619df4322159da4f91bce" upstream="rk3399-9.0"/>
+  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk-vendor" revision="1874436bad21289fe97f69fa450282c7df744c7b" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" remote="rk-vendor" revision="ffcd6a0cb27b251e253fc8f3311a20269ec35bb5" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="rk-vendor" revision="c990de0b96c8ab3dfae1d24218918ead974f2b22" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk-vendor" revision="f32d212095920dfd98a7773d225036a6cf435b14" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk-vendor" revision="84823800b6b260932734d60356db1babb4966d41" upstream="rk3399-9.0"/>
 
   <!-- rk -->
-  <project name="RKTools" remote="rk-vendor" revision="52bf49184af0379238bb0543c9c3479b6873bc77" upstream="rk3399-9.0"/>
+  <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3399-9.0"/>
   <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="rk-vendor" revision="49fd83747b5bb175741faf6a05724d4a89c6b7ad" upstream="rk3399-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
