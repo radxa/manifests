@@ -42,7 +42,7 @@
 
   <!-- aosp -->
   <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r48"/>
-  <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="52e1278af6f67abf8efabd2ceaf9f9ed47765cf5" upstream="android-9.0"/>
+  <project groups="pdk" name="TWRP" path="bootable/recovery" remote="rockchip-android" revision="af97d2b3f98eb8855fdeb12cb50464d6cde81d3c" upstream="android-9.0"/>
   <project groups="pdk" remote="rk-vendor" name="platform/build" path="build/make" revision="6883ce5c31cee30d1cd027bf771860ee73af7c2f" upstream="rk3399-9.0">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -60,7 +60,7 @@
   <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk-vendor" revision="729f3a86c20f12c6460619df4322159da4f91bce" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" remote="rk-vendor" revision="ffcd6a0cb27b251e253fc8f3311a20269ec35bb5" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="rk-vendor" revision="c990de0b96c8ab3dfae1d24218918ead974f2b22" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk-vendor" revision="ef4d11ed25bc0ef2dd9c001c128e8dfa3ec2317e" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk-vendor" revision="f32d212095920dfd98a7773d225036a6cf435b14" upstream="rk3399-9.0"/>
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="52bf49184af0379238bb0543c9c3479b6873bc77" upstream="rk3399-9.0"/>
@@ -76,7 +76,7 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="74af8781d3bd30b0ef902653c86d4b9ca9789a40" upstream="rk3399-9.0"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="3e5dd62a92d071c304ccda7578809eade7b76270" upstream="rk3399-9.0"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="c57a8372e7f69a421563bd6ce8ce78c37672c40c" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="6d0e2eea0c00bfc426ff65a0a611e1d40bee5e5a" upstream="rk3399-9.0"/>
 
