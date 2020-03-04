@@ -1,5 +1,29 @@
-release 20191120
+release 20200304
 >
+
+1. update sdk to rockchip rk3399_pie_v9.00_20191223.xml
+2. update to android-9.0.0_r50
+3. Configurable SU：
+    TunerSettings -> System -> Root Access -enable-> APP SU Access.
+    Enable SU that You can get su access in any app.
+    If you need permission management, please swipe in Magisk.
+    After swipe Magisk, this settings will be not work.
+4. Supprot Raspberry Pi Camera V2.0 (imx219).
+5. Ctrl+Alt+P to open power menu.
+6. Fix factory reset not work in TWRP.
+7. Fix first boot get more error in TWRP.
+8. Add power button in Navbar.
+9. Add TvSettings and set it to default Settings.
+10.Optimize TunerSetting for open animation.
+11.Change the launcher default workspace.
+12.Enable TF card sdr104 mode.
+13.Add a hard power button (16(High effective) pin in 40 pin).
+    2 4 6 8 10 12 14 [16]...
+    1 3 5 7 9  11 13  15 ...
+
+<
+
+release 20191120
 
 ### common
 1. update sdk to rockchip rk3399_pie_v8.00_20191005.xml
@@ -10,8 +34,6 @@ release 20191120
 
 ### rk3399
 1. restore previous version of navigation bar
-
-<
 
 release 20190927
 

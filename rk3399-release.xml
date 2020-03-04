@@ -54,7 +54,7 @@
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="35a62138a425bc042a3cb3db723111de427023a6" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="bae340b12b8dec2c9c552d05ea9e1aff6c5df84d" upstream="rk3399-9.0"/>
-  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="87e47664cf89683f2320c78de820702c12c759a1" upstream="rk3399-9.0"/>
+  <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="fb089e72e0278d4ce9c0165e62a93a19b28fe2be" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="17f0eb79d8a5d60f64ffa805dfc5ad70361ae4ab" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk-vendor" revision="c2a721263f926648af5fdd68fe2f289ce362742e" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk-vendor" revision="1874436bad21289fe97f69fa450282c7df744c7b" upstream="rk3399-9.0"/>
