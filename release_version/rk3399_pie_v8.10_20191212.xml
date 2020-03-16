@@ -727,7 +727,7 @@
   <project name="rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="dd23392ad8ee8e0e7bee81030270b33a31adbc25" upstream="master"/>
   <project name="rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="293bc7b564ce93dc47868b881f0a1018a8d09644" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/platform/vendor/microsoft" path="vendor/microsoft" remote="rk" revision="6eb6f6fcbf88050b27a79cc3ba04ad8f8f1289ca" upstream="rk33/mid/8.1/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="0a69010a4c991960c4f9a41f1b540fddb7bce0aa" upstream="rk33/mid/9.0/develop"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="9b8d474827c311cd0fe40a05401e6a5dd60e224b" upstream="rk3399-pie-gms-express-baseline"/>
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="50d9a47d71bfa247500f49d4c98787313a292c47" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
