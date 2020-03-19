@@ -25,8 +25,10 @@
   <remove-project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
   <remove-project name="platform/external/libhevc" path="external/libhevc" />
   <remove-project name="platform/external/speex" path="external/speex" />
-  <remove-project name="platform/external/swiftshader" path="external/swiftshader" />
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
+  <remove-project name="platform/external/iperf3"/>
+  <remove-project path="external/ppp" name="platform/external/ppp" groups="pdk" />
+  <remove-project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" />
   <remove-project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/base" path="frameworks/base" />
@@ -99,6 +101,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Car/tests" />
   <remove-project name="kernel/build" />
   <remove-project name="platform/packages/apps/Camera2" />
@@ -109,6 +112,7 @@
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/NetworkStack" />
+  <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native"/>
   <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -125,4 +129,5 @@
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
+  <remove-project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
 </manifest>  
