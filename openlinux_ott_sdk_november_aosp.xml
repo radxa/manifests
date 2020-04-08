@@ -3,7 +3,7 @@
   <remote name="amlogic"
           fetch="../../" />
 
-  <include name="default.xml" />
+  <include name="p-amlogic_openlinux-google-android-9.0.0_r3.xml" />
   <remove-project name="p-amlogic/platform/packages/apps/TV" />
   <include name="common_ott_openlinux.xml" />
   <remove-project name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" />
