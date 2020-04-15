@@ -119,6 +119,7 @@
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" revision="openlinux/tv/p-amlogic-20190219"/>
+  <project path="vendor/amlogic/common/dsp/dsp_util" name="p-amlogic/vendor/amlogic/dsp_util" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="openlinux/tv/p-amlogic-20190219"  />
