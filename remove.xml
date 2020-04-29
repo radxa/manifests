@@ -18,12 +18,14 @@
   <remove-project name="platform/art" path="art" />
   <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
   <remove-project name="platform/bionic" path="bionic" />
+  <remove-project name="platform/libcore" path="libcore" />
   <remove-project name="platform/external/libavc" path="external/libavc" />
   <remove-project name="platform/external/libdrm" path="external/libdrm" />
   <remove-project name="platform/external/ImageMagick" path="external/ImageMagick" />
   <remove-project name="platform/external/libcups" path="external/libcups" />
   <remove-project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
   <remove-project name="platform/external/libhevc" path="external/libhevc" />
+  <remove-project name="platform/external/libexif" path="external/libexif" />
   <remove-project name="platform/external/speex" path="external/speex" />
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <remove-project name="platform/external/iperf3"/>
@@ -44,6 +46,7 @@
   <remove-project name="platform/system/netd" path="system/netd" />
   <remove-project name="platform/system/nfc" path="system/nfc" />
   <remove-project name="platform/system/vold" path="system/vold" />
+  <remove-project name="platform/system/media" path="system/media" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64"/>
@@ -130,4 +133,5 @@
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <remove-project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <remove-project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
 </manifest>  
