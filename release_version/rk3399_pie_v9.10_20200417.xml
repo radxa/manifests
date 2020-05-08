@@ -644,7 +644,7 @@
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="e43aa9c4b147dc3f459828fbd7bf9fa6ba3090a8" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="e609036145cd4457439e4798878f6ff5bf9c756f" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/system/iot/attestation" path="system/iot/attestation" revision="728c87294394ece5e15d5db75ea32972302d916b" upstream="refs/tags/android-9.0.0_r50"/>
-  <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293" upstream="refs/tags/android-9.0.0_r50"/>
+  <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="452bcaf4ab5f3ba84dcea603827cca24bcb58dc3" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/system/libfmq" path="system/libfmq" revision="fb90fec55b70a3a9f221acaf3ccfd28debb057b9" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/system/libhidl" path="system/libhidl" revision="5628025297a4a0905e2b5e95643daa6e2508adbd" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="3b82196284ea11b8374bfea6afb027617043d6e6" upstream="refs/tags/android-9.0.0_r50"/>
