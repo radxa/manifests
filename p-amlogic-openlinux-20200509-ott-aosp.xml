@@ -442,7 +442,7 @@
   <project name="p-amlogic/platform/hardware/amlogic/tb_modules" path="hardware/amlogic/tb_modules" revision="973df8054a0b4c7020c16ed7c75d8773e8a7672d" upstream="amlogic-4.9-dev_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/thermal" path="hardware/amlogic/thermal" remote="amlogic" revision="482f7c237f2b8f4908bbfe411c5d86fa92043908" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/tv_input" path="hardware/amlogic/tv_input" remote="amlogic" revision="64dd6bd15da66bebc7cffd02f4a59d5a7be37847" upstream="o-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/platform/hardware/amlogic/wifi" path="hardware/amlogic/wifi" remote="amlogic" revision="9a970671abab4011d55fe581bf55197890092c66" upstream="p-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/hardware/amlogic/wifi" path="hardware/amlogic/wifi" remote="amlogic" revision="00e8bdee574e6571c57d35e59df6058adbea3c61" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/arm/gpu" path="vendor/amlogic/common/gpu" remote="amlogic" revision="47df091655e491e7606d1877f26720ab6eaf1f50" upstream="r6p1_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/arm/isp" path="vendor/amlogic/common/arm_isp" remote="amlogic" revision="af8f19ac32bec5ede38ff57806e31d1c198196d3" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project groups="pdk" name="p-amlogic/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="370b9bec15c6a35f0427d6f52bb5afdaa4bb229f" upstream="refs/tags/android-9.0.0_r3"/>
@@ -460,7 +460,7 @@
   <project name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7603" path="hardware/wifi/mtk/drivers/mt7603" remote="amlogic" revision="9d79c2cc7ffb5e5509390b80dcd98e1b4390903c" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668" path="hardware/wifi/mtk/drivers/mt7668" remote="amlogic" revision="fd76e10404b220c552fc7951f5a359b56d599e3b" upstream="o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" path="hardware/wifi/mtk/drivers/mt7668u" remote="amlogic" revision="2bc498dc64983314035efc1d02ecc6c08b19b0a6" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174" path="hardware/wifi/qualcomm/drivers/qca6174" remote="amlogic" revision="48c7751b70fce53de1c78dbdda84c8e9aafa7a5e" upstream="refs/heads/o-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174" path="hardware/wifi/qualcomm/drivers/qca6174" remote="amlogic" revision="f159e358388dd0394d91371ccd160d089329eac1" upstream="refs/heads/o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377" path="hardware/wifi/qualcomm/drivers/qca9377" remote="amlogic" revision="bb85b6cc06b40673fa5ec90c6c9ca9eda1d27940" upstream="refs/heads/o-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9379" path="hardware/wifi/qualcomm/drivers/qca9379" remote="amlogic" revision="5e885f80f7e76a269f2124abc6713ae7b5f1e43e" upstream="refs/heads/p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" path="hardware/wifi/realtek/drivers/8188eu" remote="amlogic" revision="75b6ac0401fbc803e2b4634f286ffc9179f6df97" upstream="l-amlogic_9.2.1811_21-dev"/>
