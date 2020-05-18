@@ -34,6 +34,7 @@
   <project path="hardware/amlogic/memtrack" name="p-amlogic/platform/hardware/amlogic/memtrack" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/power" name="p-amlogic/platform/hardware/amlogic/power" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/screen_source" name="p-amlogic/platform/hardware/amlogic/screen_source" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/amlogic/video_detect" name="p-amlogic/platform/hardware/amlogic/video_detect" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/amlogic/tb_modules" name="p-amlogic/platform/hardware/amlogic/tb_modules" revision="openlinux/tv/p-amlogic-20190219"/>
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" revision="openlinux/tv/p-amlogic-20190219"  />
@@ -120,6 +121,7 @@
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" revision="openlinux/tv/p-amlogic-20190219"/>
   <project path="vendor/amlogic/common/dsp/dsp_util" name="p-amlogic/vendor/amlogic/dsp_util" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/mediahal_sdk" name="p-amlogic/vendor/amlogic/mediahal_sdk" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="openlinux/tv/p-amlogic-20190219"  />
