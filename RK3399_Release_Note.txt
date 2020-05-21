@@ -20,3 +20,7 @@ rk3399_pie_v4.00__20190605.xml 版本更新内容概述
  rk3399_pie_v4.20_20190717.xml 版本更新内容概述
  1、kernel: cdn-dp: ignore firmware fallback mechanism
  2、RKDocs/rk3399: 更新英文文档
+
+ rk3399_pie_v9.10_20200417.xml 版本更新内容概述
+ 1、u-boot: resolved dependency between mipi_tx0 and mipi_tx1
+ 2、kernel: resolved dependency between mipi_tx0 and mipi_tx1
