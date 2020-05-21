@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../../aosp/" name="aosp"/>
+  <!--<remote fetch="../../aosp/" name="aosp"/>
   <remote fetch="../../rk/" name="rk"/>
   <remote fetch="../rk3326" name="rk3326"/>
-  <remote fetch="./" name="rk3399"/>
+  <remote fetch="./" name="rk3399"/>-->
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r50" sync-j="4"/>
   
