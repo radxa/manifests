@@ -4,6 +4,10 @@ release 20200521
 2. Ctrl+Alt+Enter to open enter converts to dp-center.
 3. The right mouse button is the return key.
 4. TunerSettings add Network Adb Setting.
+5. **TvSettings Supprot mouse operation.**
+6. TWRP update to V3.3.1.0.
+7. For compatibility, Close TF card sdr104 mode.
+8. Rockchip SDK update to rk3399_pie_v9.10_20200417.xml.
 <
 
 release 20200304
