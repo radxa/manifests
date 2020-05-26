@@ -19,7 +19,7 @@
   <remove-project name="vendor-rockchip-common" />
 
   <project name="RKTools" remote="rk-vendor" revision="970e043500aa8b02df76c0849310e9b8234012c1" upstream="rk3399pro-android-8.1"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="1cc48c60f32ca2081d9ebbc14dfe1527e13690c4" upstream="rk3399pro-android-8.1"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk-vendor" revision="2fa4d80090159364a07464af2cbfd4b4238976f8" upstream="rk3399pro-android-8.1"/>
   <project groups="pdk" name="build/make" path="build/make" remote="rk-vendor" revision="4696b9500a376deef119161e8f0f28a1c2777c22" upstream="rk3399pro-android-8.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -41,9 +41,10 @@
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="ee706436a443c0426e7d0f79b173c98962de90e6" upstream="rk3399pro-android-8.1"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="1d56a5d0c6281c51041589b69c3e94e9989255bc" upstream="rk3399pro-android-8.1"/>
   <project name="rk/hardware/rk33/upgrade_tool" path="hardware/rockchip/upgrade_tool" remote="rk-vendor" revision="d2fc6c511b5ea042e6a1577b392d867d56b35247" upstream="rk3399pro-android-8.1"/>
-  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="9f6708998b4f544a38d6a59c353867438e8c95f2" upstream="rk3399pro-toybrick-stable"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="507b0a7b8c8e17e53ae4892defec6d679da2c770" upstream="rk3399pro-toybrick-stable"/>
   <project name="rk/rkbin" path="rkbin" remote="rk-vendor" revision="9c81984d63bbd2498954018ee7c4f70b322e7a92" upstream="rk3399pro-android-8.1"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="610dfbf6a20253105eae54f1f4398e26898bb8da" upstream="rk3399pro-android-8.1"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="d06de23d431875a62b4c339805d98728a72d55e4" upstream="rk3399pro-android-8.1"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="b2ff7ce306e9a14ea4e7384bb3105f106e88af36" upstream="rk3399pro-android-8.1"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="caba6fa09f8fa5f74fb1020602e458ab57057b0f" upstream="rk3399pro-android-8.1"/>
+  <project name="vendor/customize/common" remote="rk-vendor" revision="d12321c0c3a0ed4ef4a95df4de0a396cb16b3022" upstream="rk3399pro-android-8.1"/>
 </manifest>
