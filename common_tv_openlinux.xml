@@ -25,7 +25,6 @@
   <project path="hardware/amlogic/hdmi_cec" name="p-amlogic/platform/hardware/amlogic/hdmi_cec" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="openlinux/tv/p-amlogic-20190219" />
-  <project path="hardware/amlogic/bluetooth" name="p-amlogic/platform/hardware/amlogic/bluetooth" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" revision="openlinux/tv/p-amlogic-20190219"  />
@@ -37,7 +36,6 @@
   <project path="hardware/amlogic/video_detect" name="p-amlogic/platform/hardware/amlogic/video_detect" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/amlogic/tb_modules" name="p-amlogic/platform/hardware/amlogic/tb_modules" revision="openlinux/tv/p-amlogic-20190219"/>
   <project path="hardware/amlogic/thermal" name="p-amlogic/platform/hardware/amlogic/thermal" revision="openlinux/tv/p-amlogic-20190219"  />
-  <project path="hardware/amlogic/wifi" name="p-amlogic/platform/hardware/amlogic/wifi" revision="openlinux/tv/p-amlogic-20190219"  />
 
   <!--
   <project path="hardware/amlogic/audio_dia_remote" name="p-amlogic/platform/hardware/amlogic/audio_dia_remote" revision="openlinux/tv/p-amlogic-20190219" />
@@ -46,9 +44,12 @@
   <project path="hardware/wifi/realtek/drivers/8188eu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/qualcomm/drivers/qca6391" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6391"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/mtk/drivers/mt7668u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/atbm" name="p-amlogic/platform/hardware/wifi/atbm"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/mtk/drivers/mt7601" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/mtk/drivers/mt7603" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7603"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/realtek/drivers/8188ftv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8192du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8192du" revision="openlinux/tv/p-amlogic-20190219"  />
@@ -68,9 +69,11 @@
   <project path="hardware/wifi/realtek/drivers/8822cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cs" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cs" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cu" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8821au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821au" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8188gtv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188gtv" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377" revision="openlinux/tv/p-amlogic-20190219"  />
-
+  <project path="hardware/wifi/qualcomm/drivers/qca9379" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9379" revision="openlinux/tv/p-amlogic-20190219"  />
   <!-- add livetv -->
   <project path="packages/apps/TV" name="p-amlogic/platform/packages/apps/TV" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="vendor/amlogic/common/apps/DroidLiveTv" name="p-amlogic/platform/packages/amlogic/DroidLiveTv" revision="openlinux/tv/p-amlogic-20190219" />
@@ -81,7 +84,6 @@
   <project path="vendor/amlogic/common/apps/DroidTvSettings" name="p-amlogic/platform/packages/amlogic/DroidTvSettings" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/FileBrowser" name="p-amlogic/platform/packages/amlogic/FileBrowser" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/MboxLauncher2" name="p-amlogic/platform/packages/amlogic/MboxLauncher2" revision="openlinux/tv/p-amlogic-20190219"  />
-
   <project path="vendor/amlogic/common/apps/Miracast" name="p-amlogic/platform/packages/amlogic/Miracast" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/NativeImagePlayer" name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/apps/OTAUpgrade2" name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" revision="openlinux/tv/p-amlogic-20190219"  />
@@ -121,6 +123,7 @@
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" revision="openlinux/tv/p-amlogic-20190219"/>
   <project path="vendor/amlogic/common/dsp/dsp_util" name="p-amlogic/vendor/amlogic/dsp_util" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/wifi_bt" name="p-amlogic/vendor/amlogic/common/wifi_bt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/mediahal_sdk" name="p-amlogic/vendor/amlogic/mediahal_sdk" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="openlinux/tv/p-amlogic-20190219"  />
