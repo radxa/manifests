@@ -19,17 +19,16 @@
   <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
   <remove-project name="platform/bionic" path="bionic" />
   <remove-project name="platform/libcore" path="libcore" />
-  <remove-project name="platform/external/libavc" path="external/libavc" />
   <remove-project name="platform/external/libdrm" path="external/libdrm" />
-  <remove-project name="platform/external/ImageMagick" path="external/ImageMagick" />
-  <remove-project name="platform/external/libcups" path="external/libcups" />
   <remove-project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
-  <remove-project name="platform/external/libhevc" path="external/libhevc" />
   <remove-project name="platform/external/libexif" path="external/libexif" />
   <remove-project name="platform/external/speex" path="external/speex" />
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <remove-project name="platform/external/iperf3"/>
+  <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <remove-project path="external/ppp" name="platform/external/ppp" groups="pdk" />
+  <remove-project path="external/v8" name="platform/external/v8" />
+  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" />
   <remove-project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
@@ -37,14 +36,10 @@
   <remove-project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/interfaces" path="hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
-  <remove-project name="platform/system/apex" path="system/apex" />
-  <remove-project name="platform/system/bt" path="system/bt" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" path="system/core" />
   <remove-project name="platform/system/hwservicemanager" path="system/hwservicemanager" />
-  <remove-project name="platform/system/security" path="system/security" />
-  <remove-project name="platform/system/sepolicy" path="system/sepolicy" />
   <remove-project name="platform/system/netd" path="system/netd" />
-  <remove-project name="platform/system/nfc" path="system/nfc" />
   <remove-project name="platform/system/vold" path="system/vold" />
   <remove-project name="platform/system/media" path="system/media" />
   <remove-project name="device/amlogic/yukawa" />
@@ -108,10 +103,6 @@
   <remove-project name="platform/packages/apps/Car/tests" />
   <remove-project name="kernel/build" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="platform/packages/apps/Email" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/NetworkStack" />
@@ -122,7 +113,6 @@
   <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
-  <remove-project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" />
   <remove-project path="frameworks/ex" name="platform/frameworks/ex" />
   <remove-project path="external/skia" name="platform/external/skia" />
   <remove-project path="external/boringssl" name="platform/external/boringssl" />
@@ -132,6 +122,5 @@
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
-  <remove-project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <remove-project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
 </manifest>  

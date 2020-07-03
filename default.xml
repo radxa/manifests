@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default revision="refs/tags/android-10.0.0_r32"
+  <default revision="refs/tags/android-10.0.0_r36"
            remote="aosp"
            sync-j="4" />
 
