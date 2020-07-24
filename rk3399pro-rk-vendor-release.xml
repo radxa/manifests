@@ -12,6 +12,7 @@
   <remove-project name="frameworks-base" />
   <remove-project name="hardware-rockchip-camera" />
   <remove-project name="hardware-rockchip-upgrade_tool" />
+  <remove-project name="hardware-rockchip-sensor" />
   <remove-project name="kernel" />
   <remove-project name="rkbin" />
   <remove-project name="system-core" />
@@ -34,14 +35,15 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="rk/device/rockchip/rk3399pro" path="device/rockchip/rk3399pro" remote="rk-vendor" revision="4559112517c6626d16f9ab5e445b3fedee703836" upstream="rk3399pro-android-8.1">
+  <project name="rk/device/rockchip/rk3399pro" path="device/rockchip/rk3399pro" remote="rk-vendor" revision="53b633dc819a824a68d883d1a9af69d6a7ba8e10" upstream="rk3399pro-android-8.1">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="ee706436a443c0426e7d0f79b173c98962de90e6" upstream="rk3399pro-android-8.1"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="1d56a5d0c6281c51041589b69c3e94e9989255bc" upstream="rk3399pro-android-8.1"/>
   <project name="rk/hardware/rk33/upgrade_tool" path="hardware/rockchip/upgrade_tool" remote="rk-vendor" revision="d2fc6c511b5ea042e6a1577b392d867d56b35247" upstream="rk3399pro-android-8.1"/>
-  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="507b0a7b8c8e17e53ae4892defec6d679da2c770" upstream="rk3399pro-toybrick-stable"/>
+  <project name="rk/hardware/rk33/sensor" path="hardware/rockchip/sensor" remote="rk-vendor" revision="c21f34ecb772d5e1536a7d1dfaf508271180e492" upstream="rk3399pro-android-8.1"/>
+  <project name="rk/kernel" path="kernel" remote="rk-vendor" revision="07155f65c47f50d1adc1c90daed9a32d91650bf1" upstream="rk3399pro-toybrick-stable"/>
   <project name="rk/rkbin" path="rkbin" remote="rk-vendor" revision="9c81984d63bbd2498954018ee7c4f70b322e7a92" upstream="rk3399pro-android-8.1"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="d06de23d431875a62b4c339805d98728a72d55e4" upstream="rk3399pro-android-8.1"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="b2ff7ce306e9a14ea4e7384bb3105f106e88af36" upstream="rk3399pro-android-8.1"/>
