@@ -118,6 +118,7 @@
   <project path="vendor/amlogic/common/frameworks/pppoe" name="p-amlogic/vendor/amlogic/frameworks/pppoe" revision="openlinux/tv/p-amlogic-20190219"  />
 
   <project path="vendor/amlogic/common/gpu" name="p-amlogic/platform/hardware/arm/gpu" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="vendor/amlogic/common/gpu-lib" name="p-amlogic/linux/amlogic/meson_mali" revision="openlinux/tv/p-amlogic-20190219" />
 
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
