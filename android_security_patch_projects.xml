@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="p-google_openlinux-20200708.xml" />
+    <include name="google-frameworks/p-google_openlinux-20200806.xml" />
 </manifest>
