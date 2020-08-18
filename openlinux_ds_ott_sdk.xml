@@ -491,7 +491,7 @@
   <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="refs/heads/openlinux/ds/p-amlogic-20200509"/>
   <project name="p-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/common/apps/FileBrowser" remote="amlogic" revision="e192d4f55cafe13d20ed433fee653f8713dbd315" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/packages/amlogic/LibTsPlayer" path="vendor/amlogic/common/LibTsPlayer" remote="amlogic" revision="f63d463fa316088e02dca187e9a1b3ef96eed403" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="f8a80e2ab1c856bbb0c1aac200992a2321db49e7" upstream="p-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="refs/heads/openlinux/ds/p-amlogic-20200509"/>
   <project name="p-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/common/apps/Miracast" remote="amlogic" revision="60bea0589d10e70e970e1524a6d8726858d9d160" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="93ee880087da5135bfb1ad1c705d6031abd37e45" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/common/apps/OTAUpgrade2" remote="amlogic" revision="03b2f4055ba34c34ca52452133b441f229ede969" upstream="m-amlogic_9.2.1811_21-dev"/>
@@ -499,7 +499,7 @@
   <project name="p-amlogic/platform/packages/amlogic/RemoteIME" path="vendor/amlogic/common/apps/RemoteIME" remote="amlogic" revision="66eace8fe3fb97ffca0215c1fad70abb0fd5dd77" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/common/apps/SubTitle" remote="amlogic" revision="28ee521a4a1fd971e3f6774cbda961d1e9eeef5d" upstream="p-amlogic_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/packages/amlogic/TvInput" path="vendor/amlogic/common/apps/TvInput" remote="amlogic" revision="b99d261bfd7fef423bee22f1251c4a3f0fa5c80d" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" remote="amlogic" revision="9526c861ad79f45668aa86ab19547fe7b44be256" upstream="p-amlogic_9.2.1811_21-dev"/>
+  <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" remote="amlogic" revision="refs/heads/openlinux/ds/p-amlogic-20200723"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-amlogic/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="8281f09e9caf11ff24159e232e01e098085df430" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="p-amlogic/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="3e191ef459a9f81bf6cfcfee1e36dec72c2831f2" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk-fs" name="p-amlogic/platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="9484cbe1f997fa4ed60ec2f37b628d0ef1cfc23b" upstream="refs/tags/android-9.0.0_r3"/>
