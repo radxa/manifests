@@ -82,7 +82,7 @@
 
   <project remote="rk-vendor" name="opengapps" path="vendor/opengapps" revision="97ed760350560a121644be77c141946f252ec239" upstream="android9.0-tv"/>
   <project remote="rk-vendor" name="opengapps" path="vendor/opengapps-phone" revision="fdddb590845897303f1541244f88c50d9829d32a" upstream="android-9.0-phone"/>
-  <project remote="rk-vendor" name="vendor/customize/common" revision="c8f68ae669c5397ce86ea3c1a0d44d9b5c63d16e" upstream="rk3399-9.0"/>
+  <project remote="rk-vendor" name="vendor/customize/common" revision="7ec886034f6159da96efc44c67a264fa0c612383" upstream="rk3399-9.0"/>
   <project name="platform/packages/apps/AppDrawer" path="packages/apps/AppDrawer" remote="rk-vendor" revision="d499a4405de78207728b463cee26526a828ead70" upstream="rk3399-9.0"/>
   <project name="rk/rkbin" path="rkbin" remote="rk-vendor" revision="ca70b35fbf311938fd8a8278a22b7d2e82320fcd" upstream="rk3399-9.0"/>
 </manifest>
