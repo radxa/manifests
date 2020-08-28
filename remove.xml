@@ -3,6 +3,7 @@
   <remove-project path="device/google/coral" name="device/google/coral" groups="device,coral" />
   <remove-project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral" clone-depth="1" />
   <remove-project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral" />
+  <remove-project name="device/google_car"/>
   <remove-project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral" />
   <remove-project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" />
   <remove-project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
@@ -19,16 +20,16 @@
   <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
   <remove-project name="platform/bionic" path="bionic" />
   <remove-project name="platform/libcore" path="libcore" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libdrm" path="external/libdrm" />
   <remove-project name="platform/external/e2fsprogs" path="external/e2fsprogs" />
   <remove-project name="platform/external/libexif" path="external/libexif" />
   <remove-project name="platform/external/speex" path="external/speex" />
   <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <remove-project name="platform/external/iperf3"/>
-  <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/v8"/>
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <remove-project path="external/ppp" name="platform/external/ppp" groups="pdk" />
-  <remove-project path="external/v8" name="platform/external/v8" />
-  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" />
   <remove-project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" />
@@ -36,7 +37,6 @@
   <remove-project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/interfaces" path="hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" path="system/core" />
   <remove-project name="platform/system/hwservicemanager" path="system/hwservicemanager" />
   <remove-project name="platform/system/netd" path="system/netd" />
@@ -103,11 +103,13 @@
   <remove-project name="platform/packages/apps/Car/tests" />
   <remove-project name="kernel/build" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Car/CompanionDeviceSupport" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <remove-project path="frameworks/native" name="platform/frameworks/native"/>
+  <remove-project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" />
