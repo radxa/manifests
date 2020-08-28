@@ -723,5 +723,5 @@
   <project name="p-amlogic/vendor/amlogic/tv" path="vendor/amlogic/common/tv/frameworks" revision="2a5a099e46ec6fd45d53e0ff2cc7b0f66313d07d" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" revision="refs/heads/openlinux/ds/p-amlogic-20200723"/>
   <project name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" revision="9989e4afe82f521c6b477d8fcd92230ef2a87bc7" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/vendor/widevine" path="vendor/widevine" revision="2bb1630ddd25f83c1f1a763924af1c40222c3029" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project name="p-amlogic/vendor/widevine" path="vendor/widevine" revision="refs/heads/openlinux/ds/p-amlogic-20200723"/>
 </manifest>
