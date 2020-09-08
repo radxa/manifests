@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp"      fetch="https://gitlab.com/google-group/" />
+  <remote name="rk"        fetch="https://gitlab.com/rockchip/" />
+  <remote name="rk29"      fetch="https://gitlab.com/rockchip/" />
+  <remote name="rk-vendor" fetch="https://gitlab.com/rk-vendor/" />
+  <!-- remote repo and gerrit review -->
+  <include name="Android10_Custom.xml" />
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="Android10.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="platform/tools/tradefederation" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery/rk_update" />
+  <remove-project name="platform/bootable/recovery/rk_utility" />
+  <remove-project name="platform/bootable/recovery/mtd_utils" />
+
+  <project path="tools/tradefederation/core" name="tools/tradefederation" groups="pdk,tradefed" />
+  <project path="build/soong" name="build/soong" remote="rk" revision="refs/tags/android-10.0-mid-rkr10" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project name="bootable/recovery/rkupdate" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
+  <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
+  <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp"      fetch="http://192.168.2.13/android-sdk/google-group/" />
+  <remote name="rk"        fetch="http://192.168.2.13/android-sdk/rockchip-group/" />
+  <remote name="rk29"      fetch="http://192.168.2.13/android-sdk/rockchip-group/" />
+  <remote name="rk-vendor" fetch="http://192.168.2.13/android-sdk/rk-vendor/" />
+  <!-- remote repo and gerrit review -->
+  <include name="Android10_Custom.xml" />
+
+</manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote repo and gerrit review -->
-  <include name="remote.xml" />
+  <!--<include name="remote.xml" />-->
 
   <!-- aosp default repository-->
   <include name="default.xml" />
