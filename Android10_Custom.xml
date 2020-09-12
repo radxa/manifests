@@ -68,7 +68,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="8d92211c005d99da863b162188a8468f7d2bc2cd" upstream="rockchip-android-10" />
 
   <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="035946fc2de37de0145077454aa02312c876295e" upstream="rockchip-android-10" />
-  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="6950c935c638c7dc28ea42ac97f95593a8d66299" upstream="rockchip-android-10" />
+  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="a192b5845bf4ff93f01d891fc22acced52ad373d" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="74d0c08dd2b1f669541671e35476253dff7301f6" upstream="rockchip-android-10" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="45c35a7a4a699474b063ea9bc81016453aa10f15" upstream="rockchip-android-10" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>

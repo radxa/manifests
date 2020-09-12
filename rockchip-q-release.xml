@@ -7,4 +7,5 @@
   <!-- remote repo and gerrit review -->
   <include name="Android10_Custom.xml" />
 
+  <project path="vendor/partner_gms" name="opengapps" remote="rk-vendor" revision="android-q-phone" upstream="android-q-phone" />
 </manifest>

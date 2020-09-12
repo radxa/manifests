@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="Android10.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="platform/tools/tradefederation" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery/rk_update" />
+  <remove-project name="platform/bootable/recovery/rk_utility" />
+  <remove-project name="platform/bootable/recovery/mtd_utils" />
+  <!-- change -->
+  <remove-project name="rk/device/rockchip/rk3326" />
+
+
+  <project path="tools/tradefederation/core" name="tools/tradefederation" groups="pdk,tradefed" />
+  <project path="build/soong" name="build/soong" remote="rk" revision="refs/tags/android-10.0-mid-rkr9" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project name="bootable/recovery/rkupdate" remote="rk" revision="refs/tags/android-10.0-mid-rkr9"/>
+  <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr9"/>
+  <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr9"/>
+  <!-- change -->
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="47f78fbf058d9754eb14a48192e2b0259cdd37b4" upstream="rk3399-android-q" >
+    <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
+    <copyfile dest="kernel/kernel/configs/android-10-go.config" src="rockchip/android-10-go.config"/>
+    <copyfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
+    <copyfile dest="kernel/kernel/configs/rk3399.config" src="rockchip/rk3399.config"/>
+    <copyfile dest="kernel/kernel/configs/px30_rds.config" src="rockchip/px30_rds.config"/>
+  </project>
+
+  <project groups="pdk" name="platform/build" path="build/make" remote="rk-vendor" revision="rk3399-android-q">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="82399d1bdeb149b15694e80151bd30c0c1fe8787" upstream="rk3399-android-q" >
+      <copyfile src=".classpath" dest=".classpath"/>
+      <copyfile src="mkimage.sh" dest="mkimage.sh"/>
+      <copyfile src="javaenv.sh" dest="javaenv.sh"/>
+      <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
+  </project>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="8fa66b7f7b460f9903dfb28cfe53b2a47cfd8d89" upstream="rk3399-android-q" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="rk-vendor" revision="03c659ef7992ccfd73229e3405141a1c234edcc9" upstream="rk3399-android-q" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk-vendor" revision="78661f76754b3954fd4976934917f995c7b083f8" upstream="rk3399-android-q" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="rk-vendor" revision="53be694b018e7e2c1563ff18f7ddbd94446ca08a" upstream="rk3399-android-q" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk-vendor" revision="f8a90a89ad6416ad2268d6b5f7e64767203f7673" upstream="rk3399-android-q" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rk-vendor" revision="33e6d553e02408c9c4bb537b0d2807e8bd10a577" upstream="rk3399-android-q" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="fde12069626b2dbdf59f868fbcf14514f6323115" upstream="rk3399-android-q" />
+
+  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="d9f39f4bdeaad03511a0a098db79ca03e37186ad" upstream="rk3399-android-q" />
+  <project path="device/rockchip/rk3326" name="rk/device/rockchip/rk3326" remote="rk-vendor" revision="cdc5e8902827069515629797f25ae7abf56d8358" upstream="px30-android-q" />
+
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="361babdfb49df665face57a4ae06148be4cfece3" upstream="rk3399-android-q" />
+  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="035946fc2de37de0145077454aa02312c876295e" upstream="rk3399-android-q" />
+  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="9382699e4b85467dec1b9d517f21dc8fcd0e781a" upstream="rk3399-android-q" />
+  <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="03c978fdc6dd7a57e197da9fa989f5942bacd68c" upstream="rk3399-android-q" />
+  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="187cdc589d2172098ed243b64d60cfc50cc9708a" upstream="rk3399-android-q" />
+  <project path="hardware/rockchip/hwcomposer" name="rk/hardware/rk29/hwcomposer_rga" remote="rk-vendor" revision="0d61626d195b2da9a6f0d58dc99493b7a9dc4265" upstream="rk3399-android-q" />
+
+  <project path="vendor/partner_gms" name="partner_gms" remote="rk-vendor" revision="c78794d3c7351c2f2763f5407b64a8ffc963af93" upstream="android-q-phone" />
+  <project path="vendor/partner_modules" name="partner_modules" remote="rk-vendor" revision="0ab94fa7c69f7610305c3d5f81ba06fc2461ec47" upstream="android-q-phone" />
+</manifest>
