@@ -32,10 +32,14 @@ ROCKPI 4A/B
 cd ${source-dir}
 ./build-rockpi-4b.sh
 ```
+Release dir: ${source-dir}/release-ROCKPI-4AB-`date +%F-%H-%M`/
+
 ROCKPI 4C
 ```bash
 cd ${source-dir}
 ./build-rockpi-4c.sh
 ```
+Release dir: ${source-dir}/release-ROCKPI-4C-`date +%F-%H-%M`/
+
 
 Please burn rockdev/update.img [GUIDE](https://wiki.radxa.com/Rockpi4/install/android-eMMC-rkupdate)

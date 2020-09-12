@@ -44,8 +44,8 @@
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
     <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
-    <linkfile src="device/rockchip/common/scripts/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
-    <linkfile src="device/rockchip/common/scripts/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
+    <linkfile src="scripts/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
+    <linkfile src="scripts/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
   </project>
   <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="d9f39f4bdeaad03511a0a098db79ca03e37186ad" upstream="rockchip-android-10" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="0adfb3201d45dae3c7e250c480b3a62af7e581d2" upstream="rockchip-android-10" />
