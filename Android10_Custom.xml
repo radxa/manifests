@@ -39,15 +39,16 @@
   <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
   <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
 
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="1bb59530dd52fa22f606fa85637e10c355578db2" upstream="rockchip-android-10" >
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="3dc41c06ab670a4e6d88edcd974e73dbc2d2633b" upstream="rockchip-android-10" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
     <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
-    <linkfile src="scripts/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
-    <linkfile src="scripts/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
   </project>
-  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="d9f39f4bdeaad03511a0a098db79ca03e37186ad" upstream="rockchip-android-10" />
+  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="5721abb62ee69bf76de77370315105dbaf89a027" upstream="rockchip-android-10" >
+    <linkfile src="RockPi4B/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
+    <linkfile src="RockPi4C/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
+  </project>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="0adfb3201d45dae3c7e250c480b3a62af7e581d2" upstream="rockchip-android-10" />
   <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="cd5c6fd4145a95d4cd52caf2a3c7c8b643084614" upstream="rockchip-android-10" />
   <project groups="pdk" name="platform/build" path="build/make" remote="rk-vendor" revision="0bdd9f5947b145483732b84710e2da7165ff97a7" upstream="rockchip-android-10" >
