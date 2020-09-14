@@ -39,7 +39,7 @@
   <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
   <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
 
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="fffd0b9f45344ed3ca939530f09218f08b1a2b31" upstream="rockchip-android-10" >
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="1bb59530dd52fa22f606fa85637e10c355578db2" upstream="rockchip-android-10" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
