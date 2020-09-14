@@ -22,7 +22,7 @@ RUN apt-get install -y lzop swig
 
 ## Download Source Code
 ```bash
-$ repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m android-q-release.xml 
+$ repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m rockchip-q-release.xml 
 $ repo sync -d --no-tags -j4
 ```
 
