@@ -4,8 +4,7 @@
   <remote name="rk"        fetch="https://gitlab.com/rockchip-group/" />
   <remote name="rk29"      fetch="https://gitlab.com/rockchip-group/" />
   <remote name="rk-vendor" fetch="https://gitlab.com/rk-vendor/" />
+  <remote name="partner"   fetch="https://gitlab.com/rk-vendor/" />
   <!-- remote repo and gerrit review -->
   <include name="Android10_Custom.xml" />
-
-  <project path="vendor/partner_gms" name="opengapps" remote="rk-vendor" revision="android-q-phone" upstream="android-q-phone" />
 </manifest>

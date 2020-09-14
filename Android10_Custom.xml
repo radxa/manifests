@@ -82,4 +82,6 @@
     <copyfile dest="kernel/kernel/configs/rockpi_4c.config" src="rockchip/rockpi_4c.config"/>
   </project>
 
+  <project path="vendor/partner_gms" name="partner_gms" remote="partner" revision="android-q-phone" upstream="android-q-phone" />
+  <project path="vendor/partner_modules" name="partner_modules" remote="partner" revision="android-q-phone" upstream="android-q-phone" />
 </manifest>

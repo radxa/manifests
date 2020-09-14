@@ -4,9 +4,7 @@
   <remote name="rk"        fetch="http://192.168.2.13/android-sdk/rockchip-group/" />
   <remote name="rk29"      fetch="http://192.168.2.13/android-sdk/rockchip-group/" />
   <remote name="rk-vendor" fetch="http://192.168.2.13/android-sdk/rk-vendor/" />
+  <remote name="partner"   fetch="http://192.168.2.13/android-sdk/rk-vendor/" />
   <!-- remote repo and gerrit review -->
   <include name="Android10_Custom.xml" />
-
-  <project path="vendor/partner_gms" name="partner_gms" remote="rk-vendor" revision="android-q-phone" upstream="android-q-phone" />
-  <project path="vendor/partner_modules" name="partner_modules" remote="rk-vendor" revision="android-q-phone" upstream="android-q-phone" />
 </manifest>
