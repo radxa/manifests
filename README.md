@@ -26,7 +26,7 @@ $ repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m 
 $ repo sync -d --no-tags -j4
 ```
 
-## Build Code
+## Build Code Script
 ROCKPI 4A/B
 ```bash
 cd ${source-dir}
@@ -41,5 +41,67 @@ cd ${source-dir}
 ```
 Release dir: ${source-dir}/release/ROCKPI-4C-`date +%F-%H-%M`
 
+## Build Steps
+### Build U-Boot
+ROCKPI 4A/B
+```bash
+$ cd u-boot
+$ ./make.sh rockpi4b
+$ cd -
+```
+ROCKPI 4C
+```bash
+$ cd u-boot
+$ ./make.sh rockpi4c
+$ cd -
+```
+
+### Build Kernel
+ROCKPI 4A/B
+```bash
+$ cd kernel
+$ make ARCH=arm64 rockchip_defconfig android-10.config rockpi_4b.config
+$ make ARCH=arm64 rk3399-rockpi-4b.img -j8
+$ cd -
+```
+ROCKPI 4C
+```bash
+$ cd kernel
+$ make ARCH=arm64 rockchip_defconfig android-10.config rockpi_4c.config
+$ make ARCH=arm64 rk3399-rockpi-4c.img -j8
+$ cd -
+```
+
+### Build AOSP
+ROCKPI 4A/B
+```bash
+$ source build/envsetup.sh
+$ lunch RockPi4B-userdebug
+$ make -j8
+```
+ROCKPI 4C
+```bash
+$ source build/envsetup.sh
+$ lunch RockPi4C-userdebug
+$ make -j8
+```
+
+### Build Update Image
+```bash
+$ ln -s RKTools/linux/Linux_Pack_Firmware/rockdev/ rockdev
+$ ./mkimage.sh
+```
+ROCKPI 4A/B
+```bash
+$ cd rockdev
+$ ln -s Image-RockPi4B Image
+$ ./mkupdate_rk3399.sh
+```
+ROCKPI 4C
+```bash
+$ cd rockdev
+$ ln -s Image-RockPi4C Image
+$ ./mkupdate_rk3399.sh
+```
 
 Please burn rockdev/update.img [GUIDE](https://wiki.radxa.com/Rockpi4/install/android-eMMC-rkupdate)
