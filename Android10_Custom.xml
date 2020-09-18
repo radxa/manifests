@@ -39,7 +39,7 @@
   <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
   <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
 
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="f7d359d43e23d67ff2466847b89519b5502c3135" upstream="rockchip-android-10" >
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="ef5fee6b10bba5a7d1a7a987691295f6a5345565" upstream="rockchip-android-10" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
@@ -70,7 +70,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rk-vendor" revision="1d9cd36f9f253628495aff7c4bcc07a2f0712a8f" upstream="rockchip-android-10" />
   <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="8d92211c005d99da863b162188a8468f7d2bc2cd" upstream="rockchip-android-10" />
 
-  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="035946fc2de37de0145077454aa02312c876295e" upstream="rockchip-android-10" />
+  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="d79ba122e9fd0f03d2cb6d26442150ea5074daa1" upstream="rockchip-android-10" />
   <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="a192b5845bf4ff93f01d891fc22acced52ad373d" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="74d0c08dd2b1f669541671e35476253dff7301f6" upstream="rockchip-android-10" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="45c35a7a4a699474b063ea9bc81016453aa10f15" upstream="rockchip-android-10" >
@@ -84,4 +84,5 @@
 
   <project path="vendor/partner_gms" name="partner_gms" remote="partner" revision="android-q-phone" upstream="android-q-phone" />
   <project path="vendor/partner_modules" name="partner_modules" remote="partner" revision="android-q-phone" upstream="android-q-phone" />
+  <project name="vendor/customize/common" remote="rk-vendor" revision="fe7d0d0d67ec073d0b05de22f31daddd4e4ac7bb" upstream="rockchip-android-10" />
 </manifest>
