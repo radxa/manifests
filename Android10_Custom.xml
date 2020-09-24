@@ -47,7 +47,7 @@
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
     <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
   </project>
-  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="5721abb62ee69bf76de77370315105dbaf89a027" upstream="rockchip-android-10" >
+  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="01113f2e32ad34e92f4b341590a86ffa269cb180" upstream="rockchip-android-10" >
     <linkfile src="RockPi4B/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
     <linkfile src="RockPi4C/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
   </project>
