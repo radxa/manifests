@@ -19,6 +19,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="rk/hardware/rk29/hwcomposer_rga" />
+  <remove-project name="rk/hardware/rk29/camera_v3" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -70,14 +71,15 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="rk-vendor" revision="53be694b018e7e2c1563ff18f7ddbd94446ca08a" upstream="rockchip-android-10" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk-vendor" revision="a013ddece1fb8e39b7ebc40f714966de8ebb53a1" upstream="rockchip-android-10" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rk-vendor" revision="1d9cd36f9f253628495aff7c4bcc07a2f0712a8f" upstream="rockchip-android-10" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="c76d28355f7dbe05514cd3b3e4a1018dd493f7c2" upstream="rockchip-android-10" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="1f8c83bf78a6db39d680887199a9c8d6acc3dc4e" upstream="rockchip-android-10" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="rk-vendor" revision="d8e7edeae4e4b0b7b975d3e3e8d98660af1bab1c" upstream="rockchip-android-10" />
   <project path="RKTools" name="RKTools" remote="rk-vendor" revision="70590b7acec2522201b308af6fb15bd6616a88bc" upstream="rockchip-android-10" />
+  <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
 
-  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="b5c5b5c33d20f187b5aacd8654ae140ea85211b7" upstream="rockchip-android-10" />
+  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="aa7ff19e4138ad80c4f93bac028f4db86e5cd6ca" upstream="rockchip-android-10" />
   <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="c7d8e72167958406fd4c80800e1c0fb6a063f37a" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="74d0c08dd2b1f669541671e35476253dff7301f6" upstream="rockchip-android-10" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="45c35a7a4a699474b063ea9bc81016453aa10f15" upstream="rockchip-android-10" >
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="956751925b22d0c21dc9469290583e68ebad7fff" upstream="rockchip-android-10" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
     <copyfile dest="kernel/kernel/configs/android-10-go.config" src="rockchip/android-10-go.config"/>
     <copyfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
