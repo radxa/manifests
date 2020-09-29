@@ -77,7 +77,7 @@
   <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
 
   <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="1777a407b62e33519eacac24a6956d53d774408c" upstream="rockchip-android-10" />
-  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="183b9661051d90b267bff68f4c9a905150280a60" upstream="rockchip-android-10" />
+  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="8a79964d0a098e611c7419b760ad0714deaea18b" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="53a9ab286ba99382076f74488634a6ddcb61fe76" upstream="rockchip-android-10" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="956751925b22d0c21dc9469290583e68ebad7fff" upstream="rockchip-android-10" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
