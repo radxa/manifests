@@ -42,7 +42,7 @@
   <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
   <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
 
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="4edadb71785bb3e3e3c09504cf93dee037f5c4c8" upstream="rockchip-android-10" >
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="10cb933abfa6c14d27beeb9faf484d82007e6d40" upstream="rockchip-android-10" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
@@ -72,7 +72,7 @@
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk-vendor" revision="a013ddece1fb8e39b7ebc40f714966de8ebb53a1" upstream="rockchip-android-10" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rk-vendor" revision="1d9cd36f9f253628495aff7c4bcc07a2f0712a8f" upstream="rockchip-android-10" />
   <project path="system/core" name="platform/system/core" groups="pdk" remote="rk-vendor" revision="d7cb9a51428ae71e81a1fc2a8e7b42af53134bf8" upstream="rockchip-android-10" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="rk-vendor" revision="d8e7edeae4e4b0b7b975d3e3e8d98660af1bab1c" upstream="rockchip-android-10" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="rk-vendor" revision="6856c06ce0747687da5d768e9f8b5d9c4d5a9930" upstream="rockchip-android-10" />
   <project path="RKTools" name="RKTools" remote="rk-vendor" revision="70590b7acec2522201b308af6fb15bd6616a88bc" upstream="rockchip-android-10" />
   <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
 
