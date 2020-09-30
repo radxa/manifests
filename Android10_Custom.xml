@@ -42,7 +42,7 @@
   <project name="bootable/recovery/rkutility" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
   <project name="bootable/recovery/mtdutils" remote="rk" revision="refs/tags/android-10.0-mid-rkr10"/>
 
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="356c23f5b702cdf8cfc0edf1f999256546b35507" upstream="rockchip-android-10" >
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk-vendor" revision="4edadb71785bb3e3e3c09504cf93dee037f5c4c8" upstream="rockchip-android-10" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
@@ -77,7 +77,7 @@
   <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
 
   <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="1777a407b62e33519eacac24a6956d53d774408c" upstream="rockchip-android-10" />
-  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="8a79964d0a098e611c7419b760ad0714deaea18b" upstream="rockchip-android-10" />
+  <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="745ea5246f1a49439f7e2dbe87b0a7c0ccc82ac3" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="53a9ab286ba99382076f74488634a6ddcb61fe76" upstream="rockchip-android-10" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="956751925b22d0c21dc9469290583e68ebad7fff" upstream="rockchip-android-10" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
