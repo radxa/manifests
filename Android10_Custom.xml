@@ -27,6 +27,8 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="RKTools" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="rk/hardware/rk29/audio" />
   <!-- change -->
   <remove-project name="rk/kernel" />
   <remove-project name="rk/u-boot" />
@@ -48,7 +50,7 @@
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
     <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
   </project>
-  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="a76cf18d7cf4dd63ea1580f49f7462fd5bd7ff89" upstream="rockchip-android-10" >
+  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="ee2e4eb0916ec5f05bdd709e2db4c4f51a689897" upstream="rockchip-android-10" >
     <linkfile src="RockPi4B/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
     <linkfile src="RockPi4C/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
   </project>
@@ -75,6 +77,8 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="rk-vendor" revision="6856c06ce0747687da5d768e9f8b5d9c4d5a9930" upstream="rockchip-android-10" />
   <project path="RKTools" name="RKTools" remote="rk-vendor" revision="70590b7acec2522201b308af6fb15bd6616a88bc" upstream="rockchip-android-10" />
   <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="rk-vendor" revision="29b8278f657d27b41dfe418147df14eadd36472d" upstream="rockchip-android-10" />
+  <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk-vendor" revision="54295c8cf8dc08f32b7c900c1252a178a2896f8d" upstream="rockchip-android-10" />
 
   <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="1777a407b62e33519eacac24a6956d53d774408c" upstream="rockchip-android-10" />
   <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="745ea5246f1a49439f7e2dbe87b0a7c0ccc82ac3" upstream="rockchip-android-10" />
