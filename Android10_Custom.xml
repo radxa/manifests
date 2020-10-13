@@ -78,12 +78,12 @@
   <project path="RKTools" name="RKTools" remote="rk-vendor" revision="70590b7acec2522201b308af6fb15bd6616a88bc" upstream="rockchip-android-10" />
   <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk-vendor" revision="8589b07004cca9eaff8bc5a331e5f0cb0e74172a" upstream="rockchip-android-10" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="rk-vendor" revision="29b8278f657d27b41dfe418147df14eadd36472d" upstream="rockchip-android-10" />
-  <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk-vendor" revision="54295c8cf8dc08f32b7c900c1252a178a2896f8d" upstream="rockchip-android-10" />
+  <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk-vendor" revision="1c00d84a4c499aa6c1536dd8b72170579f780629" upstream="rockchip-android-10" />
 
-  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="1777a407b62e33519eacac24a6956d53d774408c" upstream="rockchip-android-10" />
+  <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="48605a93ee55895d690736ab0080dd4da39eb1f8" upstream="rockchip-android-10" />
   <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="745ea5246f1a49439f7e2dbe87b0a7c0ccc82ac3" upstream="rockchip-android-10" />
   <project path="rkbin"  name="rk/rkbin"  remote="rk-vendor" revision="53a9ab286ba99382076f74488634a6ddcb61fe76" upstream="rockchip-android-10" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="956751925b22d0c21dc9469290583e68ebad7fff" upstream="rockchip-android-10" >
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="rk-vendor" revision="b7764b40fe0fc1fa34e3f06e5791a2ba1b49db4d" upstream="rockchip-android-10" >
     <copyfile dest="kernel/kernel/configs/android-10.config" src="rockchip/android-10.config"/>
     <copyfile dest="kernel/kernel/configs/android-10-go.config" src="rockchip/android-10-go.config"/>
     <copyfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
