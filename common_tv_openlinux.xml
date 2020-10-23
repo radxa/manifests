@@ -4,6 +4,7 @@
   <!-- add projects -->
   <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="bootloader/uboot-repo/bl30/bin" name="p-amlogic/firmware/bin/bl30" revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="bootloader/uboot-repo/bl30/src_ao" name="p-amlogic/firmware/aocpu" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="bootloader/uboot-repo/bl31/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" revision="openlinux/tv/p-amlogic-20190219_1.3" />
   <project path="bootloader/uboot-repo/bl32/bin" name="p-amlogic/firmware/bin/bl32" revision="openlinux/tv/p-amlogic-20190219" />
