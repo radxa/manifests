@@ -65,6 +65,10 @@
   <project path="frameworks/opt/net/wifi" name="p-amlogic/platform/frameworks/opt/net/wifi"  remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
   -->
   <project path="vendor/amlogic/common/wifi_bt" name="p-amlogic/vendor/amlogic/common/wifi_bt"  remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
+  <project path="hardware/wifi/realtek/drivers/8822cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cu" remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
+  <project path="hardware/wifi/realtek/drivers/8188gtv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188gtv" remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
+  <project path="hardware/wifi/realtek/drivers/8821au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821au" remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
+  <project path="hardware/wifi/qualcomm/drivers/qca6391" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6391"  remote="amlogic" revision="refs/heads/p-amlogic-ott-vewd"/>
   <!--Wifi end-->
   
     <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" remote="amlogic"  revision="p-amlogic-ott-vewd"  />
