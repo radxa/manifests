@@ -68,6 +68,7 @@
   <project path="hardware/wifi/realtek/drivers/8723du" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723du" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8723ds" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8723ds" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8822cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cs" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8822cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cs" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821au" revision="openlinux/tv/p-amlogic-20190219"  />
@@ -124,9 +125,11 @@
   <project path="vendor/amlogic/common/interfaces" name="p-amlogic/vendor/amlogic/hardware/interfaces" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/ir_tools" name="p-amlogic/linux/amlogic/ir_tools" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/npu" name="p-amlogic/platform/hardware/verisilicon/npu" revision="openlinux/tv/p-amlogic-20190219"/>
+  <project path="vendor/amlogic/common/LibTsPlayer" name="p-amlogic/platform/packages/amlogic/LibTsPlayer" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/dsp/dsp_util" name="p-amlogic/vendor/amlogic/dsp_util" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/wifi_bt" name="p-amlogic/vendor/amlogic/common/wifi_bt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/mediahal_sdk" name="p-amlogic/vendor/amlogic/mediahal_sdk" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/ffmpeg_ctc" name="p-amlogic/vendor/amlogic/external/ffmpeg_ctc" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="vendor/amlogic/common/prebuilt" name="p-amlogic/vendor/amlogic/prebuilt" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/prebuilt/libmedia" name="p-amlogic/vendor/amlogic/prebuilt/libmedia" revision="openlinux/tv/p-amlogic-20190219"  />
