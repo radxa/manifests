@@ -72,6 +72,7 @@
   <project path="hardware/wifi/realtek/drivers/8821cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cs" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8821au" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821au" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/wifi/realtek/drivers/8733bu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8733bu" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/realtek/drivers/8188gtv" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8188gtv" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/qualcomm/drivers/qca9377" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377" revision="openlinux/tv/p-amlogic-20190219"  />
