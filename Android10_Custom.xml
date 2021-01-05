@@ -56,7 +56,7 @@
     <linkfile src="RockPi4C/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
   </project>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="0adfb3201d45dae3c7e250c480b3a62af7e581d2" upstream="rockchip-android-10" />
-  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="28d3f9e8f0561cb1c795ad54ecc71ce04016e5ee" upstream="rockchip-android-10" />
+  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="a6b6c3558f8bafbdd5d5efe3aabdcd9dbce93fe2" upstream="rockchip-android-10" />
   <project groups="pdk" name="platform/build" path="build/make" remote="rk-vendor" revision="0bdd9f5947b145483732b84710e2da7165ff97a7" upstream="rockchip-android-10" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
