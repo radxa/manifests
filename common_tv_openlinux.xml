@@ -46,6 +46,7 @@
   <project path="hardware/wifi/icomm/drivers/ssv6xxx" name="p-amlogic/platform/hardware/wifi/icomm/drivers/ssv6xxx"  revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/wifi/qualcomm/drivers/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/qualcomm/drivers/qca6391" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6391"  revision="openlinux/tv/p-amlogic-20190219" />
+  <project path="hardware/wifi/qualcomm/drivers/qca206x" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca206x"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/mtk/drivers/mt7668" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668"  revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/mtk/drivers/mt7668u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7668u" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/wifi/atbm" name="p-amlogic/platform/hardware/wifi/atbm"  revision="openlinux/tv/p-amlogic-20190219" />
@@ -163,12 +164,12 @@
 
   <project path="vendor/amlogic/common/tv/frameworks" name="p-amlogic/vendor/amlogic/tv" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/tv/tvserver" name="p-amlogic/vendor/amlogic/tvserver" revision="openlinux/tv/p-amlogic-20190219" />
-  <project path="vendor/amlogic/common/libdvr_release" name="p-amlogic/libdvr_release" revision="refs/heads/q-amlogic" />
+  <project path="vendor/amlogic/common/libdvr_release" name="p-amlogic/libdvr_release" revision="openlinux/tv/p-amlogic-20190219" />
   <!-- end TV projects -->
 
   <!-- start DTVKit projects -->
-  <project path="vendor/amlogic/common/external/DTVKit/android-inputsource" name="p-amlogic/DTVKit/android-inputsource" revision="p-amlogic"  />
-  <project path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" name="p-amlogic/DTVKit/releaseDTVKit" revision="p-amlogic"  />
+  <project path="vendor/amlogic/common/external/DTVKit/android-inputsource" name="p-amlogic/DTVKit/android-inputsource" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" name="p-amlogic/DTVKit/releaseDTVKit" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="vendor/amlogic/common/external/freetype" name="p-amlogic/vendor/external/freetype" revision="p-amlogic" />
 
   <!-- end DTVKit projects -->
