@@ -122,6 +122,7 @@
     <remove-project name="platform/packages/apps/Gallery2" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/linkerconfig" />
     <remove-project name="platform/system/vold" />
     <remove-project name="platform/system/memory/libion" />
     <remove-project name="platform/packages/apps/TvSettings" />
