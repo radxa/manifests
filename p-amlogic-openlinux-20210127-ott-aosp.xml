@@ -724,6 +724,7 @@
   <project dest-branch="o-amlogic_9.2.1811_21-dev" name="p-amlogic/vendor/amlogic/tvserver" path="vendor/amlogic/common/tv/tvserver" remote="amlogic" revision="ab8e2836dbf857b2248048e11d3aabf4d82c826c" upstream="o-amlogic_9.2.1811_21-dev"/>
   <project dest-branch="p-amlogic-mainline_9.2.1811_21-dev" name="p-amlogic/vendor/broadcom/btusb" path="vendor/amlogic/common/broadcom/btusb" remote="amlogic" revision="341a06784fbebc87f89e83f603c98a8f5b31c901" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project dest-branch="p-amlogic_9.2.1811_21-dev" name="p-amlogic/vendor/widevine" path="vendor/widevine" remote="amlogic" revision="d069e4672059a0b8a7c730d7e190709fc605aca2" upstream="p-amlogic_9.2.1811_21-dev"/>
-  <project dest-branch="p-amlogic-mainline_9.2.1811_21-dev" name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="783d45312db87bce1b1abe05f2605ab8473507f4" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <!--<project dest-branch="p-amlogic-mainline_9.2.1811_21-dev" name="secureos/tdk" path="vendor/amlogic/common/tdk" remote="amlogic" revision="783d45312db87bce1b1abe05f2605ab8473507f4" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project dest-branch="p-amlogic-mainline_9.2.1811_21-dev" name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="amlogic" revision="7ae9ec97739e5a0ca44535b6fce8c68fa11813f2" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  -->
 </manifest>
