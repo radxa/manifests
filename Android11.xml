@@ -13,6 +13,7 @@
   <include name="include/rk_checkout_from_aosp.xml" />
   <!-- rk modules repository-->
   <include name="include/rk_modules_repository.xml" />
-  <include name="include/rk356x_repository.xml" />
+  <include name="include/rk3399_repository.xml" />
   <include name="include/rk3326_repository.xml" />
+  <include name="include/rk356x_repository.xml" />
 </manifest>
