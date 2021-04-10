@@ -95,7 +95,7 @@
   <project dest-branch="p-tv-dev" name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" revision="c0b22a523cc47e4ebdb93ae9ec5f8efbdb9c58e3" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project dest-branch="p-tv-dev" name="p-amlogic/platform/packages/apps/TV" path="packages/apps/TV" revision="c8841a5133e963e662f43598a70a97ab9fe6e61a" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project dest-branch="p-tv-dev" name="p-amlogic/platform/vendor/amlogic/darwin" path="vendor/amlogic/darwin" revision="5c76da5ea94f292962d098e3a15c8c766d8de588" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project dest-branch="p-tv-dev" name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="17b9977a977b66ed4e1f0650ea80bbb3f0295b7e" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project dest-branch="p-tv-dev" name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="8f1ad5f201223ce411b4ec0dadfeff79bace220d" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project dest-branch="p-tv-dev" name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" revision="7dfb573e4d62db9485f542e7caafd7026d0d716f" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project dest-branch="p-tv-dev" name="p-amlogic/vendor/amlogic/common/wifi_bt" path="vendor/amlogic/common/wifi_bt" revision="b1e9ce835baccd3caef9e3d300da729857ab7661" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project dest-branch="p-tv-dev" name="p-amlogic/vendor/amlogic/dsp_util" path="vendor/amlogic/common/dsp/dsp_util" revision="4d9e871f494302fb9b757869ade066801192ccc8" upstream="openlinux/tv/p-amlogic-20190219"/>
