@@ -688,7 +688,7 @@
   <project name="p-amlogic/toolchain/benchmark" path="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/toolchain/binutils" path="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/toolchain/pgo-profiles" path="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="d8bc32cf45f411fbd5ba5d116e2cf46334c1563d" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="8350c359f3004c4039e99e24a9c40b7e4799e2ce" upstream="openlinux/ds/p-amlogic-20190317"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" revision="7dfb573e4d62db9485f542e7caafd7026d0d716f" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="openlinux/tv/p-amlogic-20190219"/>

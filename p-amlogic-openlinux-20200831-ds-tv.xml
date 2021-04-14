@@ -695,7 +695,7 @@
   <project name="p-amlogic/toolchain/benchmark" path="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/toolchain/binutils" path="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="p-amlogic/toolchain/pgo-profiles" path="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="b4fe77c97cb9e98686fa23c701f964ee6a19823a" upstream="refs/heads/openlinux/ds/p-amlogic-20200723"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="38c5880ff9ceba7ea5dd5422453059c01ffea132" upstream="refs/heads/openlinux/ds/p-amlogic-20200723"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" revision="7dfb573e4d62db9485f542e7caafd7026d0d716f" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/common/wifi_bt" path="vendor/amlogic/common/wifi_bt" revision="b1e9ce835baccd3caef9e3d300da729857ab7661" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/dsp_util" path="vendor/amlogic/common/dsp/dsp_util" revision="7d0912f1d1a4d0be8ed2275d3db3bfa60f4c117b" upstream="openlinux/tv/p-amlogic-20190219"/>
@@ -712,7 +712,7 @@
   <project name="p-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/common/prebuilt" revision="726d981eeaa1b4f9a02bc3c8d088505a5bc3aaff" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libmedia" path="vendor/amlogic/common/prebuilt/libmedia" revision="318cc1d88c590f4adcc1384c9e8c3fe1b8580e8f" upstream="refs/heads/openlinux/ds/p-amlogic-20200723"/>
   <project name="p-amlogic/vendor/amlogic/prebuilt/libmediadrm" path="vendor/amlogic/common/prebuilt/libmediadrm" revision="746fab18bf23f45f84d712db038e99c13a1e28f4" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" revision="3f9eaac3b0d0bf71231733fc71c5b1cbdab6e331" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/libstagefrighthw" path="vendor/amlogic/common/prebuilt/libstagefrighthw" revision="228010567306d9128ab3fec1462f76541616df94" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
   <project name="p-amlogic/vendor/amlogic/provision" path="vendor/amlogic/common/provision" revision="e64cbd44d4137415b48ad59ce9d12f3966b355ef" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/scripts" path="vendor/amlogic/common/scripts" revision="fae5fa8f241f0fd89183509be9439bfaba328567" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/system" path="vendor/amlogic/common/system" revision="6076b265502ae946e67f23b9baf7ca47358a445e" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
