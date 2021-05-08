@@ -10,7 +10,7 @@
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
   </project>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="openlinux/ds/p-amlogic-20210427"/>
-  <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/device/amlogic-o" path="device/amlogic" revision="de6b407e90e824b232c224b51ba3e65220f50520" upstream="openlinux/ds/p-amlogic-20210427">
+  <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/device/amlogic-o" path="device/amlogic" revision="ee7d9ddd6e4e3a44fedff0d0eee97f4ea745b11c" upstream="openlinux/ds/p-amlogic-20210427">
     <copyfile dest="mk" src="common/kernelbuild/mk"/>
   </project>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" groups="device,broadcom_pdk,generic_fs,pdk" name="p-amlogic/device/google/atv" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b" upstream="openlinux/ds/p-amlogic-20210427"/>
@@ -727,6 +727,8 @@
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/system" path="vendor/amlogic/common/system" revision="cf06153936245eb34f48bc567847d97536541577" upstream="openlinux/ds/p-amlogic-20210427"/>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/system/droidvold" path="vendor/amlogic/common/system/droidvold" revision="4d68890842e0f4cda395b26de564d2caa40922f6" upstream="openlinux/ds/p-amlogic-20210427"/>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/system/libgdc" path="vendor/amlogic/common/system/libgdc"  revision="5be89c247917a5f8c5406fc4b4a864af081bce0e" upstream="openlinux/ds/p-amlogic-20210427"/>
+  <project dest-branch="openlinux/ds/p-amlogic-20210427" name="secureos/tdk" path="vendor/amlogic/common/tdk" revision="caa286939d9d2a94b2932f43f328e2ff65c35a14" upstream="openlinux/ds/p-amlogic-20210427"/>
+  <project dest-branch="openlinux/ds/p-amlogic-20210427" name="secureos/tdk" path="vendor/amlogic/common/tdk_v3" revision="eaad7d4f3ce16c7fb8c1332bdf336df55c497c3f" upstream="openlinux/ds/p-amlogic-20210427"/>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/tdk_linuxdriver" path="vendor/amlogic/common/tdk_linuxdriver" revision="9259845f31109e1af2940841a392c1dadc98389a" upstream="openlinux/ds/p-amlogic-20210427"/>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/tools" path="vendor/amlogic/common/tools" revision="bee0aacf863c66a69716bd3fe05eb3f081b241f2" upstream="openlinux/ds/p-amlogic-20210427"/>
   <project dest-branch="openlinux/ds/p-amlogic-20210427" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" path="vendor/amlogic/common/tools/auto_patch" revision="3b8a76cc66524b011625bdf03f5e9465a4e8d1a2" upstream="openlinux/ds/p-amlogic-20210427"/>
