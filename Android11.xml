@@ -16,4 +16,6 @@
   <include name="include/rk3399_repository.xml" />
   <include name="include/rk3326_repository.xml" />
   <include name="include/rk356x_repository.xml" />
+  <!-- rk3288 special repository-->
+  <include name="include/rk3288_repository.xml" />
 </manifest>
