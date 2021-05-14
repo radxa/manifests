@@ -8,8 +8,24 @@
            sync-j="2"
            sync-c="true"/>
 
-  <include name="default.xml" />
-  <remove-project name="p-amlogic/platform/packages/apps/TV" />
-  <include name="common_tv_openlinux.xml" />
-  <project path="vendor/amlogic/common/tools/auto_patch" name="p-amlogic/vendor/amlogic/tools/DroidlogicPatch" revision="openlinux/tv/p-amlogic-aosp-20190219"  />
+  <include name="openlinux_tv_sdk_aosp_old.xml" />
+
+  <remove-project name="p-amlogic/device/amlogic-o" />
+  <project path="device/amlogic" name="p-amlogic/device/amlogic-o" revision="p-amlogic-mainline">
+  <copyfile src="common/kernelbuild/mk" dest="mk"/>
+  </project>
+
+  <remove-project name="p-amlogic/firmware/bin/bl2" />
+  <remove-project name="p-amlogic/firmware/aocpu" />
+  <remove-project name="p-amlogic/firmware/bin/bl31" />
+  <remove-project name="p-amlogic/uboot" />
+  <remove-project name="p-amlogic/amlogic/tools/fip" />
+  <project path="bootloader/uboot-repo/bl2/bin" name="p-amlogic/firmware/bin/bl2" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl30/src_ao" name="p-amlogic/firmware/aocpu" revision="refs/heads/projects/amlogic-dev" dest-branch="projects/amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl31_1.3/bin" name="p-amlogic/firmware/bin/bl31" revision="refs/heads/amlogic-dev-1.3" dest-branch="amlogic-dev-1.3" />
+  <project path="bootloader/uboot-repo/bl33/v2015" name="p-amlogic/uboot" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev" />
+  <project path="bootloader/uboot-repo/bl33/v2019" name="p-amlogic/uboot" revision="refs/heads/amlogic-dev-2019" dest-branch="amlogic-dev-2019"/>
+  <project path="bootloader/uboot-repo/fip" name="p-amlogic/amlogic/tools/fip" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev">
+  <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  </project>
 </manifest>
