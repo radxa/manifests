@@ -86,21 +86,21 @@
     <remove-project name="platform/packages/apps/Car/Settings"/>
     <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
     <remove-project name="platform/packages/apps/Car/tests"/>
+    <remove-project name="kernel/build"/>
 
     <!-- Checkout For Rockchip Branch -->
     <remove-project name="kernel/configs"/>
-    <remove-project name="kernel/build"/>
     <remove-project name="platform/bionic" />
     <remove-project name="platform/bootable/recovery" />
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
+    <remove-project name="platform/development" />
+    <remove-project name="platform/external/iperf3"/>
     <remove-project name="platform/external/libdrm" />
-    <remove-project name="platform/external/scudo" />
     <remove-project name="platform/external/speex" />
     <remove-project name="platform/external/skia" />
     <remove-project name="platform/external/tinyalsa" />
     <remove-project name="platform/external/wpa_supplicant_8" />
-    <remove-project name="platform/external/iperf3"/>
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/ex" />
@@ -112,7 +112,6 @@
     <remove-project name="platform/hardware/broadcom/wlan" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <remove-project name="platform/packages/modules/NetworkStack" />
     <remove-project name="platform/packages/apps/Camera2" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
@@ -120,24 +119,17 @@
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Music" />
     <remove-project name="platform/packages/apps/Gallery2" />
+    <remove-project name="platform/packages/modules/NetworkStack" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/system/core" />
-    <remove-project name="platform/system/linkerconfig" />
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/system/vold" />
     <remove-project name="platform/system/memory/libion" />
     <remove-project name="platform/packages/apps/TvSettings" />
-    <remove-project name="platform/packages/apps/OnDeviceAppPrediction" />
-    <remove-project name="platform/packages/services/Telecomm" />
-    <remove-project name="platform/packages/providers/ContactsProvider" />
-    <remove-project name="platform/libcore" />
+
     <remove-project name="platform/art" />
-    <remove-project name="platform/external/dnsmasq" />
+    <remove-project name="platform/external/chromium-libpac" />
+    <remove-project name="platform/external/libavc" />
     <remove-project name="platform/external/v8" />
     <remove-project name="platform/system/bt" />
-    <remove-project name="platform/system/connectivity/wificond"/>
-    <remove-project name="platform/system/tools/hidl"/>
-    <remove-project name="platform/system/nfc" />
-    <remove-project name="platform/packages/apps/Contacts" />
-    <remove-project name="platform/frameworks/hardware/interfaces"/>
 </manifest>

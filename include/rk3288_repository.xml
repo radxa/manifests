@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/rockchip/rk3288" name="rk/device/rockchip/rk3288" remote="rk" revision="refs/tags/android-11.0-mid-rkr7"/>
+  <project path="device/rockchip/rk3288" name="rk/device/rockchip/rk3288" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
 </manifest>
