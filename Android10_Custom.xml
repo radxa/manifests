@@ -51,9 +51,10 @@
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
     <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
   </project>
-  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="ee2e4eb0916ec5f05bdd709e2db4c4f51a689897" upstream="rockchip-android-10" >
+  <project path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk-vendor" revision="964fa2d3326de5cdbcd13cc0a241fe8791bcc337" upstream="rockchip-android-10" >
     <linkfile src="RockPi4B/build-rockpi-4b.sh" dest="build-rockpi-4b.sh" />
     <linkfile src="RockPi4C/build-rockpi-4c.sh" dest="build-rockpi-4c.sh" />
+    <linkfile src="RockPi4C/build-rockpi-fuhai-evb.sh" dest="build-rockpi-fuhai-evb.sh" />
   </project>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="0adfb3201d45dae3c7e250c480b3a62af7e581d2" upstream="rockchip-android-10" />
   <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="8eb2c924768ae555d437219f210e35f7b28e2fb0" upstream="rockchip-android-10" />

@@ -41,6 +41,13 @@ cd ${source-dir}
 ```
 Release dir: ${source-dir}/release/ROCKPI-4C-`date +%F-%H-%M`
 
+ROCK Fuhai
+```bash
+cd ${source-dir}
+./build-rockpi-fuhai-evb.sh
+```
+Release dir: ${source-dir}/release/ROCK-Fuhai-`date +%F-%H-%M`
+
 ## Build Steps
 ### Build U-Boot
 ROCKPI 4A/B
