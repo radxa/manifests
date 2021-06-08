@@ -71,7 +71,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk-vendor" revision="89d2e9b57fdcefc8e05bdd0161931b2208201028" upstream="rockchip-android-10" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk-vendor" revision="fbefbea794edeb61c4e5ae92d172f0a1b59fb4a6" upstream="rockchip-android-10" />
   <project path="hardware/rockchip/hwcomposer" name="rk/hardware/rk29/hwcomposer_rga" remote="rk-vendor" revision="b4b2125a7550f42047c423b19491d7ed0f94226a" upstream="rockchip-android-10" />
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk-vendor" revision="f8efb312b8d697b9734a2c8c3c2214399a61d326" upstream="rockchip-android-10" />
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk-vendor" revision="418a090348dc0d765abc6d76ab026269aa02c96f" upstream="rockchip-android-10" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="rk-vendor" revision="53be694b018e7e2c1563ff18f7ddbd94446ca08a" upstream="rockchip-android-10" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="rk-vendor" revision="a013ddece1fb8e39b7ebc40f714966de8ebb53a1" upstream="rockchip-android-10" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rk-vendor" revision="1d9cd36f9f253628495aff7c4bcc07a2f0712a8f" upstream="rockchip-android-10" />
