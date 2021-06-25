@@ -90,7 +90,7 @@
   <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" revision="4bd8fb8e680b6d3c490263d99fe81dbbf9c0109d" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/platform/packages/apps/TV" path="packages/apps/TV" revision="8dc24f42a22e17a38bfe26df92792b46e5d725e2" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/platform/vendor/amlogic/darwin" path="vendor/amlogic/darwin" revision="5c76da5ea94f292962d098e3a15c8c766d8de588" upstream="openlinux/tv/p-amlogic-20190219"/>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="583231f2ff6c10c4982eabc0238f523c4b3df8dc" upstream="openlinux/tv/p-amlogic-20190219"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" revision="719490ac4cc6e83f0934d32f01346878fb610bb2" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/common/apps/VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay" revision="7dfb573e4d62db9485f542e7caafd7026d0d716f" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/exfat" path="vendor/amlogic/common/external/exfat" revision="62762278453334f245ee6a4eff85d1d76c0f283b" upstream="openlinux/tv/p-amlogic-20190219"/>
   <project name="p-amlogic/vendor/amlogic/external/icu" path="vendor/amlogic/common/external/icu" revision="d17dc02f3672eb1450de310add0c7f01000f7fc7" upstream="openlinux/tv/p-amlogic-20190219"/>
