@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/rockchip/rk356x_box" name="rk/device/rockchip/rk3568_box" remote="rk" revision="refs/tags/android-11.0-mid-rkr9" />
+</manifest>
