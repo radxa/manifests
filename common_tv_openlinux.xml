@@ -15,7 +15,7 @@
   <project path="common" name="p-amlogic/kernel/common" revision="openlinux/tv/p-amlogic-20190219"  />
 
   <project path="device/amlogic" name="p-amlogic/device/amlogic-o" revision="openlinux/tv/p-amlogic-20190219"/>
-  <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/audio" name="p-amlogic/platform/hardware/amlogic/audio" revision="p-audio-rebase"  />
   <project path="hardware/amlogic/bootctrl" name="p-amlogic/platform/hardware/amlogic/bootctrl" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/camera" name="p-amlogic/platform/hardware/amlogic/camera" revision="openlinux/tv/p-amlogic-20190219"  />
 
@@ -27,7 +27,7 @@
   <project path="hardware/amlogic/hwcomposer" name="p-amlogic/platform/hardware/amlogic/hwcomposer" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/keymaster" name="p-amlogic/platform/hardware/amlogic/keymaster" revision="openlinux/tv/p-amlogic-20190219" />
   <project path="hardware/amlogic/lights" name="p-amlogic/platform/hardware/amlogic/lights" revision="openlinux/tv/p-amlogic-20190219"  />
-  <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/LibAudio" name="p-amlogic/platform/hardware/amlogic/LibAudio" revision="p-audio-rebase"  />
   <project path="hardware/amlogic/media" name="p-amlogic/platform/hardware/amlogic/media" revision="openlinux/tv/p-amlogic-20190219"  />
   <project path="hardware/amlogic/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" revision="openlinux/tv/p-amlogic-20190219"  />
 

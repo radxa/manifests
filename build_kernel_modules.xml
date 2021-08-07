@@ -4,7 +4,7 @@
   <project path="bootloader/uboot-repo/bl32_3.8/bin" name="p-amlogic/firmware/bin/bl32" revision="refs/heads/amlogic-dev-3.8.0" dest-branch="amlogic-dev-3.8.0" />
   <project path="bootloader/uboot-repo/bl40/bin" name="p-amlogic/firmware/bin/bl40/dummy"  revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev"/>
   <project path="bootloader/uboot-repo/soc/templates" name="p-amlogic/firmware/bin/templates" revision="refs/heads/amlogic-dev" dest-branch="amlogic-dev"/>  
-  <project path="vendor/amlogic/common/tdk_v3" name="secureos/tdk" revision="refs/heads/tdk-v3.8.0" />
+  <project path="vendor/amlogic/common/tdk_v3" name="p-amlogic/vendor/amlogic/tdk_basic" revision="refs/heads/tdk-v3.8" />
 
   <project path="vendor/amlogic/common/kernel_54" name="p-amlogic/platform/vendor/amlogic/common/kernel_5.4_tools" revision="amlogic-5.4-dev" />
 
