@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp" review="https://android-review.googlesource.com/"/>
-  <remote fetch="https://github.com/rockchip-toybrick/" name="origin" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" name="aosp" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://gitlab.com/rockchip-toybrick/" name="origin" review="https://android-review.googlesource.com/"/>
   
   <default remote="aosp" revision="refs/tags/android-8.1.0_r51" sync-j="4"/>
   
