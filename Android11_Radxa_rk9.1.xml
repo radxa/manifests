@@ -23,4 +23,7 @@
   <remove-project name="rk/u-boot"/>
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="c7de4ac69815b11d0cbe27cdaf53dc005aa4116d" upstream="rockchip_android11"/>
 
+  <remove-project name="rk/kernel"/>
+  <project path="kernel" name="rk/kernel" remote="rk29" revision="e642457f6c0f9ab370c1791e30517c5410cf7b8e" upstream="rockchip_android11"/>
+
 </manifest>
