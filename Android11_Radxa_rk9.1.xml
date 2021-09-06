@@ -24,7 +24,7 @@
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="c7de4ac69815b11d0cbe27cdaf53dc005aa4116d" upstream="rockchip_android11"/>
 
   <remove-project name="rk/kernel"/>
-  <project path="kernel" name="rk/kernel" remote="rk29" revision="32e30f0311d3ac4c9719a681ac1ddd01a469fa2b" upstream="rockchip_android11"/>
+  <project path="kernel" name="rk/kernel" remote="rk29" revision="a664047ff33f7d6279541e9bf1ff5e25cc10b767" upstream="rockchip_android11"/>
 
   <remove-project name="rk/device/rockchip/rk3566"/>
   <project path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="354e2cb7adadf9b6dd551c81bc4e3a9dd62dac1c" upstream="rockchip_android11"/>
