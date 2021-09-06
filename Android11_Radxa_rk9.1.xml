@@ -19,4 +19,8 @@
   <remove-project name="platform/tools/tradefederation"/>
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation/tradefederation" groups="pdk,tradefed" />
 
+
+  <remove-project name="rk/u-boot"/>
+  <project path="u-boot" name="rk/u-boot" remote="rk" revision="c7de4ac69815b11d0cbe27cdaf53dc005aa4116d" upstream="rockchip_android11"/>
+
 </manifest>
