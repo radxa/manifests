@@ -27,5 +27,5 @@
   <project path="kernel" name="rk/kernel" remote="rk29" revision="36ea53953f4fc8858394801531d1353cbf78f060" upstream="rockchip_android11"/>
 
   <remove-project name="rk/device/rockchip/rk3566"/>
-  <project path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="354e2cb7adadf9b6dd551c81bc4e3a9dd62dac1c" upstream="rockchip_android11"/>
+  <project path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="83ff888cbc3c1726229c5c3e4322275fc500a632" upstream="rockchip_android11"/>
 </manifest>
