@@ -58,7 +58,7 @@
   </project>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk-vendor" revision="0adfb3201d45dae3c7e250c480b3a62af7e581d2" upstream="rockchip-android-10" />
   <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk-vendor" revision="8eb2c924768ae555d437219f210e35f7b28e2fb0" upstream="rockchip-android-10" />
-  <project groups="pdk" name="platform/build" path="build/make" remote="rk-vendor" revision="0bdd9f5947b145483732b84710e2da7165ff97a7" upstream="rockchip-android-10" >
+  <project groups="pdk" name="platform/build" path="build/make" remote="rk-vendor" revision="652de81a1cf2a8e89b0ad0427e63e84345999080" upstream="rockchip-android-10" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
