@@ -33,7 +33,7 @@
   <project name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="2946288a1721efa1ee5f14f334d77dc761386b2c" upstream="rockchip_android11"/>
 
   <remove-project name="rk/device/rockchip/rksdk"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="1b7fce12d100eecfecb1600c8f0b8ae10ce3fc96" upstream="rockchip_android11">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="875f0e414fd5a2192f6f70fccd195b9a8ca940aa" upstream="rockchip_android11">
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="mkimage.sh" dest="mkimage.sh"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
