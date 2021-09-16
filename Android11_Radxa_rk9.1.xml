@@ -3,7 +3,7 @@
   <include name="Android11.xml" />
 
   <remove-project name="platform/build" />
-  <project groups="pdk" name="platform/build/build" path="build/make" remote="rk" revision="refs/tags/android-11.0-mid-rkr9">
+  <project groups="pdk" name="platform/build/build" path="build/make" remote="rk" revision="6f0f773de1207abb1c836551dbe1f227d9733e00" upstream="rockchip_android11">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
