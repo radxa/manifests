@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="http://gitlab/rockchip_android_r" name="aosp"/>
+  <remote fetch="http://gitlab/rockchip_android_r" name="rk"/>
+  <remote fetch="http://gitlab/rockchip_android_r" name="rk29"/>
+  <remote fetch="http://gitlab/rockchip_android_r" name="rk_legacy"/>
+
+  <include name="Android11_Radxa_rk9.1_customization.xml" />
+</manifest>
