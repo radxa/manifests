@@ -5,7 +5,7 @@
   <project path="RKTools" name="RKTools" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
   <project path="hardware/rockchip/helper" name="rk/hardware/rk35/helper" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
   <project path="hardware/rockchip/hwcomposer/drmhwc" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="rk/hardware/rk35/hwcomposer2" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
+  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="rk/hardware/rk35/hwcomposer2" remote="rk" revision="refs/tags/android-11.0-mid-rkr10.1" />
   <project path="hardware/rockchip/hwcomposer/einkhwc" name="rk/hardware/rk35/einkhwc" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
   <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
   <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
