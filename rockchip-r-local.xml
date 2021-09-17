@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://192.168.2.13/rockchip_android_r" name="aosp"/>
-  <remote fetch="http://192.168.2.13/rockchip_android_r" name="rk"/>
-  <remote fetch="http://192.168.2.13/rockchip_android_r" name="rk29"/>
-  <remote fetch="http://192.168.2.13/rockchip_android_r" name="rk_legacy"/>
+  <remote fetch="./" name="aosp"/>
+  <remote fetch="./" name="rk"/>
+  <remote fetch="./" name="rk29"/>
+  <remote fetch="./" name="rk_legacy"/>
 
   <include name="Android11_Radxa_rk9.1_customization.xml" />
 </manifest>
