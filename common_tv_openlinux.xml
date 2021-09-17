@@ -182,4 +182,5 @@
   <!-- end DTVKit projects -->
 
   <project path="vendor/amlogic/common/system/meson_display" name="p-amlogic/linux/amlogic/meson_display" revision="openlinux/tv/p-amlogic-20190219"  />
+  <project path="hardware/amlogic/libencoder" name="p-amlogic/platform/hardware/amlogic/libencoder" revision="refs/heads/Android-p" dest-branch="Android-p" />
 </manifest>

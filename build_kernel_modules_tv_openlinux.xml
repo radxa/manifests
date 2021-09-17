@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="bootloader/uboot-repo/bl33/v2019" name="p-amlogic/uboot" revision="openlinux/tv/p-amlogic-20190219-t3"/>
+  <project path="bootloader/uboot-repo/bl32_3.8/bin" name="p-amlogic/firmware/bin/bl32" revision="openlinux/tv/p-amlogic-20190219-t3" />
+  <project path="bootloader/uboot-repo/bl40/bin" name="p-amlogic/firmware/bin/bl40/dummy"  revision="openlinux/tv/p-amlogic-20190219-t3"/>
+  <project path="bootloader/uboot-repo/soc/templates" name="p-amlogic/firmware/bin/templates" revision="openlinux/tv/p-amlogic-20190219-t3"/>  
+  <project path="vendor/amlogic/common/tdk_v3" name="p-amlogic/vendor/amlogic/tdk_basic" revision="openlinux/tv/p-amlogic-20190219-t3" />
+
+  <project path="vendor/amlogic/common/kernel_54" name="p-amlogic/platform/vendor/amlogic/common/kernel_5.4_tools" revision="amlogic-5.4-dev" />
+
+  <!-- add google tools for build from kernel source -->
+  <project path="vendor/amlogic/common/kernel_54/common" name="p-amlogic/kernel/common" revision="openlinux/tv/p-amlogic-20190219-t3" />
+
+  <!-- mediaHal libraries -->
+  <project path="vendor/amlogic/common/kernel_54/private/media_modules" name="p-amlogic/platform/hardware/amlogic/media_modules" revision="openlinux/tv/p-amlogic-20190219-t3" />
+
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/qca6174" name="p-amlogic/platform/hardware/wifi/qualcomm/drivers/qca6174" revision="openlinux/tv/p-amlogic-20190219-t3" />
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/8822cs" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cs" revision="openlinux/tv/p-amlogic-20190219-t3"  />
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/8822cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8822cu" revision="openlinux/tv/p-amlogic-20190219-t3" />
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/8821cu" name="p-amlogic/platform/hardware/wifi/realtek/drivers/8821cu" revision="openlinux/tv/p-amlogic-20190219-t3"  />
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/ap6xxx" name="p-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" revision="openlinux/tv/p-amlogic-20190219-t3"  />
+  <project path="vendor/amlogic/common/kernel_54/private/wifi/mt7663u" name="p-amlogic/platform/hardware/wifi/mtk/drivers/mt7663u"  revision="r-amlogic"/>
+
+  <project path="vendor/amlogic/common/kernel_54/private/gpu" name="p-amlogic/platform/hardware/arm/gpu" revision="openlinux/tv/p-amlogic-20190219-t3" />
+
+  <project path="vendor/amlogic/common/kernel_54/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="p-amlogic/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="openlinux/ds/p-amlogic-20210427" />
+  <project path="vendor/amlogic/common/kernel_54/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="p-amlogic/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"  revision="openlinux/ds/p-amlogic-20210427" />
+  <project path="vendor/amlogic/common/kernel_54/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="p-amlogic/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" revision="openlinux/ds/p-amlogic-20210427" />
+
+</manifest>
