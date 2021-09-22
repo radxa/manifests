@@ -47,4 +47,7 @@
 
   <remove-project name="platform/external/OpenCL-CTS"/>
   <project groups="radxa" name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="022fc713bdcfd078d7db385922b1010f48033e17"  upstream="Android11_Radxa_rk10.1"/>
+
+  <remove-project name="platform/external/chromium-webview"/>
+  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
 </manifest>
