@@ -59,4 +59,9 @@
 
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
+
+  <remove-project name="rk/platform/vendor/google" />
+  <remove-project name="rk/platform/vendor/partner_modules" />
+  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
+  <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
 </manifest>
