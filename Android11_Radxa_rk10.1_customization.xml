@@ -3,7 +3,7 @@
   <include name="commit/commit_release_rkr10_no_remote.xml" />
 
   <remove-project name="platform/build" />
-  <project groups="radxa" name="platform/build/build" path="build/make" remote="rk" revision="8fbb0d6a7af239001728fb07c8eaf5d5c7caf26e" upstream="Android11_Radxa_rk10.1">
+  <project groups="radxa" name="platform/build/build" path="build/make" remote="rk" revision="9ccb0d4767cc083b57362e7e8c416481337d1212" upstream="Android11_Radxa_rk10.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
