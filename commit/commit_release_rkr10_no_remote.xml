@@ -784,7 +784,7 @@
   <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="c493d4d309ed3fcfdf4338d660462255aa3e50af" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk29/lights_aidl" path="hardware/rockchip/light_aidl" remote="rk" revision="f1f61e6eeefef0b0225c4bf3c619c111bb4124a3" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk29/mpi-mmz" path="hardware/rockchip/libmpimmz" remote="rk29" revision="e68d78374646bb40f35c45d42971d4bf9cae80d1" upstream="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="fec86c89e37eaed98785bdb832934fe46cde6e41" upstream="refs/tags/android-11.0-mid-rkr10"/>
+  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="f08602a0604370c841928a66a1aecfb06699c74a" upstream="refs/tags/android-11.0-mid-rkr10.1"/>
   <project name="rk/hardware/rk29/optee" path="hardware/rockchip/optee" remote="rk" revision="bf15f7dcc437ce734553a13d1f46168b6a3c9c05" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk29/power_aidl" path="hardware/rockchip/power_aidl" remote="rk" revision="fce0bc01549322bf97d8ad72c4338752ddc5719d" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e7a2bbabafb1ab39325971fc90a2ca3594034bb6" upstream="refs/tags/android-11.0-mid-rkr10"/>
@@ -793,7 +793,7 @@
   <project name="rk/hardware/rk29/weaver" path="hardware/rockchip/weaver" remote="rk" revision="e278d63cf3deabfce7cff5551a8d1541c10fd7ec" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk35/einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="rk" revision="66b03cefaeee7d40fc776cc832208902fe106253" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/hardware/rk35/helper" path="hardware/rockchip/helper" remote="rk" revision="8ebaeb1c03ace90f8c5fc8caa5a7ebf8c19fc229" upstream="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="rk/hardware/rk35/hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="rk" revision="a8fc71c902b77de93688968bd1b4368147d8a2cd" upstream="refs/tags/android-11.0-mid-rkr10"/>
+  <project name="rk/hardware/rk35/hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="rk" revision="2004d0742a1b7ed242ebf887ae720a95f60316f7" upstream="refs/tags/android-11.0-mid-rkr10.1"/>
   <project name="rk/kernel" path="kernel" remote="rk29" revision="9d60286b725b24fb5a55560710e8804a1f2883df" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/packages/apps/DisplayAdjust" path="packages/apps/DisplayAdjust" remote="rk" revision="6835d12dd8b7812fe432cff5d01f6ebfd26349bc" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab" upstream="refs/tags/android-11.0-mid-rkr10"/>
