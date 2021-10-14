@@ -67,4 +67,7 @@
   <remove-project name="rk/platform/vendor/partner_modules" />
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
+
+  <remote-project name="rk/hardware/rk29/hwcomposer_rga" />
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="rk" revision="21ed89eaebdc29c99e2b31d8384495059813fc2f" upstream="Android11_Radxa_rk10.1"/>
 </manifest>
