@@ -29,6 +29,7 @@
   <remove-project name="RKTools" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/opt/net/ethernet" />
   <remove-project name="rk/hardware/rk29/audio" />
   <!-- change -->
   <remove-project name="rk/kernel" />
@@ -82,6 +83,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="rk-vendor" revision="29b8278f657d27b41dfe418147df14eadd36472d" upstream="rockchip-android-10" />
   <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk-vendor" revision="794fcb0dc2dbf9bbdbe8398185c4e6ef1f45c8cd" upstream="rockchip-android-10" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="rk-vendor" revision="6af7135bbdbdf457bc59604e973aee7632623a1c" upstream="rockchip-android-10" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk" remote="rk" revision="37183a574e165285460201e3752b2b1e50e98cfc" upstream="rockchip-android-10"/>
 
   <project path="kernel" name="rk/kernel" remote="rk-vendor" revision="775b2a0282e5170ab467157cb8b19ea565c24beb" upstream="rockchip-android-10" />
   <project path="u-boot" name="rk/u-boot" remote="rk-vendor" revision="745ea5246f1a49439f7e2dbe87b0a7c0ccc82ac3" upstream="rockchip-android-10" />
