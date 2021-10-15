@@ -82,7 +82,7 @@
     <linkfile src="rockchip/rk356x_evb.config" dest="kernel/kernel/configs/rk356x_evb.config"/>
     <linkfile src="rockchip/rk356x_eink.config" dest="kernel/kernel/configs/rk356x_eink.config"/>
     <linkfile src="rockchip/rk3399.config" dest="kernel/kernel/configs/rk3399.config"/>
-    <linkfile src="rockchip/rockpi_4b.config" dest="kernel/kernel/configs/rockchip/rockpi_4b.config"/>
+    <linkfile src="rockchip/rockpi_4b.config" dest="kernel/kernel/configs/rockpi_4b.config"/>
     <linkfile src="r/android-4.19/non_debuggable.config" dest="kernel/kernel/configs/non_debuggable.config"/>
   </project>
 
