@@ -430,7 +430,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="1a9b432817192342bbfb5a389058a45eea9f816c" upstream="refs/tags/android-11.0.0_r39"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="4e42ccafb7c571f502a23177bca2d3cfc209035c" upstream="refs/tags/android-11.0.0_r39"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="65193280855e46d11bf5b44f1a7e49ec0c7bd57e" upstream="refs/tags/android-11.0.0_r39"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="3e875d92f978963f614ad426de5b3aef71af25a7" upstream="refs/tags/android-11.0-mid-rkr10"/>
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="d834ec8ab46b36e04657500252c8cbd1353806bd" upstream="refs/tags/android-11.0-mid-rkr10.1"/>
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="9d82892c948bd1393c96c0ceaf8be5b21eb6fba9" upstream="refs/tags/android-11.0-mid-rkr10"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="fff6169b647b9c5d60350923019e8d60449a3652" upstream="refs/tags/android-11.0.0_r39"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="c7e43705055a74fd97f481fd31dddd8b9e307c4a" upstream="refs/tags/android-11.0.0_r39"/>

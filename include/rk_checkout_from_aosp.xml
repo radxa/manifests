@@ -22,7 +22,7 @@
   <project name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
 
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-11.0-mid-rkr10.1"/>
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
