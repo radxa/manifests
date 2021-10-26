@@ -61,7 +61,7 @@
   <!-- build scrpit failed in Q<project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" /> -->
   <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
   <project path="hardware/rockchip/omx_il" name="rk/hardware/rk29/omx_il" remote="rk" revision="refs/tags/android-11.0-mid-rkr10.1"/>
-  <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
+  <project path="hardware/rockchip/camera" name="rk/hardware/rk29/camera_v3" remote="rk" revision="refs/tags/android-11.0-mid-rkr10.1"/>
   <project path="hardware/rockchip/camera_engine_rkisp" name="rk/hardware/rk29/camera_engine_rkisp" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
   <project path="external/camera_engine_rkaiq" name="external/camera_engine_rkaiq" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
   <project path="hardware/rockchip/audio" name="rk/hardware/rk29/audio" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
