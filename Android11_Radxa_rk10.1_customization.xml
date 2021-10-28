@@ -71,7 +71,7 @@
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk10.1" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="rk/hardware/rk29/hwcomposer_rga" />
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="rk" revision="21ed89eaebdc29c99e2b31d8384495059813fc2f" upstream="Android11_Radxa_rk10.1"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="rk" revision="bf1c67839a327771174fb9abb400c7a1d0a6f9cc" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="kernel/configs" />
   <project name="kernel/configs" remote="rk" revision="ba9b24915217e4b2704dbadd13ce6d1b7f663075" upstream="Android11_Radxa_rk10.1">
