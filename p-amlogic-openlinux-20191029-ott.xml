@@ -77,7 +77,7 @@
   <project name="p-amlogic/platform/packages/amlogic/DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv" remote="amlogic" revision="1967594482e1bb9cf41dbcf6583b577453eadc24" upstream="o-mr1-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings" remote="amlogic" revision="e7745f1484779902441b0e2db3f051b3e0265d17" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/common/apps/FileBrowser" remote="amlogic" revision="37f5bd51d0849805960feedd08ed6eb057e6b110" upstream="p-amlogic_9.2.1811_21"/>
-  <project name="p-amlogic/platform/packages/amlogic/LibTsPlayer" path="vendor/amlogic/common/prebuilt/LibTsPlayer" remote="amlogic" revision="47a19fbb197845fae0f8214077197298b8e495cb" upstream="p-amlogic_9.2.1811_21"/>
+  <project dest-branch="p-amlogic-stable" name="p-amlogic/platform/packages/amlogic/LibTsPlayer" path="vendor/amlogic/common/LibTsPlayer" revision="406f669d7fa6832f89bea845492fbbd47760144f" upstream="p-amlogic-stable"/>
   <project name="p-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2" remote="amlogic" revision="728386e1103f526e756b435c3472d17dba916829" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" remote="amlogic" revision="ce37b24fdc73ecc52cff3b3d1802a7c617009404" upstream="p-amlogic_9.2.1811_21"/>
   <project name="p-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/common/apps/OTAUpgrade2" remote="amlogic" revision="03b2f4055ba34c34ca52452133b441f229ede969" upstream="m-amlogic_9.2.1811_21"/>
