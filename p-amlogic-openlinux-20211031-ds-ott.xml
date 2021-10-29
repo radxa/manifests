@@ -435,7 +435,7 @@
   <project name="p-amlogic/platform/hardware/amlogic/keymaster" path="hardware/amlogic/keymaster" remote="amlogic" revision="5e97a750c3508c9bf566e8de3d0ae4bb730ef363" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/lights" path="hardware/amlogic/lights" remote="amlogic" revision="4cb26981dfddc9b4c1f4cf71f1c3e9514fc3dcd0" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/media" path="hardware/amlogic/media" remote="amlogic" revision="a3b183cbeb2857606befc26eec557e7bc17e7056" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
-  <project name="p-amlogic/platform/hardware/amlogic/media_modules" path="hardware/amlogic/media_modules" revision="687e35e47801ae3a8f17532d17ce97b849bc0c47" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
+  <project name="p-amlogic/platform/hardware/amlogic/media_modules" path="hardware/amlogic/media_modules" revision="c138b609178ebf50b6d2b357ac3d5ef9613eed99" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
   <project name="p-amlogic/platform/hardware/amlogic/memtrack" path="hardware/amlogic/memtrack" remote="amlogic" revision="78cbdbe11f49338682893148f3eb2266bcebb600" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/power" path="hardware/amlogic/power" remote="amlogic" revision="56a5a025452477d666099af526aa616848501cef" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/platform/hardware/amlogic/screen_source" path="hardware/amlogic/screen_source" remote="amlogic" revision="b1a70071de9f89a2b46a3ba7ab659f717c52968d" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
