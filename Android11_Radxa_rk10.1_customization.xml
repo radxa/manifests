@@ -26,8 +26,8 @@
 
   <remove-project name="rk/device/rockchip/rk3566"/>
   <remove-project name="rk/device/rockchip/rk3399"/>
-  <project groups="radxa" path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="0f44e8416bcc214521d806430ca4c23b20a9ea5b" upstream="Android11_Radxa_rk10.1"/>
-  <project groups="radxa" path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk" revision="7d32b71a722921d014eb49278d381ed1cbf5d8ac" upstream="Android11_Radxa_rk10.1"/>
+  <project groups="radxa" path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="cd7362d819814565407d6c737f08cdcbd8232a9c" upstream="Android11_Radxa_rk10.1"/>
+  <project groups="radxa" path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk" revision="816ded17a935e54d4c99c5cb0d076d9e1e2ab582" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="platform/bootable/recovery"/>
   <project groups="radxa" name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="bf530c0d32fb9ade6e7ae677982d96b03b781432" upstream="Android11_Radxa_rk10.1"/>
@@ -87,4 +87,6 @@
     <linkfile src="r/android-4.19/non_debuggable.config" dest="kernel/kernel/configs/non_debuggable.config"/>
   </project>
 
+  <!-- libmraa -->
+  <project name="radxa/vendor/libmraa" path="vendor/radxa/libmraa" remote="rk" revision="3b7966a8880c2716990bc87914897e5d9928c116" upstream="Android11_Radxa_rk10.1" />
 </manifest>
