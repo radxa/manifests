@@ -90,5 +90,5 @@
   <!-- libmraa -->
   <project name="radxa/vendor/libmraa" path="vendor/radxa/libmraa" remote="rk" revision="3b7966a8880c2716990bc87914897e5d9928c116" upstream="Android11_Radxa_rk10.1" />
   <remove-project name="platform/system/core" />
-  <project name="platform/system/core" path="system/core" remote="rk" revision="81d6836a7853b2ea12cf61299958104b4bf3357a" upstream="refs/tags/android-11.0-mid-rkr10"/>
+  <project name="platform/system/core" path="system/core" remote="rk" revision="81d6836a7853b2ea12cf61299958104b4bf3357a" upstream="Android11_Radxa_rk10.1"/>
 </manifest>
