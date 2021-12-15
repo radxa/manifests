@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <remote name="ohd" fetch="./" review="https://partner-android.googlesource.com"/>
+  <remote name="aosp" fetch="./" review="https://10.10.10.29" />
+  <remote name="rk" fetch="./" review="https://10.10.10.29" />
+  <remote name="rk29" fetch="./" review="https://10.10.10.29" />
+  <remote name="rk_legacy" fetch="."/>
+</manifest>

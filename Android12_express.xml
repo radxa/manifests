@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="remote.xml" />
+
+  <!-- aosp default repository-->
+  <include name="default.xml" />
+
+  <!-- remove project -->
+  <include name="remove_s.xml" />
+
+  <include name="include/rk_modules_repository.xml" />
+  <include name="include/rk_checkout_repository.xml" />
+  <include name="include/rk3588_repository.xml" />
+  <include name="include/partner_gms_express.xml" />
+  <include name="include/partner_modules_express.xml" />
+</manifest>

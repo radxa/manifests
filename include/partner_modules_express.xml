@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Google-singed Mainline prebuilt module projects !-->
+  <project path="vendor/partner_modules" name="rk/platform/vendor/partner_modules" remote="rk" revision="rk33/mid/12.0_express/develop" clone-depth="1"/>
+</manifest>
