@@ -88,4 +88,5 @@
     <remove-project name="platform/system/security"/>
     <remove-project name="platform/system/unwinding"/>
     <remove-project name="platform/prebuilts/module_sdk/art"/>
+    <remove-project name="platform/external/iperf3"/>
 </manifest>
