@@ -35,7 +35,7 @@
   <project groups="radxa" name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="bf530c0d32fb9ade6e7ae677982d96b03b781432" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="rk/device/rockchip/rksdk"/>
-  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="dab73b6e6d963bfabe29f4caf37d92c114edc39f" upstream="Android11_Radxa_rk10.1">
+  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="b7f29e3f856870ef8ee0a4d21045ad3c4ab5bcdf" upstream="Android11_Radxa_rk10.1">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
