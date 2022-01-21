@@ -47,7 +47,7 @@
   <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="b9285d9b06d70983c5c33f2d9626d6d29c13154a" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="RKTools"/>
-  <project groups="radxa" name="RKTools" remote="rk" revision="987ca96162f63765737f5cd2303d0e3d543142b6" upstream="Android11_Radxa_rk10.1"/>
+  <project groups="radxa" name="RKTools" remote="rk" revision="3fe3371e16a0ac7889ed1ef37cf59770780a8eb1" upstream="Android11_Radxa_rk10.1"/>
 
   <remove-project name="platform/external/OpenCL-CTS"/>
   <project groups="radxa" name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="022fc713bdcfd078d7db385922b1010f48033e17"  upstream="Android11_Radxa_rk10.1"/>
