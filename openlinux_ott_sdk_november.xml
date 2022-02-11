@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote name="amlogic"
-          fetch="../../" />
-
-  <include name="android_security_patch_projects.xml" />
-  <!--Amlogic as follows-->
-  <include name="common_ott_openlinux.xml" />
-</manifest>
