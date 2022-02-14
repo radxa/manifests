@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="RKDocs/common" name="docs/common" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
+  <project path="RKDocs/common" name="docs/common" remote="rk" revision="refs/tags/android-11.0-mid-rkr11.1"/>
   <project path="RKDocs/android" name="docs/android" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
   <project path="RKTools" name="RKTools" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
   <project path="hardware/rockchip/helper" name="rk/hardware/rk35/helper" remote="rk" revision="refs/tags/android-11.0-mid-rkr11" />
@@ -9,7 +9,7 @@
   <project path="hardware/rockchip/hwcomposer/einkhwc" name="rk/hardware/rk35/einkhwc" remote="rk" revision="refs/tags/android-11.0-mid-rkr11" />
   <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-11.0-mid-rkr11" />
   <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
-  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
+  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-11.0-mid-rkr11.1"/>
   <project path="kernel" name="rk/kernel" remote="rk29" revision="refs/tags/android-11.0-mid-rkr11"/>
 
   <project path="bootable/recovery/rkupdate" name="platform/bootable/recovery/rk_update" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
@@ -22,7 +22,7 @@
   <project path="external/io" name="rk/platform/external/io" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
   <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="refs/tags/android-11.0-mid-rkr11" />
   <project path="hardware/realtek" name="platform/hardware/realtek" remote="rk" revision="refs/tags/android-11.0-mid-rkr11"/>
-  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr11">
+  <project path="device/rockchip/common" name="rk/device/rockchip/rksdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr11.1">
       <copyfile src=".classpath" dest=".classpath"/>
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
