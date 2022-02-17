@@ -807,8 +807,6 @@
   <project name="rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6" upstream="refs/tags/android-11.0-mid-rkr11"/>
   <project name="rk/platform/system/rk_tee_user" path="external/rk_tee_user" remote="rk" revision="566bc0f418a454f1beb265dd8c744d350ceb0dd0" upstream="refs/tags/android-11.0-mid-rkr11"/>
   <project name="rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="3c088fdaf70185c3217b4c3fba6aef62b0e3700b" upstream="refs/tags/android-11.0-mid-rkr11"/>
-  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="f82afac16ef2c1d09f77bbf8d73779bded2aaba9" upstream="rk33/mid/11.0_express/develop"/>
-  <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="d4cee3bc024e77360c910c97786ad3967be5d3f7" upstream="rk33/mid/11.0_express/develop"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="e3c927792f1ec3e3084d2ab4cb8f95bc9ee2c892" upstream="refs/tags/android-11.0-mid-rkr11"/>
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="19eaace530c52578381ca33a64e591d47499587f" upstream="refs/tags/android-11.0-mid-rkr11"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
