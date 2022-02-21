@@ -28,6 +28,7 @@
   <project name="p-amlogic/vendor/amlogic/tools/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="dca3a75dd0a062548ddebd12cec5de07f6a8261a" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <!-- end of gitlab conflict -->
 
+  <remove-project name="p-amlogic/amlogic/tools/fip" />
   <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="11004fe7a421454a53922eee3918bf13117c0c63" upstream="amlogic_android9_zero2">
     <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   </project>
