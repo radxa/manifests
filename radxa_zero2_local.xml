@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="../../" name="amlogic"/>
+  <remote fetch="../../" name="openlinux"/>
+
   <include name="p-amlogic-openlinux-20211031-ds-ott.xml" />
 
   <!-- gitlab conflict -->
@@ -23,5 +26,10 @@
   <project name="p-amlogic/vendor/amlogic/prebuilt/prebuilt" path="vendor/amlogic/common/prebuilt" remote="amlogic" revision="7094289e6caa45d2552bd2a91526fb828549f9f4" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
   <project name="p-amlogic/vendor/amlogic/system/system" path="vendor/amlogic/common/system" remote="amlogic" revision="a0f53e84769c3f246f07cb5b7fdd17a56a32c3e2" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
   <project name="p-amlogic/vendor/amlogic/tools/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="dca3a75dd0a062548ddebd12cec5de07f6a8261a" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <!-- end of gitlab conflict -->
+
+  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="11004fe7a421454a53922eee3918bf13117c0c63" upstream="amlogic_android9_zero2">
+    <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  </project>
 
 </manifest>
