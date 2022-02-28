@@ -26,8 +26,14 @@
   <!-- end of gitlab conflict -->
 
   <remove-project name="p-amlogic/amlogic/tools/fip" />
+  <remove-project name="p-amlogic/uboot" />
+  <remove-project name="p-amlogic/kernel/common" />
+  <remove-project name="p-amlogic/device/amlogic-o" />
   <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="11004fe7a421454a53922eee3918bf13117c0c63" upstream="amlogic_android9_zero2">
     <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   </project>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="5173665f8cb1c6c81fdea2d41048c5aa3bae25ed" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="b8dc08a523e35767a29fa9d5bfca9a3a9f002efd" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="edc497069154d1dc0b709c8c6f2d0f0f4347f0f7" upstream="amlogic_android9_zero2"/>
 
 </manifest>
