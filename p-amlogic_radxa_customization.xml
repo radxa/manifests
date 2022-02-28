@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="p-amlogic-openlinux-20211031-ds-ott.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="p-amlogic/platform/build" />
+  <remove-project name="p-amlogic/platform/tools/tradefederation" />
+  <remove-project name="p-amlogic/vendor/amlogic/frameworks" />
+  <remove-project name="p-amlogic/vendor/amlogic/prebuilt" />
+  <remove-project name="p-amlogic/vendor/amlogic/system" />
+  <remove-project name="p-amlogic/vendor/amlogic/tools" />
+  <project groups="pdk" name="p-amlogic/platform/build/build" path="build/make" revision="c8a92eb8727adc8d2b4f248a5be6fb69384f8e82" upstream="refs/heads/openlinux/ds/p-amlogic-20200509">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project groups="pdk,tradefed" name="p-amlogic/platform/tools/tradefederation/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r3"/>
+  <project name="p-amlogic/vendor/amlogic/frameworks/frameworks" path="vendor/amlogic/common/frameworks" remote="amlogic" revision="0db555d93488428c73851ab634a1cbbaa7d71e15" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
+  <project name="p-amlogic/vendor/amlogic/prebuilt/prebuilt" path="vendor/amlogic/common/prebuilt" remote="amlogic" revision="7094289e6caa45d2552bd2a91526fb828549f9f4" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <project name="p-amlogic/vendor/amlogic/system/system" path="vendor/amlogic/common/system" remote="amlogic" revision="a0f53e84769c3f246f07cb5b7fdd17a56a32c3e2" upstream="refs/heads/openlinux/ds/p-amlogic-20200509"/>
+  <project name="p-amlogic/vendor/amlogic/tools/tools" path="vendor/amlogic/common/tools" remote="amlogic" revision="dca3a75dd0a062548ddebd12cec5de07f6a8261a" upstream="p-amlogic-mainline_9.2.1811_21-dev"/>
+  <!-- end of gitlab conflict -->
+
+  <remove-project name="p-amlogic/amlogic/tools/fip" />
+  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="11004fe7a421454a53922eee3918bf13117c0c63" upstream="amlogic_android9_zero2">
+    <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
+  </project>
+
+</manifest>
