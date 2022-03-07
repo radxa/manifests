@@ -33,7 +33,7 @@
     <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   </project>
   <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="5173665f8cb1c6c81fdea2d41048c5aa3bae25ed" upstream="amlogic_android9_zero2"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="68eac6a539c3b585c9ba9b22ab35256cdd879ab3" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="b7029325bd0557ac7a826a3a0c4012f6440538de" upstream="amlogic_android9_zero2"/>
   <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="493d63ec820911283bf257837a8dfaf0a0ef069c" upstream="amlogic_android9_zero2"/>
 
 </manifest>
