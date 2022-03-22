@@ -43,6 +43,14 @@
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+    <remove-project name="device/google/gs101" groups="device,slider" />
+    <remove-project name="device/google/gs101-sepolicy" groups="device,slider" />
+    <remove-project name="device/google/gs-common" groups="device,slider,pdk-gs-arm" />
+    <remove-project name="device/google/raviole" groups="device,slider" />
+    <remove-project name="device/google/raviole-kernel" groups="device,slider" />
+    <remove-project name="platform/hardware/google/gchips" groups="pdk-lassen" />
+    <remove-project name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
+    <remove-project name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
     <!-- AUTO Genernated done -->
 
     <!-- Checkout branch -->
@@ -57,6 +65,7 @@
     <remove-project name="platform/external/libdrm"/>
     <remove-project name="platform/external/skia"/>
     <remove-project name="platform/external/speex"/>
+    <remove-project name="platform/external/tinyalsa"/>
     <remove-project name="platform/external/wpa_supplicant_8"/>
     <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
@@ -67,8 +76,11 @@
     <remove-project name="platform/hardware/broadcom/wlan"/>
     <remove-project name="platform/hardware/broadcom/libbt"/>
     <remove-project name="platform/hardware/interfaces"/>
+    <remove-project name="platform/hardware/libhardware"/>
     <remove-project name="platform/packages/modules/NetworkStack"/>
     <remove-project name="platform/packages/modules/Wifi"/>
+    <remove-project name="platform/packages/apps/Browser2"/>
+    <remove-project name="platform/packages/apps/Bluetooth"/>
     <remove-project name="platform/packages/apps/Camera2"/>
     <remove-project name="platform/packages/apps/DeskClock"/>
     <remove-project name="platform/packages/apps/Gallery2"/>
@@ -76,10 +88,12 @@
     <remove-project name="platform/packages/apps/Music"/>
     <remove-project name="platform/packages/apps/QuickSearchBox"/>
     <remove-project name="platform/packages/apps/Settings"/>
+    <remove-project name="platform/packages/apps/TV"/>
     <remove-project name="platform/packages/apps/TvSettings"/>
     <remove-project name="platform/packages/providers/MediaProvider"/>
     <remove-project name="platform/packages/wallpapers/LivePicker"/>
     <remove-project name="platform/packages/modules/Permission"/>
+    <remove-project name="platform/packages/screensavers/PhotoTable"/>
     <remove-project name="platform/system/core"/>
     <remove-project name="platform/system/memory/libion"/>
     <remove-project name="platform/system/vold"/>
