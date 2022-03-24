@@ -96,4 +96,7 @@
 
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="914ccbeee60cfe54b3ac33f7a01a64621905a4ba" upstream="Android11_Radxa_rk11"/>
+
+  <remove-project name="platform/frameworks/av" />
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="0aece40610d16a97ee4d6ce04b8b3f9f15b7b2a5" upstream="Android11_Radxa_rk11"/>
 </manifest>
