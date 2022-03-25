@@ -40,7 +40,7 @@
   <project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-12.0-mid-rkr6" />
   <project path="rkst" name="rk/rkst" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
   <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
-  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
+  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware/hardware" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
   <project path="vendor/rockchip/hardware/interfaces/rockit" name="rk/platform/vendor/rockchip/hardware/rockit" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
   <project path="vendor/rockchip/hardware/interfaces/codec2" name="rk/platform/vendor/rockchip/hardware/codec2" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
   <project path="vendor/rockchip/hardware/interfaces/rksoundsetting" name="rk/platform/vendor/rockchip/hardware/rksoundsetting" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>

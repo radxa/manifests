@@ -5,7 +5,7 @@
     <project name="platform/external/speex" path="external/speex" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/external/skia" path="external/skia" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/build" path="build/make" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk">
+    <project name="platform/build/build" path="build/make" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -28,7 +28,7 @@
     <project name="platform/frameworks/base" path="frameworks/base" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/frameworks/ex" path="frameworks/ex" revision="refs/tags/android-12.0-mid-rkr6"/>
     <project name="platform/frameworks/native" path="frameworks/native" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
+    <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
     <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="commit/commit_release_rkr6_no_remote.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="rk/platform/vendor/rockchip/hardware" />
+
+  <project name="platform/build/build" path="build/make" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-12.0-mid-rkr6"/>
+  <!-- gitlab conflict end -->
+
+</manifest>
+
