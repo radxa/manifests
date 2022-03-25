@@ -44,7 +44,7 @@
   </project>
 
   <remove-project name="rk/platform/vendor/rockchip/common"/>
-  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="39e04c8c013b2ac1ff8f1fec7e477595ab39c316" upstream="Android11_Radxa_rk11"/>
+  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="9317835699bb06e847517f625ec248ec2ae45752" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="RKTools"/>
   <project groups="radxa" name="RKTools" remote="rk" revision="f5753787b7e4ea91810cc8eaf2d45779f4e8d33b" upstream="Android11_Radxa_rk11"/>
