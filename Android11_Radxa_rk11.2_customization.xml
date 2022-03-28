@@ -28,7 +28,7 @@
   <remove-project name="rk/device/rockchip/rk3568_box"/>
   <remove-project name="rk/device/rockchip/rk3399"/>
   <project groups="radxa" path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="f388b2cd65d72c8b4cad20eb8b0b502223a85083" upstream="Android11_Radxa_rk11"/>
-  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="fc44d4a4a1c7b310738b8482bb1d6d22876694a9" upstream="Android11_Radxa_rk11"/>
+  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="787b8ec8e4f54d7179366f5750c13064cf56f601" upstream="Android11_Radxa_rk11"/>
   <project groups="radxa" path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk" revision="b2b0a2e1762c69bf6a6c10b398b43d95bdedb06a" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="platform/bootable/recovery"/>
