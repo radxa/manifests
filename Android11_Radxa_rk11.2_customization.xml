@@ -102,4 +102,7 @@
 
   <remove-project name="rk/hardware/rk29/camera_v3" />
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="c0965f5400f7a84f43ea06fad5369e3025f7ed46" upstream="Android11_Radxa_rk11"/>
+
+  <remove-project name="platform/frameworks/native" />
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="59931965ee2e4ef8abd144464e1b0378c033df72" upstream="Android11_Radxa_rk11"/>
 </manifest>
