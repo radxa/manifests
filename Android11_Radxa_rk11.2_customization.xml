@@ -22,7 +22,7 @@
   <project groups="radxa" path="u-boot" name="rk/u-boot" remote="rk" revision="6d7a3de75b1460f7b7c149858116f801f81ebc6f" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="rk/kernel"/>
-  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="8a744710d3f3bd18fec13879bfe2fc6d4fa43d2d" upstream="Android11_Radxa_rk11"/>
+  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="63aba9e2a1d7804e98fad44d3553cc55889f84d4" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="rk/device/rockchip/rk3566"/>
   <remove-project name="rk/device/rockchip/rk3568_box"/>
@@ -35,7 +35,7 @@
   <project groups="radxa" name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="bf530c0d32fb9ade6e7ae677982d96b03b781432" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="rk/device/rockchip/rksdk"/>
-  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="e5c978adf8dff85d00059fa149534ebf07b88939" upstream="Android11_Radxa_rk11">
+  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="4a5ca6ca9d634767f7c50e83bdaa6996e02e4697" upstream="Android11_Radxa_rk11">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -44,7 +44,7 @@
   </project>
 
   <remove-project name="rk/platform/vendor/rockchip/common"/>
-  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="9317835699bb06e847517f625ec248ec2ae45752" upstream="Android11_Radxa_rk11"/>
+  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="0d5192473648c5bee9933a6d16fcbbd55c8d910a" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="RKTools"/>
   <project groups="radxa" name="RKTools" remote="rk" revision="f5753787b7e4ea91810cc8eaf2d45779f4e8d33b" upstream="Android11_Radxa_rk11"/>
@@ -71,7 +71,7 @@
   <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer/drmhwc" remote="rk" revision="94d3621e6df2b0e470baea529b4dc50c0d59559e" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="kernel/configs" />
-  <project name="kernel/configs" remote="rk" revision="77c82b751c76d723323d0a935fac210e619dc975" upstream="Android11_Radxa_rk11">
+  <project name="kernel/configs" remote="rk" revision="92eb6e4985f89504ea472eaec0be7c99c8d2cd4e" upstream="Android11_Radxa_rk11">
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config"/>
     <linkfile src="rockchip/rk3326.config" dest="kernel/kernel/configs/rk3326.config"/>
@@ -95,7 +95,7 @@
   <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="4f95f961030f118f33fb89f8b58ea5fbef826de5" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="914ccbeee60cfe54b3ac33f7a01a64621905a4ba" upstream="Android11_Radxa_rk11"/>
+  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="42c139e122b50b8ed6a56ad391f127356f200eb5" upstream="Android11_Radxa_rk11"/>
 
   <remove-project name="platform/frameworks/av" />
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="0aece40610d16a97ee4d6ce04b8b3f9f15b7b2a5" upstream="Android11_Radxa_rk11"/>
@@ -105,4 +105,7 @@
 
   <remove-project name="platform/frameworks/native" />
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="59931965ee2e4ef8abd144464e1b0378c033df72" upstream="Android11_Radxa_rk11"/>
+
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="b79a4e439406fde5b19d2f7a284fab6d34531d0c" upstream="Android11_Radxa_rk11"/>
 </manifest>
