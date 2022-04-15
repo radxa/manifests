@@ -1094,7 +1094,7 @@
   <project name="rk/hardware/rk29/weaver" path="hardware/rockchip/weaver" remote="rk" revision="120c5801e900f6738c5b137af88297e18123f1b9" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/hardware/rk35/einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="rk" revision="43651310345cf51cf38b7473cff405e51a3c7497" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/hardware/rk35/helper" path="hardware/rockchip/helper" remote="rk" revision="8ebaeb1c03ace90f8c5fc8caa5a7ebf8c19fc229" upstream="refs/tags/android-12.0-mid-rkr6"/>
-  <project name="rk/hardware/rk35/hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="rk" revision="380a38cfb5003f131a51b862d44f8c76947ebeda" upstream="refs/tags/android-12.0-mid-rkr6.1"/>
+  <project name="rk/hardware/rk35/hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="rk" revision="c9f298b07f3b77c5a31b92168d7d0080c2492f5d" upstream="refs/tags/android-12.0-mid-rkr6.2"/>
   <project name="rk/hardware/rk35/libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" remote="rk" revision="7ce8bb483fe6c8466d6adef9f39618b43c52a4ee" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/hardware/rk35/tv_input" path="hardware/rockchip/tv_input" remote="rk" revision="5b8453e79989d9a4c1e22146f3e183cea2838421" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/hardware/rk35/udc_set" path="hardware/rockchip/udc_set" remote="rk" revision="b7b393da9a0a57cbfb8aafad374f3db441ecd5ff" upstream="refs/tags/android-12.0-mid-rkr6"/>
