@@ -25,7 +25,7 @@
   <remove-project name="rk/kernel" />
   <remove-project name="platform/mkcombinedroot" />
 
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="ada1f1ab1451cd57ea58e0f5197db64f622858c2" upstream="Android12_Radxa_rk6"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="81b7749f1c634ffabd5ae90c76f0cbe7286ecfb2" upstream="Android12_Radxa_rk6"/>
   <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="82af74024c87d89d10b9a7d76990779c2e7ff37a" upstream="Android12_Radxa_rk6"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="4ad793ee7238bef938dddae174e463b49410d2a1" upstream="Android12_Radxa_rk6">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
