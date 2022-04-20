@@ -22,9 +22,11 @@
 
   <!-- Radxa customization -->
   <remove-project name="rk/device/rockchip/rk3588" />
+  <remove-project name="rk/kernel" />
   <remove-project name="platform/mkcombinedroot" />
 
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="b003553a52164cfdbd54e3096996f4d6a5a98e6f" upstream="Android12_Radxa_rk6"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="82af74024c87d89d10b9a7d76990779c2e7ff37a" upstream="Android12_Radxa_rk6"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="4ad793ee7238bef938dddae174e463b49410d2a1" upstream="Android12_Radxa_rk6">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
