@@ -21,10 +21,16 @@
   <!-- gitlab conflict end -->
 
   <!-- Radxa customization -->
+  <remove-project name="RKTools" />
   <remove-project name="rk/device/rockchip/rk3588" />
   <remove-project name="rk/kernel" />
   <remove-project name="platform/mkcombinedroot" />
+  <remove-project name="rk/device/rockchip/rksdk" />
+  <remove-project name="rk/u-boot" />
+  <remove-project name="rk/platform/vendor/rockchip/common" />
+  <remove-project name="platform/bootable/recovery/recovery" />
 
+  <project name="RKTools" remote="rk" revision="503d82cf547e3db794065dd8dc5e3f28543155a5" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="81b7749f1c634ffabd5ae90c76f0cbe7286ecfb2" upstream="Android12_Radxa_rk6"/>
   <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="82af74024c87d89d10b9a7d76990779c2e7ff37a" upstream="Android12_Radxa_rk6"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="4ad793ee7238bef938dddae174e463b49410d2a1" upstream="Android12_Radxa_rk6">
@@ -38,7 +44,19 @@
     <linkfile dest="kernel-5.10/kernel/configs/pcie_wifi.config" src="configs/pcie_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/rtl8125.config" src="configs/rtl8125.config"/>
   </project>
-   <!-- Radxa customization end -->
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="fd02e9e841065c03b01fa95ffa886ed192760906" upstream="Android12_Radxa_rk6">
+    <copyfile dest=".classpath" src=".classpath"/>
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+    <copyfile dest="build.sh" src="build/rockchip/build.sh"/>
+    <copyfile dest="mkimage_ab.sh" src="mkimage_ab.sh"/>
+    <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
+    <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
+  </project>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="dd031f3d8e286f1393feaf4bb7f4b91ac35899ad" upstream="Android12_Radxa_rk6"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="81cb3f1c515aa25a6605fb5d81bf76eaee1dc2ec" upstream="Android12_Radxa_rk6"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="b84e5a32f15e0fbaf191e36097f8ee0e24747d90" upstream="Android12_Radxa_rk6"/>
+  <!-- Radxa customization end -->
 
 </manifest>
 
