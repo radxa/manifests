@@ -31,9 +31,9 @@
   <remove-project name="platform/bootable/recovery/recovery" />
 
   <project name="RKTools" remote="rk" revision="503d82cf547e3db794065dd8dc5e3f28543155a5" upstream="refs/tags/android-12.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="81b7749f1c634ffabd5ae90c76f0cbe7286ecfb2" upstream="Android12_Radxa_rk6"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="347f9e3937fb44e25c7797e4d559c3b940af8493" upstream="Android12_Radxa_rk6"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="4ad793ee7238bef938dddae174e463b49410d2a1" upstream="Android12_Radxa_rk6">
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="b6e337294a7e801dc439066e48a6a7a1e95bff17" upstream="Android12_Radxa_rk6"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="264eb7bd8c7a725cb2be1e7c16e43bfe281cc257" upstream="Android12_Radxa_rk6"/>
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="d8e98802264d3694c6b2191925b8eb81fcb81b04" upstream="Android12_Radxa_rk6">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -43,6 +43,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/non_debuggable.config" src="configs/non_debuggable.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/pcie_wifi.config" src="configs/pcie_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/rtl8125.config" src="configs/rtl8125.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
   </project>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="fd02e9e841065c03b01fa95ffa886ed192760906" upstream="Android12_Radxa_rk6">
     <copyfile dest=".classpath" src=".classpath"/>
