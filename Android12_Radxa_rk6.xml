@@ -32,7 +32,7 @@
 
   <project name="RKTools" remote="rk" revision="503d82cf547e3db794065dd8dc5e3f28543155a5" upstream="refs/tags/android-12.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="b6e337294a7e801dc439066e48a6a7a1e95bff17" upstream="Android12_Radxa_rk6"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="264eb7bd8c7a725cb2be1e7c16e43bfe281cc257" upstream="Android12_Radxa_rk6"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="0d702c7453bdf26aba28fd80dc7db4be4db2757e" upstream="Android12_Radxa_rk6"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="d8e98802264d3694c6b2191925b8eb81fcb81b04" upstream="Android12_Radxa_rk6">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
@@ -45,7 +45,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/rtl8125.config" src="configs/rtl8125.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="fd02e9e841065c03b01fa95ffa886ed192760906" upstream="Android12_Radxa_rk6">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="ba4e81147d435b6c67dc2f97e42720463e904564" upstream="Android12_Radxa_rk6">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
