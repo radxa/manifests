@@ -98,7 +98,25 @@
     <remove-project name="platform/system/memory/libion"/>
     <remove-project name="platform/system/vold"/>
     <remove-project name="platform/system/bt"/>
+    <remove-project name="platform/external/rust/crates/gdbstub_arch"/>
+    <remove-project name="platform/external/TestParameterInjector"/>
     <!-- Mandatory Fix -->
-    <remove-project name="platform/system/security"/>
     <remove-project name="platform/system/sepolicy"/>
+
+    <!-- Google-singed Mainline prebuilt module remove-projects !-->
+    <remove-project name="platform/prebuilts/module_sdk/art"/>
+    <remove-project name="platform/prebuilts/module_sdk/conscrypt"/>
+    <remove-project name="platform/prebuilts/module_sdk/Connectivity"/>
+    <remove-project name="platform/prebuilts/module_sdk/IPsec"/>
+    <remove-project name="platform/prebuilts/module_sdk/Media"/>
+    <remove-project name="platform/prebuilts/module_sdk/MediaProvider"/>
+    <remove-project name="platform/prebuilts/module_sdk/Permission"/>
+    <remove-project name="platform/prebuilts/module_sdk/Scheduling"/>
+    <remove-project name="platform/prebuilts/module_sdk/SdkExtensions"/>
+    <remove-project name="platform/prebuilts/module_sdk/StatsD"/>
+    <remove-project name="platform/prebuilts/module_sdk/Wifi"/>
+
+    <!-- UNUSED -->
+    <remove-project name="device/generic/car"/>
+    <remove-project name="platform/prebuilts/qemu-kernel"/>
 </manifest>
