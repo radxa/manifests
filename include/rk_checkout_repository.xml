@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/external/libdrm" path="external/libdrm" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/external/speex" path="external/speex" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/external/skia" path="external/skia" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/build/build" path="build/make" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk">
+    <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/external/libdrm" path="external/libdrm" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/external/speex" path="external/speex" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/external/skia" path="external/skia" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/build" path="build/make" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -14,50 +14,49 @@
         <linkfile src="target" dest="build/target"/>
         <linkfile src="tools" dest="build/tools"/>
     </project>
-    <project name="platform/build/soong" path="build/soong" revision="refs/tags/android-12.0-mid-rkr6">
+    <project name="platform/build/soong" path="build/soong" revision="refs/tags/android-12.1-mid-rkr8">
         <linkfile src="root.bp" dest="Android.bp"/>
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
-    <project name="platform/development" path="development" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/system/bt" path="system/bt" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/system/core" path="system/core" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/system/memory/libion" path="system/memory/libion" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/system/vold" path="system/vold" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/bionic" path="bionic" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/frameworks/av" path="frameworks/av" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/frameworks/base" path="frameworks/base" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/frameworks/ex" path="frameworks/ex" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/frameworks/native" path="frameworks/native" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/>
-    <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/>
-    <project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
-    <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/modules/Permission" path="packages/modules/Permission" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-cw-fs,pdk-fs"/>
-    <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
-    <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs"/>
+    <project name="platform/development" path="development" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/system/bt" path="system/bt" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/system/core" path="system/core" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/system/memory/libion" path="system/memory/libion" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/system/vold" path="system/vold" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/bionic" path="bionic" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/frameworks/av" path="frameworks/av" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/frameworks/base" path="frameworks/base" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/frameworks/ex" path="frameworks/ex" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/frameworks/native" path="frameworks/native" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-cw-fs,pdk-fs"/>
+    <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-cw-fs,pdk-fs"/>
+    <project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
+    <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/modules/Permission" path="packages/modules/Permission" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-cw-fs,pdk-fs"/>
+    <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
+    <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs"/>
 
     <!-- use the rk33/mid/10.0/develop branch for hardware/broadcom/wlan, do not update -->
-    <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-12.0-mid-rkr6" />
-    <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk"/>
+    <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-12.1-mid-rkr8" />
+    <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk"/>
     <!-- Mandatory Fix -->
-    <project name="platform/system/security" path="system/security" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/system/sepolicy" path="system/sepolicy" revision="refs/tags/android-12.0-mid-rkr6"/>
-    <project name="platform/external/iperf3" path="external/iperf3" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk" />
-    <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk" />
-    <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk" />
-    <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs" />
-    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs" />
-    <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="refs/tags/android-12.0-mid-rkr6" groups="pdk-fs" />
+    <project name="platform/system/sepolicy" path="system/sepolicy" revision="refs/tags/android-12.1-mid-rkr8"/>
+    <project name="platform/external/iperf3" path="external/iperf3" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk" />
+    <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk" />
+    <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk" />
+    <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs" />
+    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs" />
+    <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="refs/tags/android-12.1-mid-rkr8" groups="pdk-fs" />
 </manifest>

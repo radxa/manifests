@@ -6,6 +6,6 @@
   <remote name="rk29" fetch="./" />
   <remote name="rk_legacy" fetch="."/>
 
-  <include name="Android12_Radxa_rk6.xml" />
+  <include name="Android12_Radxa_rk8.xml" />
 </manifest>
 
