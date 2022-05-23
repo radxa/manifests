@@ -34,7 +34,7 @@
 
   <project name="RKTools" remote="rk" revision="0de7093afdfcaaddd5920eda7d220efc36969007" upstream="Android12_Radxa_rk8"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="34028622132446b169a5ea66e1112466a99a4422" upstream="Android12_Radxa_rk8"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="b076bc3e3b6948d5abb8cd6800679a6675c00f42" upstream="Android12_Radxa_rk8"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="665a8f5c0a59286eded98b58d45b61e97b79c74a" upstream="Android12_Radxa_rk8"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="d8e98802264d3694c6b2191925b8eb81fcb81b04" upstream="Android12_Radxa_rk8">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
