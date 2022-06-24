@@ -68,7 +68,6 @@
     <remove-project name="platform/hardware/qcom/sm8150/vr"/>
     <remove-project name="platform/hardware/qcom/sm8150p/gps"/>
     <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal"/>
-    <remove-project name="kernel/build"/>
 
     <!-- Checkout For Rockchip Branch -->
     <remove-project name="kernel/configs"/>
@@ -106,14 +105,11 @@
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/system/vold" />
+    <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/memory/libion" />
     <remove-project name="platform/packages/apps/TvSettings" />
     <remove-project name="platform/packages/apps/Bluetooth" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/f2fs-tools" />
 
-    <!-- Security Patch 2021-08-05 -->
-    <remove-project name="platform/external/sqlite" />
-    <remove-project name="platform/packages/services/Telephony" />
-    <remove-project name="platform/system/libhwbinder" />
 </manifest>
