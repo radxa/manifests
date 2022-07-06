@@ -5,5 +5,5 @@
   <remote fetch="./" name="rk29"/>
   <remote fetch="./" name="rk_legacy"/>
 
-  <include name="Android11_Radxa_rk11.2_customization.xml" />
+  <include name="Android11_Radxa_rk12_customization.xml" />
 </manifest>
