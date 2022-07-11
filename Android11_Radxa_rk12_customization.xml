@@ -47,7 +47,7 @@
   <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="126be84e8d9db7c0b9cebed52dbfe376111da205" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="RKTools"/>
-  <project groups="radxa" name="RKTools" remote="rk" revision="8a50265c6420c6136a1df0139e20f6b45780ac39" upstream="Android11_Radxa_rk12"/>
+  <project groups="radxa" name="RKTools" remote="rk" revision="a2a2699f4909a9aa997201653cc516b50cac3b47" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="platform/external/chromium-webview"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
