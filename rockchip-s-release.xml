@@ -6,6 +6,6 @@
   <remote name="rk29" fetch="http://gitlab.com/rockchip_android_s" />
   <remote name="rk_legacy" fetch="http://gitlab.com/rockchip_android_s"/>
 
-  <include name="Android12_Radxa_rk8.xml" />
+  <include name="Android12_RK3588_Radxa_rk8.xml" />
 </manifest>
 
