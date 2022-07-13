@@ -22,6 +22,26 @@
   <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="24dd015f469add46e0a690725efb046296fe380f" upstream="refs/tags/android-12.1-mid-rkr8"/>
   <!-- gitlab conflict end -->
 
+  <!-- gitlab size reduce -->
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="kernel/prebuilts/5.10/arm64" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/rust" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/prebuilts/tools" />
+
+  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="Android12_RK3588_Radxa_rk8" upstream="Android12_RK3588_Radxa_rk8"/>
+  <!-- gitlab size reduce end-->
+
   <!-- Radxa customization -->
   <remove-project name="RKTools" />
   <remove-project name="rk/device/rockchip/rk3588" />
