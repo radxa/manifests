@@ -108,6 +108,6 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="rk" revision="refs/tags/android-12.1-mid-rkr10"/>
   <project path="packages/apps/rkCamera2" name="rk/rkCamera2" remote="rk29" revision="refs/tags/android-12.1-mid-rkr10"/>
   <project path="hardware/rockchip/librkcrypto" name="rk/librkcrypto" remote="rk29" revision="refs/tags/android-12.1-mid-rkr10"/>
-  <project path="prebuilts/module_sdk" name="platform/prebuilts/module_sdk" remote="rk" revision="refs/tags/android-12.1-mid-rkr10" clone-depth="1"/>
+  <project path="prebuilts/module_sdk" name="platform/prebuilts/module_sdk" remote="rk" revision="rk33/mid/12.0_express/develop" clone-depth="1"/>
   <!--project name="kernel/prebuilts/5.10/arm64" path="kernel/prebuilts/5.10/arm64" remote="rk" revision="temp-pdk"/-->
 </manifest>
