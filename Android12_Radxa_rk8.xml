@@ -40,7 +40,7 @@
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="6232397e1f6b5c4ce62f5c074023cb18d032c032" upstream="Android12_Radxa_rk8"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="e7ae89d170f3720b5163a8e24711cbe31d923ce3" upstream="Android12_Radxa_rk10"/>
   <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="407c253dc504d75ff88999839bf72da7679b75b7" upstream="Android12_Radxa_rk8"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="2ad4b4a1e6ba5daf5b516dd0e9824897720cc901" upstream="Android12_Radxa_rk8">
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="5d5302c2d0cbf8b23f4aaf9a4ee2c42e23ddb833" upstream="Android12_Radxa_rk8">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
