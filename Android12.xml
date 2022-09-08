@@ -7,6 +7,7 @@
   <include name="default.xml" />
 
   <!-- remove project -->
+  <include name="remove_unused.xml" />
   <include name="remove_s.xml" />
 
   <include name="include/rk_modules_repository.xml" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="commit/commit_release_rkr10_no_remote.xml" />
+  
+  <remove-project name="platform/build" />
+  <remove-project name="platform/external/OpenCL-CTS" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="rk/platform/vendor/rockchip/hardware" />
+  <remove-project name="platform/prebuilts/module_sdk" />
+  
+  <project name="platform/build/build" path="build/make" revision="404c8599f4e50503a445f35b5d482ae9bc65d078" upstream="refs/tags/android-12.1-mid-rkr10">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+  <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS/OpenCL-CTS" />
+  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/android-12.1-mid-rkr10" groups="pdk" />
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="9285083ed496a0288a50fdac12b119b7cf92fdaf" upstream="refs/tags/android-12.1-mid-rkr10"/>
+  <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="24dd015f469add46e0a690725efb046296fe380f" upstream="refs/tags/android-12.1-mid-rkr10"/>
+</manifest>
