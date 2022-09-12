@@ -34,6 +34,7 @@
   <remove-project name="rk/platform/vendor/rockchip/common" />
   <remove-project name="platform/bootable/recovery/recovery" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/hardware/realtek" />
   <remove-project name="external/camera_engine_rkaiq" />
 
@@ -69,6 +70,7 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f2a6399f2ae2eee201cc8a6eab26aa06ed68727c" upstream="Android12_Radxa_rk10"/>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="Android12_Radxa_rk10"/>
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="3716d6f6b1f6f6cc13b08a2d16ba431588028231" upstream="Android12_Radxa_rk10" />
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="efdaad44b01b2c235eb5083540a895281e225d11" upstream="Android12_Radxa_rk10"/>
   <!-- Radxa customization end -->
 
 </manifest>
