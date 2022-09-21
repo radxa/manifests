@@ -41,8 +41,8 @@
   <project name="RKTools" remote="rk" revision="ccca27b18751cfe8f091d172bb7bcaae82aad744" upstream="Android12_Radxa_rk10"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="1478c96cb8f2c35de9431a8f1f8afd5e09eb14a1" upstream="Android12_Radxa_rk10"/>	  
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="6232397e1f6b5c4ce62f5c074023cb18d032c032" upstream="Android12_Radxa_rk8"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="e7ae89d170f3720b5163a8e24711cbe31d923ce3" upstream="Android12_Radxa_rk10"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="7232366168893ee80a14bf4590e5f8fa76c06252" upstream="Android12_Radxa_rk10"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="f64cd0735bf145163398ed4c993e298a82069f9e" upstream="Android12_Radxa_rk10"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="ec5301f81c970d5ac07912e38e649f6081eb7873" upstream="Android12_Radxa_rk10"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="5d5302c2d0cbf8b23f4aaf9a4ee2c42e23ddb833" upstream="Android12_Radxa_rk8">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
@@ -66,7 +66,7 @@
     <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
     <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
   </project>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="37050e56074991c6eda3a3560a1715f125c17187" upstream="Android12_Radxa_rk10"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="d44ca5dccc0447124efeca8a74026549d768a6c2" upstream="Android12_Radxa_rk10"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f2a6399f2ae2eee201cc8a6eab26aa06ed68727c" upstream="Android12_Radxa_rk10"/>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="Android12_Radxa_rk10"/>
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="3716d6f6b1f6f6cc13b08a2d16ba431588028231" upstream="Android12_Radxa_rk10" />
