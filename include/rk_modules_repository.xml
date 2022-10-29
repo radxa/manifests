@@ -38,7 +38,7 @@
   <!--project path="hardware/rockchip/liblights" name="rk/hardware/rk29/liblights" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/-->
   <project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-11.0-mid-rkr12" />
   <project path="rkst" name="rk/rkst" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
-  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
+  <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   <project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
 
