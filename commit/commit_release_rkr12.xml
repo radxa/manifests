@@ -766,7 +766,7 @@
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="fb9ea7f0fafa9aa7f882f927faa0d12b117b83da" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="e42572a24e64f8511dbbf2e83f79fb08303de1a0" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="4127df85264539c1fcc6dcbf59410e9edaa2e0c6" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="9d6321aabba4dacaa570b83f096d46cba62dc579" upstream="refs/tags/android-12.1-mid-rkr12">
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="cf39b3b4efa5a7388512526112a6e159176dd228" upstream="refs/tags/android-12.1-mid-rkr12.1">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -991,7 +991,7 @@
   <project groups="pdk" name="platform/system/libziparchive" path="system/libziparchive" revision="a995a52802ae884cf71a9cc836e93a8b2f904b6f" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/system/linkerconfig" path="system/linkerconfig" revision="c2872fa4275e06224164986525c0157c117773dc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/system/logging" path="system/logging" revision="18a4b512ad3cad5888a56957e6c01f36af04e797" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="refs/tags/android-12.1-mid-rkr12" name="platform/system/media" path="system/media" revision="864d9cc4439f19262e7653267724071ba6913172" upstream="rk35/mid/12.0/develop"/>
+  <project name="platform/system/media" path="system/media" revision="864d9cc4439f19262e7653267724071ba6913172" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="pdk" name="platform/system/memory/libdmabufheap" path="system/memory/libdmabufheap" revision="3c8def05890626ef2c3d3e390ece81b7f9140b3c" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/system/memory/libion" path="system/memory/libion" revision="3db9f61461bb7d623553f613edffc18fafba9a27" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="pdk" name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo" revision="8279a58a2e1d6a6492f3bfc52a7b542a0f52783b" upstream="refs/tags/android-12.1.0_r11"/>
@@ -1060,7 +1060,7 @@
   <project groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="1b18efe53304a3c3d7112e91250b885ed5437a9e" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="6d2c711220d72620090941cf14ac33037d402523" upstream="refs/tags/android-12.1.0_r11"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="0131158e02495f4f3e8f14622f7448e97b3f992f" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="7a7615e79192988b36acf5d5371b4d4bf159aa47" upstream="refs/tags/android-12.1-mid-rkr12">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="e1b80af27b65ca8642b2c3515465fe7ef3ca5657" upstream="refs/tags/android-12.1-mid-rkr12.1">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -1136,7 +1136,7 @@
   <project name="rk/rknpu2" path="hardware/rockchip/rknpu2" remote="rk29" revision="e8a2d18f3a289fe5d2925e186f7e75882a7cb25b" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/rktoolbox" path="external/rktoolbox" remote="rk" revision="1ffae9357a70a96a526e38b94579d9dec373c7c5" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="b6932704849d2ccf4d8fdd30e35c7264e3bca5dd" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="48922e8182ea47259de2b8365dee4776d618b06a" upstream="refs/tags/android-12.1-mid-rkr12.1"/>
   <project name="toolchain/benchmark" revision="8865b07dcd100bf8e90d4f24b9b44a93270ed047" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="toolchain/llvm-project" path="external/llvm-project" revision="664b187160dc951c2cea3b69f92decf358d8e75a" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="739026928bc7d99f4cccd96e0a7a42bec79de254" upstream="refs/tags/android-12.1.0_r11"/>
