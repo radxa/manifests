@@ -9,7 +9,7 @@
   <project path="hardware/rockchip/hwcomposer/einkhwc" name="rk/hardware/rk35/einkhwc" remote="rk" revision="refs/tags/android-12.1-mid-rkr12" />
   <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-12.1-mid-rkr12" />
   <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-12.1-mid-rkr12"/>
-  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-12.1-mid-rkr12"/>  
+  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-12.1-mid-rkr12.1"/>  
   <project path="kernel-5.10" name="rk/kernel" remote="rk29" revision="refs/tags/android-12.1-mid-rkr12"/>
   <project path="bootable/recovery/rkupdate" name="platform/bootable/recovery/rk_update" remote="rk" revision="refs/tags/android-12.1-mid-rkr12"/>
   <project path="bootable/recovery/rkutility" name="platform/bootable/recovery/rk_utility" remote="rk" revision="refs/tags/android-12.1-mid-rkr12"/>
