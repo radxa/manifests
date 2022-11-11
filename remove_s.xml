@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- AUTO Genernated by genernate_remove.sh -->
+    <!-- AUTO Genernated by genernate_remove.sh 
     <remove-project name="device/amlogic/yukawa-kernel"/>
     <remove-project name="device/generic/vulkan-cereal"/>
     <remove-project name="device/google/barbet"/>
@@ -51,7 +51,7 @@
     <remove-project name="platform/hardware/google/gchips" groups="pdk-lassen" />
     <remove-project name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
     <remove-project name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
-    <!-- AUTO Genernated done -->
+    AUTO Genernated done -->
 
     <!-- Checkout branch -->
     <remove-project name="platform/bionic"/>
@@ -98,8 +98,7 @@
     <remove-project name="platform/system/memory/libion"/>
     <remove-project name="platform/system/vold"/>
     <remove-project name="platform/system/bt"/>
-    <remove-project name="platform/external/rust/crates/gdbstub_arch"/>
-    <remove-project name="platform/external/TestParameterInjector"/>
+    <remove-project name="platform/system/media"/>
     <!-- Mandatory Fix -->
     <remove-project name="platform/system/sepolicy"/>
 
