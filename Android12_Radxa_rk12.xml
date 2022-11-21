@@ -20,7 +20,7 @@
   </project>
   <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS/OpenCL-CTS" revision="8c79c498686952c108943422bd01c1924f4f8346" upstream="refs/tags/android-12.1.0_r11"/>
   <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="0911b049c200dc2ad7904b1cc23fd92dbfe33d36" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="86ed17cf7e16a29c9c58244ef76d1d4fec82d433" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="rk33/mid/12.0_express/develop"/>
   <!-- gitlab conflict end -->
 
@@ -42,7 +42,7 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="9742d222045a6d671d4056009b081eb99b0ffa97" upstream="Android12_Radxa_rk12"/>	  
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="52702e210b7c37bf1304401a1394f598d2690a38" upstream="Android12_Radxa_rk10"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="a766f2aae25ed169e55167b43607380987ff944a" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="8bdc32b7fb51edc7a52ff763a356fe5c28619c73" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="6cab1544fe2921e146dfd8ef1b76bf19b8c8bfb3" upstream="Android12_Radxa_rk12"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="74cf830e115a4493e8952ea3702dd69fbad9840e" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
