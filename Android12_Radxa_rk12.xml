@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="commit/commit_release_rkr10_no_remote.xml" />
+  <include name="commit/commit_release_rkr12_no_remote.xml" />
 
   <!-- gitlab conflict -->
   <remove-project name="platform/build" />
