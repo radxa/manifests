@@ -39,7 +39,7 @@
   <remove-project name="external/camera_engine_rkaiq" />
 
   <project name="RKTools" remote="rk" revision="ccca27b18751cfe8f091d172bb7bcaae82aad744" upstream="Android12_Radxa_rk10"/>
-  <project name="external/camera_engine_rkaiq" remote="rk" revision="9742d222045a6d671d4056009b081eb99b0ffa97" upstream="Android12_Radxa_rk12"/>	  
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="Android12_Radxa_rk12"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="52702e210b7c37bf1304401a1394f598d2690a38" upstream="Android12_Radxa_rk10"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="a766f2aae25ed169e55167b43607380987ff944a" upstream="Android12_Radxa_rk12"/>
   <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="6cab1544fe2921e146dfd8ef1b76bf19b8c8bfb3" upstream="Android12_Radxa_rk12"/>
