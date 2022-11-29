@@ -10,7 +10,7 @@
   <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-11.0-mid-rkr12" />
   <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
-  <project path="kernel" name="rk/kernel" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12"/>
+  <project path="kernel" name="rk/kernel" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12.1"/>
 
   <project path="bootable/recovery/rkupdate" name="platform/bootable/recovery/rk_update" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
   <project path="bootable/recovery/rkutility" name="platform/bootable/recovery/rk_utility" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
@@ -39,7 +39,7 @@
   <project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-11.0-mid-rkr12" />
   <project path="rkst" name="rk/rkst" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
   <project path="vendor/rockchip/common" name="rk/platform/vendor/rockchip/common" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
-  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
+  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   <project path="vendor/widevine" name="rk/platform/vendor/Widevine" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
 
   <!--project path="hardware/rockchip/power" name="rk/hardware/rk29/power" remote="rk" revision="refs/tags/android-11.0-mid-rkr12" /-->
@@ -57,7 +57,7 @@
   </project>
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="master"/>
-  <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12"/>
+  <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   <!-- build scrpit failed in Q<project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk" revision="refs/tags/android-11.0-mid-rkr12" /> -->
   <project path="hardware/rockchip/librkvpu" name="rk/hardware/rk29/librkvpu" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
   <project path="hardware/rockchip/omx_il" name="rk/hardware/rk29/omx_il" remote="rk" revision="refs/tags/android-11.0-mid-rkr12"/>
