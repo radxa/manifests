@@ -981,7 +981,7 @@
   <project groups="pdk" name="platform/system/libziparchive" path="system/libziparchive" revision="a995a52802ae884cf71a9cc836e93a8b2f904b6f" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/system/linkerconfig" path="system/linkerconfig" revision="c2872fa4275e06224164986525c0157c117773dc" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/system/logging" path="system/logging" revision="18a4b512ad3cad5888a56957e6c01f36af04e797" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="refs/tags/Android12_RK3588_Radxa_rkr10" name="platform/system/media" path="system/media" revision="0b76af149d93fdaa1de83257cc503a52245b59c2" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
+  <project groups="pdk" name="platform/system/media" path="system/media" revision="0b76af149d93fdaa1de83257cc503a52245b59c2" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/system/memory/libdmabufheap" path="system/memory/libdmabufheap" revision="3c8def05890626ef2c3d3e390ece81b7f9140b3c" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/system/memory/libion" path="system/memory/libion" revision="3db9f61461bb7d623553f613edffc18fafba9a27" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo" revision="8279a58a2e1d6a6492f3bfc52a7b542a0f52783b" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
