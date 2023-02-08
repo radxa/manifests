@@ -8,7 +8,7 @@
   <remove-project name="rk/platform/vendor/rockchip/hardware" />
   <remove-project name="platform/prebuilts/module_sdk" />
 
-<project name="platform/build/build" path="build/make" revision="404c8599f4e50503a445f35b5d482ae9bc65d078" upstream="refs/tags/Android12_RK3588_Radxa_rkr10">
+<project name="platform/build/build" path="build/make" revision="e91d6b4ae1ada4474e1281a43df3923c90335616" upstream="refs/tags/android-12.1-mid-rkr12">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -17,9 +17,10 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/Android12_RK3588_Radxa_rkr10" groups="pdk" />
-  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="9285083ed496a0288a50fdac12b119b7cf92fdaf" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="24dd015f469add46e0a690725efb046296fe380f" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
+  <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS/OpenCL-CTS" revision="8c79c498686952c108943422bd01c1924f4f8346" upstream="refs/tags/android-12.1.0_r11"/>
+  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="0911b049c200dc2ad7904b1cc23fd92dbfe33d36" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <!-- gitlab conflict end -->
 
   <!-- Radxa customization -->
@@ -36,12 +37,12 @@
   <remove-project name="platform/hardware/realtek" />
   <remove-project name="external/camera_engine_rkaiq" />
 
-  <project name="RKTools" remote="rk" revision="ccca27b18751cfe8f091d172bb7bcaae82aad744" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project name="external/camera_engine_rkaiq" remote="rk" revision="1478c96cb8f2c35de9431a8f1f8afd5e09eb14a1" upstream="Android12_RK3588_Radxa_rk10"/>	  
-  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="52702e210b7c37bf1304401a1394f598d2690a38" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="9b5c44cb55b92392e2316156d7c6cebd902b230f" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="e22e2c7a50bca9d622f59f8d5af459e540df0569" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="5d5302c2d0cbf8b23f4aaf9a4ee2c42e23ddb833" upstream="Android12_RK3588_Radxa_rk10">
+  <project name="RKTools" remote="rk" revision="ccca27b18751cfe8f091d172bb7bcaae82aad744" upstream="Android12_Radxa_rk10"/>
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="Android12_Radxa_rk12"/>
+  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="52702e210b7c37bf1304401a1394f598d2690a38" upstream="Android12_Radxa_rk10"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="9a87e3baad4cabaa03e2229428c143ea9a3f6d99" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="e0ea90fc8f323684ca655f37072352e178c44de4" upstream="Android12_Radxa_rk12"/>
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="7572b3b4c7115bc2fdbda94b15233136560d404a" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -55,7 +56,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/rock5b.config" src="configs/rock5b.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="8fa89c326bd383cbb8b6054bbc16ae8dcf33b3ed" upstream="Android12_RK3588_Radxa_rk10">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="35b258443c633e54d48329f30615d2b467d019fb" upstream="Android12_Radxa_rk12">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -64,11 +65,12 @@
     <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
     <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
   </project>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="37050e56074991c6eda3a3560a1715f125c17187" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f2a6399f2ae2eee201cc8a6eab26aa06ed68727c" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="efdaad44b01b2c235eb5083540a895281e225d11" upstream="Android12_RK3588_Radxa_rk10"/>
-  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="b473408306e1a0d47d36d6b0f648df2e23741bb0" upstream="Android12_RK3588_Radxa_rk10" />
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="151ca95e81f280c1bb0b40564660e79cd70c551f" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f8c3b548803cd3fc0170ff8b624b67b021fd0101" upstream="Android12_Radxa_rk12"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="Android12_Radxa_rk10"/>
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="efdaad44b01b2c235eb5083540a895281e225d11" upstream="Android12_Radxa_rk10"/>
+  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="6944d61555547bafb69307dc282d0894dce4366c" upstream="Android12_Radxa_rk12" />
+  <project name="platform/external/exfatprogs" path="external/exfatprogs" remote="rk" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="Android12_Radxa_rk12" />
   <!-- Radxa customization end -->
   <!-- gitlab size reduce -->
   <remove-project name="platform/external/chromium-webview" />
