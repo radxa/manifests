@@ -70,6 +70,7 @@
     <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
     <remove-project name="platform/frameworks/ex"/>
+    <remove-project name="platform/frameworks/libs/net"/>
     <remove-project name="platform/frameworks/native"/>
     <remove-project name="platform/frameworks/opt/net/ethernet"/>
     <remove-project name="platform/frameworks/opt/net/wifi"/>
@@ -77,6 +78,7 @@
     <remove-project name="platform/hardware/broadcom/libbt"/>
     <remove-project name="platform/hardware/interfaces"/>
     <remove-project name="platform/hardware/libhardware"/>
+    <remove-project name="platform/packages/modules/Connectivity"/>
     <remove-project name="platform/packages/modules/NetworkStack"/>
     <remove-project name="platform/packages/modules/Wifi"/>
     <remove-project name="platform/packages/apps/Browser2"/>
@@ -90,6 +92,11 @@
     <remove-project name="platform/packages/apps/Settings"/>
     <remove-project name="platform/packages/apps/TV"/>
     <remove-project name="platform/packages/apps/TvSettings"/>
+    <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
+    <remove-project name="platform/packages/apps/Car/Settings"/>
+    <remove-project name="platform/packages/apps/Car/SystemUI"/>
+    <remove-project name="platform/packages/apps/Car/Launcher"/>
+    <remove-project name="platform/packages/services/Car"/>
     <remove-project name="platform/packages/providers/MediaProvider"/>
     <remove-project name="platform/packages/wallpapers/LivePicker"/>
     <remove-project name="platform/packages/modules/Permission"/>

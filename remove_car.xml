@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Checkout branch -->
+    <remove-project name="rk/hardware/rk29/audio"/>
+    <remove-project name="platform/system/bt"/>
+    <remove-project name="platform/prebuilts/module_sdk"/>
+</manifest>
