@@ -92,7 +92,7 @@
   <project path="hardware/rockchip/rknn-toolkit2" name="rk/rknn-toolkit2" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="hardware/rockchip/rknpu2" name="rk/rknpu2" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="hardware/rockchip/libsvep" name="rk/libsvep" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
-  <project path="mkcombinedroot" name="platform/mkcombinedroot" remote="rk" revision="refs/tags/android-12.1-mid-rkr14">
+  <project path="mkcombinedroot" name="platform/mkcombinedroot" remote="rk" revision="refs/tags/android-12.1-mid-rkr14.1">
       <linkfile src="configs/android-11.config" dest="kernel-4.19/kernel/configs/android-11.config"/>
       <linkfile src="configs/android-11.config" dest="kernel-5.10/kernel/configs/android-11.config"/>
       <linkfile src="configs/android-11-go.config" dest="kernel-4.19/kernel/configs/android-11-go.config"/>

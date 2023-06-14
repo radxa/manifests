@@ -765,7 +765,7 @@
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="fb9ea7f0fafa9aa7f882f927faa0d12b117b83da" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="e42572a24e64f8511dbbf2e83f79fb08303de1a0" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="4127df85264539c1fcc6dcbf59410e9edaa2e0c6" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="65519ddc9d5626f0d84b71c40fc552b3baf541ca" upstream="refs/tags/android-12.1-mid-rkr14">
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="8cb1645e5b3ed7520b9a7d289fdb66b5b6a87923" upstream="refs/tags/android-12.1-mid-rkr14.1">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
