@@ -22,7 +22,7 @@
   <project groups="radxa" path="u-boot" name="rk/u-boot" remote="rk" revision="0a0cedb50db9f397caf58476e5f453188862cf5c" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="rk/kernel"/>
-  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="84367f5f8a55f0f4db5a79304210c04ae74b4955" upstream="Android11_Radxa_rk12"/>
+  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="ba18122e289dccca2b6ddb336fd9beaf1745242f" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="rk/device/rockchip/rk3566"/>
   <remove-project name="rk/device/rockchip/rk3568_box"/>
@@ -68,7 +68,7 @@
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="kernel/configs" />
-  <project name="kernel/configs" remote="rk" revision="cbcb61fdae5944a987a6369406d39552c048bceb" upstream="Android11_Radxa_rk12">
+  <project name="kernel/configs" remote="rk" revision="3e5d8eafc6a9d43d43a3576e12608b2540f9b811" upstream="Android11_Radxa_rk12">
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config"/>
     <linkfile src="rockchip/rk3326.config" dest="kernel/kernel/configs/rk3326.config"/>
@@ -82,6 +82,7 @@
     <linkfile src="rockchip/radxa_key_z.config" dest="kernel/kernel/configs/radxa_key_z.config"/>
     <linkfile src="rockchip/rockcm3io.config" dest="kernel/kernel/configs/rockcm3io.config"/>
     <linkfile src="r/android-4.19/non_debuggable.config" dest="kernel/kernel/configs/non_debuggable.config"/>
+    <linkfile src="rockchip/rock3_zero_w.config" dest="kernel/kernel/configs/rock3_zero_w.config"/>
   </project>
 
   <!-- libmraa -->
@@ -99,7 +100,7 @@
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="17f0ce7fa99f31ed6e5dd914f9f68229cd2e83e7" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="rk/hardware/rk29/camera_v3" />
-  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="c6c6f329d450c0eb491a3e0b2e359ed54ad6125b" upstream="Android11_Radxa_rk12"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="3956c386721a8f7250603b97a127fa4fb9a11a22" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="platform/frameworks/native" />
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="472c817abf31ab2177bcb8990a3f3967211b4c0e" upstream="Android11_Radxa_rk12"/>
@@ -113,4 +114,6 @@
   <remove-project name="rk/rkbin" />
   <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   
+  <remove-project name="external/camera_engine_rkaiq" />
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="c8ea606e6702ffa0b186471561ad03316206c6ad" upstream="Android11_Radxa_rk12"/>
 </manifest>
