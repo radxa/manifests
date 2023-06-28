@@ -68,7 +68,7 @@
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="kernel/configs" />
-  <project name="kernel/configs" remote="rk" revision="3e5d8eafc6a9d43d43a3576e12608b2540f9b811" upstream="Android11_Radxa_rk12">
+  <project name="kernel/configs" remote="rk" revision="3bfbee7e2d40adb61124e681d4b9cc7601c1e61f" upstream="Android11_Radxa_rk12">
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config"/>
     <linkfile src="rockchip/rk3326.config" dest="kernel/kernel/configs/rk3326.config"/>
