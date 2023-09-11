@@ -58,7 +58,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/intel_iwlwifi.config" src="configs/intel_iwlwifi.config"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="35b258443c633e54d48329f30615d2b467d019fb" upstream="Android12_Radxa_rk12">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="4d11c63e8c064fdaca134afc178b0187f913e163" upstream="Android12_Radxa_rk12">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
