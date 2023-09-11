@@ -71,7 +71,7 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f8c3b548803cd3fc0170ff8b624b67b021fd0101" upstream="Android12_Radxa_rk12"/>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="Android12_Radxa_rk10"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="efdaad44b01b2c235eb5083540a895281e225d11" upstream="Android12_Radxa_rk10"/>
-  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="6944d61555547bafb69307dc282d0894dce4366c" upstream="Android12_Radxa_rk12" />
+  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="702e257772a4a6a7093d1f7a115dda64ea0bebb5" upstream="Android12_Radxa_rk12" />
   <project name="platform/external/exfatprogs" path="external/exfatprogs" remote="rk" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="Android12_Radxa_rk12" />
   <!-- Radxa customization end -->
 
