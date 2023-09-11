@@ -633,7 +633,7 @@
   <project groups="pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="2851a546acca2827af8956b460ee46e73324b7cd" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="037d2cbffab75b150ea8d0547e52b4e710ad36bc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="3de41606e7f85611c1bebf8ec7c11abb4b30ec7d" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="810350329334736cba2e9dedaa4698ce458a1f7f" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="d4d0ba195511db885f5b55ed185a47baf8e4b181" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="pdk" name="platform/external/wycheproof" path="external/wycheproof" revision="5efa3e20988971391236852198ec08ba0e1f5c91" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="5235cd2fcb81a95f76b6dd6978012327b6dd4d2a" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="6bfb1849ec40458870ead714715385d3d1b0cb2d" upstream="refs/tags/android-12.1.0_r11"/>
