@@ -1108,7 +1108,7 @@
   <project name="rk/hardware/rk35/usb" path="hardware/rockchip/usb" remote="rk" revision="548eb9618411731314a3cee4aba6731d64f8d80b" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/hardware/rk35/vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="rk" revision="1e1e42e9170a0ae914d69adeffb0083b5b4a3f4a" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/hardware/rockchip/hdcp_release" path="hardware/rockchip/hdcp2" remote="rk" revision="e7c8eba3af309d3d8d493e769519b47c5bd44396" upstream="refs/tags/android-12.1-mid-rkr14"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="33f4a54037590ce6bf13e3568e33685dbe752588" upstream="refs/tags/android-12.1-mid-rkr14"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="0ddc99b6884b0036a71cab161e4915874776a9c9" upstream="refs/tags/android-12.1-mid-rkr14.1"/>
   <project name="rk/libiep" path="hardware/rockchip/libiep" remote="rk29" revision="5d77013abbd6eb01f6000291e0f4f4715def4cd5" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/libpq-release" path="hardware/rockchip/libpq" remote="rk29" revision="6b4499d264c7347c780c7510b4117ad53e30936e" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/librkcrypto" path="hardware/rockchip/librkcrypto" remote="rk29" revision="755a566d296408581360a140777f3037074df861" upstream="refs/tags/android-12.1-mid-rkr14"/>
@@ -1134,7 +1134,7 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e" upstream="master"/>
   <project name="rk/rkCamera2" path="packages/apps/rkCamera2" remote="rk29" revision="e8b88c058463174b874113b30a9396cbe0789277" upstream="refs/tags/android-12.1-mid-rkr14"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="05cba45efa9424974f51733ea0a6298defc40cf2" upstream="refs/tags/android-12.1-mid-rkr14"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="4e901198aa81f56461223bf7f720edad6361560e" upstream="refs/tags/android-12.1-mid-rkr14.1"/>
   <project name="rk/rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="rk29" revision="544dc6d126ad4c76ff680dd5fab2af2ecd96d18f" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/rknpu2" path="hardware/rockchip/rknpu2" remote="rk29" revision="cd533a7688769db25a1906479995d6ed677d75e2" upstream="refs/tags/android-12.1-mid-rkr14"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="refs/tags/android-12.1-mid-rkr14"/>
