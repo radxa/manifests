@@ -1070,7 +1070,7 @@
   <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" remote="rk" revision="871de44a1ec48b33dc7dd60eac918380b708a955" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/camera360" path="packages/apps/Camera360" remote="rk" revision="3cda0f551aadd87f327e61b74d9aab4d82462368" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="rk" revision="0df91db5e5f7e6c200defa8e7eaaa62f98980e9b" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="d6c0063db074830cb139e7eae798a9dc0d5da1d7" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="83b3eb223cda08887ef5d842e5c8efb2afd89bc2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/camera_vir" path="hardware/rockchip/camera_vir" remote="rk" revision="58c2c089a0acf26163607200d0ca7ea7c7351381" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="1656694778441a19d8c5a60ed5ae8d206a2e92b4" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/fastbootd" path="hardware/rockchip/fastbootd" remote="rk" revision="f3d98230ec7094e1f33adb9752030fd83a2c20a2" upstream="refs/tags/android-12.1-mid-rkr12"/>
