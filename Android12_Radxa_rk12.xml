@@ -55,6 +55,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/rtl8125.config" src="configs/rtl8125.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/rock5a.config" src="configs/rock5a.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/rock5b.config" src="configs/rock5b.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/RadxaPS009.config" src="configs/RadxaPS009.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/intel_iwlwifi.config" src="configs/intel_iwlwifi.config"/>
   </project>
