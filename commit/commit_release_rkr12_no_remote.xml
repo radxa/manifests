@@ -633,7 +633,7 @@
   <project groups="pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="2851a546acca2827af8956b460ee46e73324b7cd" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="037d2cbffab75b150ea8d0547e52b4e710ad36bc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="3de41606e7f85611c1bebf8ec7c11abb4b30ec7d" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="d4d0ba195511db885f5b55ed185a47baf8e4b181" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="e71377234065fd5fbd9515a08db80fef1c3fa4f2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="pdk" name="platform/external/wycheproof" path="external/wycheproof" revision="5efa3e20988971391236852198ec08ba0e1f5c91" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="5235cd2fcb81a95f76b6dd6978012327b6dd4d2a" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="6bfb1849ec40458870ead714715385d3d1b0cb2d" upstream="refs/tags/android-12.1.0_r11"/>
@@ -1072,7 +1072,7 @@
   <project name="rk/hardware/rk29/camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="rk" revision="0df91db5e5f7e6c200defa8e7eaaa62f98980e9b" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="83b3eb223cda08887ef5d842e5c8efb2afd89bc2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/camera_vir" path="hardware/rockchip/camera_vir" remote="rk" revision="58c2c089a0acf26163607200d0ca7ea7c7351381" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="1656694778441a19d8c5a60ed5ae8d206a2e92b4" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="298d6c2c38ab118996a513e50c84aa7badebc27d" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/fastbootd" path="hardware/rockchip/fastbootd" remote="rk" revision="f3d98230ec7094e1f33adb9752030fd83a2c20a2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/gatekeeper" path="hardware/rockchip/gatekeeper" remote="rk" revision="681975f415a8ce6b28c8e745c01d5ef6a041fc2d" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="f9a8382c0c75621be36f0e5bc43241ca661c2a25" upstream="refs/tags/android-12.1-mid-rkr12"/>
