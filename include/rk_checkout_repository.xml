@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="platform/external/libdrm" path="external/libdrm" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/external/speex" path="external/speex" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="rk35/mid/14.0/develop"/>
+    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/system/core" path="system/core" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/system/vold" path="system/vold" revision="rk35/mid/14.0/develop"/>
+    <project name="kernel/configs" revision="rk35/mid/14.0/develop"/>
+    <project name="platform/build" path="build/make" revision="rk35/mid/14.0/develop" groups="pdk">
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+        <linkfile src="core" dest="build/core"/>
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+        <linkfile src="target" dest="build/target"/>
+        <linkfile src="tools" dest="build/tools"/>
+    </project>
+    <project name="platform/build/soong" path="build/soong" revision="rk35/mid/14.0/develop">
+        <linkfile src="root.bp" dest="Android.bp"/>
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+    </project>
+    <!--project name="platform/external/skia" path="external/skia" revision="rk35/mid/12.0/develop" groups="pdk"/>
+    <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="rk35/mid/12.0/develop" groups="pdk"/>
+    <project name="platform/development" path="development" revision="rk35/mid/12.0/develop"/>
+    <project name="platform/system/bt" path="system/bt" revision="rk35/mid/12.0/develop"/>
+    <project name="platform/system/memory/libion" path="system/memory/libion" revision="rk35/mid/12.0/develop" groups="pdk"/>
+    <project name="platform/bionic" path="bionic" revision="rk35/mid/12.0/develop" groups="pdk"/-->
+    <project name="platform/frameworks/av" path="frameworks/av" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/frameworks/native" path="frameworks/native" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/frameworks/ex" path="frameworks/ex" revision="rk35/mid/14.0/develop"/>
+    <project name="platform/frameworks/base" path="frameworks/base" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/bootable/recovery" path="bootable/recovery" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="rk35/mid/14.0/develop" groups="pdk"/>
+    <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="rk35/mid/14.0/develop"/>
+    <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/apps/TV" path="packages/apps/TV" revision="rk35/mid/14.0/develop" groups="pdk" />
+    <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <!-- project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="rk35/mid/12.0/develop" groups="pdk-cw-fs,pdk-fs"/-->
+    <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" revision="rk35/mid/14.0/develop" groups="pdk-cw-fs,pdk-fs"/>
+    <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk" revision="rk35/mid/13.0/develop" groups="pdk"/>
+    <!-- project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="rk35/mid/12.0/develop" groups="pdk"/>
+    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/modules/Permission" path="packages/modules/Permission" revision="rk35/mid/12.0/develop"/>
+    <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+    <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
+
+    <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="rk33/mid/10.0/develop" />
+    <project name="platform/system/sepolicy" path="system/sepolicy" revision="android_mandatory_fix_dec"/>
+    <project name="platform/external/iperf3" path="external/iperf3" revision="rk33/mid/10.0/develop" groups="pdk" />
+    <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="rk35/mid/12.0/develop" groups="pdk" />
+    <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" revision="rk35/mid/12.0/develop" groups="pdk-fs" />
+    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="rk35/mid/12.0/develop" groups="pdk-fs" />
+    <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="rk35/mid/12.0/develop" groups="pdk-fs" /-->
+    <project path="system/media" name="platform/system/media" revision="rk35/mid/14.0/develop" groups="pdk" />
+</manifest>

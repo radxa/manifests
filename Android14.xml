@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <include name="remote.xml" />
+
+  <!-- aosp default repository-->
+  <include name="default.xml" />
+
+  <include name="include/rk_modules_repository.xml" />
+  <include name="include/rk3326_repository.xml" />
+  <include name="include/rk3399_repository.xml" />
+  <include name="include/rk3588_repository.xml" />
+  <include name="include/rk3562_repository.xml" />
+  <include name="include/rk356x_repository.xml" />
+  <include name="remove_unused.xml" />
+  <include name="remove_u.xml" />
+  <include name="include/rk_checkout_repository.xml" />
+</manifest>
