@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../../" name="amlogic"/>
-  <remote fetch="../../" name="openlinux"/>
+  <remote fetch="https://gitlab.com/radxa_zero2/" name="amlogic"/>
+  <remote fetch="https://gitlab.com/radxa_zero2/" name="openlinux"/>
 
   <include name="p-amlogic_radxa_customization.xml" />
 </manifest>
