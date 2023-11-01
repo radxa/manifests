@@ -30,12 +30,14 @@
   <remove-project name="p-amlogic/kernel/common" />
   <remove-project name="p-amlogic/device/amlogic-o" />
   <remove-project name="p-amlogic/platform/packages/amlogic/VideoPlayer" />
+  <remove-project name="p-amlogic/platform/art" />
   <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="11004fe7a421454a53922eee3918bf13117c0c63" upstream="amlogic_android9_zero2">
     <copyfile src="mk" dest="bootloader/uboot-repo/mk"/>
   </project>
-  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="5173665f8cb1c6c81fdea2d41048c5aa3bae25ed" upstream="amlogic_android9_zero2"/>
-  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="70b5ad3355ce92a25b659c536d718e6056833c9b" upstream="amlogic_android9_zero2"/>
-  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="bb8a0631a99c3c71e5e00de9390beb39794765a2" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/uboot" path="bootloader/uboot-repo/bl33" remote="amlogic" revision="4f765e33d41fccb9f40a855c0ec13f615b80d4ef" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/kernel/common" path="common" remote="amlogic" revision="f68bdf268c2ae85d7471af58767f11bdbd04508d" upstream="amlogic_android9_zero2"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="666a039b5cff26eb2e5ff32db9a6af81490df357" upstream="amlogic_android9_zero2"/>
   <project name="p-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/common/apps/VideoPlayer" remote="amlogic" revision="e049dda8e2622b7481220c21700de11e462bfa43" upstream="amlogic_android9_zero2"/>
-
+  <project name="p-amlogic/platform/art" path="art" remote="openlinux" revision="27b775ebe4255ea6d2e5e30c5134df96c58971fc" upstream="amlogic_android9_zero2"/>
+  
 </manifest>
