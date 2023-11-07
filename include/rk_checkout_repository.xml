@@ -7,6 +7,7 @@
     <project name="platform/system/core" path="system/core" revision="rk35/mid/14.0/develop" groups="pdk"/>
     <project name="platform/system/vold" path="system/vold" revision="rk35/mid/14.0/develop"/>
     <project name="kernel/configs" revision="rk35/mid/14.0/develop"/>
+    <project name="kernel/prebuilts/6.1/arm64" revision="rk35/mid/14.0/develop"/>
     <project name="platform/build" path="build/make" revision="rk35/mid/14.0/develop" groups="pdk">
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -36,14 +37,16 @@
     <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/apps/TV" path="packages/apps/TV" revision="rk35/mid/14.0/develop" groups="pdk" />
     <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
     <!-- project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="rk35/mid/12.0/develop" groups="pdk-cw-fs,pdk-fs"/-->
     <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi" revision="rk35/mid/14.0/develop" groups="pdk-cw-fs,pdk-fs"/>
     <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk" revision="rk35/mid/13.0/develop" groups="pdk"/>
+    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="rk35/mid/14.0/develop" groups="pdk-fs"/>
+    <project path="system/media" name="platform/system/media" revision="rk35/mid/14.0/develop" groups="pdk" />
     <!-- project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="rk35/mid/12.0/develop" groups="pdk"/>
-    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="rk35/mid/12.0/develop" groups="pdk-fs"/>
     <project name="platform/packages/modules/Permission" path="packages/modules/Permission" revision="rk35/mid/12.0/develop"/>
@@ -56,7 +59,5 @@
     <project name="platform/external/iperf3" path="external/iperf3" revision="rk33/mid/10.0/develop" groups="pdk" />
     <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="rk35/mid/12.0/develop" groups="pdk" />
     <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" revision="rk35/mid/12.0/develop" groups="pdk-fs" />
-    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="rk35/mid/12.0/develop" groups="pdk-fs" />
-    <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="rk35/mid/12.0/develop" groups="pdk-fs" /-->
-    <project path="system/media" name="platform/system/media" revision="rk35/mid/14.0/develop" groups="pdk" />
+    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="rk35/mid/12.0/develop" groups="pdk-fs" /-->
 </manifest>

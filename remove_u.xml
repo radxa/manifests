@@ -22,11 +22,13 @@
     <remove-project name="platform/packages/apps/Gallery2"/>
     <remove-project name="platform/packages/apps/Music"/>
     <remove-project name="platform/packages/apps/Settings"/>
+    <remove-project name="platform/packages/screensavers/PhotoTable"/>
     <remove-project name="platform/packages/apps/TV"/>
     <remove-project name="platform/packages/modules/Wifi"/>
     <remove-project name="platform/packages/modules/Connectivity"/>
     <remove-project name="platform/packages/providers/MediaProvider"/>
     <remove-project name="platform/hardware/broadcom/libbt"/>
+    <remove-project name="platform/packages/apps/Launcher3"/>
     <!-- Unused -->
     <remove-project name="device/generic/car"/>
     <remove-project name="device/amlogic/yukawa"/>

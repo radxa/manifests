@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="RKDocs/common" name="docs/common" remote="rk" revision="rk33/mid/android-8.1"/>
-  <project path="RKDocs/android" name="docs/android" remote="rk" revision="rk35/mid/android-13.0"/>
+  <project path="RKDocs/android" name="docs/android" remote="rk" revision="rk35/mid/14.0/develop"/>
   <project path="RKTools" name="RKTools" remote="rk" revision="rk33/mid/develop11.0"/>
   <project path="hardware/rockchip/helper" name="rk/hardware/rk35/helper" remote="rk" revision="develop" />
   <project path="hardware/rockchip/hwcomposer/drmhwc" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/6.0/develop_drm" />
@@ -108,11 +108,12 @@
   <project path="hardware/rockchip/libbaseparameter" name="rk/hardware/rk29/libbaseparameter" remote="rk" revision="master"/>
   <project path="hardware/rockchip/libmpimmz" name="rk/hardware/rk29/mpi-mmz" remote="rk29" revision="master"/>
   <project name="rk/packages/apps/DisplayAdjust" path="packages/apps/DisplayAdjust" remote="rk" revision="master"/>
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="rk" revision="rk33/mid/12.0/develop"/>
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="rk" revision="rk35/mid/14.0/develop"/>
   <project path="packages/apps/rkCamera2" name="rk/rkCamera2" remote="rk29" revision="master"/>
   <project path="hardware/rockchip/librkcrypto" name="rk/librkcrypto" remote="rk29" revision="master"/>
   <project path="hardware/rockchip/libpq" name="rk/libpq-release" remote="rk29" revision="master"/>
   <project path="hardware/rockchip/libiep" name="rk/libiep" remote="rk29" revision="master"/>
   <project path="hardware/rockchip/hdcp2" name="rk/hardware/rockchip/hdcp_release" remote="rk" revision="master"/>
   <project path="hardware/rockchip/libvendor_storage" name="rk/libvendor_storage" remote="rk29" revision="master"/>
+  <project path="hardware/rockchip/hwc_proxy_service" name="rk/hwc_proxy_service" remote="rk29" revision="master"/>
 </manifest>
