@@ -42,8 +42,8 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="Android12_Radxa_rk12"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="18512879662d8c5b61eb780281f619e6732d2004" upstream="Android12_Radxa_rk12"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="574b815faccbe60f48b58ae1f3d5abcf51441b0a" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="43ce21e91ba5d788808bd9dead4c3e82d6f707c6" upstream="Android12_Radxa_rk12"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="d10fd7aad168dfb26255588c19e1dfa2f517ce55" upstream="Android12_Radxa_rk12">
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="e6d09163e4b0eddf48ba8891f5846cd49986f3bf" upstream="Android12_Radxa_rk12"/>
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="c03997adb00a50524281fb6b4c4058c0dd40606f" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -75,7 +75,7 @@
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="d28e5adca7e02907d303973ae3cd79620ac44890" upstream="Android12_Radxa_rk12"/>
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="702e257772a4a6a7093d1f7a115dda64ea0bebb5" upstream="Android12_Radxa_rk12" />
   <project name="platform/external/exfatprogs" path="external/exfatprogs" remote="rk" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="Android12_Radxa_rk12" />
-  <project name="platform/radxa" path="radxa" remote="rk" revision="bd52ac6204cdc91c07604b2b5a9ee4c29ba8c51f" upstream="Android12_Radxa_rk12" />
+  <project name="platform/radxa" path="radxa" remote="rk" revision="91de5ce75ad1780b8a01719ec3b8f6befafc8c44" upstream="Android12_Radxa_rk12" />
   <!-- Radxa customization end -->
 
 </manifest>
