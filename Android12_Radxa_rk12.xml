@@ -41,8 +41,8 @@
   <project name="RKTools" remote="rk" revision="84189d4b41e9d0a9dfe422e214a359493efaae2a" upstream="Android12_Radxa_rk12"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="Android12_Radxa_rk12"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="18512879662d8c5b61eb780281f619e6732d2004" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="574b815faccbe60f48b58ae1f3d5abcf51441b0a" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="e6d09163e4b0eddf48ba8891f5846cd49986f3bf" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="29f95558deb8438c76fa4278605994d85a783040" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="7c865408cc0bf86bee9237e6133cebf40395c7e2" upstream="Android12_Radxa_rk12"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="c03997adb00a50524281fb6b4c4058c0dd40606f" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
@@ -60,7 +60,7 @@
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/intel_iwlwifi.config" src="configs/intel_iwlwifi.config"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="f48b8e8fa94cd1541a9d62bbabdcb84f8516534a" upstream="Android12_Radxa_rk12">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="120f1d2c9ab0bcf934d9136da5da54bb085680a6" upstream="Android12_Radxa_rk12">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -69,13 +69,15 @@
     <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
     <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
   </project>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="02b1c349cfbb3d16f7b83ce1641953ce65c0cc0b" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="be3504a62a42d6f6b45615327bc5e3e2d682026b" upstream="Android12_Radxa_rk12"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="8f3decef06ba7ffa3ef56c4684c69fc2ed48ebaa" upstream="Android12_Radxa_rk12"/>
-  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="8dad310d33c70c3934eb8e90bd0e8f6ed0d76e82" upstream="Android12_Radxa_rk10"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="8dad310d33c70c3934eb8e90bd0e8f6ed0d76e82" upstream="Android12_Radxa_rk12"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="d28e5adca7e02907d303973ae3cd79620ac44890" upstream="Android12_Radxa_rk12"/>
-  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="702e257772a4a6a7093d1f7a115dda64ea0bebb5" upstream="Android12_Radxa_rk12" />
+  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="a98a459f84f54f24cb637a32b356dee1b99a15b7" upstream="Android12_Radxa_rk12" />
   <project name="platform/external/exfatprogs" path="external/exfatprogs" remote="rk" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="Android12_Radxa_rk12" />
   <project name="platform/radxa" path="radxa" remote="rk" revision="91de5ce75ad1780b8a01719ec3b8f6befafc8c44" upstream="Android12_Radxa_rk12" />
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d6f09133f634f61a770d02304490a2011a747879" upstream="Android12_Radxa_rk12"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="501e3ce2179bc9e6be3651e57bf823d4cdd2de59" upstream="Android12_Radxa_rk12"/>
   <!-- Radxa customization end -->
 
 </manifest>
