@@ -37,6 +37,8 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/hardware/realtek" />
   <remove-project name="external/camera_engine_rkaiq" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/frameworks/native" />
 
   <project name="RKTools" remote="rk" revision="84189d4b41e9d0a9dfe422e214a359493efaae2a" upstream="Android12_Radxa_rk12"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="Android12_Radxa_rk12"/>
