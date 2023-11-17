@@ -5,12 +5,12 @@
   <project path="RKTools" name="RKTools" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="hardware/rockchip/helper" name="rk/hardware/rk35/helper" remote="rk" revision="refs/tags/android-12.1-mid-rkr14" />
   <project path="hardware/rockchip/hwcomposer/drmhwc" name="rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="refs/tags/android-12.1-mid-rkr14" />
-  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="rk/hardware/rk35/hwcomposer2" remote="rk" revision="refs/tags/android-12.1-mid-rkr14" />
+  <project path="hardware/rockchip/hwcomposer/drmhwc2" name="rk/hardware/rk35/hwcomposer2" remote="rk" revision="refs/tags/android-12.1-mid-rkr14.2" />
   <project path="hardware/rockchip/hwcomposer/einkhwc" name="rk/hardware/rk35/einkhwc" remote="rk" revision="refs/tags/android-12.1-mid-rkr14" />
   <project path="hardware/rockchip/libgraphicpolicy" name="rk/hardware/rk29/libgraphicpolicy" remote="rk" revision="refs/tags/android-12.1-mid-rkr14" />
   <project path="hardware/rockchip/libhwjpeg" name="rk/hardware/rk29/libhwjpeg" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
-  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>  
-  <project path="kernel-5.10" name="rk/kernel" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14.1"/>
+  <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/tags/android-12.1-mid-rkr14.2"/>
+  <project path="kernel-5.10" name="rk/kernel" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14.2"/>
   <project path="bootable/recovery/rkupdate" name="platform/bootable/recovery/rk_update" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="bootable/recovery/rkutility" name="platform/bootable/recovery/rk_utility" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="bootable/recovery/mtdutils" name="platform/bootable/recovery/mtd_utils" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
@@ -91,7 +91,7 @@
   <project path="hardware/rockchip/tv_input" name="rk/hardware/rk35/tv_input" remote="rk" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="hardware/rockchip/rknn-toolkit2" name="rk/rknn-toolkit2" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
   <project path="hardware/rockchip/rknpu2" name="rk/rknpu2" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
-  <project path="hardware/rockchip/libsvep" name="rk/libsvep" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14"/>
+  <project path="hardware/rockchip/libsvep" name="rk/libsvep" remote="rk29" revision="refs/tags/android-12.1-mid-rkr14.2"/>
   <project path="mkcombinedroot" name="platform/mkcombinedroot" remote="rk" revision="refs/tags/android-12.1-mid-rkr14.1">
       <linkfile src="configs/android-11.config" dest="kernel-4.19/kernel/configs/android-11.config"/>
       <linkfile src="configs/android-11.config" dest="kernel-5.10/kernel/configs/android-11.config"/>

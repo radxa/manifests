@@ -30,7 +30,7 @@
     <project name="platform/frameworks/ex" path="frameworks/ex" revision="refs/tags/android-12.1-mid-rkr14"/>
     <project name="platform/frameworks/native" path="frameworks/native" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk"/>
     <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk"/>
-    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk"/>
+    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="refs/tags/android-12.1-mid-rkr14.2" groups="pdk"/>
     <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk"/>
     <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk"/>
     <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="refs/tags/android-12.1-mid-rkr14" groups="pdk-cw-fs,pdk-fs" />
