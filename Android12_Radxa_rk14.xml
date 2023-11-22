@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="commit/commit_release_rkr14_no_remote.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/external/OpenCL-CTS" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="rk/platform/vendor/rockchip/hardware" />
+  <remove-project name="platform/prebuilts/module_sdk" />
+
+<project groups="pdk" name="platform/build/build" path="build/make" revision="e91d6b4ae1ada4474e1281a43df3923c90335616" upstream="refs/tags/android-12.1-mid-rkr14">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS/OpenCL-CTS" revision="8c79c498686952c108943422bd01c1924f4f8346" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/android-12.1-mid-rkr14"/>
+  <project name="rk/platform/vendor/rockchip/hardwar/hardwar" path="vendor/rockchip/hardware" remote="rk" revision="3978bdf1e0967c122c58c319be662e80d83cdadc" upstream="refs/tags/android-12.1-mid-rkr14"/>
+  <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <!-- gitlab conflict end -->
+</manifest>
