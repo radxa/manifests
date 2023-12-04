@@ -81,5 +81,6 @@
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="c3560fcc7c682add12907a79d1edd7e54ab0fd4c" upstream="Android12_Radxa_rkr14"/>
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d6f09133f634f61a770d02304490a2011a747879" upstream="Android12_Radxa_rkr14"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="9e7f89377e822953064a794478d4fd51d21fea1b" upstream="Android12_Radxa_rkr14"/>
+  <project name="platform/radxa" path="radxa" remote="rk" revision="91de5ce75ad1780b8a01719ec3b8f6befafc8c44" upstream="Android12_Radxa_rk12" />
   <!-- Radxa customization end -->
 </manifest>
