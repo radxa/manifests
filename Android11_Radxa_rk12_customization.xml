@@ -130,4 +130,7 @@
   <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="988bc1ff374945c1e59ba4384ac7d353ee6cde6a" upstream="Android11_Radxa_rk12"/>
 
   <project groups="pdk" name="platform/hardware/aic" path="hardware/aic" revision="cb628c1606347bf792b1e2e8b690ee611be52e0e" upstream="Android11_Radxa_rk12"/>
+  
+  <remove-project name="platform/hardware/interfaces"/>
+  <project name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="2034a33f1376c40516c257eb6d1131e4f4d9d059" upstream="Android11_Radxa_rk12"/>
 </manifest>
