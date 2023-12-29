@@ -50,21 +50,21 @@
   <project groups="radxa" name="RKTools" remote="rk" revision="a2a2699f4909a9aa997201653cc516b50cac3b47" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 <!-- 
   <remove-project name="platform/external/chromium-webview"/>
-  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rkr12"/>
 
   <remove-project name="platform/prebuilts/android-emulator"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
 
   <remove-project name="platform/prebuilts/sdk"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
 
   <remove-project name="platform/prebuilts/tools" />
-  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
 
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
 
-  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
 -->
   <remove-project name="kernel/configs" />
