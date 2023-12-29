@@ -107,7 +107,7 @@
   <project groups="pdk" name="platform/external/cbor-java" path="external/cbor-java" revision="f81e576298790c97498311e99a0b0b34653c3dd8" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   <project groups="pdk" name="platform/external/chromium-libpac" path="external/chromium-libpac" revision="10790f39afac87780ceef3b0c65e48b6051217a0" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" revision="e524766cad26d677a9a1ec8c00c512d4cac2cf5e" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
-  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="7a2388596635621f1c70fc1c7bc288435ba1dcf7" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
+  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="7a2388596635621f1c70fc1c7bc288435ba1dcf7" upstream="Android11_Radxa_rk12"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang" revision="0a1c53a5d295109bd4702ad13c0f2a5510ca1b26" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   <project groups="pdk" name="platform/external/cldr" path="external/cldr" revision="121066092b0be7a112fbac97a1c9d914f7613615" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   <project groups="pdk" name="platform/external/cn-cbor" path="external/cn-cbor" revision="696530332036f5518681d3c450cdbc3ee412004a" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
