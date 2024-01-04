@@ -3,7 +3,7 @@
   <include name="commit/commit_release_rkr12_no_remote.xml" />
 
   <remove-project name="platform/build" />
-  <project groups="radxa" name="platform/build/build" path="build/make" remote="rk" revision="0a149beb63d1a2f0bc8ee3e46c1126a7b23e3beb" upstream="Android11_Radxa_rkr12.1">
+  <project groups="radxa" name="platform/build/build" path="build/make" remote="rk" revision="0a149beb63d1a2f0bc8ee3e46c1126a7b23e3beb" upstream="refs/tags/Android11_Radxa_rkr12.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -19,23 +19,23 @@
 
 
   <remove-project name="rk/u-boot"/>
-  <project groups="radxa" path="u-boot" name="rk/u-boot" remote="rk" revision="0a0cedb50db9f397caf58476e5f453188862cf5c" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" path="u-boot" name="rk/u-boot" remote="rk" revision="0a0cedb50db9f397caf58476e5f453188862cf5c" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/kernel"/>
-  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="c689a7aadeaaba59ebf2cb0de093ea3c918c00ba" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" path="kernel" name="rk/kernel" remote="rk29" revision="c689a7aadeaaba59ebf2cb0de093ea3c918c00ba" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/device/rockchip/rk3566"/>
   <remove-project name="rk/device/rockchip/rk3568_box"/>
   <remove-project name="rk/device/rockchip/rk3399"/>
-  <project groups="radxa" path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="0242d97cd5463d8c3f0e41aaf3d2e2ab23612822" upstream="Android11_Radxa_rkr12.1"/>
-  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="787b8ec8e4f54d7179366f5750c13064cf56f601" upstream="Android11_Radxa_rkr12.1"/>
-  <project groups="radxa" path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk" revision="08f7818bffa84d46cc51d753a64289f54e043b62" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" path="device/rockchip/rk356x" name="rk/device/rockchip/rk3566" remote="rk" revision="0242d97cd5463d8c3f0e41aaf3d2e2ab23612822" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
+  <project name="rk/device/rockchip/rk3568_box" path="device/rockchip/rk356x_box" remote="rk" revision="787b8ec8e4f54d7179366f5750c13064cf56f601" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" path="device/rockchip/rk3399" name="rk/device/rockchip/rk3399" remote="rk" revision="08f7818bffa84d46cc51d753a64289f54e043b62" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/bootable/recovery"/>
-  <project groups="radxa" name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="4d89581d4e5f0166e4da02f2f81a79e06f00fe6b" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" name="platform/bootable/recovery/recovery" path="bootable/recovery" remote="rk" revision="4d89581d4e5f0166e4da02f2f81a79e06f00fe6b" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/device/rockchip/rksdk"/>
-  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="2ebbf673598716e4903a0be148003694cf551eef" upstream="Android11_Radxa_rkr12.1">
+  <project groups="radxa" name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="2ebbf673598716e4903a0be148003694cf551eef" upstream="refs/tags/Android11_Radxa_rkr12.1">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -44,11 +44,11 @@
   </project>
 
   <remove-project name="rk/platform/vendor/rockchip/common"/>
-  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="3d1f3da434d7ed54caab413f588ef60eaea1d81a" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="radxa" name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="3d1f3da434d7ed54caab413f588ef60eaea1d81a" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="RKTools"/>
-  <project groups="radxa" name="RKTools" remote="rk" revision="a2a2699f4909a9aa997201653cc516b50cac3b47" upstream="Android11_Radxa_rkr12.1"/>
-
+  <project groups="radxa" name="RKTools" remote="rk" revision="a2a2699f4909a9aa997201653cc516b50cac3b47" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
+<!-- 
   <remove-project name="platform/external/chromium-webview"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
 
@@ -66,9 +66,9 @@
 
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
-
+-->
   <remove-project name="kernel/configs" />
-  <project name="kernel/configs" remote="rk" revision="b0c04524601828b880b48f61b187a1a0134334bf" upstream="Android11_Radxa_rkr12.1">
+  <project name="kernel/configs" remote="rk" revision="b0c04524601828b880b48f61b187a1a0134334bf" upstream="refs/tags/Android11_Radxa_rkr12.1">
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config"/>
     <linkfile src="rockchip/rk3326.config" dest="kernel/kernel/configs/rk3326.config"/>
@@ -86,27 +86,27 @@
   </project>
 
   <!-- libmraa -->
-  <project name="radxa/vendor/libmraa" path="vendor/radxa/libmraa" remote="rk" revision="3b7966a8880c2716990bc87914897e5d9928c116" upstream="Android11_Radxa_rkr12.1" />
+  <project name="radxa/vendor/libmraa" path="vendor/radxa/libmraa" remote="rk" revision="3b7966a8880c2716990bc87914897e5d9928c116" upstream="refs/tags/Android11_Radxa_rkr12.1" />
   <remove-project name="platform/system/core" />
-  <project name="platform/system/core" path="system/core" remote="rk" revision="af8eb9adabc8b4e0a5f0f7da3489d1d02979d3d2" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/system/core" path="system/core" remote="rk" revision="af8eb9adabc8b4e0a5f0f7da3489d1d02979d3d2" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/hardware/rk29/omx_il" />
-  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="54ad1a7191017afd12d2e893df95c1f3343f941e" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="54ad1a7191017afd12d2e893df95c1f3343f941e" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="b0d7cc418ac4f431dd72d6dec3d2e39ecb8f7874" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="b0d7cc418ac4f431dd72d6dec3d2e39ecb8f7874" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/frameworks/av" />
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="c648d54a0bdfc238155a5a9251fda2d56ac10aa7" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="c648d54a0bdfc238155a5a9251fda2d56ac10aa7" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/hardware/rk29/camera_v3" />
-  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="e303f7d5d44061dae1a543fd92c465be1ca6f34c" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="e303f7d5d44061dae1a543fd92c465be1ca6f34c" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/frameworks/native" />
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="472c817abf31ab2177bcb8990a3f3967211b4c0e" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="472c817abf31ab2177bcb8990a3f3967211b4c0e" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="2ec9d508f849b9089bfd657f0dbef301fe09e01d" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="2ec9d508f849b9089bfd657f0dbef301fe09e01d" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   
   <remove-project name="rk/platform/vendor/rockchip/hardware" />
   <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr12.1"/>
@@ -115,22 +115,22 @@
   <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12.1"/>
   
   <remove-project name="external/camera_engine_rkaiq" />
-  <project name="external/camera_engine_rkaiq" remote="rk" revision="e06c89178f3998d1194418d6898cef4028d33c95" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="e06c89178f3998d1194418d6898cef4028d33c95" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/system/sepolicy"/>
-  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="db7b8b915bef9bb858ac4aa93cc6514c998457d0" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="db7b8b915bef9bb858ac4aa93cc6514c998457d0" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/hardware/ril"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="72346b8929e8bfaedb5e9f3a9c65569e68c847fb" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="72346b8929e8bfaedb5e9f3a9c65569e68c847fb" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/hardware/broadcom/wlan"/>
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="7dc0afd515208e47313561add54ba9e102dd9f5b" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="7dc0afd515208e47313561add54ba9e102dd9f5b" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="platform/frameworks/base"/>
-  <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="988bc1ff374945c1e59ba4384ac7d353ee6cde6a" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="988bc1ff374945c1e59ba4384ac7d353ee6cde6a" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
-  <project groups="pdk" name="platform/hardware/aic" path="hardware/aic" revision="cb628c1606347bf792b1e2e8b690ee611be52e0e" upstream="Android11_Radxa_rkr12.1"/>
+  <project groups="pdk" name="platform/hardware/aic" path="hardware/aic" revision="cb628c1606347bf792b1e2e8b690ee611be52e0e" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   
   <remove-project name="platform/hardware/interfaces"/>
-  <project name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="2034a33f1376c40516c257eb6d1131e4f4d9d059" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="platform/hardware/interfaces" path="hardware/interfaces" remote="rk" revision="2034a33f1376c40516c257eb6d1131e4f4d9d059" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 </manifest>
