@@ -42,7 +42,7 @@
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="40909de541c743a4a50bf23e2471acd4396ad275" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="9143fffa1dc619564e216e913f5418247051576b" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
+  <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="a1b9f23fa70a0a92f2a0aad7cd76e5820b590cac" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="linux/linux-rga" path="hardware/rockchip/librga" remote="rk29" revision="f6e56e1378c50ddc85217a9c668649949ba50539" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project groups="pdk" name="platform/art" path="art" revision="f192ca3ca279cadc41aecd225c6b4d555bce6360" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
@@ -759,7 +759,7 @@
   <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="fb9ea7f0fafa9aa7f882f927faa0d12b117b83da" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="e42572a24e64f8511dbbf2e83f79fb08303de1a0" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="4127df85264539c1fcc6dcbf59410e9edaa2e0c6" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="8cb1645e5b3ed7520b9a7d289fdb66b5b6a87923" upstream="refs/tags/Android12_Radxa_rkr14.2.1">
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="8cb1645e5b3ed7520b9a7d289fdb66b5b6a87923" upstream="refs/tags/Android12_Radxa_rkr14.2">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -906,7 +906,7 @@
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="3c732f225a95b1463906189663ec604114303feb" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" revision="7095a8c0d3ef591cb061599a7f0dd855f7cca786" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="b936a6ed860ee5c619c44804de4eb11a2d41eabb" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="ac271d97abea88c36577e791c3d23bcdb87dfa76" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="e8b9f2cd5cd53649ff38c9ba34750c377db13804" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="b06731b50dbbd6024e9de8fbebef36c6bf98a6c6" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="darwin,pdk" name="platform/prebuilts/bazel/darwin-x86_64" path="prebuilts/bazel/darwin-x86_64" revision="27e0e10943e4afd4ecfe09945b164166c82e9249" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="linux,pdk" name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" revision="52ea3c4bcba48e95b9e52d74772fd5643b239091" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
@@ -1102,7 +1102,7 @@
   <project name="rk/hardware/rk35/usb" path="hardware/rockchip/usb" remote="rk" revision="548eb9618411731314a3cee4aba6731d64f8d80b" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/hardware/rk35/vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="rk" revision="1e1e42e9170a0ae914d69adeffb0083b5b4a3f4a" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/hardware/rockchip/hdcp_release" path="hardware/rockchip/hdcp2" remote="rk" revision="e7c8eba3af309d3d8d493e769519b47c5bd44396" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="0ddc99b6884b0036a71cab161e4915874776a9c9" upstream="refs/tags/Android12_Radxa_rkr14.2.1"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="0ddc99b6884b0036a71cab161e4915874776a9c9" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/libiep" path="hardware/rockchip/libiep" remote="rk29" revision="5d77013abbd6eb01f6000291e0f4f4715def4cd5" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/libpq-release" path="hardware/rockchip/libpq" remote="rk29" revision="6b4499d264c7347c780c7510b4117ad53e30936e" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/librkcrypto" path="hardware/rockchip/librkcrypto" remote="rk29" revision="755a566d296408581360a140777f3037074df861" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
@@ -1128,7 +1128,7 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e" upstream="master"/>
   <project name="rk/rkCamera2" path="packages/apps/rkCamera2" remote="rk29" revision="e8b88c058463174b874113b30a9396cbe0789277" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="4e901198aa81f56461223bf7f720edad6361560e" upstream="refs/tags/Android12_Radxa_rkr14.2.1"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="4e901198aa81f56461223bf7f720edad6361560e" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="rk29" revision="544dc6d126ad4c76ff680dd5fab2af2ecd96d18f" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/rknpu2" path="hardware/rockchip/rknpu2" remote="rk29" revision="cd533a7688769db25a1906479995d6ed677d75e2" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
