@@ -18,7 +18,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="c24cb84d87cbd8a11fe0f4d52cce686d60fe6f36" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project name="rk/platform/vendor/rockchip/hardwar/hardwar" path="vendor/rockchip/hardware" remote="rk" revision="3978bdf1e0967c122c58c319be662e80d83cdadc" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="3978bdf1e0967c122c58c319be662e80d83cdadc" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <!-- gitlab conflict end -->
 
