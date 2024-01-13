@@ -14,6 +14,7 @@
     <remove-project name="platform/system/core"/>
     <remove-project name="platform/system/media"/>
     <remove-project name="platform/system/vold"/>
+    <remove-project name="platform/system/hardware/interfaces"/>
     <remove-project name="platform/hardware/interfaces"/>
     <remove-project name="kernel/configs"/>
     <remove-project name="platform/bootable/recovery"/>

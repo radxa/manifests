@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote repo and gerrit review -->
+  <!-- Based file name： Rockchip_Android14.0_SDK_RELEASE -->
   <include name="remote.xml" />
 
   <!-- aosp default repository-->
@@ -8,6 +9,7 @@
 
   <include name="include/rk_modules_repository.xml" />  
   <include name="include/rk3562_repository.xml" />
+  <include name="include/rk356x_repository.xml" />
   <include name="remove_unused.xml" />
   <include name="remove_u.xml" />
   <include name="include/rk_checkout_repository.xml" />
