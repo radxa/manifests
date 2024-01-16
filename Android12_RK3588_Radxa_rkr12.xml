@@ -84,7 +84,7 @@
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="a1b9f23fa70a0a92f2a0aad7cd76e5820b590cac" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="e8b9f2cd5cd53649ff38c9ba34750c377db13804" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
-  <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad1ed390874f1b636d28bd7d0191883fe2033a7d" upstream="refs/tags/Android12_Radxa_rkr14.20"/>
+  <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad1ed390874f1b636d28bd7d0191883fe2033a7d" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="2cddc8015b6a61bbcb8bb58e55d67e4e4b4db6d2" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="2c18ce5446c333d3c584e923a8279abbc4ed2391" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="6891234adaac2b01c7277f601e2f84dad979535d" upstream="refs/tags/Android12_Radxa_rkr14.2"/>
