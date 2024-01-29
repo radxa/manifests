@@ -1125,7 +1125,7 @@
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e" upstream="master"/>
   <project name="rk/rkCamera2" path="packages/apps/rkCamera2" remote="rk29" revision="e51c5ac88c9e00a8df2d0a70d01316e883c70a5e" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="db328f120367a7e2ab7f97ea5fea3de5e953a3c1" upstream="refs/tags/android-12.1-mid-rkr12"/>
+  <project name="rk/rkbin" path="rkbin" remote="rk29" revision="46b77eb34be90c41b1c305bda13afcba4e6fb58c" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="rk29" revision="ced7b4286987d689e4cb37740e449fbf379f757d" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/rknpu2" path="hardware/rockchip/rknpu2" remote="rk29" revision="e8a2d18f3a289fe5d2925e186f7e75882a7cb25b" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="refs/tags/android-12.1-mid-rkr12"/>
