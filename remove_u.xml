@@ -31,6 +31,11 @@
     <remove-project name="platform/packages/providers/MediaProvider"/>
     <remove-project name="platform/hardware/broadcom/libbt"/>
     <remove-project name="platform/packages/apps/Launcher3"/>
+    <remove-project name="platform/packages/apps/DeskClock"/>
+    <remove-project name="platform/packages/apps/Car/Launcher"/>
+    <remove-project name="platform/packages/apps/Car/SystemUI"/>
+    <remove-project name="platform/packages/services/Car"/>
+    <remove-project name="platform/external/skia"/>
     <!-- Unused -->
     <remove-project name="device/generic/car"/>
     <remove-project name="device/amlogic/yukawa"/>
