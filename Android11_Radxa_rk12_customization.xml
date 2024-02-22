@@ -48,7 +48,7 @@
 
   <remove-project name="RKTools"/>
   <project groups="radxa" name="RKTools" remote="rk" revision="a2a2699f4909a9aa997201653cc516b50cac3b47" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
-<!-- 
+
   <remove-project name="platform/external/chromium-webview"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rkr12"/>
 
@@ -66,7 +66,7 @@
 
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rkr12" upstream="Android11_Radxa_rkr12"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
--->
+
   <remove-project name="kernel/configs" />
   <project name="kernel/configs" remote="rk" revision="b0c04524601828b880b48f61b187a1a0134334bf" upstream="refs/tags/Android11_Radxa_rkr12.1">
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
