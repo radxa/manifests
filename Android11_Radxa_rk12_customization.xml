@@ -109,10 +109,10 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="2ec9d508f849b9089bfd657f0dbef301fe09e01d" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
   
   <remove-project name="rk/platform/vendor/rockchip/hardware" />
-  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr12.1"/>
+  <project path="vendor/rockchip/hardware" name="rk/platform/vendor/rockchip/hardware" remote="rk" revision="refs/tags/Android11_Radxa_rkr12.1"/>
   
   <remove-project name="rk/rkbin" />
-  <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/android-11.0-mid-rkr12.1"/>
+  <project path="rkbin" name="rk/rkbin" remote="rk29" revision="refs/tags/Android11_Radxa_rkr12.1"/>
   
   <remove-project name="external/camera_engine_rkaiq" />
   <project name="external/camera_engine_rkaiq" remote="rk" revision="e06c89178f3998d1194418d6898cef4028d33c95" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
