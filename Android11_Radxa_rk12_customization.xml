@@ -65,7 +65,7 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
 
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" remote="rk" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
-  <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rkr12.1" upstream="Android11_Radxa_rkr12.1"/>
+  <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" remote="rk" revision="Android11_Radxa_rk12" upstream="Android11_Radxa_rk12"/>
 
   <remove-project name="kernel/configs" />
   <project name="kernel/configs" remote="rk" revision="b0c04524601828b880b48f61b187a1a0134334bf" upstream="refs/tags/Android11_Radxa_rkr12.1">
