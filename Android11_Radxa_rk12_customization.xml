@@ -88,7 +88,7 @@
   <!-- libmraa -->
   <project name="radxa/vendor/libmraa" path="vendor/radxa/libmraa" remote="rk" revision="3b7966a8880c2716990bc87914897e5d9928c116" upstream="refs/tags/Android11_Radxa_rkr12.1" />
   <remove-project name="platform/system/core" />
-  <project name="platform/system/core" path="system/core" remote="rk" revision="af8eb9adabc8b4e0a5f0f7da3489d1d02979d3d2" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
+  <project name="platform/system/core" path="system/core" remote="rk" revision="f929d132033971e67a0410a76bdc29cf8e56672b" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
 
   <remove-project name="rk/hardware/rk29/omx_il" />
   <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="54ad1a7191017afd12d2e893df95c1f3343f941e" upstream="refs/tags/Android11_Radxa_rkr12.1"/>
