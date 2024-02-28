@@ -44,7 +44,7 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="819be244cff7c7016e6b925bb1215a57b62599df" upstream="Android12_Radxa_rk12"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="18512879662d8c5b61eb780281f619e6732d2004" upstream="Android12_Radxa_rk12"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="82cdc1c6377b9da5d80dabfe9cb00e6768e398f0" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="45fde09c84ae90ccd173ab3d7dcca7552c756639" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="7b51e7afec8307c6babd2223a6698bb0d9f0e91d" upstream="Android12_Radxa_rk12"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="c03997adb00a50524281fb6b4c4058c0dd40606f" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
@@ -71,7 +71,7 @@
     <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
     <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
   </project>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="7489cfa9bea5d4dd9ac7db8b914c9e920bd5093a" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="e979b85d40e48fd2cd41e33999b2a62b1a2740b3" upstream="Android12_Radxa_rk12"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="8f3decef06ba7ffa3ef56c4684c69fc2ed48ebaa" upstream="Android12_Radxa_rk12"/>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="8dad310d33c70c3934eb8e90bd0e8f6ed0d76e82" upstream="Android12_Radxa_rk12"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="d28e5adca7e02907d303973ae3cd79620ac44890" upstream="Android12_Radxa_rk12"/>
