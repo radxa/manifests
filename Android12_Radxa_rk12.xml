@@ -44,7 +44,7 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="819be244cff7c7016e6b925bb1215a57b62599df" upstream="Android12_Radxa_rk12"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="18512879662d8c5b61eb780281f619e6732d2004" upstream="Android12_Radxa_rk12"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="82cdc1c6377b9da5d80dabfe9cb00e6768e398f0" upstream="Android12_Radxa_rk12"/>
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="7b51e7afec8307c6babd2223a6698bb0d9f0e91d" upstream="Android12_Radxa_rk12"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="c4bf6b8bd430b4328551b76c6b53af4abd3566e0" upstream="Android12_Radxa_rk12"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="c03997adb00a50524281fb6b4c4058c0dd40606f" upstream="Android12_Radxa_rk12">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
