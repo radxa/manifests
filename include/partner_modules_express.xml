@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Google-singed Mainline prebuilt module remove-projects !-->
+    <remove-project name="platform/prebuilts/module_sdk/art"/>
+    <remove-project name="platform/prebuilts/module_sdk/AdServices"/>
+    <remove-project name="platform/prebuilts/module_sdk/AppSearch"/>
+    <remove-project name="platform/prebuilts/module_sdk/Bluetooth"/>
+    <remove-project name="platform/prebuilts/module_sdk/conscrypt"/>
+    <remove-project name="platform/prebuilts/module_sdk/ConfigInfrastructure"/>
+    <remove-project name="platform/prebuilts/module_sdk/Connectivity"/>
+    <remove-project name="platform/prebuilts/module_sdk/DeviceLock"/>
+    <remove-project name="platform/prebuilts/module_sdk/HealthFitness"/>
+    <remove-project name="platform/prebuilts/module_sdk/IPsec"/>
+    <remove-project name="platform/prebuilts/module_sdk/Media"/>
+    <remove-project name="platform/prebuilts/module_sdk/MediaProvider"/>
+    <remove-project name="platform/prebuilts/module_sdk/OnDevicePersonalization"/>
+    <remove-project name="platform/prebuilts/module_sdk/Permission"/>
+    <remove-project name="platform/prebuilts/module_sdk/RemoteKeyProvisioning"/>
+    <remove-project name="platform/prebuilts/module_sdk/Scheduling"/>
+    <remove-project name="platform/prebuilts/module_sdk/SdkExtensions"/>
+    <remove-project name="platform/prebuilts/module_sdk/StatsD"/>
+    <remove-project name="platform/prebuilts/module_sdk/Uwb"/>
+    <remove-project name="platform/prebuilts/module_sdk/Wifi"/>
+    <!-- Google-singed Mainline prebuilt module projects !-->
+    <project path="vendor/partner_modules" name="rk/platform/vendor/partner_modules" remote="rk" revision="rk33/mid/14.0_express/develop" clone-depth="1"/>
+    <project path="prebuilts/module_sdk" name="platform/prebuilts/module_sdk" remote="rk" revision="rk33/mid/14.0_express/develop" clone-depth="1"/>
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="packages/apps/NoteDemo" name="rk/eink-paint" remote="rk29" revision="refs/tags/android-14.0-mid-rkr4" />
+</manifest>

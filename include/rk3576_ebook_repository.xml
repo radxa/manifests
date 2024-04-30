@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/rockchip/rk3576/rk3576_ebook" name="rk/device/rockchip/rk3576/rk3576_ebook" remote="rk" revision="refs/tags/android-14.0-mid-rkr4" />
+</manifest>

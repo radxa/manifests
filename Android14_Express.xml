@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Based file name：RK3576_Android14.0_Express_SDK_Release -->
+  <include name="Android14.xml" />
+
+  <include name="include/partner_gms_express.xml" />
+  <include name="include/partner_modules_express.xml" />
+</manifest>

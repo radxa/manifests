@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote repo and gerrit review -->
+  <!-- Based file name： RK3576_Android14.0_SDK_RELEASE -->
+  <include name="remote.xml" />
+
+  <!-- aosp default repository-->
+  <include name="default.xml" />
+
+  <include name="include/rk_modules_repository.xml" />  
+  <include name="include/rk_ebook_repository.xml" />
+  <include name="include/rk3576_repository.xml" />
+  <include name="include/rk3576_ebook_repository.xml" />
+  <include name="remove_unused.xml" />
+  <include name="remove_u.xml" />
+  <include name="include/rk_checkout_repository.xml" />
+</manifest>
