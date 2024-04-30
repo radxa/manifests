@@ -6,6 +6,7 @@
     <remove-project name="platform/external/libdrm"/>
     <remove-project name="platform/external/speex"/>
     <remove-project name="platform/external/tinyalsa"/>
+    <remove-project name="platform/external/toybox"/>
     <remove-project name="platform/external/wpa_supplicant_8"/>
     <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
@@ -13,6 +14,7 @@
     <remove-project name="platform/frameworks/native"/>
     <remove-project name="platform/system/core"/>
     <remove-project name="platform/system/media"/>
+    <remove-project name="platform/system/security"/>
     <remove-project name="platform/system/vold"/>
     <remove-project name="platform/system/hardware/interfaces"/>
     <remove-project name="platform/hardware/interfaces"/>
@@ -23,6 +25,7 @@
     <remove-project name="platform/packages/apps/Camera2"/>
     <remove-project name="platform/packages/apps/Gallery2"/>
     <remove-project name="platform/packages/apps/Music"/>
+    <remove-project name="platform/packages/apps/QuickSearchBox"/>
     <remove-project name="platform/packages/apps/Settings"/>
     <remove-project name="platform/packages/screensavers/PhotoTable"/>
     <remove-project name="platform/packages/apps/TV"/>
@@ -34,6 +37,9 @@
     <remove-project name="platform/packages/apps/DeskClock"/>
     <remove-project name="platform/packages/apps/Car/Launcher"/>
     <remove-project name="platform/packages/apps/Car/SystemUI"/>
+    <remove-project name="platform/packages/apps/Car/Settings"/>
+    <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
+    <remove-project name="platform/packages/apps/TvSettings"/>
     <remove-project name="platform/packages/services/Car"/>
     <remove-project name="platform/external/skia"/>
     <!-- Unused -->
