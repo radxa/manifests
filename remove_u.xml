@@ -8,6 +8,7 @@
     <remove-project name="platform/external/tinyalsa"/>
     <remove-project name="platform/external/toybox"/>
     <remove-project name="platform/external/wpa_supplicant_8"/>
+    <remove-project name="platform/external/e2fsprogs"/>
     <remove-project name="platform/frameworks/av"/>
     <remove-project name="platform/frameworks/base"/>
     <remove-project name="platform/frameworks/ex"/>
@@ -39,9 +40,11 @@
     <remove-project name="platform/packages/apps/Car/SystemUI"/>
     <remove-project name="platform/packages/apps/Car/Settings"/>
     <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
+    <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
     <remove-project name="platform/packages/apps/TvSettings"/>
     <remove-project name="platform/packages/services/Car"/>
     <remove-project name="platform/external/skia"/>
+    <remove-project name="platform/packages/services/Mtp"/>
     <!-- Unused -->
     <remove-project name="device/generic/car"/>
     <remove-project name="device/amlogic/yukawa"/>
