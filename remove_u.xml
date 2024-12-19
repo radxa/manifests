@@ -13,6 +13,7 @@
     <remove-project name="platform/frameworks/base"/>
     <remove-project name="platform/frameworks/ex"/>
     <remove-project name="platform/frameworks/native"/>
+    <remove-project name="platform/frameworks/opt/car/services"/>
     <remove-project name="platform/system/core"/>
     <remove-project name="platform/system/media"/>
     <remove-project name="platform/system/security"/>
@@ -45,6 +46,9 @@
     <remove-project name="platform/packages/services/Car"/>
     <remove-project name="platform/external/skia"/>
     <remove-project name="platform/packages/services/Mtp"/>
+    <remove-project name="platform/packages/modules/Bluetooth"/>
+    <remove-project name="platform/packages/modules/IntentResolver"/>
+    <remove-project name="platform/external/iperf3"/>
     <!-- Unused -->
     <remove-project name="device/generic/car"/>
     <remove-project name="device/amlogic/yukawa"/>
@@ -78,4 +82,27 @@
     <remove-project name="device/generic/uml"/>
     <remove-project name="device/generic/x86"/>
     <remove-project name="device/generic/x86_64"/>
+    <remove-project name="platform/external/fsck_msdos"/>
+    <!-- security patch -->
+    <remove-project name="platform/external/sonivox"/>
+    <remove-project name="platform/frameworks/libs/modules-utils"/>
+    <remove-project name="platform/packages/modules/StatsD"/>
+    <remove-project name="platform/packages/modules/HealthFitness"/>
+    <remove-project name="platform/system/libfmq"/>
+    <remove-project name="platform/system/nfc"/>
+    <remove-project name="platform/prebuilts/sdk"/>
+    <remove-project name="platform/prebuilts/r8"/>
+    <remove-project name="platform/art"/>
+    <remove-project name="platform/external/nist-sip"/>
+    <remove-project name="platform/external/turbine"/>
+    <remove-project name="platform/external/giflib"/>
+    <remove-project name="platform/frameworks/libs/net"/>
+    <remove-project name="platform/libcore"/>
+    <remove-project name="platform/packages/apps/DocumentsUI"/>
+    <remove-project name="platform/packages/modules/Permission"/>
+    <remove-project name="platform/packages/modules/RemoteKeyProvisioning"/>
+    <remove-project name="platform/packages/services/Telecomm"/>
+    <remove-project name="platform/packages/services/Telephony"/>
+    <remove-project name="platform/system/keymint"/>
+    <remove-project name="platform/system/sepolicy"/>
 </manifest>
