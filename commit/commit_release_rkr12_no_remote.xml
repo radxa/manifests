@@ -42,7 +42,7 @@
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="f15b5166bd9d71876e04e1828557a43fde5f4d97" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
   <project name="linux/app/rkaiq_tool_server" path="external/rkaiq_tool_server" remote="rk29" revision="061eb10c523bf01ac934a335270ac1f72f553ca2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="linux/linux-rga" path="hardware/rockchip/librga" remote="rk29" revision="c1d5c71569d8944dbc0b875a54181402caf3971f" upstream="refs/tags/android-12.1-mid-rkr12"/>
@@ -124,7 +124,7 @@
   <project groups="pdk" name="platform/external/cblas" path="external/cblas" revision="2b24922070cb6d45edd5f5b533db0637099a2b17" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/cbor-java" path="external/cbor-java" revision="00c4a382dd3810f9c1b363eaad339cff34a3f6fe" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" revision="138ade68f9d3388a1b0a6d9ce5e091ff6f7e7448" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang" revision="f1cef8e77ae220c9379303bdc9896e0c2366bd6f" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/cldr" path="external/cldr" revision="d4d7481e654f327bb086e7ad977f2e25c0c2ea85" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/cn-cbor" path="external/cn-cbor" revision="6a0f6a5375b8cd9b495e91c11d21ed257ec9a905" upstream="refs/tags/android-12.1.0_r11"/>
@@ -304,7 +304,7 @@
   <project groups="pdk" name="platform/external/libxkbcommon" path="external/libxkbcommon" revision="66f9daf6664aa0364892b9f227b3cac3fde698d0" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk,libxml2" name="platform/external/libxml2" path="external/libxml2" revision="2c40d36f284dcea3807d47838c116902eafcc49d" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk,libyuv" name="platform/external/libyuv" path="external/libyuv" revision="655b29e091fd3418118e7b2760f5c557e06b33b7" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="vts,pdk" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="e24d493547b029c13e5a78055800bd3b18cc3b98" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="vts,pdk" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="e24d493547b029c13e5a78055800bd3b18cc3b98" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/llvm" path="external/llvm" revision="4cd39a2dd341ff61659522170fab6a6f8b0713bb" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/lmfit" path="external/lmfit" revision="25d0719fbfdee7fb7f499c35c54e96257ce38946" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/lottie" path="external/lottie" revision="23b2f844540a4a410a03c949fbb10bbd2809d069" upstream="refs/tags/android-12.1.0_r11"/>
@@ -586,7 +586,7 @@
   <project groups="pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" revision="23f5d7cd1edb20544636dc63e36b8062b428f912" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/shflags" path="external/shflags" revision="0891fc869cdfab049969515f59413b4e9676d334" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/skia" path="external/skia" revision="60ea1b89eb521f69be5464f6f551133659773437" upstream="refs/tags/android-12.1-mid-rkr12"/>
-  <project clone-depth="1" groups="cts,pdk" name="platform/external/skqp" path="external/skqp" revision="60940ead11c07e12853012a6075627a56f3f79dc" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="cts,pdk" name="platform/external/skqp" path="external/skqp" revision="60940ead11c07e12853012a6075627a56f3f79dc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/sl4a" path="external/sl4a" revision="f9beb779bcbe1fb9f79d09ea6bcab8467c0f8009" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/slf4j" path="external/slf4j" revision="cadb13fc4a7e7e74149caaabad6da0a01a3b79d8" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/smali" path="external/smali" revision="c4a6e21b807a953e6b8b0c380445838fc0049462" upstream="refs/tags/android-12.1.0_r11"/>
@@ -599,7 +599,7 @@
   <project groups="pdk" name="platform/external/starlark-go" path="external/starlark-go" revision="3f012eaf4c5218a4547ed55682358369aadae0be" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace" revision="05b67532becd7f8329723a81207d3996fb85c6de" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/stressapptest" path="external/stressapptest" revision="0503d9edde1162c6b12a246cb09e6b90bce24d51" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view" revision="01363671c4dd441d536db16846261321cfffb82b" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view" revision="01363671c4dd441d536db16846261321cfffb82b" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/swiftshader" path="external/swiftshader" revision="83e30dbd7e6842bd425d3413dcfb1602007d66cc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/tagsoup" path="external/tagsoup" revision="d40fb0bb7f4011d4b6852ee0f66912a0ddd5061c" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump" revision="923bab9025145089f50cd06c0763b7acf378330b" upstream="refs/tags/android-12.1.0_r11"/>
@@ -851,9 +851,9 @@
   <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="c21fb4624f8e5bb321ea48165a08b03be07f265e" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="6c752d8eca0c74a1d9376fe38dba30f6038733ee" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="617a9567b7135911af55798e89ab53e0b89a60b9" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" revision="2845ff202122f6e0c353bf799f7df3d029494616" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64" revision="95cfa206c00dd5fcc72991f80ddfe383e76095ad" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64" revision="8b790581dd3b7bf6c8d7c8fafb31281ad7396008" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" revision="2845ff202122f6e0c353bf799f7df3d029494616" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64" revision="95cfa206c00dd5fcc72991f80ddfe383e76095ad" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64" revision="8b790581dd3b7bf6c8d7c8fafb31281ad7396008" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin" revision="0a8c12143f8d8b2287e874b26b84bf10861dc58d" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/packages/modules/CellBroadcastService" path="packages/modules/CellBroadcastService" revision="913cea3ea96d66ebcdf14d683bcb193546cf9138" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="8206aa0a93da8c941547494975b06dee90dcc5c5" upstream="refs/tags/android-12.1.0_r11"/>
@@ -903,59 +903,59 @@
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="72ef1281b3c514b0892876f8e2747cd4be49b07a" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="dbc297bfb51776ff35a069310f897e81170d2050" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="75c6421176188027b8ab877163921749b0c2b9cd" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="3c732f225a95b1463906189663ec604114303feb" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" revision="7095a8c0d3ef591cb061599a7f0dd855f7cca786" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="b936a6ed860ee5c619c44804de4eb11a2d41eabb" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="ac271d97abea88c36577e791c3d23bcdb87dfa76" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="b06731b50dbbd6024e9de8fbebef36c6bf98a6c6" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="darwin,pdk" name="platform/prebuilts/bazel/darwin-x86_64" path="prebuilts/bazel/darwin-x86_64" revision="27e0e10943e4afd4ecfe09945b164166c82e9249" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="linux,pdk" name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" revision="52ea3c4bcba48e95b9e52d74772fd5643b239091" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="4d04adf116bdbe25afcc5dab88a3ebb3a1299fab" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" revision="f0ee8efafad416ba2a58a1d389531cb430346779" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="783b39e6b8b498b4217346f5dae17b5da097990e" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="90d40ed0c7855653d569186f24228c813a642f28" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="2459c02a893af1c5108cfaa7807e454e8f012ec5" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad1ed390874f1b636d28bd7d0191883fe2033a7d" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="2cddc8015b6a61bbcb8bb58e55d67e4e4b4db6d2" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="8a1a7882d5a7540ea17a5b1e35682796d4626af9" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="7880027af1a44ffe1c2b4ef8c874ff9c3a414b69" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" revision="57eacf50cd83dd0919a8b4478bf07fa000c74d5c" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="ab47e042d9606f82bbaef7193a7ee3b9fd4c5f39" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="cd37faad4f1b5886732846e95b77f3ab17f79e7e" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="353332b8c310174c2dff55db520349cff40b1295" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="05cec9189f0c9def24432fc20e1c6569c3e2a334" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="88f565a6710683a3009772115fd5cd752b66d371" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="9625cd6095db79a30f80b2fbcad6b6fda22e9ec7" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="darwin,pdk" name="platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86" revision="481790b5f34a2e67e677d04c7fdf1684e64cc413" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="linux,pdk" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" revision="96d94994f490d4eee9ca54f65733fa43741b232f" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="darwin,pdk,tradefed" name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="af8a773438879bcba1c04d27235a9a61c1ce8126" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="linux,pdk,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="b19c6ecaeda524fbd9ec9eabdb933750f29ebd05" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="6ee6792c998af6434a23fc4f9faf6d7ecf612d52" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="59affe0c98dec292c73f09ae221d80574ea3abee" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="74e4f1844dfa9b8df9e0fe2ff34a2ecc24d52b07" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" revision="1f0b937930e83b0f7470b9555ad289153072882f" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" revision="fce950fe022421894f63ae7c827c9275edf7d811" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" revision="111c2bf71de448c63a79c2b031200ce372b13a66" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="1057296cf7d4af15eb504ffdf6a1791aca1dce7b" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="f373161fd0011e92e43b117390afeb2cb7454d40" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" revision="b8f95f6cfffaaea5a35b325d4c741c0e35c4e9ff" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" name="platform/prebuilts/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="rk33/mid/12.0_express/develop"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="fa91e13f76f3f4f269e0c9bbb2c90d1f089d62f2" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="53add29eb7b4eaa9e128e3ec84eac9e65cf4c986" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/r8" path="prebuilts/r8" revision="fe33df5de16ce357452220d06f3d143b306963e9" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" revision="5fe9722a2f8bc0a38c87a11066c4214c19fc1485" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/runtime" path="prebuilts/runtime" revision="18ec3801ee21007735a440877be0ad1cce863f10" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="2c18ce5446c333d3c584e923a8279abbc4ed2391" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="6891234adaac2b01c7277f601e2f84dad979535d" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="117e9fec5e7b24f9ec897d164d638f140027286e" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" revision="e6c8243361fefee1960086af38e4178aabebfb4e" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" revision="9ff35b19334ba3e5e7c379d96ea7ada3896b8831" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30" revision="93378a486d6f13ce417853f1a12b1e656c6958eb" upstream="refs/tags/android-12.1.0_r11"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" revision="38a55921de060d2416ab6bf40e99cc1f7ae30003" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="3c732f225a95b1463906189663ec604114303feb" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" revision="7095a8c0d3ef591cb061599a7f0dd855f7cca786" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="b936a6ed860ee5c619c44804de4eb11a2d41eabb" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="ac271d97abea88c36577e791c3d23bcdb87dfa76" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="b06731b50dbbd6024e9de8fbebef36c6bf98a6c6" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="darwin,pdk" name="platform/prebuilts/bazel/darwin-x86_64" path="prebuilts/bazel/darwin-x86_64" revision="27e0e10943e4afd4ecfe09945b164166c82e9249" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="linux,pdk" name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" revision="52ea3c4bcba48e95b9e52d74772fd5643b239091" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="4d04adf116bdbe25afcc5dab88a3ebb3a1299fab" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" revision="f0ee8efafad416ba2a58a1d389531cb430346779" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="783b39e6b8b498b4217346f5dae17b5da097990e" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="90d40ed0c7855653d569186f24228c813a642f28" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="2459c02a893af1c5108cfaa7807e454e8f012ec5" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad1ed390874f1b636d28bd7d0191883fe2033a7d" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="2cddc8015b6a61bbcb8bb58e55d67e4e4b4db6d2" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="8a1a7882d5a7540ea17a5b1e35682796d4626af9" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="7880027af1a44ffe1c2b4ef8c874ff9c3a414b69" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" revision="57eacf50cd83dd0919a8b4478bf07fa000c74d5c" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="ab47e042d9606f82bbaef7193a7ee3b9fd4c5f39" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="cd37faad4f1b5886732846e95b77f3ab17f79e7e" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="353332b8c310174c2dff55db520349cff40b1295" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="05cec9189f0c9def24432fc20e1c6569c3e2a334" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="0a0604336d4d1067aa1aaef8d3779b31fcee841d" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="88f565a6710683a3009772115fd5cd752b66d371" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="9625cd6095db79a30f80b2fbcad6b6fda22e9ec7" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="91761804f6e3bfceaa2894681b6fe86d79fb3b4c" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="darwin,pdk" name="platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86" revision="481790b5f34a2e67e677d04c7fdf1684e64cc413" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="linux,pdk" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" revision="96d94994f490d4eee9ca54f65733fa43741b232f" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="darwin,pdk,tradefed" name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="af8a773438879bcba1c04d27235a9a61c1ce8126" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="linux,pdk,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="b19c6ecaeda524fbd9ec9eabdb933750f29ebd05" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="6ee6792c998af6434a23fc4f9faf6d7ecf612d52" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="59affe0c98dec292c73f09ae221d80574ea3abee" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="74e4f1844dfa9b8df9e0fe2ff34a2ecc24d52b07" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" revision="1f0b937930e83b0f7470b9555ad289153072882f" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" revision="fce950fe022421894f63ae7c827c9275edf7d811" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" revision="111c2bf71de448c63a79c2b031200ce372b13a66" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="1057296cf7d4af15eb504ffdf6a1791aca1dce7b" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="f373161fd0011e92e43b117390afeb2cb7454d40" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" revision="b8f95f6cfffaaea5a35b325d4c741c0e35c4e9ff" upstream="refs/tags/android-12.1.0_r11"/>
+  <project name="platform/prebuilts/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="rk33/mid/12.0_express/develop"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="fa91e13f76f3f4f269e0c9bbb2c90d1f089d62f2" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="53add29eb7b4eaa9e128e3ec84eac9e65cf4c986" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/r8" path="prebuilts/r8" revision="fe33df5de16ce357452220d06f3d143b306963e9" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" revision="5fe9722a2f8bc0a38c87a11066c4214c19fc1485" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/runtime" path="prebuilts/runtime" revision="18ec3801ee21007735a440877be0ad1cce863f10" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="2c18ce5446c333d3c584e923a8279abbc4ed2391" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="6891234adaac2b01c7277f601e2f84dad979535d" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="117e9fec5e7b24f9ec897d164d638f140027286e" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" revision="e6c8243361fefee1960086af38e4178aabebfb4e" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" revision="9ff35b19334ba3e5e7c379d96ea7ada3896b8831" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30" revision="93378a486d6f13ce417853f1a12b1e656c6958eb" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" revision="38a55921de060d2416ab6bf40e99cc1f7ae30003" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="b3f92fe65cc033dc02107cc127e0ae0e2a50a967" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/system/apex" path="system/apex" revision="e0731e932301591d3e86c7927fd8fa08bb585ae9" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/system/bpf" path="system/bpf" revision="bb1485f836d496570a337f6d7b809a3e44191f71" upstream="refs/tags/android-12.1.0_r11"/>
