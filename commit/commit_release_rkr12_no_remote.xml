@@ -42,7 +42,6 @@
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="f15b5166bd9d71876e04e1828557a43fde5f4d97" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
   <project name="linux/app/rkaiq_tool_server" path="external/rkaiq_tool_server" remote="rk29" revision="061eb10c523bf01ac934a335270ac1f72f553ca2" upstream="refs/tags/android-12.1-mid-rkr12"/>
   <project name="linux/linux-rga" path="hardware/rockchip/librga" remote="rk29" revision="c1d5c71569d8944dbc0b875a54181402caf3971f" upstream="refs/tags/android-12.1-mid-rkr12"/>
