@@ -8,7 +8,7 @@
   <remove-project name="rk/platform/vendor/rockchip/hardware" />
   <remove-project name="platform/prebuilts/module_sdk" />
 
-<project groups="pdk" name="platform/build/build" path="build/make" revision="e91d6b4ae1ada4474e1281a43df3923c90335616" upstream="refs/tags/android12-radxa-rkr14.2">
+<project groups="pdk" name="platform/build/build" path="build/make" revision="e91d6b4ae1ada4474e1281a43df3923c90335616" upstream="refs/tags/radxa_r14.2_20250221">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -17,8 +17,8 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="44ed2b30876adadc0a5c65f2abead7ffc3f7c35c" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="3978bdf1e0967c122c58c319be662e80d83cdadc" upstream="refs/tags/android12-radxa-rkr14.2"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="44ed2b30876adadc0a5c65f2abead7ffc3f7c35c" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="3978bdf1e0967c122c58c319be662e80d83cdadc" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project clone-depth="1" name="platform/prebuilts/module_sdk/module_sdk" path="prebuilts/module_sdk" remote="rk" revision="ac7911db692075adcde6b6e737748ec229f320e9" upstream="refs/tags/android12-radxa-rkr14.2"/>
   <!-- gitlab conflict end -->
 
@@ -47,13 +47,13 @@
   <remove-project name="rk/hardware/rk29/lights_aidl" />
   <remove-project name="rk/hardware/libgralloc/bifrost" />
   <remove-project name="rk/hardware/rk29/drmservice" />
- 
+  <remove-project name="rk/hardware/rk29/audio" />
 
 
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="1ce7ffcd9c17581c92724c2c16514b57f8f6e48b" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="RKTools" remote="rk" revision="78234ed700f4d8e2278eb483f86c567d05782e79" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="cf71b4bc1964b26dff0fc9979c3d51b89385da2d" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="5f4893ca00217d9abc18cc88fd00114a685b93fa" upstream="refs/tags/android12-radxa-rkr14.2">
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="ab7c374c10c95f04da0feaa9f69ffe6678583f7c" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="RKTools" remote="rk" revision="8259b2360cb92e65cbb4686e193a1b5229484a4f" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="2abc01be08473e72e1861efca578e2dc354c712e" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="305269257fe41408a3eae2273ce7ed097f546071" upstream="refs/tags/radxa_r14.2_20250221">
     <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
     <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
@@ -72,11 +72,12 @@
     <linkfile dest="kernel-5.10/kernel/configs/RadxaPS008.config" src="configs/RadxaPS008.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/intel_iwlwifi.config" src="configs/intel_iwlwifi.config"/>
-    <linkfile dest="kernel-5.10/kernel/configs/rock5b.config" src="configs/rock5b_gen2.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rock5b_gen2.config" src="configs/rock5b_gen2.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rock5bpro.config" src="configs/rock5bpro.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/rock5c.config" src="configs/rock5c.config"/>
-    <linkfile dest="kernel-5.10/kernel/configs/rRadxaCM5.config" src="configs/RadxaCM5.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/radxacm6a.config" src="configs/radxacm6a.config"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="f9043e120f1adfdba11d485e9935bd683bbfcbac" upstream="refs/tags/android12-radxa-rkr14.2">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="fbb007af5b216d4c7b0d8a642f9839b6761135af" upstream="refs/tags/radxa_r14.2_20250221">
     <linkfile dest=".classpath" src=".classpath"/>
     <linkfile dest="mkimage.sh" src="mkimage.sh"/>
     <linkfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -85,26 +86,28 @@
     <linkfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
     <linkfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
   </project>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="e4bdfad46579c9ca351d1a041625916921576c65" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="1a225ab47bfaa78d76ab9bac18f1c7620cabbdd8" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="44ed2b30876adadc0a5c65f2abead7ffc3f7c35c" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="602a51b130cea27c8164bf7e97dd4f44f8e16e9a" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="f98de1d8f8227821a6b56c6abd72ba70e25e77d3" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="9415a61bb81574e0604ed1e07505c6099fb42597" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="5f3cc31e9c2bf4b79e49bd9c5e72da2f79a28d68" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d6f09133f634f61a770d02304490a2011a747879" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="321449e8b9900415747598d0d1f81d8c6efefa4e" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/radxa" path="radxa" remote="rk" revision="7f92311bbcb63aef7a98c63e80822de6d324bd42" upstream="refs/tags/android12-radxa-rkr14.2" />
-  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" revision="8b16b689eeb2dc2938cfb12a0e06078d7e35217e" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="94038d636c58dc8438b8e929a567a761ecbaa89b" upstream="refs/tags/android12-radxa-rkr14.2"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="56037f8ebe4bd9cca380ef50b25b240b3f31ea38" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="1a225ab47bfaa78d76ab9bac18f1c7620cabbdd8" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="44ed2b30876adadc0a5c65f2abead7ffc3f7c35c" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="9bb7e24f75bdb30f9888b1d9a0cf8f6820536cce" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="f98de1d8f8227821a6b56c6abd72ba70e25e77d3" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="9415a61bb81574e0604ed1e07505c6099fb42597" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="5f3cc31e9c2bf4b79e49bd9c5e72da2f79a28d68" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d6f09133f634f61a770d02304490a2011a747879" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="321449e8b9900415747598d0d1f81d8c6efefa4e" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/radxa" path="radxa" remote="rk" revision="1501af19c13f8bf7f8012852f2c5a769700c2be1" upstream="refs/tags/radxa_r14.2_20250221" />
+  <project groups="pdk" name="platform/hardware/interfaces" path="hardware/interfaces" revision="8496e58e92c8deda86a5fe1644aeef001f2313eb" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="94038d636c58dc8438b8e929a567a761ecbaa89b" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="66268b9bfa7ac98810b819f7a0d7a68c9bc50038" upstream="refs/tags/android12-radxa-rkr14.3"/>
-  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera/" revision="9b5ad4dba7c7e09ecd382cef83196934a63de834" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="efdec854be3e126ffb9dfcb31139b0d80d6e25ed" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="aeccc83c1d56c9bbb6eb628568a864c548573e45" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="platform/external/exfatprogs" path="external/exfatprogs" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="0192f850ed9f70e2eff540a5b0b06982b7a31928" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/hardware/rk29/lights_aidl" path="hardware/rockchip/light_aidl" revision="75f46b9e81876edd4e88c425a28b3be1c0ad730a" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" revision="70eecb20d8412e787f84eeb16b635ea6802a309f" upstream="refs/tags/android12-radxa-rkr14.2"/>
-  <project name="rk/hardware/rk29/drmservice" path="hardware/rk29/drmservice" revision="8bc7f78b3b7c09c5e00c4597fc51e406a854676e" upstream="refs/tags/android12-radxa-rkr14.2"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera/" revision="9b5ad4dba7c7e09ecd382cef83196934a63de834" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="efdec854be3e126ffb9dfcb31139b0d80d6e25ed" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="aeccc83c1d56c9bbb6eb628568a864c548573e45" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/external/exfatprogs" path="external/exfatprogs" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="e51b9b611ecb272261cfe00cba026999137d0920" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/hardware/rk29/lights_aidl" path="hardware/rockchip/light_aidl" revision="75f46b9e81876edd4e88c425a28b3be1c0ad730a" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" revision="70eecb20d8412e787f84eeb16b635ea6802a309f" upstream="refs/tags/refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" revision="8bc7f78b3b7c09c5e00c4597fc51e406a854676e" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/external/platform_external_libgpiod" path="external/platform_external_libgpiod" revision="8e1249f1dc50b0fe643dca0efaf469806d9ba2a0" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/hardware/rk29/audio" path="hardware/rk29/audio" revision="3fc91a1cf36409543a1c213cc49c9dfd505bb3b2" upstream="refs/tags/radxa_r14.2_20250221"/>
   <!-- Radxa customization end -->
 </manifest>
