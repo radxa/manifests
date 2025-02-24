@@ -108,6 +108,6 @@
   <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" revision="70eecb20d8412e787f84eeb16b635ea6802a309f" upstream="refs/tags/refs/tags/radxa_r14.2_20250221"/>
   <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" revision="8bc7f78b3b7c09c5e00c4597fc51e406a854676e" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project name="platform/external/platform_external_libgpiod" path="external/platform_external_libgpiod" revision="8e1249f1dc50b0fe643dca0efaf469806d9ba2a0" upstream="refs/tags/radxa_r14.2_20250221"/>
-  <project name="rk/hardware/rk29/audio" path="hardware/rk29/audio" revision="3fc91a1cf36409543a1c213cc49c9dfd505bb3b2" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" revision="3fc91a1cf36409543a1c213cc49c9dfd505bb3b2" upstream="refs/tags/radxa_r14.2_20250221"/>
   <!-- Radxa customization end -->
 </manifest>
