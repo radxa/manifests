@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp" fetch="." review="./"/>
+  <remote name="ohd" fetch="." review="./"/>
+  <remote name="rk" fetch="." review="./"/>
+  <remote name="rk29" fetch="." review="./"/>
+  <remote name="rk78_mirror" fetch="."/>
+  <remote name="rk_legacy" fetch="."/>
+
+  <include name="Android15_Radxa_rk6.xml" />
+</manifest>
