@@ -17,9 +17,42 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="a12c3c06ae489e8abb7f9f517a659ba456dd5b3f" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
+  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="71e25801bf30878f2a4e264b1443550fc8d7a0e1" upstream="radxa_andorid14_rkr6" groups="pdk"/>
   <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="8d49fb747922ee93e2eaa98cf13ebcfa09012961" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rk3576/rk3576" path="device/rockchip/rk3576" remote="rk" revision="d4e35121ee6306be4dfcf0d423468d30c5f1a261" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="e6e86a5c94e8836550689b7b1958d7a75575315d" upstream="radxa_andorid14_rkr6"/>
+  <project name="rk/device/rockchip/rk3576/rk3576" path="device/rockchip/rk3576" remote="rk" revision="b5b0847d4f538a7ab52f1781607cf8b5dfa5aedc" upstream="radxa_andorid14_rkr6"/>
   <!-- gitlab conflict end -->
+
+  <!-- radxa customization -->
+  <remove-project name="RKTools"/>
+  <remove-project name="rk/kernel"/>
+  <remove-project name="rk/device/rockchip/rksdk"/>
+  <remove-project name="rk/u-boot"/>
+  <remove-project name="external/wifi_driver"/>
+  <remove-project name="platform/frameworks/opt/net/wifi"/>
+  <remove-project name="platform/hardware/aic"/>
+  <remove-project name="platform/packages/apps/Camera2"/>
+  <remove-project name="rk/hardware/rk29/camera_v3"/>
+  <remove-project name="external/camera_engine_rkaiq"/>
+
+
+  <project name="RKTools" remote="rk" revision="b236aea776612151dff52a391796144427c041be" upstream="radxa_andorid14_rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="cbcf18a3ab32f4422be2a807fc495ac333156cf0" upstream="radxa_andorid14_rkr6"/>
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="3787baf481bb96446cb71fa483c051ffe5904231" upstream="radxa_andorid14_rkr6">
+    <linkfile src=".classpath" dest=".classpath"/>
+    <linkfile src="mkimage.sh" dest="mkimage.sh"/>
+    <linkfile src="javaenv.sh" dest="javaenv.sh"/>
+    <linkfile src="build/rockchip/build.sh" dest="build.sh"/>
+    <linkfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
+    <linkfile src="build/rockchip/blank_file" dest="kernel-6.1/.find-ignore"/>
+    <linkfile src="Copyright_Statement.pdf" dest="Copyright_Statement.pdf"/>
+  </project>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="bf2c7da538b0b46aea9512a10a6a23e92abf686d" upstream="radxa_andorid14_rkr6"/>
+  <project name="external/wifi_driver" remote="rk" revision="748a02ee1218ee79b379e5c4967f0095327b9728" upstream="radxa_andorid14_rkr6"/>
+  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="3f7126c1552e87ceecaf2159b16a9c9bfc2907a9" upstream="radxa_andorid14_rkr6" groups="pdk"/>
+  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="1ccfdfecfc9af0cea00e1b574ba7dbb6c0002496" upstream="radxa_andorid14_rkr6"/>
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="77b9a0bd6aba0e18f66a42525cdda6f73249c306" upstream="radxa_andorid14_rkr6"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="3cff05a11b5dfef58d9952d5e14cc562b9001601" upstream="radxa_andorid14_rkr6"/>
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="627762b0697873ad648ac49935ae6b93ff442f40" upstream="radxa_andorid14_rkr6"/>
+  <!-- Radxa customization end -->
 </manifest>

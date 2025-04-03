@@ -7,5 +7,5 @@
   <remote name="rk78_mirror" fetch="."/>
   <remote name="rk_legacy" fetch="."/>
 
-  <include name="Android15_Radxa_rk6.xml" />
+  <include name="Android14_Radxa_rk6.xml" />
 </manifest>
