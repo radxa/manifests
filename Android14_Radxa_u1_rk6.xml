@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="commit/manifest_rk_radxa_rkr6.xml" />
+
+  <!-- gitlab conflict -->
+  <remove-project name="platform/build" />
+  <remove-project name="rk/platform/vendor/rockchip/common" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="rk/platform/vendor/rockchip/hardware" />
+
+<project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+  <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="71e25801bf30878f2a4e264b1443550fc8d7a0e1" upstream="radxa_andorid14_rkr6" groups="pdk"/>
+  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="e6e86a5c94e8836550689b7b1958d7a75575315d" upstream="radxa_andorid14_rkr6"/>
+  <!-- gitlab conflict end -->
+  </manifest>
