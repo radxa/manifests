@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="ohd" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="rk" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="rk78_mirror" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+  <remote name="rk_legacy" fetch="https://gitlab.com/rockchip_android14_rk3576"/>
+
+  <include name="Android14_RK3576_Radxa_rk6.xml" />
+</manifest>
