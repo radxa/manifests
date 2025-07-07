@@ -10,6 +10,8 @@
   <remove-project name="rk/u-boot" />
   <remove-project name="rk/device/rockchip/rksdk" />
   <remove-project name="RKTools" />
+  <remove-project name="rk/device/rockchip/rk3566" />
+  <remove-project name="rk/kernel" />
 
 <project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -35,5 +37,8 @@
     <linkfile src="Copyright_Statement.pdf" dest="Copyright_Statement.pdf"/>
   </project>
   <project name="RKTools" remote="rk" revision="7997bff501ad745e084d740b4f95a1d3960033a5" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="dfa71622aa0f2616420c22f679f8aab400a69dd3" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="c4497a34e4b7552404ccfc819f982b9b18879f59" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+
 
   </manifest>
