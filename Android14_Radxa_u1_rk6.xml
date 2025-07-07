@@ -25,7 +25,7 @@
   <!-- gitlab conflict end -->
 
   <project name="rk/u-boot" path="u-boot" remote="rk" revision="c7467f46febfa046a61012acce89bd812ea800a5" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d12093ca7ec069cc174b9d298b4009f80d2b9c2" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d69a9034ac6339f483f1827cee01841e64e77ff3" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6">
     <linkfile src=".classpath" dest=".classpath"/>
     <linkfile src="mkimage.sh" dest="mkimage.sh"/>
     <linkfile src="javaenv.sh" dest="javaenv.sh"/>
