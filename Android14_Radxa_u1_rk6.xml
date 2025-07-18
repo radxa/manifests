@@ -13,6 +13,8 @@
   <remove-project name="rk/device/rockchip/rk3566" />
   <remove-project name="rk/kernel" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="external/wifi_driver" />
+  <remove-project name="platform/hardware/aic" />
 
 <project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -42,5 +44,7 @@
   <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="efc63cf96d073ef9d20c40f6afbef914ab3645b8" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="c4a48ac30c30610aa5507c19a6d5731c03742f71" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="platform/radxa" path="radxa" revision="b12b92ddd4d376d16c9d4f8067eab40e1f57fb48" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
+  <project name="external/wifi_driver" remote="rk" revision="acbc5d58d60e4427692c7a1290506ba674007bba" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="f66fd59fd5ebabac53ee81b1fd1e28332324f0eb" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
 
   </manifest>
