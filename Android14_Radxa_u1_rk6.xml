@@ -40,10 +40,10 @@
     <linkfile src="Copyright_Statement.pdf" dest="Copyright_Statement.pdf"/>
   </project>
   <project name="RKTools" remote="rk" revision="7997bff501ad745e084d740b4f95a1d3960033a5" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="84d8883a774d49d2c402e561ce10b66c268ce4f6" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="efc63cf96d073ef9d20c40f6afbef914ab3645b8" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="092ee6ba013df2de6c73a93ddb3686accf6687b7" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="b2d11ea3307ca36c86c8db3c8cd61a2a66d232b4" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="c4a48ac30c30610aa5507c19a6d5731c03742f71" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
-  <project name="platform/radxa" path="radxa" revision="b12b92ddd4d376d16c9d4f8067eab40e1f57fb48" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
+  <project name="platform/radxa" path="radxa" revision="3aa7d68e3b20810555aea9bfd472f513836f52ae" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
   <project name="external/wifi_driver" remote="rk" revision="acbc5d58d60e4427692c7a1290506ba674007bba" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="f66fd59fd5ebabac53ee81b1fd1e28332324f0eb" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
 
