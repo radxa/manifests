@@ -14,6 +14,7 @@
   <remove-project name="rk/device/rockchip/rk3588" />
   <remove-project name="rk/kernel" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="external/wifi_driver" />
   <remove-project name="platform/hardware/aic" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -43,12 +44,13 @@
   </project>
   <project name="RKTools" remote="rk" revision="7997bff501ad745e084d740b4f95a1d3960033a5" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="092ee6ba013df2de6c73a93ddb3686accf6687b7" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="8f9f93928f1a57e0bbbee65022057b13e4d0647e" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="4fab4fefe1373f02205a038c982c2a00045a9ffb" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="c4a48ac30c30610aa5507c19a6d5731c03742f71" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="platform/radxa" path="radxa" revision="85da15263e3208694931fb969ece0c8817d2a00d" upstream="refs/heads/radxa_andorid14_rkr6_u1" groups="pdk"/>
   <project name="external/wifi_driver" remote="rk" revision="acbc5d58d60e4427692c7a1290506ba674007bba" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="328c90dd4639f1a923f60eb1e831333b4b9d475d" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="055fc7ba8fa6e18f04e758de74729084810e7a15" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="5cc2c86104db3efa22544e14296b58de57f681ad" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="2b579563fdbec32dabd3486bc180320e6e254d92" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
 
   </manifest>
