@@ -25,7 +25,6 @@
 
   <!-- radxa customization -->
   <remove-project name="RKTools"/>
-  <remove-project name="rk/kernel"/>
   <remove-project name="rk/device/rockchip/rksdk"/>
   <remove-project name="rk/u-boot"/>
   <remove-project name="external/wifi_driver"/>
@@ -33,11 +32,9 @@
   <remove-project name="platform/hardware/aic"/>
   <remove-project name="platform/packages/apps/Camera2"/>
   <remove-project name="rk/hardware/rk29/camera_v3"/>
-  <remove-project name="external/camera_engine_rkaiq"/>
 
 
-  <project name="RKTools" remote="rk" revision="b236aea776612151dff52a391796144427c041be" upstream="radxa_android14_rkr6"/>
-  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="cbcf18a3ab32f4422be2a807fc495ac333156cf0" upstream="radxa_android14_rkr6"/>
+  <project name="RKTools" remote="rk" revision="cbcf18a3ab32f4422be2a807fc495ac333156cf0" upstream="radxa_android14_rkr6"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="9e6765fddae867115406a90f7aa6ec0dace3ac7f" upstream="radxa_android14_rkr6">
     <linkfile src=".classpath" dest=".classpath"/>
     <linkfile src="mkimage.sh" dest="mkimage.sh"/>
@@ -53,7 +50,100 @@
   <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="1ccfdfecfc9af0cea00e1b574ba7dbb6c0002496" upstream="radxa_android14_rkr6"/>
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="77b9a0bd6aba0e18f66a42525cdda6f73249c306" upstream="radxa_android14_rkr6"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="3cff05a11b5dfef58d9952d5e14cc562b9001601" upstream="radxa_android14_rkr6"/>
-  <project name="external/camera_engine_rkaiq" remote="rk" revision="7b51ec05c2e2497a58d4f1f2251833566561139b" upstream="radxa_android14_rkr6"/>
   <project name="platform/radxa" path="radxa" revision="a5d947e28d4625cb530e00a2b1476680069577cb" upstream="radxa_android14_rkr6"/>
   <!-- Radxa customization end -->
+
+  <!--Question Warehouse -->
+  <remove-project name="platform/cts"/>
+  <remove-project name="platform/external/OpenCL-CTS"/>
+  <remove-project name="platform/external/armnn"/>
+  <remove-project name="platform/external/angle"/>
+  <remove-project name="external/camera_engine_rkaiq"/>
+  <remove-project name="platform/external/chromium-webview"/>
+  <remove-project name="platform/external/cronet"/>
+  <remove-project name="platform/external/google-breakpad"/>
+  <remove-project name="platform/external/swiftshader"/>
+  <remove-project name="platform/frameworks/base"/>
+  <remove-project name="kernel/prebuilts/5.10/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64"/>
+  <remove-project name="rk/kernel"/>
+  <remove-project name="rk/hardware/rk29/camera360"/>
+  <remove-project name="platform/packages/modules/ArtPrebuilt"/>
+  <remove-project name="platform/packages/modules/Connectivity"/>
+  <remove-project name="platform/packages/modules/Virtualization"/>
+  <remove-project name="platform/packages/services/Car"/>
+  <remove-project name="platform/prebuilts/android-emulator"/>
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+  <remove-project name="platform/prebuilts/clang-tools"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"/>
+  <remove-project name="platform/prebuilts/gradle-plugin"/>
+  <remove-project name="platform/prebuilts/jdk/jdk11"/>
+  <remove-project name="platform/prebuilts/jdk/jdk17 "/>
+  <remove-project name="platform/prebuilts/jdk/jdk9"/>
+  <remove-project name="platform/prebuilts/misc"/>
+  <remove-project name="platform/prebuilts/module_sdk/art"/>
+  <remove-project name="platform/prebuilts/qemu-kernel"/>
+  <remove-project name="platform/prebuilts/remoteexecution-client"/>
+  <remove-project name="platform/prebuilts/rust"/>
+  <remove-project name="platform/prebuilts/sdk"/>
+  <remove-project name="platform/prebuilts/tools"/>
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/unwinding"/>
+  <remove-project name="platform/tools/dexter"/>
+  <remove-project name="platform/tools/tradefederation/prebuilts"/>
+  <remove-project name="rk/platform/vendor/rockchip/common"/>
+  <remove-project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu"/>
+  <remove-project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"/>
+  <remove-project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf"/>
+  <remove-project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"/>
+  
+
+
+
+
+
+  <project name="platform/cts" path="cts" revision="469f8804bc9935faef5d6b1379846199023c5a8c" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="b464f1962a8d907d635600cdb940fe59f54b50f5" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/angle" path="external/angle" revision="a377afcc6670fdb630628b8f8294611083ce1008" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/armnn" path="external/armnn" revision="290aa4457b9fa7a545f09c6df24c0e283a680a97" upstream="radxa_android14_rkr6"/>
+  <project name="external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="0c93316e1f0440be92c53963f00adf28e9df8f5e" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/chromium-webview" path="external/chromium-webview" revision="1083ebe477dc0cffd1e9e52b25893dcdde5f0ae6" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/cronet" path="external/cronet" revision="63d683881a69bf0231e8d8f4c012206bbc1fb4b5" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/google-breakpad" path="external/google-breakpad" revision="3fa43b6db981baa59b57c5912190b1aeaa49f022" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/swiftshader" path="external/swiftshader" revision="b68c45b8721325c6f94c67f0d57110f26641d232" upstream="radxa_android14_rkr6"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="892595323de855c8c955f5d3054933012f8c7a61" upstream="radxa_android14_rkr6"/>
+  <project name="kernel/prebuilts/5.10/arm64"  revision="e5b2d9de97ec7a76168d79577b40b32e93a4420b" upstream="radxa_android14_rkr6"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" revision="9af78feef55c552590f909eb03c5770f0cac3277" upstream="radxa_android14_rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" revision="343ed2c8a9b4b3817d99e5a1c34de61c69c3a7d8" upstream="radxa_android14_rkr6"/>
+  <project name="rk/hardware/rk29/camera360" path="packages/apps/Camera360" revision="9d4856005b7129729d45012341a83088e19f5e7f" upstream="radxa_android14_rkr6"/>
+  <project name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" revision="2731abdbfc92602e039c8ede20b3f708396de1ce" upstream="radxa_android14_rkr6"/>
+  <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="a87ce860a5432c1d5519f33338a0d0cba0cf62f0" upstream="radxa_android14_rkr6"/>
+  <project name="platform/packages/modules/Virtualization" path="packages/modules/Virtualization" revision="e1e7d41f0dbff3745d797f395de470da31943c07" upstream="radxa_android14_rkr6"/>
+  <project name="platform/packages/services/Car" path="packages/services/Car" revision="1bb3077116c556f9c22fd12186180f30405e6ffd" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="4269add82e7bfc6fd9e465c562ea79b75c06abc6" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="a06eb89c7604eba8f2a57c816ba389efc72c6688" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="60a8698ce26aa8cd67ed32c5981c2f24f71e385c" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="f8e9a5f2a6ce849c67f9952abe31b4695b835bcc" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="03210ceafe37766e4e34dc076077d54d2f1f1d9c" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="92291b962b918c01b96149df651a8d8bcd0eb42a" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="f9c45a89e68169743451837ac96ed7f13919ce98" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/jdk/jdk17 " path="prebuilts/jdk/jdk17 " revision="a1556caf3a4ddd1a916e07e95be38871eeeeb210" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" revision="be2e5a9bdbeed3d376ee8a83431ab8f6542c5a67" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="b6d62d3cbbd7c12b452151b9ae5c3efbae0ee496" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" revision="7c1dea3a04597abeed858fd45433015b4e30d52a" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="ef6b48b1255b1526e5281bfe84c79de41e45d7ab" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" revision="ce67f49287a246af9b06d64fdd4f687f815ebaa3" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/rust" path="prebuilts/rust" revision="1ef0cf7775c9b793458905956d14e937e7b4998e" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="19fb2396c629ca37d4fb269d34f0061bd4aaa64d" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="f67aaf8394cabe641bce5f2e8eba52632a5ba603" upstream="radxa_android14_rkr6"/>
+  <project name="platform/system/core" path="system/core" revision="30c427847f7a137d3aa7bd32c1e16cb2db9a36b7" upstream="radxa_android14_rkr6"/>
+  <project name="platform/system/unwinding" path="system/unwinding" revision="bfe6734b127085f0e02506b031df42572bd52aa0" upstream="radxa_android14_rkr6"/>
+  <project name="platform/tools/dexter" path="tools/dexter" revision="34ea84658f435b6821e7fe27c3cc60d946ff4321" upstream="radxa_android14_rkr6"/>
+  <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="d367917988ee1b3014d9b7f26072e0bd4b70c1bb" upstream="radxa_android14_rkr6"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="3af495f4dff8c0933f4450e47dd0eb20c0b9dbbb" upstream="radxa_android14_rkr6"/>
+  <project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="rk29" revision="163335ed183b98127386cdfefda554463f6d3651" upstream="radxa_android14_rkr6"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="radxa_android14_rkr6"/>
+  <project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="rk29" revision="e6c61c2472028e65bbe30e23136b2b12d1b71453" upstream="radxa_android14_rkr6"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e" upstream="radxa_android14_rkr6"/>
 </manifest>
