@@ -4,7 +4,6 @@
 
   <!-- gitlab conflict -->
   <remove-project name="platform/build" />
-  <remove-project name="rk/platform/vendor/rockchip/common" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="rk/platform/vendor/rockchip/hardware" />
   <remove-project name="rk/device/rockchip/rk3576" />
@@ -19,7 +18,6 @@
   </project>
   <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="71e25801bf30878f2a4e264b1443550fc8d7a0e1" upstream="radxa_android14_rkr6" groups="pdk"/>
   <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="radxa_android14_rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="e6e86a5c94e8836550689b7b1958d7a75575315d" upstream="radxa_android14_rkr6"/>
   <project name="rk/device/rockchip/rk3576/rk3576" path="device/rockchip/rk3576" remote="rk" revision="e6f577e7e6efa0a47e29197641e0f6fe0b6f3ac8" upstream="radxa_android14_rkr6"/>
   <!-- gitlab conflict end -->
 
@@ -79,7 +77,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86"/>
   <remove-project name="platform/prebuilts/gradle-plugin"/>
   <remove-project name="platform/prebuilts/jdk/jdk11"/>
-  <remove-project name="platform/prebuilts/jdk/jdk17 "/>
+  <remove-project name="platform/prebuilts/jdk/jdk17"/>
   <remove-project name="platform/prebuilts/jdk/jdk9"/>
   <remove-project name="platform/prebuilts/misc"/>
   <remove-project name="platform/prebuilts/module_sdk/art"/>
@@ -128,7 +126,7 @@
   <project name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="03210ceafe37766e4e34dc076077d54d2f1f1d9c" upstream="radxa_android14_rkr6"/>
   <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="92291b962b918c01b96149df651a8d8bcd0eb42a" upstream="radxa_android14_rkr6"/>
   <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="f9c45a89e68169743451837ac96ed7f13919ce98" upstream="radxa_android14_rkr6"/>
-  <project name="platform/prebuilts/jdk/jdk17 " path="prebuilts/jdk/jdk17 " revision="a1556caf3a4ddd1a916e07e95be38871eeeeb210" upstream="radxa_android14_rkr6"/>
+  <project name="platform/prebuilts/jdk/jdk17" path="prebuilts/jdk/jdk17" revision="a1556caf3a4ddd1a916e07e95be38871eeeeb210" upstream="radxa_android14_rkr6"/>
   <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" revision="be2e5a9bdbeed3d376ee8a83431ab8f6542c5a67" upstream="radxa_android14_rkr6"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="b6d62d3cbbd7c12b452151b9ae5c3efbae0ee496" upstream="radxa_android14_rkr6"/>
   <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" revision="7c1dea3a04597abeed858fd45433015b4e30d52a" upstream="radxa_android14_rkr6"/>
@@ -141,7 +139,7 @@
   <project name="platform/system/unwinding" path="system/unwinding" revision="bfe6734b127085f0e02506b031df42572bd52aa0" upstream="radxa_android14_rkr6"/>
   <project name="platform/tools/dexter" path="tools/dexter" revision="34ea84658f435b6821e7fe27c3cc60d946ff4321" upstream="radxa_android14_rkr6"/>
   <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="d367917988ee1b3014d9b7f26072e0bd4b70c1bb" upstream="radxa_android14_rkr6"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="3af495f4dff8c0933f4450e47dd0eb20c0b9dbbb" upstream="radxa_android14_rkr6"/>
+  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" revision="3af495f4dff8c0933f4450e47dd0eb20c0b9dbbb" upstream="radxa_android14_rkr6"/>
   <project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="rk29" revision="163335ed183b98127386cdfefda554463f6d3651" upstream="radxa_android14_rkr6"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="radxa_android14_rkr6"/>
   <project name="rk/prebuilts/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="rk29" revision="e6c61c2472028e65bbe30e23136b2b12d1b71453" upstream="radxa_android14_rkr6"/>
