@@ -32,7 +32,7 @@
   <remove-project name="rk/hardware/rk29/camera_v3"/>
 
 
-  <project name="RKTools" remote="rk" revision="cbcf18a3ab32f4422be2a807fc495ac333156cf0" upstream="radxa_android14_rkr6"/>
+  <project name="RKTools" path="RKTools" revision="0b3df1a1b2ad91f32fd41f30314e9f5bb0343bb7" upstream="radxa_android14_rkr6"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="9e6765fddae867115406a90f7aa6ec0dace3ac7f" upstream="radxa_android14_rkr6">
     <linkfile src=".classpath" dest=".classpath"/>
     <linkfile src="mkimage.sh" dest="mkimage.sh"/>
