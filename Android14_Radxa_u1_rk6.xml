@@ -18,6 +18,7 @@
   <remove-project name="external/wifi_driver" />
   <remove-project name="platform/hardware/aic" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="external/camera_engine_rkaiq" />
 
 <project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -52,5 +53,6 @@
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="0f1f7ffa0d67c9e096397adfeeb9cd7dd623f9f8" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="5cc2c86104db3efa22544e14296b58de57f681ad" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="platform/frameworks/native" path="frameworks/native" revision="2b579563fdbec32dabd3486bc180320e6e254d92" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
+  <project name="external/camera_engine_rkaiq" remote="rk" revision="c70ded3587a2276595cc74f060c9b9a7a5d65181" upstream="refs/heads/radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
 
   </manifest>
