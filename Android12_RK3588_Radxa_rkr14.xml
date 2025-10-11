@@ -50,7 +50,7 @@
   <remove-project name="rk/hardware/rk29/audio" />
 
 
-  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="916c1eba1c22592dbd5b432ded53f1bb91b26d97" upstream="refs/tags/radxa_r14.2_20250909"/>
+  <project name="rk/kernel" path="kernel-5.10" remote="rk29" revision="916c1eba1c22592dbd5b432ded53f1bb91b26d97" upstream="refs/tags/radxa_r14.2_20251011"/>
   <project name="RKTools" remote="rk" revision="8259b2360cb92e65cbb4686e193a1b5229484a4f" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="2abc01be08473e72e1861efca578e2dc354c712e" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="305269257fe41408a3eae2273ce7ed097f546071" upstream="refs/tags/radxa_r14.2_20250221">
@@ -92,7 +92,7 @@
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="9bb7e24f75bdb30f9888b1d9a0cf8f6820536cce" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="f98de1d8f8227821a6b56c6abd72ba70e25e77d3" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="9415a61bb81574e0604ed1e07505c6099fb42597" upstream="refs/tags/radxa_r14.2_20250221"/>
-  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="f0c1bfc2735ffd270b7e9e4dea87414f916bdfcf" upstream="refs/tags/radxa_r14.2_20250221"/>
+  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="f0c1bfc2735ffd270b7e9e4dea87414f916bdfcf" upstream="refs/tags/radxa_r14.2_20251011"/>
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="d6f09133f634f61a770d02304490a2011a747879" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="321449e8b9900415747598d0d1f81d8c6efefa4e" upstream="refs/tags/radxa_r14.2_20250221"/>
   <project name="platform/radxa" path="radxa" remote="rk" revision="1501af19c13f8bf7f8012852f2c5a769700c2be1" upstream="refs/tags/radxa_r14.2_20250221" />
