@@ -6,6 +6,7 @@
   <remote name="rk29" fetch="https://gitlab.com/rockchip_android14_radxa_rkr6" />
   <remote name="rk78_mirror" fetch="https://gitlab.com/rockchip_android14_radxa_rkr6 "/>
   <remote name="rk_legacy" fetch="https://gitlab.com/rockchip_android14_radxa_rkr6" />
+  <remote name="aosp1" fetch="https://android.googlesource.com/"/>
 
   <include name="Android14_Radxa_u1_rk6.xml" />
 </manifest>
