@@ -49,6 +49,7 @@
   <remove-project name="platform/external/google-breakpad" />
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/angle" />
+  <remove-project name="platform/packages/services/Car" />
 
 <project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
