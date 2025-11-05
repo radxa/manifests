@@ -61,7 +61,7 @@
   </project>
   <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="3c85e3241c3a22bd8d7de3a758b857dec7c6cf48" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
   <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/platform/vendor/rockchip/common/common" path="vendor/rockchip/common" remote="rk" revision="13bbb25125ce0aea9e988aaa2b31c3f8e159af30" upstream="radxa_andorid14_rkr6_u1"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="13bbb25125ce0aea9e988aaa2b31c3f8e159af30" upstream="radxa_andorid14_rkr6_u1"/>
   <project name="platform/cts/cts" path="cts" revision="6d76ff8bcf0c786c28d2a0f3e6aded0b4e39d497" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0.0_r27" groups="cts,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="a2d99daac0af34615831cddc8588fbe561e57474" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27"/>
   <project name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp1" revision="1756daa89425346e3fee42dc621295e5764cf611" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" clone-depth="1"/>
