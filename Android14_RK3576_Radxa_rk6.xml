@@ -104,7 +104,7 @@
   <project name="platform/prebuilts/r8" path="prebuilts/r8" revision="7833ae6ffe0d042e7182410ef8962e151bf5a270" upstream="radxa_andorid14_rkr6" />
   <project name="platform/cts" path="cts" revision="469f8804bc9935faef5d6b1379846199023c5a8c" upstream="radxa_android14_rkr6"/>
   <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="b464f1962a8d907d635600cdb940fe59f54b50f5" upstream="radxa_android14_rkr6"/>
-  <project name="platform/external/sync/angle" path="external/angle" revision="7caf7516364d88c350a4add8e15a7d89c6c6c7a9" upstream="radxa_android14_rkr6"/>
+  <project name="platform/external/sync/angle" path="external/angle" revision="7caf7516364d88c350a4add8e15a7d89c6c6c7a9" upstream="radxa_andorid14_rkr6"/>
   <project name="platform/external/armnn" path="external/armnn" revision="290aa4457b9fa7a545f09c6df24c0e283a680a97" upstream="radxa_android14_rkr6"/>
   <project name="external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="0c93316e1f0440be92c53963f00adf28e9df8f5e" upstream="radxa_android14_rkr6"/>
   <project name="platform/external/chromium-webview" path="external/chromium-webview" revision="1083ebe477dc0cffd1e9e52b25893dcdde5f0ae6" upstream="radxa_android14_rkr6"/>
