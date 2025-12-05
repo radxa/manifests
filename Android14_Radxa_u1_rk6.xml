@@ -50,6 +50,8 @@
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/angle" />
   <remove-project name="platform/packages/services/Car" />
+  <remove-project name="platform/external/ComputeLibrary/ComputeLibrary" />
+  <remove-project name="platform/packages/modules/Connectivity" />
 
 <project name="platform/build/build" path="build/make" revision="4669f81b3ffa96cf61df747ee63c001d8facd8e4" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -59,10 +61,11 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <project name="platform/external/ComputeLibrary/ComputeLibrary" path="external/ComputeLibrary" revision="533065bcba238636858ceeca558a63efa7253b30" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-lassen,pdk-gs-arm"/>
   <project name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="3c85e3241c3a22bd8d7de3a758b857dec7c6cf48" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
-  <project name="rk/platform/vendor/rockchip/hardware/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" remote="rk" revision="90dfdbc85a4a2e787f1541ce1f3fc1bbb8b6b49d" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="13bbb25125ce0aea9e988aaa2b31c3f8e159af30" upstream="radxa_andorid14_rkr6_u1"/>
-  <project name="platform/cts/cts" path="cts" revision="6d76ff8bcf0c786c28d2a0f3e6aded0b4e39d497" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0.0_r27" groups="cts,pdk-cw-fs,pdk-fs"/>
+  <project name="platform/cts/cts" path="cts" revision="fa9db4e9c984e1608b71add44bd4d9998e194367" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0.0_r27" groups="cts,pdk-cw-fs,pdk-fs"/>
   <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="a2d99daac0af34615831cddc8588fbe561e57474" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27"/>
   <project name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp1" revision="1756daa89425346e3fee42dc621295e5764cf611" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" clone-depth="1"/>
   <project name="platform/external/swiftshader" path="external/swiftshader" remote="aosp1" revision="32ad39a320606948f09692cb91b71e1cd95d0e51" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
@@ -100,7 +103,7 @@
     <linkfile src="build/rockchip/blank_file" dest="kernel-6.1/.find-ignore"/>
     <linkfile src="Copyright_Statement.pdf" dest="Copyright_Statement.pdf"/>
   </project>
-  <project name="RKTools" remote="rk" revision="7997bff501ad745e084d740b4f95a1d3960033a5" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="RKTools" remote="rk" revision="5f8e6349a0de43493e9c3b811b0fc945b870c247" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="092ee6ba013df2de6c73a93ddb3686accf6687b7" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="8f9f93928f1a57e0bbbee65022057b13e4d0647e" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="c4a48ac30c30610aa5507c19a6d5731c03742f71" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
@@ -113,8 +116,9 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="ff01f5aa1daf425aee27a85bec98c6c3b16d46ee" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="dba8acad1786c32b503fd552a58356cc30462b02" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/external/google-breakpad" path="external/google-breakpad" revision="34d387c1de2b2dacf8ca32bb745e8d303a2c1f35" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs"/>
-  <project name="platform/external/armnn" path="external/armnn" revision="cbfc26555eebda8793eb142ca9f1eecf8aeb16b8" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-lassen,pdk-gs-arm"/>
+  <project name="platform/external/armnn" path="external/armnn" revision="cbfc26555eebda8793eb142ca9f1eecf8aeb16b8" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-lassen,pdk-gs-arm"/>
   <project name="platform/external/angle" path="external/angle" revision="5465d8cb334f58d626972511483f303a3fb49c6c" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
   <project name="platform/packages/services/Car" path="packages/services/Car" revision="d3e96db43f635b1cbbaecb2ba4ee6a9916de702d" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk-fs"/>
+  <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity" revision="36f1522f04f2a4fd86591e1cc56f9d20b2820de0" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk-fs"/>
 
   </manifest>
