@@ -93,7 +93,7 @@
   <project name="platform/packages/modules/Virtualization" remote="aosp1" path="packages/modules/Virtualization" revision="bd01d815e613b879e66d70109ca66938608afb06" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
   <!-- gitlab conflict end -->
 
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="e357c16b381abb69a834ae9db32156de0b023c2d" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="fba0c8f28039e0f253ada4a71613ae1dd401c864" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="7e6116f5fe4f29e97d242115f8fd1ddf4a3363da" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6">
     <linkfile src=".classpath" dest=".classpath"/>
     <linkfile src="mkimage.sh" dest="mkimage.sh"/>
@@ -104,13 +104,13 @@
     <linkfile src="Copyright_Statement.pdf" dest="Copyright_Statement.pdf"/>
   </project>
   <project name="RKTools" remote="rk" revision="5f8e6349a0de43493e9c3b811b0fc945b870c247" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="092ee6ba013df2de6c73a93ddb3686accf6687b7" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="8f9f93928f1a57e0bbbee65022057b13e4d0647e" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/device/rockchip/rk3566" path="device/rockchip/rk356x" remote="rk" revision="b67c514557db6e2e4ac8da0b195c434de2dca3fb" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/kernel" path="kernel-6.1" remote="rk29" revision="aaf1830c6647a51523704d5e21c39a7705d3e79d" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="c4a48ac30c30610aa5507c19a6d5731c03742f71" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="platform/radxa" path="radxa" revision="cee9c1df4858bf69027f0bde671a237ed6491795" upstream="radxa_andorid14_rkr6_u1" groups="pdk"/>
   <project name="external/wifi_driver" remote="rk" revision="acbc5d58d60e4427692c7a1290506ba674007bba" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="a7baf377b2566d1824818638ae50b239930a91bf" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="aff5b4a6ac986ddebce498ec0d8d7da7100a81e3" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="4e9794df017bd56f50d8835f95dfdb8b39abf90f" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="5cc2c86104db3efa22544e14296b58de57f681ad" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="platform/frameworks/native" path="frameworks/native" revision="2b579563fdbec32dabd3486bc180320e6e254d92" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6" groups="pdk"/>
   <project name="external/camera_engine_rkaiq" remote="rk" revision="ff01f5aa1daf425aee27a85bec98c6c3b16d46ee" upstream="radxa_andorid14_rkr6_u1" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
